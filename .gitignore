@@ -10,8 +10,7 @@ __pycache__/
 # Jupyter temporary files
 .ipynb_checkpoints/
 
-# Raw dataset - do not upload
-data/raw/
+
 
 # Large generated datasets
 data/processed/MASTER_STATE_YEAR_INTEGRATED.csv
@@ -22,3 +21,6 @@ Thumbs.db
 
 # VS Code local settings
 .vscode/
+
+# Large Philadelphia processed dataset
+data/processed/Philadelphia_Crime_Incidents_2018_2022.csv
