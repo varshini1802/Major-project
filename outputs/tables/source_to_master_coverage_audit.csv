@@ -1,0 +1,77 @@
+File,Source_Rows,Source_State_Year_Keys,Source_States,Source_Years,Master_Rows_For_Those_Years,Master_States_For_Those_Years,Status
+01_District_wise_crimes_committed_IPC_2001_2012.csv,9017,420,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012",420,35,CHECKED
+01_District_wise_crimes_committed_IPC_2013.csv,823,35,35,2013,35,35,CHECKED
+01_District_wise_crimes_committed_IPC_2014.csv,838,36,36,2014,36,36,CHECKED
+02_01_District_wise_crimes_committed_against_SC_2001_2012.csv,9018,420,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012",420,35,CHECKED
+02_01_District_wise_crimes_committed_against_SC_2013.csv,823,35,35,2013,35,35,CHECKED
+02_01_District_wise_crimes_committed_against_SC_2014.csv,837,36,36,2014,36,36,CHECKED
+02_District_wise_crimes_committed_against_ST_2001_2012.csv,9018,420,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012",420,35,CHECKED
+02_District_wise_crimes_committed_against_ST_2013.csv,823,35,35,2013,35,35,CHECKED
+02_District_wise_crimes_committed_against_ST_2014.csv,837,36,36,2014,36,36,CHECKED
+03_District_wise_crimes_committed_against_children_2001_2012.csv,9015,420,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012",420,35,CHECKED
+03_District_wise_crimes_committed_against_children_2013.csv,823,35,35,2013,35,35,CHECKED
+03_Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2012.csv,494,35,35,2012,35,35,CHECKED
+03_Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2013.csv,494,35,35,2013,35,35,CHECKED
+03_Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv,2028,36,36,2014,36,36,CHECKED
+04_01_Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2012.csv,1026,35,35,2012,35,35,CHECKED
+04_01_Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2013.csv,418,35,35,2013,35,35,CHECKED
+04_01_Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv,2730,36,36,2014,36,36,CHECKED
+04_02_Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2012.csv,1140,35,35,2012,35,35,CHECKED
+04_02_Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2013.csv,1140,35,35,2013,35,35,CHECKED
+04_02_Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv,3432,36,36,2014,36,36,CHECKED
+07_01_Persons_arrested_by_sex_and_age_group_IPC_2012.csv,1140,35,35,2012,35,35,CHECKED
+07_01_Persons_arrested_by_sex_and_age_group_IPC_2013.csv,1140,35,35,2013,35,35,CHECKED
+07_01_Persons_arrested_by_sex_and_age_group_IPC_2014.csv,3432,36,36,2014,36,36,CHECKED
+07_02_Persons_arrested_by_sex_and_age_group_SLL_2012.csv,1026,35,35,2012,35,35,CHECKED
+07_02_Persons_arrested_by_sex_and_age_group_SLL_2013.csv,1026,35,35,2013,35,35,CHECKED
+07_02_Persons_arrested_by_sex_and_age_group_SLL_2014.csv,2730,36,36,2014,36,36,CHECKED
+08_01_Juvenile_apprehended_state_IPC.csv,10500,350,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+08_02_Juvenile_apprehended_state_SLL.csv,9450,350,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+09_Juveniles_arrested_and_their_disposal.csv,349,349,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+10_Property_stolen_and_recovered.csv,2449,350,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+11_Property_stolen_and_recovered_nature_of_property.csv,4550,350,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+12_Police_strength_actual_and_sanctioned.csv,4188,349,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+13_Police_killed_or_injured_on_duty.csv,2450,350,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+14_Age_profile_of_police_personnel_killed_on_duty.csv,350,350,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+15_Police_natural_death_and_suicide.csv,700,350,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+16_Casualties_under_police_firing_and_lathi_charge.csv,1749,350,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+17_Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2001_2012.csv,4344,420,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012",420,35,CHECKED
+17_Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2013.csv,385,35,35,2013,35,35,CHECKED
+17_Crime_by_place_of_occurrence_2001_2012.csv,456,419,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012",420,35,CHECKED
+17_Crime_by_place_of_occurrence_2013.csv,38,35,35,2013,35,35,CHECKED
+17_Crime_by_place_of_occurrence_2014.csv,39,36,36,2014,36,36,CHECKED
+18_01_Juveniles_arrested_Education.csv,350,350,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+18_02_Juveniles_arrested_Economic_setup.csv,350,350,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+18_03_Juveniles_arrested_Family_background.csv,350,350,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+18_04_Juveniles_arrested_Recidivism.csv,350,350,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+19_Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv,350,350,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+20_Victims_of_rape.csv,1050,350,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+21_Offenders_known_to_the_victim.csv,350,350,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+22_Persons_arrested_under_recidivism.csv,350,350,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+23_Anti_corruprion_cases.csv,346,346,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+24_Anti_corruption_arrests.csv,347,347,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+25_Complaints_against_police.csv,350,350,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+27_Nature_of_complaints_received_by_police.csv,349,349,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+28_Trial_of_violent_crimes_by_courts.csv,4473,346,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+29_Period_of_trials_by_courts.csv,1786,245,35,"2004, 2005, 2006, 2007, 2008, 2009, 2010",245,35,CHECKED
+30_Auto_theft.csv,1865,344,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+31_Serious_fraud.csv,448,236,33,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+32_Murder_victim_age_sex.csv,1018,342,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+33_CH_not_murder_victim_age_sex.csv,936,326,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+34_Use_of_fire_arms_in_murder_cases.csv,284,284,33,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+35_Human_rights_violation_by_police.csv,2267,215,31,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+36_Police_housing.csv,1044,348,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+37_Home_guards_and_auxilliary_force.csv,333,333,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+38_Unidentified_dead_bodies_recovered_and_inquest_conducted.csv,314,314,34,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+39_Specific_purpose_of_kidnapping_and_abduction.csv,3569,338,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+40_01_Custodial_death_person_remanded.csv,211,211,32,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+40_02_Custodial_death_person_not_remanded.csv,228,228,30,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+40_03_Custodial_death_during_production.csv,204,204,28,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+40_04_Custodial_death_during_hospitalization_or_treatment.csv,213,213,31,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+40_05_Custodial_death_others.csv,233,233,32,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+41_Escapes_from_police_custody.csv,311,311,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+42_Cases_under_crime_against_women.csv,4165,350,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED
+42_District_wise_crimes_committed_against_women_2001_2012.csv,9017,420,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012",420,35,CHECKED
+42_District_wise_crimes_committed_against_women_2013.csv,823,35,35,2013,35,35,CHECKED
+42_District_wise_crimes_committed_against_women_2014.csv,837,36,36,2014,36,36,CHECKED
+43_Arrests_under_crime_against_women.csv,4165,350,35,"2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010",350,35,CHECKED

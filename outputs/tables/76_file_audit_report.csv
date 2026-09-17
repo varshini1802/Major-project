@@ -1,0 +1,77 @@
+File,Rows,Columns,Granularity,State_Column,Year_Column,Year_Source,Min_Year,Max_Year,Number_of_Years,Unique_States,Unique_State_Year_Keys,Duplicate_State_Year_Rows,Total_Summary_Rows,Duplicate_Complete_Rows,Numeric_Columns,Missing_Cells,Missing_Percentage,Malformed_Rows,Rows_Repaired,Unresolved_Rows
+01_District_wise_crimes_committed_IPC_2001_2012.csv,9017,33,District-level,STATE/UT,YEAR,Year column,2001,2012,12,35,420,8597,0,0,31,0,0.0,0,0,0
+01_District_wise_crimes_committed_IPC_2013.csv,823,33,District-level,STATE/UT,YEAR,Year column,2013,2013,1,35,35,788,0,0,31,0,0.0,0,0,0
+01_District_wise_crimes_committed_IPC_2014.csv,838,91,District-level,States/UTs,Year,Year column,2014,2014,1,36,36,802,0,0,89,0,0.0,0,0,0
+02_01_District_wise_crimes_committed_against_SC_2001_2012.csv,9018,13,District-level,STATE/UT,Year,Year column,2001,2012,12,35,420,8598,0,2,11,0,0.0,0,0,0
+02_01_District_wise_crimes_committed_against_SC_2013.csv,823,13,District-level,STATE/UT,Year,Year column,2013,2013,1,35,35,788,0,0,11,0,0.0,0,0,0
+02_01_District_wise_crimes_committed_against_SC_2014.csv,837,66,District-level,States/UTs,Year,Year column,2014,2014,1,36,36,801,0,0,64,0,0.0,0,0,0
+02_District_wise_crimes_committed_against_ST_2001_2012.csv,9018,13,District-level,STATE/UT,Year,Year column,2001,2012,12,35,420,8598,0,2,11,0,0.0,0,0,0
+02_District_wise_crimes_committed_against_ST_2013.csv,823,13,District-level,STATE/UT,Year,Year column,2013,2013,1,35,35,788,0,0,11,0,0.0,0,0,0
+02_District_wise_crimes_committed_against_ST_2014.csv,837,66,District-level,States/UTs,Year,Year column,2014,2014,1,36,36,801,0,0,64,0,0.0,0,0,0
+03_District_wise_crimes_committed_against_children_2001_2012.csv,9015,15,District-level,STATE/UT,Year,Year column,2001,2012,12,35,420,8595,0,1,13,0,0.0,0,0,0
+03_District_wise_crimes_committed_against_children_2013.csv,823,16,District-level,STATE/UT,Year,Year column,2013,2013,1,35,35,788,0,0,14,0,0.0,0,0,0
+03_Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2012.csv,494,14,State/Year level,STATE/UT,,Filename,2012,2012,1,38,38,456,39,0,12,0,0.0,0,0,0
+03_Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2013.csv,494,14,State/Year level,STATE/UT,,Filename,2013,2013,1,38,38,456,39,0,12,0,0.0,0,0,0
+03_Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv,2028,57,State/Year level,States/UTs,Year,Year column,2014,2014,1,39,39,1989,156,0,55,0,0.0,0,0,0
+04_01_Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2012.csv,1026,14,State/Year level,STATE/UT,,Filename,2012,2012,1,38,38,988,81,0,12,0,0.0,0,0,0
+04_01_Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2013.csv,418,14,State/Year level,STATE/UT,,Filename,2013,2013,1,38,38,380,33,0,12,0,0.0,0,0,0
+04_01_Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv,2730,57,State/Year level,States/UTs,Year,Year column,2014,2014,1,39,39,2691,210,0,55,0,0.0,0,0,0
+04_02_Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2012.csv,1140,14,State/Year level,STATE/UT,,Filename,2012,2012,1,38,38,1102,90,0,12,0,0.0,0,0,0
+04_02_Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2013.csv,1140,14,State/Year level,STATE/UT,,Filename,2013,2013,1,38,38,1102,90,0,12,0,0.0,0,0,0
+04_02_Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv,3432,57,State/Year level,States/UTs,Year,Year column,2014,2014,1,39,39,3393,264,0,55,0,0.0,0,0,0
+07_01_Persons_arrested_by_sex_and_age_group_IPC_2012.csv,1140,15,State/Year level,STATE/UT,,Filename,2012,2012,1,38,38,1102,90,0,13,0,0.0,0,0,0
+07_01_Persons_arrested_by_sex_and_age_group_IPC_2013.csv,1140,15,State/Year level,STATE/UT,,Filename,2013,2013,1,38,38,1102,90,0,13,0,0.0,0,0,0
+07_01_Persons_arrested_by_sex_and_age_group_IPC_2014.csv,3432,18,State/Year level,States/UTs,Year,Year column,2014,2014,1,39,39,3393,264,0,16,0,0.0,0,0,0
+07_02_Persons_arrested_by_sex_and_age_group_SLL_2012.csv,1026,15,State/Year level,STATE/UT,,Filename,2012,2012,1,38,38,988,81,0,13,0,0.0,0,0,0
+07_02_Persons_arrested_by_sex_and_age_group_SLL_2013.csv,1026,15,State/Year level,STATE/UT,,Filename,2013,2013,1,38,38,988,81,0,13,0,0.0,0,0,0
+07_02_Persons_arrested_by_sex_and_age_group_SLL_2014.csv,2730,18,State/Year level,States/UTs,Year,Year column,2014,2014,1,39,39,2691,210,0,16,0,0.0,0,0,0
+08_01_Juvenile_apprehended_state_IPC.csv,10500,12,State/Year level,STATE/UT,Year,Year column,2001,2010,10,35,350,10150,0,0,10,0,0.0,0,0,0
+08_02_Juvenile_apprehended_state_SLL.csv,9450,12,State/Year level,STATE/UT,Year,Year column,2001,2010,10,35,350,9100,0,0,10,0,0.0,0,0,0
+09_Juveniles_arrested_and_their_disposal.csv,349,10,State/Year level,Area_Name,Year,Year column,2001,2010,10,35,349,0,0,0,9,0,0.0,0,0,0
+10_Property_stolen_and_recovered.csv,2449,8,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,35,350,2099,0,0,5,0,0.0,0,0,0
+11_Property_stolen_and_recovered_nature_of_property.csv,4550,8,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,35,350,4200,0,0,5,0,0.0,0,0,0
+12_Police_strength_actual_and_sanctioned.csv,4188,16,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,35,349,3839,0,0,13,0,0.0,0,0,0
+13_Police_killed_or_injured_on_duty.csv,2450,18,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,35,350,2100,0,0,15,0,0.0,0,0,0
+14_Age_profile_of_police_personnel_killed_on_duty.csv,350,8,State/Year level,Area_Name,Year,Year column,2001,2010,10,35,350,0,0,0,7,0,0.0,0,0,0
+15_Police_natural_death_and_suicide.csv,700,9,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,35,350,350,0,0,7,0,0.0,0,0,0
+16_Casualties_under_police_firing_and_lathi_charge.csv,1749,8,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,35,350,1399,0,0,6,0,0.0,0,0,0
+17_Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2001_2012.csv,4344,11,State/Year level,STATE/UT,YEAR,Year column,2001,2012,12,35,420,3924,0,0,9,0,0.0,0,0,0
+17_Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2013.csv,385,11,State/Year level,STATE/UT,YEAR,Year column,2013,2013,1,35,35,350,0,0,9,0,0.0,0,0,0
+17_Crime_by_place_of_occurrence_2001_2012.csv,456,34,State/Year level,STATE/UT,YEAR,Year column,2001,2012,12,38,455,1,36,0,33,0,0.0,0,0,0
+17_Crime_by_place_of_occurrence_2013.csv,38,34,State/Year level,STATE/UT,YEAR,Year column,2013,2013,1,38,38,0,3,0,33,0,0.0,0,0,0
+17_Crime_by_place_of_occurrence_2014.csv,39,82,State/Year level,States/UTs,Year,Year column,2014,2014,1,39,39,0,3,0,81,0,0.0,0,0,0
+18_01_Juveniles_arrested_Education.csv,350,8,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,35,350,0,0,0,6,0,0.0,0,0,0
+18_02_Juveniles_arrested_Economic_setup.csv,350,10,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,35,350,0,0,0,8,0,0.0,0,0,0
+18_03_Juveniles_arrested_Family_background.csv,350,7,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,35,350,0,0,0,5,0,0.0,0,0,0
+18_04_Juveniles_arrested_Recidivism.csv,350,6,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,35,350,0,0,0,4,0,0.0,0,0,0
+19_Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv,350,30,State/Year level,Area_Name,Year,Year column,2001,2010,10,35,350,0,0,0,29,0,0.0,0,0,0
+20_Victims_of_rape.csv,1050,11,State/Year level,Area_Name,Year,Year column,2001,2010,10,35,350,700,0,0,9,0,0.0,0,0,0
+21_Offenders_known_to_the_victim.csv,350,7,State/Year level,Area_Name,Year,Year column,2001,2010,10,35,350,0,0,0,6,0,0.0,0,0,0
+22_Persons_arrested_under_recidivism.csv,350,7,State/Year level,Area_Name,Year,Year column,2001,2010,10,35,350,0,0,0,6,0,0.0,0,0,0
+23_Anti_corruprion_cases.csv,346,29,State/Year level,Area_Name,Year,Year column,2001,2010,10,35,346,0,0,0,28,0,0.0,0,0,0
+24_Anti_corruption_arrests.csv,347,24,State/Year level,Area_Name,Year,Year column,2001,2010,10,35,347,0,0,0,23,0,0.0,0,0,0
+25_Complaints_against_police.csv,350,22,State/Year level,Area_Name,Year,Year column,2001,2010,10,35,350,0,0,0,20,0,0.0,0,0,0
+27_Nature_of_complaints_received_by_police.csv,349,10,State/Year level,Area_Name,Year,Year column,2001,2010,10,35,349,0,0,0,9,0,0.0,0,0,0
+28_Trial_of_violent_crimes_by_courts.csv,4473,7,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,35,346,4127,0,0,4,0,0.0,0,0,0
+29_Period_of_trials_by_courts.csv,1786,11,State/Year + Category/Group,Area_Name,Year,Year column,2004,2010,7,35,245,1541,0,0,8,0,0.0,0,0,0
+30_Auto_theft.csv,1865,7,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,35,344,1521,0,0,4,0,0.0,0,0,0
+31_Serious_fraud.csv,448,9,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,33,236,212,0,0,6,0,0.0,0,0,0
+32_Murder_victim_age_sex.csv,1018,11,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,35,342,676,0,0,8,0,0.0,0,0,0
+33_CH_not_murder_victim_age_sex.csv,936,10,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,35,326,610,0,0,8,0,0.0,0,0,0
+34_Use_of_fire_arms_in_murder_cases.csv,284,5,State/Year level,Area_Name,Year,Year column,2001,2010,10,33,284,0,0,0,4,0,0.0,0,0,0
+35_Human_rights_violation_by_police.csv,2267,7,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,31,215,2052,0,0,4,0,0.0,0,0,0
+36_Police_housing.csv,1044,7,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,35,348,696,0,0,4,0,0.0,348,348,0
+37_Home_guards_and_auxilliary_force.csv,333,8,State/Year level,Area_Name,Year,Year column,2001,2010,10,35,333,0,0,0,7,0,0.0,0,0,0
+38_Unidentified_dead_bodies_recovered_and_inquest_conducted.csv,314,3,State/Year level,Area_Name,Year,Year column,2001,2010,10,34,314,0,0,0,2,0,0.0,0,0,0
+39_Specific_purpose_of_kidnapping_and_abduction.csv,3569,20,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,35,338,3231,0,0,17,0,0.0,0,0,0
+40_01_Custodial_death_person_remanded.csv,211,11,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,32,211,0,0,0,8,0,0.0,0,0,0
+40_02_Custodial_death_person_not_remanded.csv,228,11,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,30,228,0,0,0,8,0,0.0,0,0,0
+40_03_Custodial_death_during_production.csv,204,11,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,28,204,0,0,0,8,0,0.0,0,0,0
+40_04_Custodial_death_during_hospitalization_or_treatment.csv,213,5,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,31,213,0,0,0,2,0,0.0,0,0,0
+40_05_Custodial_death_others.csv,233,10,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,32,233,0,0,0,7,0,0.0,0,0,0
+41_Escapes_from_police_custody.csv,311,21,State/Year level,Area_Name,Year,Year column,2001,2010,10,35,311,0,0,0,20,0,0.0,0,0,0
+42_Cases_under_crime_against_women.csv,4165,22,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,35,350,3815,0,0,19,0,0.0,1400,1400,0
+42_District_wise_crimes_committed_against_women_2001_2012.csv,9017,10,District-level,STATE/UT,Year,Year column,2001,2012,12,35,420,8597,0,0,8,0,0.0,0,0,0
+42_District_wise_crimes_committed_against_women_2013.csv,823,10,District-level,STATE/UT,Year,Year column,2013,2013,1,35,35,788,0,0,8,0,0.0,0,0,0
+42_District_wise_crimes_committed_against_women_2014.csv,837,62,District-level,States/UTs,Year,Year column,2014,2014,1,36,36,801,0,0,60,0,0.0,0,0,0
+43_Arrests_under_crime_against_women.csv,4165,16,State/Year + Category/Group,Area_Name,Year,Year column,2001,2010,10,35,350,3815,0,0,13,0,0.0,1400,1400,0
