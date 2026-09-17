@@ -26,3 +26,6 @@ Thumbs.db
 data/processed/Philadelphia_Crime_Incidents_2018_2022.csv
 
 data/processed/Crimes_-_2001_to_Present_20260902.csv
+
+# My raw Crime in India dataset
+data/raw/crime_data/
