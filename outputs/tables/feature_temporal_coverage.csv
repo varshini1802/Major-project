@@ -1,0 +1,342 @@
+﻿crime_group,feature,first_available_year,last_available_year,years_available
+CHILDREN,CHILDREN_Abetment of suicide,2001,2013,13
+CHILDREN,CHILDREN_Buying of girls for prostitution,2001,2013,13
+CHILDREN,CHILDREN_Exposure and abandonment,2001,2013,13
+CHILDREN,CHILDREN_Foeticide,2001,2013,13
+CHILDREN,CHILDREN_Infanticid,2013,2013,1
+CHILDREN,CHILDREN_Kidnapping and Abduction,2001,2013,13
+CHILDREN,CHILDREN_Murder,2001,2012,12
+CHILDREN,CHILDREN_Other Crimes,2001,2013,13
+CHILDREN,CHILDREN_Other murder,2013,2013,1
+CHILDREN,CHILDREN_Procuration of minor girls,2001,2013,13
+CHILDREN,CHILDREN_Prohibition of child marriage act,2001,2013,13
+CHILDREN,CHILDREN_Rape,2001,2013,13
+CHILDREN,CHILDREN_Selling of girls for prostitution,2001,2013,13
+CHILDREN,CHILDREN_Total,2001,2013,13
+IPC,IPC_ARSON,2001,2013,13
+IPC,IPC_ASSAULT ON WOMEN WITH INTENT TO OUTRAGE HER MODESTY,2001,2013,13
+IPC,IPC_ATTEMPT TO MURDER,2001,2013,13
+IPC,IPC_AUTO THEFT,2001,2013,13
+IPC,IPC_Acid attack,2014,2014,1
+IPC,IPC_Arson,2014,2014,1
+IPC,IPC_Assault on Women with intent to outrage her Modesty,2014,2014,1
+IPC,IPC_Assault or use of criminal force to women with intent to Disrobe,2014,2014,1
+IPC,IPC_At Office premises,2014,2014,1
+IPC,IPC_Attempt to Acid Attack,2014,2014,1
+IPC,IPC_Attempt to commit Culpable Homicide,2014,2014,1
+IPC,IPC_Attempt to commit Murder,2014,2014,1
+IPC,IPC_Attempt to commit Rape,2014,2014,1
+IPC,IPC_Auto Theft,2014,2014,1
+IPC,IPC_BURGLARY,2001,2013,13
+IPC,IPC_CAUSING DEATH BY NEGLIGENCE,2001,2013,13
+IPC,IPC_CHEATING,2001,2013,13
+IPC,IPC_COUNTERFIETING,2001,2013,13
+IPC,IPC_CRIMINAL BREACH OF TRUST,2001,2013,13
+IPC,IPC_CRUELTY BY HUSBAND OR HIS RELATIVES,2001,2013,13
+IPC,IPC_CULPABLE HOMICIDE NOT AMOUNTING TO MURDER,2001,2013,13
+IPC,IPC_CUSTODIAL RAPE,2001,2013,13
+IPC,IPC_Causing Death by Negligence,2014,2014,1
+IPC,IPC_Cheating,2014,2014,1
+IPC,IPC_Counterfeit Offences related to Counterfeit Coin,2014,2014,1
+IPC,IPC_Counterfeit currency & Bank notes,2014,2014,1
+IPC,IPC_Counterfeiting,2014,2014,1
+IPC,IPC_Counterfeiting Government Stamp,2014,2014,1
+IPC,IPC_Counterfeiting currency notes/Bank notes,2014,2014,1
+IPC,IPC_Criminal Breach of Trust,2014,2014,1
+IPC,IPC_Criminal Trespass or Burglary,2014,2014,1
+IPC,IPC_Criminal Trespass/Burglary,2014,2014,1
+IPC,IPC_Cruelty by Husband or his Relatives,2014,2014,1
+IPC,IPC_Culpable Homicide not amounting to Murder,2014,2014,1
+IPC,IPC_Custodial Rape,2014,2014,1
+IPC,IPC_Custodial_Gang Rape,2014,2014,1
+IPC,IPC_Custodial_Other Rape,2014,2014,1
+IPC,IPC_DACOITY,2001,2013,13
+IPC,IPC_DOWRY DEATHS,2001,2013,13
+IPC,IPC_Dacoity,2014,2014,1
+IPC,IPC_Dacoity with Murder,2014,2014,1
+IPC,IPC_Deaths due to Other Causes,2014,2014,1
+IPC,IPC_Deaths due to negligent driving/act,2014,2014,1
+IPC,IPC_Disclosure of Identity of Victims,2014,2014,1
+IPC,IPC_Dowry Deaths,2014,2014,1
+IPC,IPC_Extortion,2014,2014,1
+IPC,IPC_Forgery,2014,2014,1
+IPC,IPC_Grievous Hurt,2014,2014,1
+IPC,IPC_HURT/GREVIOUS HURT,2001,2013,13
+IPC,IPC_House Trespass & House Breaking,2014,2014,1
+IPC,IPC_HumanTrafficking,2014,2014,1
+IPC,IPC_Hurt,2014,2014,1
+IPC,IPC_IMPORTATION OF GIRLS FROM FOREIGN COUNTRIES,2001,2013,13
+IPC,IPC_INSULT TO MODESTY OF WOMEN,2001,2013,13
+IPC,IPC_Importation of Girls from Foreign Country,2014,2014,1
+IPC,"IPC_Imputation, assertions prejudicial to national integration",2014,2014,1
+IPC,IPC_In Public Transport system,2014,2014,1
+IPC,IPC_Incidence of Rash Driving,2014,2014,1
+IPC,IPC_Insult to the Modesty of Women,2014,2014,1
+IPC,IPC_KIDNAPPING & ABDUCTION,2001,2013,13
+IPC,IPC_KIDNAPPING AND ABDUCTION OF OTHERS,2001,2013,13
+IPC,IPC_KIDNAPPING AND ABDUCTION OF WOMEN AND GIRLS,2001,2013,13
+IPC,IPC_Kidnapping & Abduction,2014,2014,1
+IPC,IPC_Kidnapping & Abduction in order to Murder,2014,2014,1
+IPC,IPC_Kidnapping & Abduction of Women to compel her for marriage,2014,2014,1
+IPC,IPC_Kidnapping & Abduction_Total,2014,2014,1
+IPC,IPC_Kidnapping for Ransom,2014,2014,1
+IPC,IPC_MURDER,2001,2013,13
+IPC,IPC_Making Preparation and Assembly for committing Dacoity,2014,2014,1
+IPC,IPC_Making or Possessing materials for forged currency/Bank notes,2014,2014,1
+IPC,IPC_Making or Using documents resembling currency,2014,2014,1
+IPC,IPC_Murder,2014,2014,1
+IPC,IPC_OTHER IPC CRIMES,2001,2013,13
+IPC,IPC_OTHER RAPE,2001,2013,13
+IPC,IPC_OTHER THEFT,2001,2013,13
+IPC,IPC_Offences against State,2014,2014,1
+IPC,IPC_Offences promoting enmity between different groups,2014,2014,1
+IPC,IPC_Other Assault on Women,2014,2014,1
+IPC,IPC_Other Dacoity,2014,2014,1
+IPC,IPC_Other IPC crimes,2014,2014,1
+IPC,IPC_Other Kidnapping,2014,2014,1
+IPC,IPC_Other Thefts,2014,2014,1
+IPC,IPC_Other offences against State,2014,2014,1
+IPC,IPC_Other places related to work,2014,2014,1
+IPC,IPC_PREPARATION AND ASSEMBLY FOR DACOITY,2001,2013,13
+IPC,"IPC_Places other than 231, 232 & 233",2014,2014,1
+IPC,IPC_Possession of forged or counterfeiting currency/Bank notes,2014,2014,1
+IPC,IPC_Promoting enmity between different groups,2014,2014,1
+IPC,IPC_RAPE,2001,2013,13
+IPC,IPC_RIOTS,2001,2013,13
+IPC,IPC_ROBBERY,2001,2013,13
+IPC,IPC_Rape,2014,2014,1
+IPC,IPC_Rape other than Custodial,2014,2014,1
+IPC,IPC_Rape_Gang Rape,2014,2014,1
+IPC,IPC_Rape_Others,2014,2014,1
+IPC,IPC_Riots,2014,2014,1
+IPC,IPC_Riots_Agrarian,2014,2014,1
+IPC,IPC_Riots_Caste Conflict,2014,2014,1
+IPC,IPC_Riots_Communal,2014,2014,1
+IPC,IPC_Riots_Industrial,2014,2014,1
+IPC,IPC_Riots_Other Caste Conflict,2014,2014,1
+IPC,IPC_Riots_Others,2014,2014,1
+IPC,IPC_Riots_Political,2014,2014,1
+IPC,IPC_Riots_SC/STs Vs Non-SCs/STs,2014,2014,1
+IPC,IPC_Riots_Sectarian,2014,2014,1
+IPC,IPC_Riots_Students,2014,2014,1
+IPC,IPC_Robbery,2014,2014,1
+IPC,IPC_Sedition,2014,2014,1
+IPC,IPC_Sexual Harassment,2014,2014,1
+IPC,IPC_Stalking,2014,2014,1
+IPC,IPC_THEFT,2001,2013,13
+IPC,IPC_TOTAL IPC CRIMES,2001,2013,13
+IPC,IPC_Theft,2014,2014,1
+IPC,IPC_Total Cognizable IPC crimes,2014,2014,1
+IPC,IPC_Unlawful Assembly,2014,2014,1
+IPC,IPC_Unnatural Offence,2014,2014,1
+IPC,IPC_Using forged or counterfeiting currency/Bank notes,2014,2014,1
+IPC,IPC_Voyeurism,2014,2014,1
+SC,SC_Arson,2001,2013,13
+SC,SC_Dacoity,2001,2013,13
+SC,SC_Hurt,2001,2013,13
+SC,SC_IPC_Acid attack,2014,2014,1
+SC,SC_IPC_Arson,2014,2014,1
+SC,SC_IPC_Assault on women with intent to Disrobe,2014,2014,1
+SC,SC_IPC_Assault on women with intent to outrage her Modesty,2014,2014,1
+SC,SC_IPC_Attempt to Acid Attack,2014,2014,1
+SC,SC_IPC_Attempt to commit Murder,2014,2014,1
+SC,SC_IPC_Attempt to commit Rape,2014,2014,1
+SC,SC_IPC_Dacoity,2014,2014,1
+SC,SC_IPC_Dacoity with Murder,2014,2014,1
+SC,SC_IPC_Grievous Hurt,2014,2014,1
+SC,SC_IPC_Hurt,2014,2014,1
+SC,SC_IPC_Insult to the Modesty of women,2014,2014,1
+SC,SC_IPC_Kidnaping & Abduction,2014,2014,1
+SC,SC_IPC_Kidnaping & Abduction in order to Murder,2014,2014,1
+SC,SC_IPC_Kidnapping & Abduction,2014,2014,1
+SC,SC_IPC_Kidnapping & Abduction of Women to compel her for marriage,2014,2014,1
+SC,SC_IPC_Kidnapping for Ransom,2014,2014,1
+SC,SC_IPC_Murder,2014,2014,1
+SC,SC_IPC_Other Dacoity,2014,2014,1
+SC,SC_IPC_Other IPC crimes,2014,2014,1
+SC,SC_IPC_Other Kidnapping,2014,2014,1
+SC,SC_IPC_Other Sexual Harassment,2014,2014,1
+SC,SC_IPC_Rape,2014,2014,1
+SC,SC_IPC_Riots,2014,2014,1
+SC,SC_IPC_Robbery,2014,2014,1
+SC,SC_IPC_Sexual Harassment,2014,2014,1
+SC,SC_IPC_Stalking,2014,2014,1
+SC,SC_IPC_Voyeurism,2014,2014,1
+SC,SC_Kidnapping and Abduction,2001,2013,13
+SC,"SC_Manual Scavengers and Construction of Dry Latrines (P) Act, 1993",2014,2014,1
+SC,SC_Murder,2001,2013,13
+SC,SC_Other Crimes Against SCs,2001,2013,13
+SC,SC_Other SLL Crime against SCs,2014,2014,1
+SC,SC_POA_Acid attack,2014,2014,1
+SC,SC_POA_Arson,2014,2014,1
+SC,SC_POA_Assault on women with intent to Disrobe,2014,2014,1
+SC,SC_POA_Assault on women with intent to outrage her Modesty,2014,2014,1
+SC,SC_POA_Attempt to Acid Attack,2014,2014,1
+SC,SC_POA_Attempt to commit Murder,2014,2014,1
+SC,SC_POA_Attempt to commit Rape,2014,2014,1
+SC,SC_POA_Dacoity,2014,2014,1
+SC,SC_POA_Dacoity with Murder,2014,2014,1
+SC,SC_POA_Grievous Hurt,2014,2014,1
+SC,SC_POA_Hurt,2014,2014,1
+SC,SC_POA_Insult to the Modesty of women,2014,2014,1
+SC,SC_POA_Kidnaping & Abduction in order to Murder,2014,2014,1
+SC,SC_POA_Kidnaping & Abduction_Total,2014,2014,1
+SC,SC_POA_Kidnapping & Abduction of Women to compel her for marriage,2014,2014,1
+SC,SC_POA_Kidnapping & Abduction_GrandTotal,2014,2014,1
+SC,SC_POA_Kidnapping for Ransom,2014,2014,1
+SC,SC_POA_Murder,2014,2014,1
+SC,SC_POA_Other Dacoity,2014,2014,1
+SC,SC_POA_Other IPC crimes,2014,2014,1
+SC,SC_POA_Other Kidnapping,2014,2014,1
+SC,SC_POA_Other Sexual Harassment,2014,2014,1
+SC,SC_POA_Rape,2014,2014,1
+SC,SC_POA_Riots,2014,2014,1
+SC,SC_POA_Robbery,2014,2014,1
+SC,SC_POA_SC / ST (Prevention of Atrocities) Act only,2014,2014,1
+SC,SC_POA_Sexual Harassment,2014,2014,1
+SC,SC_POA_Stalking,2014,2014,1
+SC,SC_POA_Voyeurism,2014,2014,1
+SC,SC_Prevention of atrocities (POA) Act,2001,2013,13
+SC,SC_Protection of Civil Rights (PCR) Act,2001,2013,13
+SC,"SC_Protection of Civil Rights Act, 1955",2014,2014,1
+SC,SC_Rape,2001,2013,13
+SC,SC_Robbery,2001,2013,13
+SC,SC_Total IPC Crimes against SCs,2014,2014,1
+SC,SC_Total crimes against SCs,2014,2014,1
+SC,"SC_Total of SC/ST (Prevention of Atrocities) Act ,1989",2014,2014,1
+ST,ST_Arson,2001,2013,13
+ST,ST_Dacoity,2001,2013,13
+ST,ST_Hurt,2001,2013,13
+ST,ST_IPC_Acid attack,2014,2014,1
+ST,ST_IPC_Arson,2014,2014,1
+ST,ST_IPC_Assault on women with intent to Disrobe,2014,2014,1
+ST,ST_IPC_Assault on women with intent to outrage her Modesty,2014,2014,1
+ST,ST_IPC_Attempt to Acid Attack,2014,2014,1
+ST,ST_IPC_Attempt to commit Murder,2014,2014,1
+ST,ST_IPC_Attempt to commit Rape,2014,2014,1
+ST,ST_IPC_Dacoity,2014,2014,1
+ST,ST_IPC_Dacoity with Murder,2014,2014,1
+ST,ST_IPC_Grievous Hurt,2014,2014,1
+ST,ST_IPC_Hurt,2014,2014,1
+ST,ST_IPC_Insult to the Modesty of women,2014,2014,1
+ST,ST_IPC_Kidnaping & Abduction,2014,2014,1
+ST,ST_IPC_Kidnaping & Abduction in order to Murder,2014,2014,1
+ST,ST_IPC_Kidnapping & Abduction,2014,2014,1
+ST,ST_IPC_Kidnapping & Abduction of Women to compel her for marriage,2014,2014,1
+ST,ST_IPC_Kidnapping for Ransom,2014,2014,1
+ST,ST_IPC_Murder,2014,2014,1
+ST,ST_IPC_Other Dacoity,2014,2014,1
+ST,ST_IPC_Other IPC crimes,2014,2014,1
+ST,ST_IPC_Other Kidnapping,2014,2014,1
+ST,ST_IPC_Other Sexual Harassment,2014,2014,1
+ST,ST_IPC_Rape,2014,2014,1
+ST,ST_IPC_Riots,2014,2014,1
+ST,ST_IPC_Robbery,2014,2014,1
+ST,ST_IPC_Sexual Harassment,2014,2014,1
+ST,ST_IPC_Stalking,2014,2014,1
+ST,ST_IPC_Voyeurism,2014,2014,1
+ST,ST_Kidnapping Abduction,2001,2013,13
+ST,"ST_Manual Scavengers and Construction of Dry Latrines (P) Act, 1993",2014,2014,1
+ST,ST_Murder,2001,2013,13
+ST,ST_Other Crimes Against STs,2001,2013,13
+ST,ST_Other SLL Crime against STs,2014,2014,1
+ST,ST_POA_Acid attack,2014,2014,1
+ST,ST_POA_Arson,2014,2014,1
+ST,ST_POA_Assault on women with intent to Disrobe,2014,2014,1
+ST,ST_POA_Assault on women with intent to outrage her Modesty,2014,2014,1
+ST,ST_POA_Attempt to Acid Attack,2014,2014,1
+ST,ST_POA_Attempt to commit Murder,2014,2014,1
+ST,ST_POA_Attempt to commit Rape,2014,2014,1
+ST,ST_POA_Dacoity,2014,2014,1
+ST,ST_POA_Dacoity with Murder,2014,2014,1
+ST,ST_POA_Grievous Hurt,2014,2014,1
+ST,ST_POA_Hurt,2014,2014,1
+ST,ST_POA_Insult to the Modesty of women,2014,2014,1
+ST,ST_POA_Kidnaping & Abduction in order to Murder,2014,2014,1
+ST,ST_POA_Kidnaping & Abduction_Total,2014,2014,1
+ST,ST_POA_Kidnapping & Abduction of Women to compel her for marriage,2014,2014,1
+ST,ST_POA_Kidnapping & Abduction_GrandTotal,2014,2014,1
+ST,ST_POA_Kidnapping for Ransom,2014,2014,1
+ST,ST_POA_Murder,2014,2014,1
+ST,ST_POA_Other Dacoity,2014,2014,1
+ST,ST_POA_Other IPC crimes,2014,2014,1
+ST,ST_POA_Other Kidnapping,2014,2014,1
+ST,ST_POA_Other Sexual Harassment,2014,2014,1
+ST,ST_POA_Rape,2014,2014,1
+ST,ST_POA_Riots,2014,2014,1
+ST,ST_POA_Robbery,2014,2014,1
+ST,ST_POA_SC / ST (Prevention of Atrocities) Act only,2014,2014,1
+ST,ST_POA_Sexual Harassment,2014,2014,1
+ST,ST_POA_Stalking,2014,2014,1
+ST,ST_POA_Voyeurism,2014,2014,1
+ST,ST_Prevention of atrocities (POA) Act,2001,2013,13
+ST,ST_Protection of Civil Rights (PCR) Act,2001,2013,13
+ST,"ST_Protection of Civil Rights Act, 1955",2014,2014,1
+ST,ST_Rape,2001,2013,13
+ST,ST_Robbery,2001,2013,13
+ST,ST_Total IPC Crimes against STs,2014,2014,1
+ST,ST_Total crimes against STs,2014,2014,1
+ST,"ST_Total of SC/ST (Prevention of Atrocities) Act ,1989",2014,2014,1
+WOMEN,WOMEN_Abetment of Suicides of Women,2014,2014,1
+WOMEN,WOMEN_Acid attack,2014,2014,1
+WOMEN,WOMEN_Arson,2014,2014,1
+WOMEN,WOMEN_Assault on Women with intent to outrage her Modesty_Total,2014,2014,1
+WOMEN,WOMEN_Assault on women with intent to Disrobe,2014,2014,1
+WOMEN,WOMEN_Assault on women with intent to outrage her modesty,2001,2013,13
+WOMEN,WOMEN_At Office premises,2014,2014,1
+WOMEN,WOMEN_Attempt to Acid Attack,2014,2014,1
+WOMEN,WOMEN_Attempt to commit Culpable Homicide,2014,2014,1
+WOMEN,WOMEN_Attempt to commit Murder,2014,2014,1
+WOMEN,WOMEN_Attempt to commit Rape,2014,2014,1
+WOMEN,WOMEN_Causing miscarriage without consent of women,2014,2014,1
+WOMEN,"WOMEN_Commission of Sati Prevention Act, 1987",2014,2014,1
+WOMEN,WOMEN_Cruelty by Husband or his Relatives,2001,2014,14
+WOMEN,WOMEN_Culpable Homicide not amounting to Murder,2014,2014,1
+WOMEN,WOMEN_Custodial Rape,2014,2014,1
+WOMEN,WOMEN_Custodial_Gang Rape,2014,2014,1
+WOMEN,WOMEN_Custodial_Other Rape,2014,2014,1
+WOMEN,WOMEN_Dacoity with Murder,2014,2014,1
+WOMEN,WOMEN_Dacoity_Total,2014,2014,1
+WOMEN,WOMEN_Deaths caused with intent to cause miscarriage,2014,2014,1
+WOMEN,WOMEN_Dowry Deaths,2001,2014,14
+WOMEN,"WOMEN_Dowry Prohibition Act, 1961",2014,2014,1
+WOMEN,WOMEN_Grievous Hurt,2014,2014,1
+WOMEN,WOMEN_HumanTrafficking,2014,2014,1
+WOMEN,WOMEN_Hurt,2014,2014,1
+WOMEN,WOMEN_ITP Under Other Sections,2014,2014,1
+WOMEN,WOMEN_ITP Under Section 5,2014,2014,1
+WOMEN,WOMEN_ITP Under Section 6,2014,2014,1
+WOMEN,WOMEN_ITP Under Section 7,2014,2014,1
+WOMEN,WOMEN_ITP Under Section 8,2014,2014,1
+WOMEN,WOMEN_Immoral Traffic Prevention Act,2014,2014,1
+WOMEN,WOMEN_Importation of Girls,2001,2013,13
+WOMEN,WOMEN_Importation of Girls from Foreign Country,2014,2014,1
+WOMEN,WOMEN_In Public Transport system,2014,2014,1
+WOMEN,WOMEN_In other Places,2014,2014,1
+WOMEN,WOMEN_In places related to work,2014,2014,1
+WOMEN,"WOMEN_Indecent Representation of Women (P) Act, 1986",2014,2014,1
+WOMEN,WOMEN_Insult to modesty of Women,2001,2013,13
+WOMEN,WOMEN_Insult to the Modesty of Women_Total,2014,2014,1
+WOMEN,WOMEN_Kidnaping & Abduction,2014,2014,1
+WOMEN,WOMEN_Kidnaping & Abduction in order to Murder,2014,2014,1
+WOMEN,WOMEN_Kidnaping & Abduction_Others,2014,2014,1
+WOMEN,WOMEN_Kidnapping & Abduction of Women to compel her for marriage,2014,2014,1
+WOMEN,WOMEN_Kidnapping & Abduction_Total,2014,2014,1
+WOMEN,WOMEN_Kidnapping and Abduction,2001,2013,13
+WOMEN,WOMEN_Kidnapping for Ransom,2014,2014,1
+WOMEN,WOMEN_Murder,2014,2014,1
+WOMEN,WOMEN_Other Dacoity,2014,2014,1
+WOMEN,WOMEN_Other IPC Crimes,2014,2014,1
+WOMEN,WOMEN_Other SLL Crimes against Women,2014,2014,1
+WOMEN,WOMEN_Others,2014,2014,1
+WOMEN,"WOMEN_Protection of Women from Domestic Violence Act, 2005",2014,2014,1
+WOMEN,WOMEN_Rape,2001,2014,14
+WOMEN,WOMEN_Rape other than Custodial,2014,2014,1
+WOMEN,WOMEN_Rape_Gang Rape,2014,2014,1
+WOMEN,WOMEN_Rape_Others,2014,2014,1
+WOMEN,WOMEN_Robbery,2014,2014,1
+WOMEN,WOMEN_Sexual Harassment,2014,2014,1
+WOMEN,WOMEN_Stalking,2014,2014,1
+WOMEN,WOMEN_Total Crimes against Women,2014,2014,1
+WOMEN,WOMEN_UnNatural Offences,2014,2014,1
+WOMEN,WOMEN_Voyeurism,2014,2014,1

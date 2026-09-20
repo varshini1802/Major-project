@@ -1,0 +1,824 @@
+﻿STATE,DISTRICT,YEAR,Murder,Rape,Kidnapping Abduction,Dacoity,Robbery,Arson,Hurt,Protection of Civil Rights (PCR) Act,Prevention of atrocities (POA) Act,Other Crimes Against STs,CRIME_GROUP,SOURCE_FILE
+Andhra Pradesh,ADILABAD,2013,0,7,0,0,0,0,2,0,6,25,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,ANANTAPUR,2013,0,0,0,0,0,0,3,0,1,9,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,CHITTOOR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,CUDDAPAH,2013,0,1,0,0,0,0,17,0,2,10,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,CYBERABAD,2013,1,2,0,0,0,0,1,0,19,18,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,EAST GODAVARI,2013,0,3,0,0,0,0,0,0,3,15,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,GUNTAKAL RLY.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,GUNTUR,2013,1,0,0,0,0,0,3,0,2,40,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,GUNTUR URBAN,2013,0,0,0,0,0,1,3,0,0,10,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,HYDERABAD CITY,2013,0,0,0,0,0,0,0,0,6,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,KARIMNAGAR,2013,0,2,0,0,0,0,2,0,7,30,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,KHAMMAM,2013,0,5,0,0,0,0,6,0,6,27,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,KRISHNA,2013,1,0,0,0,0,0,1,0,2,10,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,KURNOOL,2013,0,0,0,0,0,0,1,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,MAHABOOBNAGAR,2013,3,1,0,0,0,0,10,0,6,41,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,MEDAK,2013,0,3,0,0,0,0,1,0,3,10,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,NALGONDA,2013,1,4,0,0,0,0,4,0,7,32,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,NELLORE,2013,1,2,0,0,0,0,11,0,15,29,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,NIZAMABAD,2013,1,4,0,0,0,0,1,0,3,12,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,PRAKASHAM,2013,0,0,0,0,0,0,1,0,2,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,RAJAHMUNDRY,2013,0,0,0,0,0,0,0,0,1,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,RANGA REDDY,2013,0,0,0,0,0,0,1,0,2,12,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,SECUNDERABAD RLY.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,SRIKAKULAM,2013,0,0,0,0,0,0,0,0,4,5,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,TIRUPATHI URBAN,2013,0,0,0,0,0,0,4,0,4,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,VIJAYAWADA CITY,2013,0,0,1,0,0,0,1,0,1,4,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,VIJAYAWADA RLY.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,VISAKHA RURAL,2013,0,0,0,0,0,0,2,0,4,6,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,VISAKHAPATNAM,2013,0,0,0,0,0,0,1,0,1,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,VIZIANAGARAM,2013,0,0,0,0,0,0,0,0,6,6,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,WARANGAL,2013,0,2,0,0,0,0,4,0,6,27,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,WARANGAL URBAN,2013,0,1,0,0,0,0,1,0,6,7,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,WEST GODAVARI,2013,0,0,1,0,0,0,1,0,1,26,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Andhra Pradesh,ZZ TOTAL,2013,9,37,2,0,0,1,82,0,126,415,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Arunachal Pradesh,ANJAW,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Arunachal Pradesh,CHANGLANG,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Arunachal Pradesh,DIBANG VALLEY,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Arunachal Pradesh,K/KUMEY,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Arunachal Pradesh,KAMENG EAST,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Arunachal Pradesh,KAMENG WEST,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Arunachal Pradesh,LOHIT,2013,0,1,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Arunachal Pradesh,LONGDING,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Arunachal Pradesh,PAPUM PARE,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Arunachal Pradesh,RURAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Arunachal Pradesh,SIANG EAST,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Arunachal Pradesh,SIANG UPPER,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Arunachal Pradesh,SIANG WEST,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Arunachal Pradesh,SUBANSIRI LOWER,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Arunachal Pradesh,SUBANSIRI UPPER,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Arunachal Pradesh,TAWANG,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Arunachal Pradesh,TIRAP,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Arunachal Pradesh,UPPER DIBANG VALLEY,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Arunachal Pradesh,ZZ TOTAL,2013,0,1,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,BAKSA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,BARPETA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,BIEO,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,BONGAIGAON,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,C.I.D.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,CACHAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,CHIRANG,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,DARRANG,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,DHEMAJI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,DHUBRI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,DIBRUGARH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,G.R.P.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,GOALPARA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,GOLAGHAT,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,GUWAHATI CITY,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,HAILAKANDI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,HAMREN,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,JORHAT,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,KAMRUP,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,KARBI ANGLONG,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,KARIMGANJ,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,KOKRAJHAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,LAKHIMPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,MORIGAON,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,N.C.HILLS,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,NAGAON,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,NALBARI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,R.P.O.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,SIBSAGAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,SONITPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,STF,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,TINSUKIA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,UDALGURI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Assam,ZZ TOTAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,ARARIA,2013,0,0,0,0,0,0,0,0,4,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,ARWAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,AURANGABAD,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,BAGAHA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,BANKA,2013,0,0,0,0,0,0,0,0,1,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,BEGUSARAI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,BETTIAH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,BHABHUA,2013,0,0,0,0,0,0,4,0,6,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,BHAGALPUR,2013,0,0,0,0,0,0,1,0,1,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,BHOJPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,BUXAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,DARBHANGA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,GAYA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,GOPALGANJ,2013,0,0,0,0,0,0,0,0,4,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,JAMALPUR RLY.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,JAMUI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,JEHANABAD,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,KATIHAR,2013,0,0,0,0,0,0,0,0,13,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,KATIHAR RLY.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,KHAGARIA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,KISHANGANJ,2013,0,0,0,0,0,0,0,0,18,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,LAKHISARAI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,MADHEPURA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,MADHUBANI,2013,0,0,1,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,MOTIHARI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,MUNGER,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,MUZAFFARPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,MUZAFFARPUR RLY.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,NALANDA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,NAUGACHIA,2013,2,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,NAWADAH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,PATNA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,PATNA RLY.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,PURNEA,2013,0,0,0,0,0,0,10,0,10,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,ROHTAS,2013,0,0,0,0,0,0,0,0,9,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,SAHARSA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,SAMASTIPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,SARAN,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,SHEIKHPURA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,SHEOHAR,2013,0,0,0,0,0,0,0,0,0,5,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,SITAMARHI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,SIWAN,2013,0,0,0,0,0,0,0,0,2,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,SUPAUL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,VAISHALI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Bihar,ZZ TOTAL,2013,2,0,1,0,0,0,15,0,68,5,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,BALOD,2013,1,0,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,BALODA BAZAR,2013,0,1,0,0,0,0,7,0,0,8,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,BALRAMPUR,2013,0,8,1,0,0,0,3,0,0,10,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,BEMETARA,2013,0,2,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,BILASPUR,2013,0,6,0,0,0,0,5,0,0,13,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,BIZAPUR,2013,0,1,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,DANTEWARA,2013,0,2,0,0,0,0,1,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,DHAMTARI,2013,0,5,0,0,0,0,1,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,DURG,2013,0,1,0,0,0,0,0,0,0,4,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,GARIYABAND,2013,0,3,0,0,0,0,1,0,0,7,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,GRP RAIPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,JAGDALPUR,2013,0,7,1,0,0,0,0,0,0,3,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,JANJGIR,2013,0,1,0,0,0,0,12,0,0,9,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,JASHPUR,2013,2,17,1,0,0,0,6,0,0,12,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,KABIRDHAM,2013,1,1,0,0,0,0,1,0,0,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,KANKER,2013,0,7,0,0,0,0,0,0,0,5,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,KONDAGAON,2013,0,0,0,0,0,0,0,0,0,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,KORBA,2013,0,7,1,0,0,0,6,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,KORIYA,2013,1,7,0,0,0,0,6,0,0,14,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,MAHASAMUND,2013,0,1,0,0,0,0,0,0,0,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,MUNGELI,2013,0,0,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,NARAYANPUR,2013,0,1,0,0,0,0,0,0,0,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,RAIGARH,2013,2,9,0,0,0,0,12,0,0,9,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,RAIPUR,2013,0,0,0,0,0,0,0,0,0,4,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,RAJNANDGAON,2013,0,4,0,0,0,0,0,0,0,4,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,SARGUJA,2013,1,6,0,0,0,0,2,0,0,13,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,SUKMA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,SURAJPUR,2013,0,15,1,0,0,1,5,0,0,9,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chhattisgarh,ZZ TOTAL,2013,8,112,5,0,0,1,68,0,0,137,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Goa,NORTH GOA,2013,0,0,0,0,0,0,0,1,1,4,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Goa,SOUTH GOA,2013,0,0,0,0,0,0,0,0,3,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Goa,ZZ TOTAL,2013,0,0,0,0,0,0,0,1,4,5,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,AHMEDABAD COMMR.,2013,0,2,2,0,0,0,0,0,3,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,AHMEDABAD RURAL,2013,0,1,0,0,0,0,1,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,AHWA-DANG,2013,0,1,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,AMRELI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,ANAND,2013,1,0,5,0,0,0,1,0,3,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,BHARUCH,2013,2,4,1,0,0,0,5,0,16,9,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,BHAVNAGAR,2013,1,1,1,0,0,0,0,0,0,3,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,CID CRIME,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,DAHOD,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,GANDHINAGAR,2013,0,0,0,0,0,0,1,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,HIMATNAGAR,2013,0,0,2,0,0,0,2,0,0,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,JAMNAGAR,2013,0,0,0,0,0,0,1,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,JUNAGADH,2013,0,0,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,KHEDA NORTH,2013,0,2,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,KUTCH (EAST(G)),2013,0,0,1,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,KUTCH (WEST-BHUJ),2013,0,0,0,0,0,0,0,0,1,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,MEHSANA,2013,0,3,0,0,0,0,3,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,NARMADA,2013,0,1,0,0,0,0,1,0,1,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,NAVSARI,2013,0,3,2,0,0,0,0,0,0,11,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,PALANPUR,2013,0,2,3,1,0,0,9,0,22,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,PANCHMAHAL,2013,1,3,0,0,0,0,3,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,PATAN,2013,0,1,0,0,0,0,0,0,0,4,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,PORBANDAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,RAJKOT COMMR.,2013,0,1,0,0,0,1,1,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,RAJKOT RURAL,2013,0,2,2,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,SURAT COMMR.,2013,0,1,0,0,0,0,0,0,9,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,SURAT RURAL,2013,2,2,0,0,0,0,3,0,1,7,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,SURENDRANAGAR,2013,0,0,0,0,0,0,0,0,0,4,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,TAPI,2013,0,0,1,0,0,0,2,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,VADODARA COMMR.,2013,0,2,2,0,0,0,0,0,0,4,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,VADODARA RURAL,2013,1,1,0,0,0,0,2,0,2,7,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,VALSAD,2013,0,1,0,0,0,0,1,0,0,4,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,W.RLY AHMEDABAD,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,W.RLY VADODARA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Gujarat,ZZ TOTAL,2013,8,34,22,1,0,1,36,0,58,64,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,AMBALA RURAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,AMBALA URBAN,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,BHIWANI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,FARIDABAD,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,FATEHABAD,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,GRP,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,GURGAON,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,HISSAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,I&P HARYANA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,JHAJJAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,JIND,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,KAITHAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,KARNAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,KURUKSHETRA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,MAHENDRAGARH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,MEWAT,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,PALWAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,PANCHKULA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,PANIPAT,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,REWARI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,ROHTAK,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,SIRSA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,SONIPAT,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,YAMUNANAGAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Haryana,ZZ TOTAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Himachal Pradesh,BADDIPOLICEDIST,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Himachal Pradesh,BILASPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Himachal Pradesh,CHAMBA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Himachal Pradesh,CID,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Himachal Pradesh,G.R.P.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Himachal Pradesh,HAMIRPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Himachal Pradesh,KANGRA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Himachal Pradesh,KINNAUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Himachal Pradesh,KULLU,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Himachal Pradesh,LAHAUL-SPITI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Himachal Pradesh,MANDI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Himachal Pradesh,SHIMLA,2013,0,0,0,0,0,0,0,0,2,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Himachal Pradesh,SIRMAUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Himachal Pradesh,SOLAN,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Himachal Pradesh,UNA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Himachal Pradesh,ZZ TOTAL,2013,0,0,0,0,0,0,0,0,2,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,ANANTNAG,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,AWANTIPORA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,BANDIPORA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,BARAMULLA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,BUDGAM,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,CRIME JAMMU,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,CRIME SRINAGAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,DODA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,GANDERBAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,HANDWARA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,JAMMU,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,KARGIL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,KATHUA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,KISHTWAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,KULGAM,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,KUPWARA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,LEH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,POONCH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,PULWAMA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,RAILWAYS JAMMU,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,RAILWAYS KASHMIR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,RAILWAYS KATRA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,RAJOURI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,RAMBAN,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,REASI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,SAMBA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,SHOPIAN,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,SOPORE,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,SRINAGAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,UDHAMPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jammu & Kashmir,ZZ TOTAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,BOKARO,2013,0,0,0,0,0,0,0,0,4,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,CHAIBASA,2013,0,0,0,0,0,0,0,0,8,8,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,CHATRA,2013,0,0,0,0,0,0,0,0,2,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,DEOGHAR,2013,0,0,0,0,0,0,1,0,1,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,DHANBAD,2013,0,0,0,0,0,0,2,0,4,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,DHANBAD RLY.,2013,0,0,0,0,0,0,0,0,1,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,DUMKA,2013,0,0,0,0,0,0,1,0,7,6,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,GARHWA,2013,0,2,0,0,0,0,7,0,14,5,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,GIRIDIH,2013,1,1,1,0,0,0,0,0,5,20,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,GODDA,2013,0,0,0,0,0,0,0,0,7,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,GUMLA,2013,0,6,6,0,0,0,7,0,19,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,HAZARIBAGH,2013,0,0,0,0,0,0,0,0,8,7,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,JAMSHEDPUR,2013,0,3,0,0,0,1,22,0,46,20,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,JAMSHEDPUR RLY.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,JAMTARA,2013,0,1,0,0,0,0,5,0,19,18,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,KHUNTI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,KODERMA,2013,0,0,0,0,0,0,1,0,1,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,LATEHAR,2013,0,0,0,0,0,0,0,0,8,8,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,LOHARDAGGA,2013,0,0,0,0,0,0,0,0,6,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,PAKUR,2013,0,0,0,0,0,0,0,0,3,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,PALAMU,2013,0,0,0,0,0,0,7,0,7,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,RAMGARH,2013,0,0,0,0,0,0,6,0,10,8,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,RANCHI,2013,0,0,0,0,0,0,3,0,8,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,SAHEBGANJ,2013,0,0,0,0,0,0,6,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,SARAIKELA,2013,0,2,0,0,0,0,3,0,5,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,SIMDEGA,2013,0,0,0,0,0,0,0,0,2,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Jharkhand,ZZ TOTAL,2013,1,15,7,0,0,1,71,0,195,106,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,BAGALKOT,2013,2,0,0,0,0,0,0,0,11,11,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,BANGALORE COMMR.,2013,0,0,0,0,0,0,1,0,8,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,BANGALORE RURAL,2013,0,0,0,0,0,0,6,0,13,7,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,BELGAUM,2013,0,1,0,0,0,0,0,0,10,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,BELLARY,2013,0,0,0,0,0,0,0,0,17,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,BIDAR,2013,0,0,0,0,0,0,0,0,1,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,BIJAPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,CBPURA,2013,0,2,0,0,0,0,0,0,13,11,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,CHAMARAJNAGAR,2013,0,0,0,0,0,0,0,0,6,6,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,CHICKMAGALUR,2013,0,0,0,0,0,0,0,0,1,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,CHITRADURGA,2013,0,2,0,0,0,0,3,0,6,3,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,DAKSHIN KANNADA,2013,0,1,0,0,0,0,0,0,12,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,DAVANAGERE,2013,0,1,1,0,0,0,5,0,20,16,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,DHARWAD COMMR.,2013,0,1,0,0,0,0,0,0,8,8,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,DHARWAD RURAL,2013,0,0,0,0,0,0,0,0,7,7,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,GADAG,2013,0,0,0,0,0,0,0,0,2,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,GULBARGA,2013,0,0,0,0,0,0,6,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,HASSAN,2013,0,0,0,0,0,0,0,0,2,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,HAVERI,2013,0,0,0,0,0,0,14,0,14,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,K.G.F.,2013,0,0,0,0,0,0,3,0,4,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,KODAGU,2013,1,4,0,0,0,0,0,0,6,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,KOLAR,2013,0,0,0,0,0,0,0,0,10,10,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,KOPPAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,MANDYA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,MANGALORE CITY,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,MYSORE COMMR.,2013,0,0,0,0,0,0,0,0,16,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,MYSORE RURAL,2013,0,0,0,0,0,0,0,0,43,12,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,RAICHUR,2013,1,2,1,0,0,0,0,14,25,21,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,RAILWAYS,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,RAMANAGAR,2013,0,0,0,0,0,0,0,0,2,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,SHIMOGA,2013,0,0,0,0,0,0,0,0,3,3,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,TUMKUR,2013,1,3,0,0,0,0,5,0,16,8,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,UDUPI,2013,0,2,0,0,0,0,2,0,10,6,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,UTTAR KANNADA,2013,0,0,0,0,0,0,0,0,0,10,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,YADGIRI,2013,0,0,0,0,0,0,0,0,17,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Karnataka,ZZ TOTAL,2013,5,19,2,0,0,0,45,14,303,147,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Kerala,ALAPUZHA,2013,0,0,0,0,0,0,1,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Kerala,ERNAKULAM COMMR.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Kerala,ERNAKULAM RURAL,2013,0,1,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Kerala,IDUKKI,2013,0,6,0,0,0,0,4,0,0,6,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Kerala,KANNUR,2013,0,6,0,0,0,0,4,0,1,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Kerala,KASARGOD,2013,0,11,0,0,0,0,5,0,0,8,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Kerala,KOLLAM COMMR.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Kerala,KOLLAM RURAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Kerala,KOTTAYAM,2013,0,0,0,0,0,0,0,0,2,7,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Kerala,KOZHIKODE COMMR.,2013,0,0,0,0,0,0,1,0,0,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Kerala,KOZHIKODE RURAL,2013,0,2,0,0,0,0,3,0,0,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Kerala,MALAPPURAM,2013,0,1,0,0,0,0,0,0,0,5,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Kerala,PALAKKAD,2013,0,4,1,0,0,0,2,0,1,8,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Kerala,PATHANAMTHITTA,2013,0,0,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Kerala,RAILWAYS,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Kerala,THRISSUR COMMR.,2013,0,0,0,0,0,0,1,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Kerala,THRISSUR RURAL,2013,0,0,0,0,0,0,2,0,0,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Kerala,TRIVANDRUM COMMR.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Kerala,TRIVANDRUM RURAL,2013,0,4,0,0,0,0,3,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Kerala,WAYANADU,2013,0,9,0,0,0,0,5,0,1,9,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Kerala,ZZ TOTAL,2013,0,44,1,0,0,0,31,0,5,54,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,AGAR,2013,3,3,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,ALIRAJPUR,2013,0,3,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,ANUPPUR,2013,1,9,2,0,0,0,3,0,0,15,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,ASHOK NAGAR,2013,0,3,1,0,0,0,3,0,0,6,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,BALAGHAT,2013,1,7,0,0,0,0,7,0,0,16,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,BARWANI,2013,1,10,0,0,0,0,2,0,0,18,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,BETUL,2013,3,18,2,0,0,0,16,0,0,33,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,BHIND,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,BHOPAL,2013,0,0,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,BHOPAL RLY.,2013,0,1,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,BURHANPUR,2013,0,2,0,0,0,0,1,0,0,15,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,CHHATARPUR,2013,1,1,0,0,0,0,2,0,0,6,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,CHHINDWARA,2013,1,26,4,0,0,0,4,0,0,42,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,DAMOH,2013,1,4,0,0,0,0,7,0,0,7,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,DATIYA,2013,0,1,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,DEWAS,2013,1,6,2,0,0,0,0,0,0,19,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,DHAR,2013,3,17,3,0,0,0,9,0,0,12,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,DINDORI,2013,0,15,3,0,0,0,0,0,0,20,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,GUNA,2013,1,3,0,0,0,0,9,0,0,10,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,GWALIOR,2013,0,2,0,0,0,0,8,0,0,3,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,HARDA,2013,0,5,1,0,0,0,5,0,0,8,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,HOSHANGABAD,2013,3,12,0,0,0,0,13,0,0,7,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,INDORE,2013,1,6,1,0,0,0,0,0,0,18,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,INDORE RLY.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,JABALPUR,2013,1,12,0,0,0,1,10,0,0,26,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,JABALPUR RLY.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,JHABUA,2013,0,1,1,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,KATNI,2013,2,2,0,0,0,0,1,0,0,11,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,KHANDWA,2013,1,15,3,0,0,0,0,0,0,35,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,KHARGON,2013,0,11,2,0,0,0,11,0,0,18,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,MANDLA,2013,0,15,1,0,0,0,1,0,0,23,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,MANDSAUR,2013,1,4,0,0,0,0,4,0,0,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,MORENA,2013,0,0,0,0,0,0,0,0,0,5,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,NARSINGHPUR,2013,0,11,0,0,0,0,13,0,0,13,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,NEEMUCH,2013,1,1,0,0,0,0,3,0,0,4,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,PANNA,2013,0,2,0,0,0,0,0,0,0,9,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,RAISEN,2013,0,9,1,0,0,0,16,0,0,12,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,RAJGARH,2013,0,7,0,0,0,0,3,0,0,6,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,RATLAM,2013,0,3,0,0,0,0,4,0,0,8,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,REWA,2013,1,4,0,0,0,1,2,0,0,60,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,SAGAR,2013,1,10,4,0,0,1,12,0,0,26,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,SATNA,2013,1,8,1,0,0,0,0,0,0,15,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,SEONI,2013,3,17,3,0,0,0,4,0,0,20,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,SHAHDOL,2013,1,6,3,0,0,0,1,0,0,34,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,SHAJAPUR,2013,0,2,0,0,0,0,0,0,0,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,SHEOPUR,2013,1,1,0,0,0,0,11,0,0,12,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,SHIVPURI,2013,1,9,0,0,0,2,1,0,0,16,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,SIDHI,2013,0,5,2,0,0,0,2,0,0,3,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,SIHORE,2013,1,7,0,0,0,0,7,0,0,3,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,SINGRAULI,2013,0,5,4,0,0,0,1,0,0,12,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,TIKAMGARH,2013,0,4,0,0,0,0,1,0,0,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,UJJAIN,2013,1,1,0,0,0,0,0,0,0,6,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,UMARIYA,2013,3,1,2,0,0,0,6,0,0,8,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,VIDISHA,2013,1,2,0,0,0,0,1,0,0,21,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Madhya Pradesh,ZZ TOTAL,2013,42,329,46,0,0,5,204,0,0,670,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,AHMEDNAGAR,2013,1,7,2,0,0,2,0,0,0,14,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,AKOLA,2013,0,0,0,0,0,0,0,0,0,5,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,AMRAVATI COMMR.,2013,0,1,0,0,0,0,0,0,1,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,AMRAVATI RURAL,2013,0,4,0,0,0,0,3,0,3,4,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,AURANGABAD COMMR.,2013,0,1,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,AURANGABAD RURAL,2013,0,2,0,0,0,3,0,0,1,6,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,BEED,2013,0,5,0,0,0,0,2,0,0,12,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,BHANDARA,2013,0,2,0,0,0,0,0,0,0,4,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,BULDHANA,2013,0,3,0,0,1,0,0,0,0,4,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,CHANDRAPUR,2013,1,4,0,0,0,0,2,0,0,11,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,DHULE,2013,0,2,0,2,0,0,1,0,1,11,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,GADCHIROLI,2013,0,2,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,GONDIA,2013,0,4,0,0,0,0,0,0,2,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,HINGOLI,2013,0,0,0,0,0,0,0,0,0,6,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,JALGAON,2013,0,0,0,1,0,0,1,0,8,7,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,JALNA,2013,1,0,1,0,0,0,3,0,0,4,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,KOLHAPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,LATUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,MUMBAI COMMR.,2013,0,1,0,0,0,0,1,0,0,4,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,MUMBAI RLY.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,NAGPUR COMMR.,2013,0,3,0,0,0,0,0,0,0,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,NAGPUR RLY.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,NAGPUR RURAL,2013,0,1,1,0,0,0,0,0,0,3,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,NANDED,2013,0,4,0,0,0,0,0,8,1,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,NANDURBAR,2013,1,4,0,0,1,0,1,0,3,4,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,NASIK COMMR.,2013,0,2,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,NASIK RURAL,2013,1,6,1,2,0,0,1,0,5,19,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,NAVI MUMBAI,2013,0,1,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,OSMANABAD,2013,0,1,0,0,0,0,0,0,0,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,PARBHANI,2013,0,1,0,0,0,0,0,0,0,3,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,PUNE COMMR.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,PUNE RLY.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,PUNE RURAL,2013,0,6,0,0,0,0,0,0,1,3,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,RAIGAD,2013,0,1,1,0,0,0,4,0,5,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,RATNAGIRI,2013,0,0,0,0,0,0,0,0,1,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,SANGLI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,SATARA,2013,0,1,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,SINDHUDURG,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,SOLAPUR COMMR.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,SOLAPUR RURAL,2013,0,4,1,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,THANE COMMR.,2013,0,2,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,THANE RURAL,2013,0,1,0,1,0,0,7,0,3,23,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,WARDHA,2013,1,3,0,0,0,0,0,0,3,3,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,WASHIM,2013,0,0,0,0,0,0,0,0,0,9,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,YAVATMAL,2013,1,12,2,0,0,0,3,0,7,39,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Maharashtra,ZZ TOTAL,2013,7,91,9,6,2,5,29,8,45,213,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Manipur,BISHNUPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Manipur,CHANDEL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Manipur,CHURACHANDPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Manipur,CID,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Manipur,IMPHAL EAST,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Manipur,IMPHAL WEST,2013,0,1,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Manipur,SENAPATI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Manipur,TAMENGLONG,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Manipur,THOUBAL,2013,0,1,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Manipur,UKHRUL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Manipur,ZZ TOTAL,2013,0,2,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Meghalaya,GARO HILLS EAST,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Meghalaya,GARO HILLS NORTH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Meghalaya,GARO HILLS SOUTH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Meghalaya,GARO HILLS SOUTH W.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Meghalaya,GARO HILLS WEST,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Meghalaya,JAINTIA HILLS EAST,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Meghalaya,JAINTIA HILLS WEST,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Meghalaya,KHASI HILLS EAST,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Meghalaya,KHASI HILLS SOUTH W.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Meghalaya,KHASI HILLS WEST,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Meghalaya,RI-BHOI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Meghalaya,ZZ TOTAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Mizoram,AIZAWL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Mizoram,CHAMPHAI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Mizoram,KOLASIB,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Mizoram,LAWNGTLAI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Mizoram,LUNGLEI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Mizoram,MAMIT,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Mizoram,SAIHA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Mizoram,SERCHHIP,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Mizoram,SPL NARCOTIC,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Mizoram,TRAFFIC PS,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Mizoram,ZZ TOTAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Nagaland,DIMAPUR,2013,10,6,0,0,0,0,2,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Nagaland,KIPHIRE,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Nagaland,KOHIMA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Nagaland,LONGLENG,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Nagaland,MOKOKCHUNG,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Nagaland,MON,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Nagaland,PEREN,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Nagaland,PHEK,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Nagaland,TUENSANG,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Nagaland,WOKHA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Nagaland,ZUNHEBOTO,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Nagaland,ZZ TOTAL,2013,10,6,0,0,0,0,2,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,ANGUL,2013,0,1,0,0,0,0,0,0,24,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,BALASORE,2013,0,5,1,0,0,1,25,0,43,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,BARAGARH,2013,0,1,1,0,0,0,19,0,30,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,BERHAMPUR,2013,0,0,0,0,0,0,0,0,3,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,BHADRAK,2013,0,0,0,0,0,0,0,0,4,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,BOLANGIR,2013,1,3,0,0,1,1,0,0,33,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,BOUDH,2013,0,0,0,0,0,0,3,0,8,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,CUTTACK,2013,0,0,1,0,0,0,3,0,5,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,DCP BBSR,2013,0,0,0,0,0,0,1,0,1,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,DCP CTC,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,DEOGARH,2013,0,0,0,0,0,0,0,0,5,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,DHENKANAL,2013,0,1,2,1,0,0,4,0,31,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,GAJAPATI,2013,0,0,0,0,0,0,5,0,8,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,GANJAM,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,JAGATSINGHPUR,2013,0,0,0,0,0,0,0,0,2,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,JAJPUR,2013,0,1,0,0,0,0,7,0,6,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,JHARSUGUDA,2013,0,2,0,0,0,0,13,0,15,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,KALAHANDI,2013,2,4,0,0,0,0,0,0,34,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,KANDHAMAL,2013,0,2,0,0,0,0,7,0,13,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,KENDRAPARA,2013,0,0,0,0,0,1,0,0,1,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,KEONJHAR,2013,0,6,0,0,0,0,23,0,29,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,KHURDA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,KORAPUT,2013,0,3,0,0,0,0,0,0,10,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,MALKANGIR,2013,0,0,0,0,0,0,0,0,2,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,MAYURBHANJ,2013,1,9,2,0,0,0,36,1,76,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,NAYAGARH,2013,0,0,0,0,0,0,5,0,5,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,NOWRANGPUR,2013,0,8,0,0,1,0,11,0,25,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,NUAPADA,2013,0,0,0,0,0,0,6,0,6,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,PURI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,RAYAGADA,2013,0,3,1,0,0,0,6,0,21,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,ROURKELA,2013,0,1,0,0,0,0,0,0,11,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,SAMBALPUR,2013,0,3,0,0,0,2,11,0,28,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,SONEPUR,2013,0,2,0,0,0,0,2,0,12,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,SRP(CUTTACK),2013,0,0,0,0,1,0,0,0,1,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,SRP(ROURKELA),2013,0,0,0,0,0,0,0,0,2,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,SUNDARGARH,2013,0,3,0,0,0,0,9,0,19,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Odisha,ZZ TOTAL,2013,4,58,8,1,3,5,196,1,513,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,AMRITSAR RURAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,BARNALA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,BATALA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,BHATINDA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,CP AMRITSAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,CP JALANDHAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,CP LUDHIANA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,FARIDKOT,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,FATEHGARH SAHIB,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,FAZILKA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,FEROZPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,G.R.P,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,GURDASPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,HOSHIARPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,JALANDHAR RURAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,KAPURTHALA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,KHANNA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,LUDHIANA RURAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,MANSA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,MOGA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,MUKTSAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,PATHANKOT,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,PATIALA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,ROPAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,SANGRUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,SAS NGR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,SBS NAGAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,TARN TARAN,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Punjab,ZZ TOTAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,AJMER,2013,0,1,0,0,0,0,0,0,0,18,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,ALWAR,2013,3,4,0,0,0,0,0,0,0,116,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,BANSWARA,2013,0,3,1,0,0,0,0,0,1,44,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,BARAN,2013,1,10,2,0,0,0,4,0,1,55,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,BARMER,2013,0,6,0,0,0,1,1,0,1,68,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,BHARATPUR,2013,0,0,0,0,0,0,0,0,0,29,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,BHILWARA,2013,0,2,0,0,0,0,0,0,1,54,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,BIKANER,2013,0,0,0,0,0,0,0,0,0,5,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,BUNDI,2013,1,4,0,0,0,0,2,0,3,39,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,CHITTORGARH,2013,1,7,0,0,0,0,0,0,1,45,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,CHURU,2013,0,0,0,0,0,0,5,0,0,5,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,DAUSA,2013,0,1,1,0,0,0,0,0,0,90,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,DHOLPUR,2013,0,1,0,0,0,0,6,0,0,8,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,DISCOM,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,DUNGARPUR,2013,0,1,0,0,0,0,0,0,0,15,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,G.R.P.AJMER,2013,0,1,0,0,0,0,0,0,1,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,G.R.P.JODHPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,GANGANAGAR,2013,0,0,0,0,0,0,0,0,0,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,HANUMANGARH,2013,0,0,0,0,0,0,0,0,0,4,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,JAIPUR EAST,2013,0,0,0,0,0,0,0,0,0,51,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,JAIPUR NORTH,2013,0,1,0,0,0,0,1,0,0,12,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,JAIPUR RURAL,2013,2,3,0,0,0,3,0,0,2,72,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,JAIPUR SOUTH,2013,0,1,0,0,0,0,0,0,2,24,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,JAIPUR WEST,2013,0,0,1,0,0,0,0,0,2,46,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,JAISALMER,2013,0,1,0,0,0,0,0,0,0,29,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,JALORE,2013,1,2,0,0,0,0,0,0,1,26,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,JHALAWAR,2013,0,4,7,0,0,0,2,0,1,52,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,JHUNJHUNU,2013,0,0,0,0,0,0,2,0,0,23,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,JODHPUR EAST,2013,1,0,0,0,0,0,1,0,0,3,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,JODHPUR RURAL,2013,0,0,0,0,0,0,23,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,JODHPUR WEST,2013,0,0,0,0,0,0,1,0,0,7,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,KARAULI,2013,0,2,0,0,0,0,0,0,0,59,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,KOTA CITY,2013,2,4,0,0,0,0,0,0,0,27,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,KOTA RURAL,2013,1,1,0,0,0,0,1,0,0,29,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,NAGAUR,2013,0,0,0,0,0,1,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,PALI,2013,1,0,1,0,0,0,1,0,0,40,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,PRATAPGARH,2013,0,5,2,0,0,0,25,0,0,20,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,RAJSAMAND,2013,1,1,1,0,0,0,2,0,0,16,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,SAWAI MADHOPUR,2013,1,1,0,0,0,0,0,0,1,46,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,SIKAR,2013,1,0,0,0,0,0,2,0,0,50,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,SIROHI,2013,2,2,2,0,0,0,6,0,2,29,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,TONK,2013,1,4,1,0,0,1,27,0,2,49,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,UDAIPUR,2013,1,10,3,0,0,0,8,0,2,67,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Rajasthan,ZZ TOTAL,2013,21,83,22,0,0,6,120,0,24,1375,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Sikkim,EAST,2013,0,0,0,0,0,2,3,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Sikkim,NORTH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Sikkim,SOUTH,2013,0,0,0,0,0,4,2,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Sikkim,WEST,2013,0,0,0,0,0,2,4,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Sikkim,ZZ TOTAL,2013,0,0,0,0,0,8,9,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,ARIYALUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,CHENNAI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,CHENNAI RLY.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,COIMBATORE RURAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,COIMBATORE URBAN,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,CUDDALORE,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,DHARMAPURI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,DINDIGUL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,ERODE,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,KANCHIPURAM,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,KANYAKUMARI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,KARUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,KRISHNAGIRI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,MADURAI RURAL,2013,0,0,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,MADURAI URBAN,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,NAGAPATTINAM,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,NAMAKKAL,2013,0,0,0,0,1,0,3,0,1,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,NILGIRIS,2013,0,1,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,PERAMBALUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,PUDUKOTTAI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,RAMNATHAPURAM,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,SALEM RURAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,SALEM URBAN,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,SIVAGANGAI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,THANJAVUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,THENI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,THIRUNELVELI RURAL,2013,0,0,0,0,0,0,0,0,1,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,THIRUNELVELI URBAN,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,THIRUVALLUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,THIRUVANNAMALAI,2013,0,0,0,0,0,0,0,0,4,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,THIRUVARUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,THOOTHUGUDI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,TIRUPPUR,2013,1,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,TRICHY RLY.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,TRICHY RURAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,TRICHY URBAN,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,VELLORE,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,VILLUPURAM,2013,0,1,0,0,0,0,8,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,VIRUDHUNAGAR,2013,0,0,0,0,1,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tamil Nadu,ZZ TOTAL,2013,1,2,0,0,2,0,11,0,6,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tripura,DHALAI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tripura,GOMATI,2013,0,0,2,0,0,0,3,0,0,4,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tripura,GRP,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tripura,KHOWAI,2013,0,1,0,0,0,0,0,0,0,3,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tripura,NORTH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tripura,SIPAHIJALA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tripura,SOUTH,2013,0,2,0,0,0,0,4,0,0,5,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tripura,UNAKOTI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tripura,WEST,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Tripura,ZZ TOTAL,2013,0,3,2,0,0,0,7,0,0,12,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,AGRA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,ALIGARH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,ALLAHABAD,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,AMBEDKAR NAGAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,AMETHI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,AMROHA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,AURAIYA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,AZAMGARH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,BADAUN,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,BAGHPAT,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,BAHRAICH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,BALLIA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,BALRAMPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,BANDA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,BARABANKI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,BAREILLY,2013,1,0,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,BASTI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,BIJNOR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,BULANDSHAHAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,CHANDOLI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,CHITRAKOOT DHAM,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,DEORIA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,ETAH,2013,0,0,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,ETAWAH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,FAIZABAD,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,FATEHGARH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,FATEHPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,FIROZABAD,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,G.R.P.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,GAUTAMBUDH NAGAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,GHAZIABAD,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,GHAZIPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,GONDA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,GORAKHPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,HAMIRPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,HAPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,HARDOI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,HATHRAS,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,JALAUN,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,JAUNPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,JHANSI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,KANNAUJ,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,KANPUR DEHAT,2013,0,0,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,KANPUR NAGAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,KASGANJ,2013,0,0,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,KAUSHAMBI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,KHIRI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,KUSHI NAGAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,LALITPUR,2013,0,0,0,0,0,0,0,0,5,3,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,LUCKNOW,2013,0,0,0,0,0,0,0,0,3,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,MAHARAJGANJ,2013,0,0,1,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,MAHOBA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,MAINPURI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,MATHURA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,MAU,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,MEERUT,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,MIRZAPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,MORADABAD,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,MUZAFFARNAGAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,PILIBHIT,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,PRATAPGARH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,RAIBAREILLY,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,RAMPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,SAHARANPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,SAMBHAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,SANT KABIRNAGAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,SHAHJAHANPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,SHAMLI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,SHRAWASTI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,SIDHARTHNAGAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,SITAPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,SONBHADRA,2013,2,2,1,0,0,0,0,0,2,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,ST.RAVIDASNAGAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,SULTANPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,UNNAO,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,VARANASI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttar Pradesh,ZZ TOTAL,2013,3,2,2,0,0,0,0,0,10,8,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttarakhand,ALMORA,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttarakhand,BAGESHWAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttarakhand,CHAMOLI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttarakhand,CHAMPAWAT,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttarakhand,DEHRADUN,2013,0,0,0,0,0,0,1,0,1,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttarakhand,HARIDWAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttarakhand,NAINITAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttarakhand,PAURI GARHWAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttarakhand,PITHORAGARH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttarakhand,RUDRA PRAYAG,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttarakhand,TEHRI GARHWAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttarakhand,UDHAMSINGH NAGAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttarakhand,UTTARKASHI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Uttarakhand,ZZ TOTAL,2013,0,0,0,0,0,0,1,0,1,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,24 PARGANAS NORTH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,24 PARGANAS SOUTH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,ASANSOL,2013,0,0,0,0,0,0,0,0,1,5,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,BANKURA,2013,0,0,0,0,0,0,0,0,0,4,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,BDN CP,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,BIRBHUM,2013,1,1,0,0,0,0,0,0,0,7,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,BKP CP,2013,0,0,0,0,0,0,0,0,3,5,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,BURDWAN,2013,0,2,0,0,0,0,0,0,1,11,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,COOCHBEHAR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,DAKSHIN DINAJPUR,2013,0,0,0,0,0,0,2,0,0,11,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,DARJEELING,2013,0,0,0,0,0,0,0,0,4,11,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,HOOGHLY,2013,0,0,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,HOWRAH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,HOWRAH CITY,2013,0,0,0,0,0,0,0,0,1,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,HOWRAH G.R.P.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,JALPAIGURI,2013,0,1,0,0,0,0,0,0,8,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,JHARGRAM,2013,0,1,0,0,0,0,0,0,0,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,KHARAGPUR G.R.P.,2013,0,0,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,KOLKATA,2013,0,0,0,0,0,0,0,0,1,3,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,MALDA,2013,0,2,0,0,0,0,0,0,0,2,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,MURSHIDABAD,2013,0,0,0,0,0,0,0,0,1,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,NADIA,2013,0,0,0,0,0,0,0,0,3,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,PASCHIM MIDNAPUR,2013,0,0,0,0,0,0,0,0,0,5,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,PURAB MIDNAPUR,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,PURULIA,2013,0,0,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,SEALDAH G.R.P.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,SILIGURI G.R.P.,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,SILIGURI_PC,2013,0,0,0,0,0,0,0,0,3,6,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,UTTAR DINAJPUR,2013,0,2,1,0,0,0,1,0,0,5,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+West Bengal,ZZ TOTAL,2013,1,9,1,0,0,0,3,0,26,82,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+A&N Islands,CAR,2013,0,0,0,0,0,0,0,1,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+A&N Islands,NORTH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+A&N Islands,SOUTH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+A&N Islands,ZZ TOTAL,2013,0,0,0,0,0,0,0,1,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chandigarh,CHANDIGARH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Chandigarh,ZZ TOTAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+D&N Haveli,D&N HAVELI,2013,0,0,0,0,0,0,0,0,4,3,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+D&N Haveli,ZZ TOTAL,2013,0,0,0,0,0,0,0,0,4,3,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Daman & Diu,DAMAN,2013,0,0,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Daman & Diu,DIU,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Daman & Diu,ZZ TOTAL,2013,0,0,0,0,0,0,0,0,0,1,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Delhi UT,CAW,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Delhi UT,CENTRAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Delhi UT,CRIME BRANCH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Delhi UT,EAST,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Delhi UT,EOW,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Delhi UT,GRP(RLY),2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Delhi UT,IGI AIRPORT,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Delhi UT,METRO RAIL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Delhi UT,NEW DELHI,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Delhi UT,NORTH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Delhi UT,NORTH-EAST,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Delhi UT,NORTH-WEST,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Delhi UT,OUTER,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Delhi UT,SOUTH,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Delhi UT,SOUTH-EAST,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Delhi UT,SOUTH-WEST,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Delhi UT,STF,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Delhi UT,WEST,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Delhi UT,ZZ TOTAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Lakshadweep,LAKSHADWEEP,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Lakshadweep,ZZ TOTAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Puducherry,KARAIKAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Puducherry,PUDUCHERRY,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv
+Puducherry,ZZ TOTAL,2013,0,0,0,0,0,0,0,0,0,0,ST,02_District_wise_crimes_committed_against_ST_2013.csv

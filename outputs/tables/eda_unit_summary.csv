@@ -1,0 +1,1491 @@
+﻿UNIT_NAME,row_count
+NORTH,53
+SOUTH,53
+WEST,51
+G.R.P.,49
+EAST,38
+ZZ TOTAL,35
+BILASPUR,26
+HAMIRPUR,26
+BALRAMPUR,26
+NEW DELHI,25
+CENTRAL,25
+DELHI UT TOTAL,24
+NORTH-EAST,20
+IGI AIRPORT,20
+NORTH-WEST,20
+SOUTH-WEST,20
+STF,19
+PRATAPGARH,19
+GRP(RLY),17
+GRP,16
+BIJAPUR,15
+K.G.F.,14
+KEONJHAR,13
+KENDRAPARA,13
+NOWRANGPUR,13
+KHURDA,13
+KORAPUT,13
+MALKANGIR,13
+MAYURBHANJ,13
+NAYAGARH,13
+KALAHANDI,13
+NUAPADA,13
+PURI,13
+RAYAGADA,13
+KANDHAMAL,13
+ADILABAD,13
+JHARSUGUDA,13
+BOUDH,13
+ANGUL,13
+BALASORE,13
+BARAGARH,13
+BERHAMPUR,13
+BHADRAK,13
+BOLANGIR,13
+CUTTACK,13
+JAJPUR,13
+DEOGARH,13
+DHENKANAL,13
+GAJAPATI,13
+SAMBALPUR,13
+GANJAM,13
+JAGATSINGHPUR,13
+ROURKELA,13
+FARIDKOT,13
+SONEPUR,13
+BHARATPUR,13
+TARN TARAN,13
+AJMER,13
+ALWAR,13
+BANSWARA,13
+BARAN,13
+BARMER,13
+BHILWARA,13
+ROPAR,13
+BIKANER,13
+BUNDI,13
+CHITTORGARH,13
+CHURU,13
+DAUSA,13
+DHOLPUR,13
+SANGRUR,13
+PATIALA,13
+SRP(CUTTACK),13
+FATEHGARH SAHIB,13
+SRP(ROURKELA),13
+SUNDARGARH,13
+BARNALA,13
+BATALA,13
+BHATINDA,13
+WOKHA,13
+G.R.P,13
+MUKTSAR,13
+GURDASPUR,13
+HOSHIARPUR,13
+KAPURTHALA,13
+KHANNA,13
+MANSA,13
+MOGA,13
+ZUNHEBOTO,13
+KIPHIRE,13
+TUENSANG,13
+DHULE,13
+GONDIA,13
+HINGOLI,13
+JALGAON,13
+JALNA,13
+KOLHAPUR,13
+LATUR,13
+MUMBAI RLY.,13
+NAGPUR COMMR.,13
+NAGPUR RLY.,13
+NANDED,13
+NANDURBAR,13
+NASIK COMMR.,13
+NAVI MUMBAI,13
+OSMANABAD,13
+PARBHANI,13
+GADCHIROLI,13
+CHANDRAPUR,13
+PUNE RLY.,13
+BULDHANA,13
+SHAJAPUR,13
+SHEOPUR,13
+SHIVPURI,13
+SIDHI,13
+SIHORE,13
+TIKAMGARH,13
+UJJAIN,13
+UMARIYA,13
+VIDISHA,13
+AHMEDNAGAR,13
+AKOLA,13
+AMRAVATI COMMR.,13
+AURANGABAD COMMR.,13
+BEED,13
+BHANDARA,13
+PUNE COMMR.,13
+RAIGAD,13
+PHEK,13
+KHASI HILLS EAST,13
+RI-BHOI,13
+AIZAWL,13
+CHAMPHAI,13
+KOLASIB,13
+LAWNGTLAI,13
+LUNGLEI,13
+MAMIT,13
+SAIHA,13
+SERCHHIP,13
+DIMAPUR,13
+GANGANAGAR,13
+KOHIMA,13
+MOKOKCHUNG,13
+MON,13
+PEREN,13
+KHASI HILLS WEST,13
+GARO HILLS WEST,13
+RATNAGIRI,13
+GARO HILLS EAST,13
+SANGLI,13
+SATARA,13
+SINDHUDURG,13
+SOLAPUR COMMR.,13
+THANE COMMR.,13
+WARDHA,13
+WASHIM,13
+YAVATMAL,13
+BISHNUPUR,13
+CHANDEL,13
+CHURACHANDPUR,13
+SENAPATI,13
+TAMENGLONG,13
+THOUBAL,13
+UKHRUL,13
+DUNGARPUR,13
+RAJSAMAND,13
+HANUMANGARH,13
+JAUNPUR,13
+RAMPUR,13
+SAHARANPUR,13
+SANT KABIRNAGAR,13
+SHAHJAHANPUR,13
+SHRAWASTI,13
+SIDHARTHNAGAR,13
+SITAPUR,13
+SONBHADRA,13
+ST.RAVIDASNAGAR,13
+SULTANPUR,13
+UNNAO,13
+VARANASI,13
+ALMORA,13
+BAGESHWAR,13
+CHAMOLI,13
+RAIBAREILLY,13
+PILIBHIT,13
+MUZAFFARNAGAR,13
+LUCKNOW,13
+KANNAUJ,13
+KANPUR NAGAR,13
+KAUSHAMBI,13
+KHIRI,13
+KUSHI NAGAR,13
+LALITPUR,13
+MAHARAJGANJ,13
+MORADABAD,13
+MAHOBA,13
+MAINPURI,13
+MATHURA,13
+MAU,13
+MEERUT,13
+MIRZAPUR,13
+CHAMPAWAT,13
+DEHRADUN,13
+HARIDWAR,13
+SEALDAH G.R.P.,13
+JALPAIGURI,13
+KOLKATA,13
+MALDA,13
+MURSHIDABAD,13
+NADIA,13
+PURULIA,13
+SILIGURI G.R.P.,13
+HOWRAH,13
+UTTAR DINAJPUR,13
+CHANDIGARH,13
+DAMAN,13
+DIU,13
+LAKSHADWEEP,13
+OUTER,13
+HOWRAH G.R.P.,13
+HOOGHLY,13
+NAINITAL,13
+24 PARGANAS NORTH,13
+PAURI GARHWAL,13
+PITHORAGARH,13
+RUDRA PRAYAG,13
+TEHRI GARHWAL,13
+UDHAMSINGH NAGAR,13
+UTTARKASHI,13
+24 PARGANAS SOUTH,13
+DARJEELING,13
+ASANSOL,13
+BANKURA,13
+BIRBHUM,13
+BURDWAN,13
+COOCHBEHAR,13
+DAKSHIN DINAJPUR,13
+JHANSI,13
+JALAUN,13
+JAISALMER,13
+HATHRAS,13
+KANCHIPURAM,13
+KANYAKUMARI,13
+KARUR,13
+NAGAPATTINAM,13
+NAMAKKAL,13
+NILGIRIS,13
+PERAMBALUR,13
+PUDUKOTTAI,13
+RAMNATHAPURAM,13
+SIVAGANGAI,13
+THANJAVUR,13
+THENI,13
+THIRUVALLUR,13
+THIRUVANNAMALAI,13
+THIRUVARUR,13
+ERODE,13
+DINDIGUL,13
+DHARMAPURI,13
+SEONI,13
+JALORE,13
+JHALAWAR,13
+JHUNJHUNU,13
+KARAULI,13
+NAGAUR,13
+PALI,13
+SAWAI MADHOPUR,13
+CUDDALORE,13
+SIKAR,13
+SIROHI,13
+TONK,13
+UDAIPUR,13
+CHENNAI,13
+CHENNAI RLY.,13
+THOOTHUGUDI,13
+TRICHY RLY.,13
+VELLORE,13
+FATEHPUR,13
+CHITRAKOOT DHAM,13
+DEORIA,13
+ETAH,13
+ETAWAH,13
+FAIZABAD,13
+FATEHGARH,13
+FIROZABAD,13
+BULANDSHAHAR,13
+GAUTAMBUDH NAGAR,13
+GHAZIABAD,13
+GHAZIPUR,13
+GONDA,13
+GORAKHPUR,13
+HARDOI,13
+CHANDOLI,13
+BIJNOR,13
+VIRUDHUNAGAR,13
+AZAMGARH,13
+DHALAI,13
+AGRA,13
+ALIGARH,13
+ALLAHABAD,13
+AMBEDKAR NAGAR,13
+AURAIYA,13
+BADAUN,13
+BASTI,13
+BAGHPAT,13
+BAHRAICH,13
+BALLIA,13
+BANDA,13
+BARABANKI,13
+BAREILLY,13
+SHAHDOL,13
+GARO HILLS SOUTH,13
+SATNA,13
+SAGAR,13
+SAMASTIPUR,13
+SARAN,13
+SHEIKHPURA,13
+SHEOHAR,13
+SITAMARHI,13
+SIWAN,13
+SUPAUL,13
+BIZAPUR,13
+KORBA,13
+DANTEWARA,13
+DHAMTARI,13
+DURG,13
+GRP RAIPUR,13
+JAGDALPUR,13
+JANJGIR,13
+JASHPUR,13
+SAHARSA,13
+ROHTAS,13
+PURNEA,13
+PATNA RLY.,13
+KATIHAR,13
+KATIHAR RLY.,13
+KHAGARIA,13
+KISHANGANJ,13
+LAKHISARAI,13
+MADHEPURA,13
+MADHUBANI,13
+MOTIHARI,13
+MUNGER,13
+MUZAFFARPUR,13
+MUZAFFARPUR RLY.,13
+NALANDA,13
+NAUGACHIA,13
+NAWADAH,13
+PATNA,13
+KANKER,13
+KORIYA,13
+JAMUI,13
+SURAT COMMR.,13
+NARMADA,13
+NAVSARI,13
+PALANPUR,13
+PANCHMAHAL,13
+PATAN,13
+PORBANDAR,13
+RAJKOT COMMR.,13
+SURENDRANAGAR,13
+MAHASAMUND,13
+VADODARA COMMR.,13
+VALSAD,13
+BHIWANI,13
+FARIDABAD,13
+FATEHABAD,13
+GURGAON,13
+HISSAR,13
+MEHSANA,13
+KHEDA NORTH,13
+JUNAGADH,13
+JAMNAGAR,13
+RAIGARH,13
+RAIPUR,13
+RAJNANDGAON,13
+SARGUJA,13
+NORTH GOA,13
+SOUTH GOA,13
+AHMEDABAD COMMR.,13
+AHWA-DANG,13
+AMRELI,13
+ANAND,13
+BHARUCH,13
+BHAVNAGAR,13
+DAHOD,13
+GANDHINAGAR,13
+HIMATNAGAR,13
+JEHANABAD,13
+JAMALPUR RLY.,13
+JIND,13
+KAMENG WEST,13
+VISAKHAPATNAM,13
+VIZIANAGARAM,13
+WARANGAL,13
+WEST GODAVARI,13
+CHANGLANG,13
+DIBANG VALLEY,13
+KAMENG EAST,13
+LOHIT,13
+BARPETA,13
+PAPUM PARE,13
+SIANG EAST,13
+SIANG UPPER,13
+SIANG WEST,13
+SUBANSIRI LOWER,13
+SUBANSIRI UPPER,13
+TAWANG,13
+VIJAYAWADA RLY.,13
+SRIKAKULAM,13
+SECUNDERABAD RLY.,13
+RANGA REDDY,13
+CHITTOOR,13
+CUDDAPAH,13
+EAST GODAVARI,13
+GUNTAKAL RLY.,13
+GUNTUR,13
+KARIMNAGAR,13
+KHAMMAM,13
+KRISHNA,13
+KURNOOL,13
+MAHABOOBNAGAR,13
+MEDAK,13
+NALGONDA,13
+NELLORE,13
+NIZAMABAD,13
+PRAKASHAM,13
+TIRAP,13
+BONGAIGAON,13
+GOPALGANJ,13
+BANKA,13
+SIBSAGAR,13
+SONITPUR,13
+TINSUKIA,13
+ARARIA,13
+ARWAL,13
+AURANGABAD,13
+BAGAHA,13
+BEGUSARAI,13
+C.I.D.,13
+BETTIAH,13
+BHABHUA,13
+BHAGALPUR,13
+BHOJPUR,13
+BUXAR,13
+DARBHANGA,13
+GAYA,13
+R.P.O.,13
+NALBARI,13
+NAGAON,13
+N.C.HILLS,13
+CACHAR,13
+DARRANG,13
+DHEMAJI,13
+DHUBRI,13
+DIBRUGARH,13
+GOALPARA,13
+GOLAGHAT,13
+HAILAKANDI,13
+JORHAT,13
+KAMRUP,13
+KARBI ANGLONG,13
+KARIMGANJ,13
+KOKRAJHAR,13
+LAKHIMPUR,13
+MORIGAON,13
+JHAJJAR,13
+VAISHALI,13
+KAITHAL,13
+SHIMOGA,13
+HAVERI,13
+KODAGU,13
+KOLAR,13
+KOPPAL,13
+MANDYA,13
+MYSORE COMMR.,13
+RAICHUR,13
+TUMKUR,13
+LOHARDAGGA,13
+UDUPI,13
+UTTAR KANNADA,13
+ALAPUZHA,13
+IDUKKI,13
+KANNUR,13
+KASARGOD,13
+KOTTAYAM,13
+HASSAN,13
+GULBARGA,13
+GADAG,13
+DHARWAD COMMR.,13
+PALAMU,13
+RANCHI,13
+SAHEBGANJ,13
+SARAIKELA,13
+SIMDEGA,13
+BAGALKOT,13
+BANGALORE COMMR.,13
+BELGAUM,13
+BELLARY,13
+BIDAR,13
+CHAMARAJNAGAR,13
+CHICKMAGALUR,13
+CHITRADURGA,13
+DAKSHIN KANNADA,13
+DAVANAGERE,13
+MALAPPURAM,13
+PALAKKAD,13
+PATHANAMTHITTA,13
+INDORE RLY.,13
+JABALPUR RLY.,13
+JHABUA,13
+KATNI,13
+KHANDWA,13
+KHARGON,13
+MANDLA,13
+MANDSAUR,13
+MORENA,13
+NARSINGHPUR,13
+NEEMUCH,13
+PANNA,13
+RAISEN,13
+RAJGARH,13
+RATLAM,13
+REWA,13
+JABALPUR,13
+INDORE,13
+WAYANADU,13
+HOSHANGABAD,13
+BALAGHAT,13
+BARWANI,13
+BETUL,13
+BHIND,13
+BHOPAL,13
+BHOPAL RLY.,13
+CHHATARPUR,13
+DAMOH,13
+DATIYA,13
+DEWAS,13
+DHAR,13
+DINDORI,13
+GUNA,13
+GWALIOR,13
+HARDA,13
+PAKUR,13
+CHHINDWARA,13
+LATEHAR,13
+KATHUA,13
+JAMMU,13
+GANDERBAL,13
+DODA,13
+CRIME JAMMU,13
+BUDGAM,13
+BARAMULLA,13
+AWANTIPORA,13
+ANANTNAG,13
+UNA,13
+SOLAN,13
+SIRMAUR,13
+SHIMLA,13
+MANDI,13
+LAHAUL-SPITI,13
+KULLU,13
+KINNAUR,13
+KANGRA,13
+CHAMBA,13
+YAMUNANAGAR,13
+SONIPAT,13
+SIRSA,13
+ROHTAK,13
+KODERMA,13
+REWARI,13
+PANIPAT,13
+PANCHKULA,13
+MAHENDRAGARH,13
+KURUKSHETRA,13
+KARNAL,13
+KARGIL,13
+ANANTAPUR,13
+RAJOURI,13
+KUPWARA,13
+BOKARO,13
+REASI,13
+GODDA,13
+RAMBAN,13
+GIRIDIH,13
+PULWAMA,13
+POONCH,13
+CHAIBASA,13
+CHATRA,13
+GUMLA,13
+HAZARIBAGH,13
+SRINAGAR,13
+LEH,13
+DEOGHAR,13
+JAMSHEDPUR,13
+JAMSHEDPUR RLY.,13
+DHANBAD,13
+KULGAM,13
+DHANBAD RLY.,13
+DUMKA,13
+GARHWA,13
+JAMTARA,13
+UDHAMPUR,13
+KHARAGPUR G.R.P.,12
+HANDWARA,12
+KABIRDHAM,12
+PASCHIM MIDNAPUR,12
+PURAB MIDNAPUR,12
+D and N HAVELI,12
+VILLUPURAM,12
+J.P.NAGAR,12
+EOW,12
+CID,12
+JAINTIA HILLS,12
+CRIME SRINAGAR,12
+UPPER DIBANG VALLEY,11
+SOUTH-EAST,11
+CRIME BRANCH,11
+CAW,11
+K/KUMEY,11
+BURHANPUR,11
+ASHOK NAGAR,11
+ANUPPUR,11
+TRIVANDRUM COMMR.,11
+KOZHIKODE COMMR.,11
+ERNAKULAM COMMR.,11
+NARAYANPUR,11
+AMBALA,11
+CYBERABAD,11
+G.R.P.(RLY),10
+ANDAMAN,10
+KOLLAM,10
+THRISSUR,10
+AMRITSAR,10
+KRISHNAGIRI,10
+JALANDHAR,10
+LUDHIANA,10
+KUTCH,10
+FEROZPUR,10
+NICOBAR,10
+KANPUR DEHAT,10
+W.RLY,10
+SURAJPUR,9
+UDALGURI,9
+CHIRANG,9
+MEWAT,9
+S.T.F.,8
+SAS NGR,8
+I.G.I. AIRPORT,8
+NORTH WEST,8
+PALWAL,8
+MUMBAI COMMR.,8
+IMPHAL EAST,8
+IMPHAL WEST,8
+NORTH EAST,8
+JAIPUR EAST,8
+JAIPUR NORTH,8
+SOUTH WEST,8
+JAIPUR SOUTH,8
+KARAIKAL,8
+NAWAN SHAHR,7
+KHUNTI,7
+DCP CTC,7
+RAMGARH,7
+LONGLENG,7
+CBCID,7
+BASKA,7
+JAGRAON,7
+PONDICHERRY,7
+DCP BBSR,7
+CBPURA,6
+KISHTWAR,6
+BANDIPORA,6
+PUDUCHERRY,6
+SBS NAGAR,6
+RAMANAGAR,6
+TAPI,6
+G. R. P.,6
+ALIRAJPUR,6
+SHOPIAN,6
+SINGRAULI,6
+SAMBA,6
+ARIYALUR,6
+MAJITHA,6
+BADDIPOLICEDIST,5
+TIRUPPUR,5
+IMPHAL(WEST),5
+IMPHAL(EAST),5
+KANSHIRAM NAGAR,5
+MUMBAI,5
+JAIPUR,5
+ANJAW,5
+VIJAYAWADA,5
+KOTA,5
+BORDER,5
+JODHPUR,5
+CP AMRITSAR,4
+CP JALANDHAR,4
+SOPORE,4
+CID CRIME,4
+RAJAHMUNDRY,4
+FEROZEPUR,4
+YADGIRI,4
+CP LUDHIANA,4
+SPL CELL,4
+CHENGAI,4
+DANTEWADA,3
+KUTCH (WEST-BHUJ),3
+Crime Branch,3
+KOZHIKODE,3
+C. I. D.,3
+JAIPUR WEST,3
+G.R.P.JODHPUR,3
+G.R.P.AJMER,3
+PATHANKOT,3
+FAZILKA,3
+KOLLAM COMMR.,3
+W.RLY VADODARA,3
+W.RLY AHMEDABAD,3
+THRISSUR COMMR.,3
+KUTCH (EAST(G)),3
+West,3
+North,3
+ERNAKULAM,3
+GARIYABAND,3
+TRIVANDRUM,3
+South,3
+CSM NAGAR,3
+RAMABAI NAGAR,3
+East,2
+DRP,2
+Hamirpur,2
+Cyber Cell,2
+Balrampur,2
+ZDELHI UT TOTAL,2
+KHOWAI,2
+CAR,2
+SILIGURI_PC,2
+JHARGRAM,2
+BKP CP,2
+BDN CP,2
+UNAKOTI,2
+Bilaspur,2
+SIPAHIJALA,2
+GOMATI,2
+HAMREN,2
+BORDER DISTRICT,2
+JODHPUR WEST,2
+BHIM NAGAR,2
+PANCHSHIL NAGAR,2
+PRABUDDH NAGAR,2
+BAKSA,2
+BIEO,2
+SURGUJA,2
+BALODA BAZAR,2
+BEMETARA,2
+SUKMA,2
+MUNGELI,2
+KONDAGAON,2
+BALOD,2
+JODHPUR EAST,2
+I&P HARYANA,1
+Tarn Taran,1
+Patiala,1
+Ropar,1
+Sangrur,1
+SAS Nagar,1
+SBS Nagar,1
+Alwar,1
+Ajmer,1
+Muktsar,1
+Banswara,1
+Baran,1
+Barmer,1
+Bharatpur,1
+Bhilwara,1
+Bikaner,1
+Bundi,1
+Chittorgarh,1
+Pathankot,1
+Mansa,1
+Moga,1
+Dausa,1
+Sambalpur,1
+Sonepur,1
+SRP (Cuttack),1
+SRP (Rourkela),1
+Sundargarh,1
+Barnala,1
+Batala,1
+Bathinda,1
+CP Amritsar,1
+CP Jalandhar,1
+CP Ludhiana,1
+Faridkot,1
+Fatehgarh Sahib,1
+Fazilka,1
+Ferozepur,1
+Gurdaspur,1
+Hoshiarpur,1
+Kapurthala,1
+Khanna,1
+Churu,1
+Dungarpur,1
+Dholpur,1
+Rayagada,1
+Tonk,1
+Udaipur,1
+G.R.P. AJMER,1
+CRIME KASHMIR,1
+A and N ISLANDS,1
+Ariyalur,1
+Chennai,1
+Coimbatore,1
+Cuddalore,1
+Dharmapuri,1
+Dindigul,1
+Erode,1
+Kanchipuram,1
+Kanyakumari,1
+Karur,1
+Krishnagiri,1
+Madurai,1
+Nagapattinam,1
+Namakkal,1
+Sirohi,1
+Sikar,1
+Sawai Madhopur,1
+Jaisalmer,1
+G.R.P.Ajmer,1
+G.R.P.Jodhpur,1
+Ganganagar,1
+Hanumangarh,1
+Jaipur East,1
+Jaipur North,1
+Jaipur South,1
+Jaipur West,1
+Jalore,1
+Rajsamand,1
+Jhalawar,1
+Jhunjhunu,1
+Jodhpur East,1
+Jodhpur West,1
+Karauli,1
+Nagaur,1
+Pali,1
+Praapgarh,1
+Rourkela,1
+Nuapada,1
+Puri,1
+Ukhrul,1
+Yavatmal,1
+Bishnupur,1
+Chandel,1
+Churachandpur,1
+Imphal East,1
+Imphal West,1
+Senapati,1
+Tamenglong,1
+Thoubal,1
+Garo Hills East,1
+Perambalur,1
+Garo Hills North,1
+Garo Hills South,1
+Garo Hills South West,1
+Garo Hills West,1
+Jaintia Hills West,1
+Jaintia Hills East,1
+Khasi Hills East,1
+Khasi Hills South West,1
+Khasi Hills West,1
+Washim,1
+Wardha,1
+Thane Commr.,1
+Solapur Commr.,1
+Jalgaon,1
+Jalna,1
+Kolhapur,1
+Latur,1
+Mumbai Commr.,1
+Nagpur Commr.,1
+Nanded,1
+Nandurbar,1
+Nasik Commr.,1
+Navi Mumbai,1
+Osmanabad,1
+Palghar,1
+Parbhani,1
+Pune Commr.,1
+Raigad,1
+Ratnagiri,1
+Sangli,1
+Satara,1
+Sindhudurg,1
+Ri-Bhoi,1
+Aizawl,1
+Champhai,1
+Bhadrak,1
+Boudh,1
+Cuttack,1
+Deogarh,1
+Dhenkanal,1
+Gajapati,1
+Ganjam,1
+Jagatsinghpur,1
+Jajpur,1
+Jharsuguda,1
+Kalahandi,1
+Kandhamal,1
+Kendrapara,1
+Keonjhar,1
+Khurda,1
+Koraput,1
+Malkangiri,1
+Mayurbhanj,1
+Nayagarh,1
+Nabarangpur,1
+Bolangir,1
+Berhampur,1
+Kolasib,1
+Baragarh,1
+Lawngtlai,1
+Lunglei,1
+Mamit,1
+Saiha,1
+Serchhip,1
+Spl Traffic,1
+Dimapur,1
+Kiphire,1
+Kohima,1
+Longleng,1
+Mokokchung,1
+Mon,1
+Peren,1
+Phek,1
+Tuensang,1
+Wokha,1
+Zunheboto,1
+Angul,1
+Balasore,1
+Nilgiris,1
+Salem,1
+Pudukottai,1
+Tehri Garhwal,1
+Uttarkashi,1
+North 24 Parganas,1
+South 24 Parganas,1
+Alipurduar,1
+Asansol-Durgapur PC,1
+Bankura,1
+Barrackpur PC,1
+Bidhannagar PC,1
+Birbhum,1
+Burdwan,1
+Coochbehar,1
+Dakshin Dinajpur,1
+Darjeeling,1
+Hooghly,1
+Howrah G. R. P.,1
+Howrah PC,1
+Jalpaiguri,1
+Jhargram Police District,1
+Kharagpur G. R. P.,1
+Udhamsingh Nagar,1
+Rudra Prayag,1
+Malda,1
+Pithoragarh,1
+Sant Kabirnagar,1
+Shahjahanpur,1
+Shamli,1
+Shrawasti,1
+Sidharthnagar,1
+Sitapur,1
+Sonbhadra,1
+St.Ravidasnagar,1
+Sultanpur,1
+Unnao,1
+Varanasi,1
+Almora,1
+Bageshwar,1
+Chamoli,1
+Champawat,1
+Dehradun,1
+Haridwar,1
+Nainital,1
+Pauri Garhwal,1
+Kolkata,1
+Murshidabad,1
+Saharanpur,1
+South-East,1
+Spl Cell,1
+SPUWAC,1
+Vigilance,1
+Lakshadweep,1
+Karaikal,1
+Puducherry,1
+N.C. HILLS,1
+HISAR,1
+MAHENDERGARH,1
+GUMALA,1
+I.G.I.AIRPORT,1
+VILUPPURAM,1
+MIDNAPUR,1
+C.B.KASHMIR,1
+BADWANI,1
+GARI HILLS EAST,1
+KANCHEEPURAM,1
+AMBEDKARNAGAR,1
+KAWARDHA,1
+South-West,1
+Outer,1
+Nadia,1
+North-West,1
+Paschim Medinipur,1
+Purab Medinipur,1
+Purulia,1
+Sealdah G. R. P.,1
+Siliguri G. R. P.,1
+Siliguri PC,1
+Uttar Dinajpur,1
+South Andaman,1
+North & Middle Andaman,1
+Nicobar,1
+Chandigarh,1
+D&N Haveli,1
+Daman,1
+Diu,1
+Central,1
+IGI Airport,1
+Metro,1
+New Delhi,1
+North-East,1
+Sambhal,1
+Rampur,1
+Ramnathapuram,1
+Nalgonda,1
+Ranga Reddy,1
+Warangal,1
+Dhalai,1
+Gomati,1
+Kowai,1
+Sipahijala,1
+Unakoti,1
+Agra,1
+Aligarh,1
+Allahabad,1
+Ambedkar Nagar,1
+Amethi,1
+Amroha,1
+Auraiya,1
+Azamgarh,1
+Badaun,1
+Baghpat,1
+Bahraich,1
+Ballia,1
+Nizamabad,1
+Medak,1
+Barabanki,1
+Mahaboob Nagar,1
+Gondia,1
+Sivagangai,1
+Thanjavur,1
+Theni,1
+Thirunelveli,1
+Thiruvallur,1
+Thiruvannamalai,1
+Thiruvarur,1
+Thoothugudi,1
+Tiruppur,1
+Trichy,1
+Vellore,1
+Villupuram,1
+Virudhunagar,1
+Other Units,1
+Adilabad,1
+Cyberabad,1
+Karimnagar,1
+Khammam,1
+Banda,1
+Bareilly,1
+Raibareilly,1
+Jhansi,1
+Kanpur Dehat,1
+Kanpur Nagar,1
+Kasganj,1
+Kaushambi,1
+Khiri,1
+Kushi Nagar,1
+Lalitpur,1
+Lucknow,1
+Maharajganj,1
+Mahoba,1
+Mainpuri,1
+Mathura,1
+Mau,1
+Meerut,1
+Mirzapur,1
+Moradabad,1
+Muzaffarnagar,1
+Pilibhit,1
+Pratapgarh,1
+Kannauj,1
+Jaunpur,1
+Basti,1
+Jalaun,1
+Bijnor,1
+Bulandshahar,1
+Chandoli,1
+Chitrakoot,1
+Deoria,1
+Etah,1
+Etawah,1
+Faizabad,1
+Fatehgarh,1
+Fatehpur,1
+Firozabad,1
+Gautambudh Nagar,1
+Ghaziabad,1
+Ghazipur,1
+Gonda,1
+Gorakhpur,1
+Hapur,1
+Hardoi,1
+Hathras,1
+Hingoli,1
+Chandrapur,1
+Gadchiroli,1
+Vaishali,1
+Anti Terrorist Squad,1
+Balod,1
+Balodbazar,1
+Bemetra,1
+Bizapur,1
+Dantewara,1
+Dhamtari,1
+Durg,1
+Gariyaband,1
+G. R. P. Raipur,1
+Jagdalpur,1
+Janjgir,1
+Jashpur,1
+Kabirdham,1
+Kanker,1
+Kondagaon,1
+Korba,1
+Koriya,1
+Mahasamund,1
+Economic Offences Unit,1
+Supaul,1
+Narayanpur,1
+Siwan,1
+Kishanganj,1
+Lakhisarai,1
+Madhepura,1
+Madhubani,1
+Motihari,1
+Munger,1
+Muzaffarpur,1
+Nalanda,1
+Naugachia,1
+Nawadah,1
+Patna,1
+Purnea,1
+Rohtas,1
+Saharsa,1
+Samastipur,1
+Saran,1
+Sheikhpura,1
+Sheohar,1
+Sitamarhi,1
+Mungali,1
+Raigarh,1
+Dhule,1
+Junagadh,1
+Kachchh West(B),1
+Kheda,1
+Mahisagar,1
+Mehsana,1
+Morbi,1
+Narmada,1
+Navsari,1
+Panchmahal,1
+Patan,1
+Porbandar,1
+Sabarkantha,1
+Surendranagar,1
+Tapi,1
+Valsad,1
+W.Rly  Ahmedabad,1
+W.Rly Vadodara,1
+Bhiwani,1
+Faridabad,1
+Fatehabad,1
+Kachchh East(G),1
+Jamnagar,1
+Raipur,1
+Gir Somnath,1
+Rajnandgaon,1
+Sarguja,1
+Sukma,1
+Surajpur,1
+North Goa,1
+South Goa,1
+Amreli,1
+Anand,1
+Arvalli,1
+Banaskantha,1
+Bharuch,1
+Bhavnagar,1
+Botad,1
+Chhotaudepur,1
+C. I. D. Crime,1
+Dahod,1
+Dang,1
+Devbhumi Dwarka,1
+Gandhinagar,1
+Khagaria,1
+Katihar,1
+Jehanabad,1
+Krishna,1
+Nellore,1
+Prakasham,1
+Rajahmundry,1
+Srikakulam,1
+Visakhapatnam,1
+Vizianagaram,1
+West Godavari,1
+Anjaw,1
+Changlang,1
+LONGDING,1
+Dibang Valley,1
+Kameng East,1
+Kameng West,1
+Kukung Kumey,1
+Lohit,1
+Longding,1
+Lower Dibang Valley,1
+Siang East,1
+Siang Upper,1
+Kurnool,1
+Guntur,1
+Jamui,1
+East Godavari,1
+GARO HILLS NORTH,1
+GARO HILLS SOUTH W.,1
+JAINTIA HILLS EAST,1
+JAINTIA HILLS WEST,1
+KHASI HILLS SOUTH W.,1
+SPL NARCOTIC,1
+TRAFFIC PS,1
+DISCOM,1
+AMETHI,1
+AMROHA,1
+HAPUR,1
+KASGANJ,1
+SAMBHAL,1
+SHAMLI,1
+D&N HAVELI,1
+METRO RAIL,1
+Anantapur,1
+Chittoor,1
+Cuddapah,1
+Siang West,1
+Subansiri Lower,1
+Subansiri Upper,1
+Tawang,1
+Nalbari,1
+Sibsagar,1
+Sonitpur,1
+Tinsukia,1
+Udalguri,1
+Araria,1
+Arwal,1
+Aurangabad,1
+Bagaha,1
+Banka,1
+Begusarai,1
+Bettiah,1
+Bhabhua,1
+Bhagalpur,1
+Bhojpur,1
+Buxar,1
+Darbhanga,1
+Gaya,1
+Gopalganj,1
+Nagaon,1
+N. C. Hills,1
+Morigaon,1
+Dhubri,1
+Tirap,1
+Barpeta,1
+Baska,1
+Bongaigaon,1
+Cachar,1
+Chirang,1
+Darrang,1
+Dhemaji,1
+Dibrugarh,1
+Lakhimpur,1
+Goalpara,1
+Golaghat,1
+Hailakandi,1
+Jorhat,1
+Kamrup,1
+Karbi Anglong,1
+Karimganj,1
+Kokrajhar,1
+Gurgaon,1
+Hissar,1
+Jhajjar,1
+Kozhikode Commr.,1
+Palakkad,1
+Pathanamthitta,1
+Thrissur Commr.,1
+Trivandrum Commr.,1
+Wayanadu,1
+Agar,1
+Alirajpur,1
+Anuppur,1
+Ashok Nagar,1
+Balaghat,1
+Barwani,1
+Betul,1
+Bhind,1
+Bhopal,1
+Burhanpur,1
+Chhatarpur,1
+Chhindwara,1
+Damoh,1
+Datia,1
+Malappuram,1
+Kottayam,1
+Gadag,1
+Kollam Commr.,1
+Hassan,1
+Haveri,1
+Kodagu,1
+Kolar,1
+Koppal,1
+Mandya,1
+Mysuru District,1
+Raichur,1
+Ramanagar,1
+Shimoga,1
+Tumakuru,1
+Udupi,1
+Uttara Kannada,1
+Yadgiri,1
+Alapuzha,1
+Ernakulam Commr.,1
+Idukki,1
+Kannur,1
+Kasargod,1
+Dewas,1
+Dhar,1
+Dindori,1
+Guna,1
+Shahdol,1
+Shajapur,1
+Sheopur,1
+Shivpuri,1
+Sidhi,1
+Sehore,1
+Singrauli,1
+Tikamgarh,1
+Ujjain,1
+Umaria,1
+Vidisha,1
+G.R.P. JODHPUR,1
+Ahmednagar,1
+Akola,1
+Aurangabad Commr.,1
+Beed,1
+Bhandara,1
+Buldhana,1
+AGAR,1
+Seoni,1
+Satna,1
+Sagar,1
+Khargone,1
+Gwalior,1
+Harda,1
+Hoshangabad,1
+Indore,1
+Jabalpur,1
+Jhabua,1
+Katni,1
+Khandwa,1
+Mandla,1
+Rewa,1
+Mandsaur,1
+Morena,1
+Narsinghpur,1
+Neemuch,1
+Panna,1
+Raisen,1
+Rajgarh,1
+Ratlam,1
+Kalaburgi,1
+Dharwad,1
+Jind,1
+Shimla,1
+Solan,1
+Una,1
+Anantnag,1
+Awantipora,1
+Bandipora,1
+Baramulla,1
+Budgam,1
+Crime Jammu,1
+Crime Srinagar,1
+Doda,1
+Ganderbal,1
+Handwara,1
+Jammu,1
+Kargil,1
+Kathua,1
+Kishtwar,1
+Kulgam,1
+Kupwara,1
+Leh,1
+Sirmaur,1
+Mandi,1
+Davanagere,1
+Lahaul & Spiti,1
+Kaithal,1
+Karnal,1
+Kurukshetra,1
+Mahendergarh,1
+Mewat,1
+Palwal,1
+Panchkula,1
+Panipat,1
+Rewari,1
+Rohtak,1
+Sirsa,1
+Sonipat,1
+Yamunanagar,1
+Irrigation & Power,1
+Baddi,1
+Chamba,1
+Kangra,1
+Kinnaur,1
+Kullu,1
+Poonch,1
+Pulwama,1
+Rajouri,1
+Ramban,1
+Lohardagga,1
+Pakur,1
+Palamu,1
+Ramgarh,1
+Ranchi,1
+Sahebganj,1
+Saraikela,1
+Simdega,1
+Bagalkot,1
+Bengaluru District,1
+Belagavi District,1
+Ballari,1
+Bidar,1
+Vijayapura,1
+Chikkaballapura,1
+Chamarajnagar,1
+Chikkamagaluru,1
+Chitradurga,1
+Dakshina Kannada,1
+Latehar,1
+Koderma,1
+Khunti,1
+Chatra,1
+Reasi,1
+Samba,1
+Shopian,1
+Sopore,1
+Srinagar,1
+Udhampur,1
+Bokaro,1
+Chaibasa,1
+Deoghar,1
+Jamtara,1
+Dhanbad,1
+Dumka,1
+Garhwa,1
+Giridih,1
+Godda,1
+Gumla,1
+Hazaribagh,1
+Jamshedpur,1
+Amravati Commr.,1

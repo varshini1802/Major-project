@@ -1,0 +1,824 @@
+﻿STATE,DISTRICT,YEAR,Infanticid,Other murder,Rape,Kidnapping and Abduction,Foeticide,Abetment of suicide,Exposure and abandonment,Procuration of minor girls,Buying of girls for prostitution,Selling of girls for prostitution,Prohibition of child marriage act,Other Crimes,Total,CRIME_GROUP,SOURCE_FILE
+Andhra Pradesh,ADILABAD,2013,0,1,21,9,0,0,0,0,0,0,1,1,33,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,ANANTAPUR,2013,0,1,15,68,0,3,0,0,0,0,0,0,87,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,CHITTOOR,2013,0,6,1,0,0,0,0,0,0,0,0,0,7,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,CUDDAPAH,2013,2,0,14,32,0,0,0,0,0,0,1,0,49,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,CYBERABAD,2013,1,8,45,69,2,0,2,9,0,0,1,19,156,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,EAST GODAVARI,2013,0,0,4,1,0,0,0,0,0,0,0,20,25,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,GUNTAKAL RLY.,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,GUNTUR,2013,1,9,21,46,0,0,7,0,0,0,0,0,84,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,GUNTUR URBAN,2013,0,0,23,24,0,0,3,0,0,0,0,0,50,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,HYDERABAD CITY,2013,0,2,21,16,0,1,0,1,0,0,0,11,52,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,KARIMNAGAR,2013,1,3,33,84,0,0,0,0,0,0,1,4,126,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,KHAMMAM,2013,1,4,46,83,1,0,0,0,0,0,2,89,226,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,KRISHNA,2013,0,2,49,35,0,3,0,0,0,0,0,81,170,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,KURNOOL,2013,1,0,15,50,0,0,6,0,0,0,0,27,99,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,MAHABOOBNAGAR,2013,0,12,70,35,0,0,2,6,0,0,0,0,125,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,MEDAK,2013,0,1,35,11,0,0,2,17,0,0,0,0,66,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,NALGONDA,2013,0,1,53,70,2,0,1,0,0,0,3,0,130,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,NELLORE,2013,0,4,13,61,0,1,3,0,0,0,0,55,137,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,NIZAMABAD,2013,0,6,24,9,2,0,5,6,0,0,2,11,65,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,PRAKASHAM,2013,0,3,35,36,0,0,1,1,0,1,0,57,134,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,RAJAHMUNDRY,2013,0,0,10,2,0,0,1,0,0,0,0,9,22,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,RANGA REDDY,2013,0,5,21,13,0,0,0,0,0,0,1,6,46,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,SECUNDERABAD RLY.,2013,0,1,0,2,0,0,0,0,0,0,0,0,3,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,SRIKAKULAM,2013,0,2,18,15,0,2,0,0,0,0,1,32,70,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,TIRUPATHI URBAN,2013,0,1,2,8,0,0,0,0,0,0,0,0,11,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,VIJAYAWADA CITY,2013,0,1,28,38,0,0,6,0,0,0,1,111,185,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,VIJAYAWADA RLY.,2013,0,0,0,1,0,0,4,0,0,0,0,1,6,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,VISAKHA RURAL,2013,0,1,9,12,0,0,0,0,0,0,0,2,24,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,VISAKHAPATNAM,2013,0,2,33,54,0,0,0,0,0,0,0,3,92,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,VIZIANAGARAM,2013,0,0,13,10,0,0,0,0,0,0,0,17,40,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,WARANGAL,2013,0,3,33,45,0,4,0,0,0,0,1,1,87,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,WARANGAL URBAN,2013,0,0,24,27,0,0,0,0,0,0,0,2,53,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,WEST GODAVARI,2013,0,8,41,48,0,0,0,0,0,1,1,17,116,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Andhra Pradesh,TOTAL,2013,7,87,770,1014,7,14,43,40,0,2,16,576,2576,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Arunachal Pradesh,ANJAW,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Arunachal Pradesh,CHANGLANG,2013,0,0,4,5,0,0,0,0,0,0,0,0,9,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Arunachal Pradesh,DIBANG VALLEY,2013,0,0,0,1,0,0,0,0,0,0,0,2,3,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Arunachal Pradesh,K/KUMEY,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Arunachal Pradesh,KAMENG EAST,2013,0,0,1,7,0,0,0,0,0,0,0,0,8,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Arunachal Pradesh,KAMENG WEST,2013,0,0,1,0,0,0,0,0,0,0,0,0,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Arunachal Pradesh,LOHIT,2013,0,0,7,14,0,0,0,0,0,0,0,0,21,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Arunachal Pradesh,LONGDING,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Arunachal Pradesh,PAPUM PARE,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Arunachal Pradesh,RURAL,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Arunachal Pradesh,SIANG EAST,2013,0,0,8,5,0,0,0,0,0,0,0,2,15,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Arunachal Pradesh,SIANG UPPER,2013,0,0,0,1,0,0,0,0,0,0,0,0,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Arunachal Pradesh,SIANG WEST,2013,0,0,5,4,0,0,0,0,0,0,0,1,10,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Arunachal Pradesh,SUBANSIRI LOWER,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Arunachal Pradesh,SUBANSIRI UPPER,2013,0,0,9,1,0,0,0,0,0,0,0,1,11,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Arunachal Pradesh,TAWANG,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Arunachal Pradesh,TIRAP,2013,0,0,0,2,0,0,0,0,0,0,0,1,3,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Arunachal Pradesh,UPPER DIBANG VALLEY,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Arunachal Pradesh,TOTAL,2013,0,0,35,40,0,0,0,0,0,0,0,7,82,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,BAKSA,2013,0,0,1,4,0,0,0,0,0,0,0,0,5,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,BARPETA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,BIEO,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,BONGAIGAON,2013,0,0,3,0,0,0,0,0,0,0,0,0,3,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,C.I.D.,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,CACHAR,2013,0,0,3,5,0,0,0,0,0,0,0,0,8,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,CHIRANG,2013,0,1,10,10,0,0,0,0,0,0,0,0,21,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,DARRANG,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,DHEMAJI,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,DHUBRI,2013,0,1,138,7,0,0,0,127,0,0,1,7,281,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,DIBRUGARH,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,G.R.P.,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,GOALPARA,2013,0,0,26,2,0,0,0,0,0,0,0,0,28,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,GOLAGHAT,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,GUWAHATI CITY,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,HAILAKANDI,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,HAMREN,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,JORHAT,2013,0,7,8,0,0,0,0,0,0,0,0,0,15,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,KAMRUP,2013,0,0,2,0,0,0,0,0,0,0,0,1,3,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,KARBI ANGLONG,2013,0,0,4,0,0,0,0,0,0,0,0,0,4,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,KARIMGANJ,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,KOKRAJHAR,2013,0,0,1,7,0,0,0,0,0,0,0,0,8,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,LAKHIMPUR,2013,0,0,5,0,0,0,0,0,0,0,0,0,5,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,MORIGAON,2013,0,2,6,10,0,0,0,0,0,0,0,8,26,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,N.C.HILLS,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,NAGAON,2013,0,0,7,0,0,0,0,0,0,0,0,0,7,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,NALBARI,2013,0,0,6,29,0,0,0,0,0,0,0,1,36,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,R.P.O.,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,SIBSAGAR,2013,0,0,2,4,0,0,0,2,0,0,0,23,31,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,SONITPUR,2013,0,2,4,2,0,0,0,0,0,0,0,24,32,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,STF,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,TINSUKIA,2013,0,1,4,0,0,0,0,0,0,0,0,0,5,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,UDALGURI,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Assam,TOTAL,2013,0,14,230,80,0,0,0,129,0,0,1,64,518,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,ARARIA,2013,0,0,1,25,0,0,0,0,0,0,0,0,26,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,ARWAL,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,AURANGABAD,2013,0,3,6,0,0,0,0,0,0,0,0,0,9,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,BAGAHA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,BANKA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,BEGUSARAI,2013,0,4,1,0,0,0,0,0,0,0,0,0,5,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,BETTIAH,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,BHABHUA,2013,0,0,0,48,0,0,0,0,0,0,0,0,48,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,BHAGALPUR,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,BHOJPUR,2013,0,3,1,50,0,0,0,3,0,0,0,0,57,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,BUXAR,2013,0,0,1,0,0,0,0,0,0,0,0,0,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,DARBHANGA,2013,0,1,2,4,1,0,1,25,0,2,0,1,37,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,GAYA,2013,0,9,21,91,0,0,0,0,0,0,0,3,124,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,GOPALGANJ,2013,0,4,2,41,0,0,0,0,0,0,0,0,47,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,JAMALPUR RLY.,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,JAMUI,2013,0,2,1,1,0,0,0,12,0,0,1,0,17,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,JEHANABAD,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,KATIHAR,2013,0,7,5,13,0,0,0,0,0,0,0,0,25,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,KATIHAR RLY.,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,KHAGARIA,2013,0,1,1,26,0,0,0,0,0,0,0,0,28,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,KISHANGANJ,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,LAKHISARAI,2013,0,9,1,30,0,0,0,0,0,0,0,0,40,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,MADHEPURA,2013,0,0,0,20,0,0,0,42,0,0,0,0,62,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,MADHUBANI,2013,0,1,0,12,0,0,0,0,0,0,0,0,13,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,MOTIHARI,2013,0,1,1,128,0,0,0,1,0,1,0,0,132,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,MUNGER,2013,0,1,1,11,0,0,0,0,0,0,0,0,13,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,MUZAFFARPUR,2013,0,6,6,226,0,0,0,0,0,0,0,0,238,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,MUZAFFARPUR RLY.,2013,0,0,1,0,0,0,0,0,0,0,0,0,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,NALANDA,2013,0,1,1,1,0,0,0,23,0,0,0,0,26,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,NAUGACHIA,2013,0,0,0,0,0,0,0,0,0,0,0,2,2,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,NAWADAH,2013,0,7,0,39,0,0,0,0,0,0,0,0,46,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,PATNA,2013,0,10,0,0,0,0,0,15,0,0,0,0,25,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,PATNA RLY.,2013,0,0,0,6,0,0,0,0,0,0,0,6,12,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,PURNEA,2013,0,3,2,35,0,0,0,0,0,0,0,0,40,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,ROHTAS,2013,0,8,4,110,0,0,0,4,0,0,0,0,126,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,SAHARSA,2013,0,4,5,15,0,0,0,38,0,0,0,0,62,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,SAMASTIPUR,2013,0,1,3,24,0,0,0,8,0,0,0,2,38,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,SARAN,2013,0,1,0,107,0,0,0,0,0,0,0,0,108,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,SHEIKHPURA,2013,0,0,8,36,0,0,0,0,0,0,0,0,44,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,SHEOHAR,2013,0,0,0,0,0,0,0,22,0,0,0,0,22,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,SITAMARHI,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,SIWAN,2013,0,1,1,5,0,0,0,0,0,0,0,0,7,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,SUPAUL,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,VAISHALI,2013,0,13,10,76,0,0,0,0,0,0,0,0,99,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Bihar,TOTAL,2013,0,101,86,1180,1,0,1,193,0,3,1,14,1580,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,BALOD,2013,0,0,10,30,3,0,0,0,0,0,0,35,78,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,BALODA BAZAR,2013,0,2,26,96,0,0,0,0,0,0,0,43,167,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,BALRAMPUR,2013,0,4,4,13,0,0,0,0,0,0,0,40,61,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,BEMETARA,2013,0,1,16,38,0,0,0,0,0,0,0,29,84,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,BILASPUR,2013,0,1,13,25,2,0,0,0,0,0,0,75,116,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,BIZAPUR,2013,0,0,1,14,0,1,0,0,0,0,0,21,37,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,DANTEWARA,2013,1,6,1,6,0,0,0,0,0,0,0,5,19,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,DHAMTARI,2013,0,0,21,33,0,0,3,0,0,0,0,34,91,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,DURG,2013,0,6,60,103,0,0,0,0,0,0,0,202,371,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,GARIYABAND,2013,0,0,24,16,0,0,0,0,0,0,0,14,54,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,GRP RAIPUR,2013,0,0,1,2,0,0,3,0,0,0,0,0,6,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,JAGDALPUR,2013,0,0,34,42,0,0,0,0,0,0,0,0,76,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,JANJGIR,2013,0,7,25,191,1,2,1,0,0,0,0,109,336,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,JASHPUR,2013,0,0,52,60,0,0,0,0,0,0,0,44,156,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,KABIRDHAM,2013,0,1,4,1,0,0,0,0,0,0,0,35,41,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,KANKER,2013,0,1,24,48,0,0,0,0,0,0,0,27,100,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,KONDAGAON,2013,10,1,0,0,9,25,0,0,0,0,0,35,80,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,KORBA,2013,0,4,26,73,0,0,0,0,0,0,0,40,143,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,KORIYA,2013,0,2,32,70,0,0,0,0,0,0,0,30,134,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,MAHASAMUND,2013,0,2,24,108,0,0,0,0,0,0,0,23,157,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,MUNGELI,2013,0,0,16,55,0,0,0,0,0,0,0,17,88,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,NARAYANPUR,2013,0,0,5,2,0,0,0,0,0,0,0,6,13,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,RAIGARH,2013,1,3,15,106,0,0,0,0,0,0,1,27,153,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,RAIPUR,2013,1,5,76,427,0,0,0,0,0,0,0,229,738,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,RAJNANDGAON,2013,2,0,21,0,0,67,0,0,0,0,0,39,129,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,SARGUJA,2013,0,1,28,18,0,0,0,0,0,0,0,66,113,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,SUKMA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,SURAJPUR,2013,0,2,36,57,0,0,0,44,0,0,0,57,196,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chhattisgarh,TOTAL,2013,15,49,595,1634,15,95,7,44,0,0,1,1282,3737,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Goa,NORTH GOA,2013,0,0,33,43,0,1,0,0,0,0,0,79,156,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Goa,SOUTH GOA,2013,0,0,26,47,0,0,2,0,0,0,0,39,114,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Goa,TOTAL,2013,0,0,59,90,0,1,2,0,0,0,0,118,270,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,AHMEDABAD COMMR.,2013,0,0,49,344,0,0,24,0,0,2,0,0,419,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,AHMEDABAD RURAL,2013,0,4,1,21,0,0,0,0,0,0,0,0,26,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,AHWA-DANG,2013,0,0,0,1,0,0,0,0,0,0,0,1,2,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,AMRELI,2013,0,2,5,47,0,0,2,0,0,0,1,0,57,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,ANAND,2013,0,2,3,59,0,0,6,0,0,0,0,0,70,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,BHARUCH,2013,0,1,14,40,0,0,2,0,0,0,0,0,57,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,BHAVNAGAR,2013,0,8,5,22,0,0,9,0,0,0,1,23,68,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,CID CRIME,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,DAHOD,2013,0,5,7,61,0,0,4,0,0,0,0,12,89,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,GANDHINAGAR,2013,0,2,9,25,0,0,1,0,0,0,0,0,37,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,HIMATNAGAR,2013,0,4,1,57,0,0,7,0,0,0,1,0,70,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,JAMNAGAR,2013,0,6,9,16,0,0,3,0,0,0,1,0,35,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,JUNAGADH,2013,0,6,14,46,0,0,4,0,0,0,2,8,80,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,KHEDA NORTH,2013,0,2,2,63,0,0,9,0,0,0,1,0,77,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,KUTCH (EAST(G)),2013,0,0,4,12,0,0,2,0,0,0,0,0,18,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,KUTCH (WEST-BHUJ),2013,0,0,13,26,0,0,2,0,0,0,0,0,41,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,MEHSANA,2013,0,4,0,4,0,0,0,0,0,0,1,45,54,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,NARMADA,2013,0,0,1,3,0,0,0,0,0,0,0,0,4,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,NAVSARI,2013,0,2,3,15,0,0,2,0,0,0,1,0,23,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,PALANPUR,2013,0,0,6,7,0,0,0,0,0,0,0,3,16,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,PANCHMAHAL,2013,0,4,9,79,0,0,6,0,0,0,0,0,98,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,PATAN,2013,0,0,3,5,0,0,2,0,0,0,0,3,13,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,PORBANDAR,2013,0,1,3,8,0,0,0,0,0,0,1,5,18,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,RAJKOT COMMR.,2013,0,1,5,39,1,0,10,0,0,0,0,18,74,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,RAJKOT RURAL,2013,0,4,7,58,0,0,1,0,0,0,0,3,73,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,SURAT COMMR.,2013,0,4,40,78,0,0,8,0,0,0,0,2,132,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,SURAT RURAL,2013,0,1,7,23,0,0,0,0,0,0,0,1,32,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,SURENDRANAGAR,2013,0,3,10,57,0,0,1,0,0,0,0,0,71,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,TAPI,2013,0,0,1,0,0,0,0,0,0,0,0,3,4,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,VADODARA COMMR.,2013,0,3,12,73,1,0,2,0,0,0,1,47,139,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,VADODARA RURAL,2013,0,4,12,65,0,0,1,0,0,0,0,4,86,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,VALSAD,2013,0,1,7,68,0,0,0,0,0,0,1,0,77,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,W.RLY AHMEDABAD,2013,0,2,0,6,0,0,0,0,0,0,0,0,8,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,W.RLY VADODARA,2013,0,1,1,1,0,0,5,0,0,0,0,0,8,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Gujarat,TOTAL,2013,0,77,263,1429,2,0,113,0,0,2,12,178,2076,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,AMBALA RURAL,2013,0,11,9,11,0,0,0,0,0,0,0,1,32,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,AMBALA URBAN,2013,0,4,19,39,1,0,0,0,0,0,0,0,63,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,BHIWANI,2013,0,2,23,58,0,0,0,0,0,0,0,15,98,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,FARIDABAD,2013,0,5,31,41,4,0,0,0,0,0,0,13,94,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,FATEHABAD,2013,0,2,10,28,3,0,0,0,0,0,0,8,51,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,GRP,2013,0,1,2,3,6,0,0,0,0,0,0,0,12,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,GURGAON,2013,0,8,17,184,0,0,3,0,0,0,0,0,212,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,HISSAR,2013,0,6,28,77,0,0,0,0,0,0,6,0,117,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,I&P HARYANA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,JHAJJAR,2013,0,3,9,33,0,1,0,0,0,0,0,8,54,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,JIND,2013,0,4,12,26,0,0,0,0,0,0,0,6,48,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,KAITHAL,2013,0,0,11,23,0,0,0,0,0,1,4,25,64,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,KARNAL,2013,0,2,43,137,0,0,1,0,0,1,1,37,222,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,KURUKSHETRA,2013,0,0,6,4,0,0,0,0,0,0,1,23,34,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,MAHENDRAGARH,2013,0,4,16,4,0,0,0,0,0,0,1,17,42,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,MEWAT,2013,0,1,35,15,6,0,1,0,0,0,0,0,58,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,PALWAL,2013,0,0,22,32,0,0,0,0,0,0,0,1,55,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,PANCHKULA,2013,0,3,5,20,0,0,0,0,0,0,0,0,28,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,PANIPAT,2013,0,6,20,50,1,5,2,0,0,0,2,0,86,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,REWARI,2013,0,4,18,21,0,0,0,0,0,0,0,15,58,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,ROHTAK,2013,0,3,6,2,0,0,0,0,0,0,0,28,39,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,SIRSA,2013,0,1,28,62,0,0,0,0,0,0,0,0,91,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,SONIPAT,2013,0,2,5,6,0,0,1,0,0,0,1,7,22,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,YAMUNANAGAR,2013,0,1,13,35,0,0,0,0,0,0,1,10,60,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Haryana,TOTAL,2013,0,73,388,911,21,6,8,0,0,2,17,214,1640,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Himachal Pradesh,BADDIPOLICEDIST,2013,0,1,3,15,1,0,0,0,0,0,0,0,20,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Himachal Pradesh,BILASPUR,2013,0,0,8,21,0,0,0,0,0,0,0,4,33,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Himachal Pradesh,CHAMBA,2013,0,0,10,10,0,0,0,0,0,0,0,2,22,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Himachal Pradesh,CID,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Himachal Pradesh,G.R.P.,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Himachal Pradesh,HAMIRPUR,2013,0,0,5,9,0,0,0,0,0,0,1,4,19,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Himachal Pradesh,KANGRA,2013,0,2,17,31,0,0,2,0,0,0,1,19,72,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Himachal Pradesh,KINNAUR,2013,0,0,4,3,0,0,0,0,0,0,0,0,7,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Himachal Pradesh,KULLU,2013,0,2,14,20,0,0,0,0,0,0,0,10,46,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Himachal Pradesh,LAHAUL-SPITI,2013,0,0,1,0,0,0,0,0,0,0,0,0,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Himachal Pradesh,MANDI,2013,0,0,19,27,0,0,1,0,0,0,0,17,64,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Himachal Pradesh,SHIMLA,2013,0,0,9,25,0,0,0,0,0,0,0,10,44,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Himachal Pradesh,SIRMAUR,2013,0,0,13,16,1,1,3,0,0,0,0,6,40,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Himachal Pradesh,SOLAN,2013,0,0,13,9,0,0,1,1,0,0,0,5,29,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Himachal Pradesh,UNA,2013,0,0,14,12,0,0,0,0,0,0,0,5,31,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Himachal Pradesh,TOTAL,2013,0,5,130,198,2,1,7,1,0,0,2,82,428,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,ANANTNAG,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,AWANTIPORA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,BANDIPORA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,BARAMULLA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,BUDGAM,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,CRIME JAMMU,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,CRIME SRINAGAR,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,DODA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,GANDERBAL,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,HANDWARA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,JAMMU,2013,0,1,0,0,0,0,0,0,0,0,0,2,3,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,KARGIL,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,KATHUA,2013,0,2,6,11,0,0,3,0,0,0,0,6,28,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,KISHTWAR,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,KULGAM,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,KUPWARA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,LEH,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,POONCH,2013,0,1,8,10,0,0,0,0,0,0,0,1,20,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,PULWAMA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,RAILWAYS JAMMU,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,RAILWAYS KASHMIR,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,RAILWAYS KATRA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,RAJOURI,2013,0,4,0,0,0,0,0,0,0,0,0,0,4,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,RAMBAN,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,REASI,2013,0,0,1,1,0,0,0,0,0,0,0,0,2,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,SAMBA,2013,0,0,3,1,0,0,0,1,0,0,0,0,5,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,SHOPIAN,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,SOPORE,2013,0,2,2,0,0,0,0,0,0,0,0,0,4,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,SRINAGAR,2013,0,1,0,0,0,0,0,0,0,0,0,0,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,UDHAMPUR,2013,0,0,5,3,0,0,0,0,0,0,0,0,8,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jammu & Kashmir,TOTAL,2013,0,11,25,26,0,0,3,1,0,0,0,9,75,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,BOKARO,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,CHAIBASA,2013,0,10,12,14,4,1,0,0,0,1,1,0,43,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,CHATRA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,DEOGHAR,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,DHANBAD,2013,0,0,0,0,0,0,0,0,0,0,0,3,3,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,DHANBAD RLY.,2013,1,0,0,3,0,0,0,0,0,0,0,0,4,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,DUMKA,2013,0,0,6,9,0,0,0,0,0,0,0,13,28,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,GARHWA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,GIRIDIH,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,GODDA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,GUMLA,2013,0,0,3,21,0,0,0,7,2,4,0,0,37,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,HAZARIBAGH,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,JAMSHEDPUR,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,JAMSHEDPUR RLY.,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,JAMTARA,2013,0,1,2,0,0,0,0,8,0,0,0,0,11,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,KHUNTI,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,KODERMA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,LATEHAR,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,LOHARDAGGA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,PAKUR,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,PALAMU,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,RAMGARH,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,RANCHI,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,SAHEBGANJ,2013,0,0,0,1,0,0,0,2,0,0,0,0,3,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,SARAIKELA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,SIMDEGA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Jharkhand,TOTAL,2013,1,11,23,48,4,1,0,17,2,5,1,16,129,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,BAGALKOT,2013,0,2,2,5,0,0,0,0,0,0,1,0,10,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,BANGALORE COMMR.,2013,0,11,34,479,0,0,26,47,0,1,3,80,681,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,BANGALORE RURAL,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,BELGAUM,2013,1,17,40,12,0,0,12,8,0,0,2,15,107,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,BELLARY,2013,0,0,0,0,0,0,0,0,0,0,1,0,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,BIDAR,2013,0,2,13,13,0,0,15,0,0,0,0,0,43,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,BIJAPUR,2013,0,10,19,13,0,0,0,0,0,0,1,0,43,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,CBPURA,2013,0,1,1,1,0,0,0,0,0,0,1,4,8,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,CHAMARAJNAGAR,2013,0,0,2,0,0,0,0,0,0,0,0,0,2,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,CHICKMAGALUR,2013,0,1,0,2,0,0,0,0,0,0,0,5,8,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,CHITRADURGA,2013,0,1,15,12,0,0,0,0,0,0,0,0,28,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,DAKSHIN KANNADA,2013,0,3,9,7,0,0,0,0,0,0,0,5,24,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,DAVANAGERE,2013,0,2,9,11,0,0,0,0,0,0,4,4,30,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,DHARWAD COMMR.,2013,2,1,14,37,0,0,4,0,0,0,0,1,59,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,DHARWAD RURAL,2013,0,0,0,0,0,0,0,0,0,0,1,1,2,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,GADAG,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,GULBARGA,2013,0,0,0,0,0,0,0,16,0,0,1,1,18,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,HASSAN,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,HAVERI,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,K.G.F.,2013,0,0,18,2,0,0,0,0,0,0,0,1,21,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,KODAGU,2013,0,0,13,14,0,0,0,0,0,0,0,0,27,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,KOLAR,2013,0,0,11,4,0,0,0,0,0,0,1,0,16,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,KOPPAL,2013,0,0,0,0,0,0,0,0,0,0,5,0,5,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,MANDYA,2013,0,2,17,20,0,0,0,0,0,0,0,6,45,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,MANGALORE CITY,2013,0,1,7,0,0,0,1,0,0,0,0,14,23,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,MYSORE COMMR.,2013,0,1,9,12,0,0,0,0,0,0,0,0,22,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,MYSORE RURAL,2013,0,2,0,0,0,0,0,0,0,0,0,0,2,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,RAICHUR,2013,0,0,0,0,0,0,0,0,0,0,1,0,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,RAILWAYS,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,RAMANAGAR,2013,0,0,0,0,0,0,0,0,0,0,1,0,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,SHIMOGA,2013,0,5,34,43,0,0,0,0,0,0,2,8,92,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,TUMKUR,2013,1,0,0,0,0,0,0,0,0,0,1,1,3,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,UDUPI,2013,0,1,3,13,0,0,0,0,0,0,0,13,30,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,UTTAR KANNADA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,YADGIRI,2013,0,1,0,0,0,0,0,0,0,0,0,0,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Karnataka,TOTAL,2013,4,64,270,700,0,0,58,71,0,1,26,159,1353,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Kerala,ALAPUZHA,2013,0,0,28,6,0,3,0,0,0,0,1,73,111,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Kerala,ERNAKULAM COMMR.,2013,0,0,22,6,0,0,0,0,0,0,0,43,71,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Kerala,ERNAKULAM RURAL,2013,0,2,35,4,0,0,0,1,0,0,1,75,118,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Kerala,IDUKKI,2013,0,5,40,2,0,0,0,0,0,0,0,58,105,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Kerala,KANNUR,2013,0,4,28,7,0,0,0,3,0,0,1,56,99,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Kerala,KASARGOD,2013,0,1,36,2,0,0,0,2,0,0,0,93,134,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Kerala,KOLLAM COMMR.,2013,0,2,33,11,0,1,0,0,0,0,1,24,72,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Kerala,KOLLAM RURAL,2013,0,2,51,6,0,1,1,0,0,0,0,25,86,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Kerala,KOTTAYAM,2013,0,1,24,9,0,0,0,0,0,0,0,34,68,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Kerala,KOZHIKODE COMMR.,2013,0,4,12,7,0,0,0,1,0,0,2,47,73,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Kerala,KOZHIKODE RURAL,2013,0,0,27,14,0,2,0,2,0,0,0,58,103,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Kerala,MALAPPURAM,2013,0,3,40,6,0,0,1,0,0,0,1,91,142,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Kerala,PALAKKAD,2013,0,3,50,12,0,2,1,0,0,0,2,34,104,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Kerala,PATHANAMTHITTA,2013,0,2,26,4,0,0,0,0,0,0,0,34,66,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Kerala,RAILWAYS,2013,0,0,0,1,0,0,1,0,0,0,0,6,8,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Kerala,THRISSUR COMMR.,2013,0,1,16,1,0,0,0,0,0,0,0,31,49,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Kerala,THRISSUR RURAL,2013,0,3,31,7,0,0,0,3,0,0,2,70,116,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Kerala,TRIVANDRUM COMMR.,2013,0,1,38,4,0,0,0,3,0,0,0,44,90,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Kerala,TRIVANDRUM RURAL,2013,0,5,80,22,1,0,0,0,0,0,0,82,190,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Kerala,WAYANADU,2013,0,1,20,5,0,0,0,0,0,0,0,46,72,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Kerala,TOTAL,2013,0,40,637,136,1,9,4,15,0,0,11,1024,1877,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,AGAR,2013,0,0,24,18,0,1,0,0,0,0,0,0,43,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,ALIRAJPUR,2013,0,0,14,0,0,0,0,0,0,0,0,0,14,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,ANUPPUR,2013,0,0,39,33,1,0,0,0,0,0,1,38,112,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,ASHOK NAGAR,2013,0,3,42,24,0,0,3,0,0,0,1,58,131,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,BALAGHAT,2013,0,5,53,4,2,0,4,0,0,0,0,92,160,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,BARWANI,2013,0,1,18,3,2,0,0,0,0,0,0,0,24,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,BETUL,2013,3,3,52,74,1,0,0,0,0,0,0,75,208,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,BHIND,2013,0,1,1,1,0,0,0,0,0,0,0,6,9,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,BHOPAL,2013,0,8,96,52,0,0,0,0,0,0,0,54,210,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,BHOPAL RLY.,2013,0,0,1,3,0,0,5,0,0,0,0,4,13,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,BURHANPUR,2013,0,0,1,1,1,0,4,0,0,0,0,0,7,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,CHHATARPUR,2013,0,1,31,8,0,0,0,0,0,0,0,125,165,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,CHHINDWARA,2013,0,4,68,171,0,0,0,0,0,0,1,210,454,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,DAMOH,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,DATIYA,2013,0,4,10,19,6,0,0,0,0,0,0,49,88,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,DEWAS,2013,0,1,29,3,0,0,0,0,0,0,1,91,125,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,DHAR,2013,0,2,53,163,0,0,0,0,0,0,0,2,220,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,DINDORI,2013,0,1,47,14,5,0,0,0,0,0,0,48,115,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,GUNA,2013,0,5,48,19,1,0,0,0,0,0,0,63,136,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,GWALIOR,2013,0,12,87,51,0,1,13,0,0,0,0,220,384,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,HARDA,2013,0,0,15,3,0,1,0,0,0,0,0,12,31,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,HOSHANGABAD,2013,0,1,45,87,0,0,0,0,0,0,0,21,154,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,INDORE,2013,0,4,128,367,5,0,22,0,0,0,0,219,745,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,INDORE RLY.,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,JABALPUR,2013,1,5,61,105,7,0,0,0,0,0,0,208,387,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,JABALPUR RLY.,2013,0,0,1,1,0,0,3,0,0,0,0,0,5,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,JHABUA,2013,0,0,20,63,0,0,0,0,0,0,0,0,83,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,KATNI,2013,0,1,32,33,4,2,0,0,0,0,0,5,77,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,KHANDWA,2013,0,3,68,97,0,0,0,0,0,0,1,33,202,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,KHARGON,2013,0,0,46,1,0,0,0,0,0,0,0,9,56,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,MANDLA,2013,1,4,61,11,0,0,0,0,0,0,0,0,77,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,MANDSAUR,2013,0,2,30,21,0,0,0,0,0,0,0,55,108,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,MORENA,2013,0,1,10,16,0,0,15,0,0,0,1,3,46,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,NARSINGHPUR,2013,0,2,45,51,0,2,2,0,0,0,0,89,191,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,NEEMUCH,2013,0,1,34,40,1,0,0,0,0,3,0,2,81,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,PANNA,2013,0,0,29,12,0,0,0,0,0,0,0,16,57,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,RAISEN,2013,0,0,56,13,0,0,0,0,0,0,0,68,137,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,RAJGARH,2013,0,0,30,32,0,0,0,0,0,0,0,138,200,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,RATLAM,2013,1,2,48,51,4,0,3,0,0,0,0,65,174,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,REWA,2013,0,4,58,20,0,0,23,0,0,0,0,159,264,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,SAGAR,2013,0,1,32,17,16,0,0,0,0,0,0,289,355,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,SATNA,2013,0,8,79,4,0,4,10,21,0,0,0,110,236,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,SEONI,2013,0,2,47,44,5,0,0,0,0,0,0,74,172,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,SHAHDOL,2013,1,3,49,96,0,0,0,0,0,0,0,118,267,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,SHAJAPUR,2013,0,1,29,18,0,1,0,0,0,0,0,40,89,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,SHEOPUR,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,SHIVPURI,2013,0,5,33,25,1,0,1,0,0,0,0,0,65,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,SIDHI,2013,0,0,30,61,0,0,10,0,0,0,0,11,112,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,SIHORE,2013,0,3,45,36,4,0,0,0,0,0,0,66,154,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,SINGRAULI,2013,0,1,17,79,2,2,0,0,0,0,0,60,161,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,TIKAMGARH,2013,1,2,46,32,0,0,6,0,0,0,0,101,188,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,UJJAIN,2013,0,3,77,32,0,0,0,0,0,0,0,150,262,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,UMARIYA,2013,0,1,15,28,0,0,0,0,0,0,0,24,68,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,VIDISHA,2013,0,3,82,105,11,2,0,0,0,0,0,222,425,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Madhya Pradesh,TOTAL,2013,8,114,2112,2262,79,16,124,21,0,3,6,3502,8247,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,AHMEDNAGAR,2013,0,6,59,30,1,3,0,0,0,0,0,60,159,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,AKOLA,2013,0,3,29,24,0,0,12,0,0,0,0,63,131,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,AMRAVATI COMMR.,2013,0,2,14,22,0,1,0,0,0,0,0,64,103,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,AMRAVATI RURAL,2013,0,3,49,36,0,0,1,0,0,0,0,126,215,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,AURANGABAD COMMR.,2013,0,4,6,39,1,0,4,0,0,0,2,36,92,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,AURANGABAD RURAL,2013,0,4,16,12,0,1,1,0,0,0,1,24,59,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,BEED,2013,0,12,37,23,0,1,6,1,0,0,2,63,145,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,BHANDARA,2013,1,3,19,18,0,2,1,0,0,0,0,43,87,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,BULDHANA,2013,0,6,33,19,0,0,4,0,0,0,1,59,122,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,CHANDRAPUR,2013,0,4,52,33,2,2,3,0,0,0,0,93,189,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,DHULE,2013,0,2,21,13,0,1,9,10,0,0,0,0,56,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,GADCHIROLI,2013,0,1,17,3,0,0,0,0,0,0,0,29,50,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,GONDIA,2013,0,2,23,9,0,0,0,0,0,0,0,32,66,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,HINGOLI,2013,0,1,7,6,0,0,4,0,0,0,0,0,18,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,JALGAON,2013,0,9,23,34,0,1,9,3,0,0,4,54,137,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,JALNA,2013,0,3,4,2,0,0,6,0,0,0,0,5,20,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,KOLHAPUR,2013,0,10,41,40,0,0,2,0,0,0,0,17,110,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,LATUR,2013,0,4,7,2,0,0,0,0,0,0,0,25,38,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,MUMBAI COMMR.,2013,2,7,221,279,9,2,26,2,0,2,0,352,902,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,MUMBAI RLY.,2013,0,0,4,6,0,1,6,0,0,0,0,4,21,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,NAGPUR COMMR.,2013,1,4,54,101,0,2,6,0,0,0,1,187,356,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,NAGPUR RLY.,2013,0,0,1,3,0,0,23,0,0,0,0,0,27,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,NAGPUR RURAL,2013,0,3,44,25,0,0,3,0,0,0,0,56,131,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,NANDED,2013,0,4,22,25,1,0,22,0,0,0,0,45,119,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,NANDURBAR,2013,0,1,10,8,0,0,3,0,0,0,0,14,36,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,NASIK COMMR.,2013,0,1,8,26,0,1,5,0,0,0,0,31,72,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,NASIK RURAL,2013,0,2,29,5,0,0,10,20,0,0,1,33,100,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,NAVI MUMBAI,2013,1,7,33,63,0,2,5,0,0,0,0,69,180,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,OSMANABAD,2013,0,0,23,28,0,3,3,0,0,0,0,34,91,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,PARBHANI,2013,0,4,16,38,0,0,5,0,0,0,0,20,83,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,PUNE COMMR.,2013,0,6,83,126,1,0,4,0,2,0,0,218,440,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,PUNE RLY.,2013,0,1,3,2,0,0,8,0,0,0,0,0,14,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,PUNE RURAL,2013,0,12,89,63,1,0,6,0,0,0,1,87,259,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,RAIGAD,2013,0,2,21,9,0,0,0,0,0,0,0,19,51,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,RATNAGIRI,2013,0,2,18,13,0,0,3,0,0,0,0,24,60,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,SANGLI,2013,0,7,42,32,0,1,6,0,0,1,2,45,136,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,SATARA,2013,0,9,44,43,1,0,5,0,0,0,0,90,192,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,SINDHUDURG,2013,0,0,4,5,0,1,1,0,0,0,0,13,24,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,SOLAPUR COMMR.,2013,0,4,19,17,0,0,1,4,0,0,0,0,45,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,SOLAPUR RURAL,2013,0,9,35,18,0,0,10,0,0,0,1,38,111,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,THANE COMMR.,2013,0,6,81,241,0,0,17,1,0,0,0,120,466,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,THANE RURAL,2013,1,8,80,50,0,0,11,0,0,10,0,96,256,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,WARDHA,2013,0,5,43,40,0,0,0,0,0,0,0,83,171,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,WASHIM,2013,0,3,18,11,0,1,1,0,0,0,0,56,90,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,YAVATMAL,2013,0,5,44,56,0,0,7,0,0,0,0,68,180,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Maharashtra,TOTAL,2013,6,191,1546,1698,17,26,259,41,2,13,16,2595,6410,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Manipur,BISHNUPUR,2013,0,0,7,4,0,0,0,0,0,0,0,0,11,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Manipur,CHANDEL,2013,0,0,0,1,0,0,0,0,0,0,0,0,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Manipur,CHURACHANDPUR,2013,0,0,0,0,0,0,0,2,0,0,0,0,2,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Manipur,CID,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Manipur,IMPHAL EAST,2013,0,0,4,22,0,0,0,0,0,0,0,0,26,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Manipur,IMPHAL WEST,2013,0,3,16,20,0,0,0,5,0,0,0,0,44,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Manipur,SENAPATI,2013,0,0,0,3,0,0,0,0,0,0,0,0,3,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Manipur,TAMENGLONG,2013,0,0,0,1,0,0,0,0,0,0,0,0,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Manipur,THOUBAL,2013,0,0,13,5,0,0,0,15,0,0,0,2,35,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Manipur,UKHRUL,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Manipur,TOTAL,2013,0,3,40,56,0,0,0,22,0,0,0,2,123,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Meghalaya,GARO HILLS EAST,2013,0,4,4,0,0,0,0,0,0,0,0,0,8,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Meghalaya,GARO HILLS NORTH,2013,0,1,0,2,0,0,0,0,0,0,0,3,6,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Meghalaya,GARO HILLS SOUTH,2013,0,0,6,2,0,0,0,0,0,0,0,1,9,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Meghalaya,GARO HILLS SOUTH W.,2013,0,0,5,0,0,0,0,0,0,0,0,0,5,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Meghalaya,GARO HILLS WEST,2013,0,0,12,0,0,0,0,7,0,0,0,4,23,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Meghalaya,JAINTIA HILLS EAST,2013,0,0,8,1,0,0,0,0,0,0,0,0,9,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Meghalaya,JAINTIA HILLS WEST,2013,0,0,13,2,0,0,0,0,0,0,0,0,15,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Meghalaya,KHASI HILLS EAST,2013,0,1,38,23,0,0,0,0,0,0,0,6,68,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Meghalaya,KHASI HILLS SOUTH W.,2013,0,2,5,0,0,0,0,0,0,0,0,0,7,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Meghalaya,KHASI HILLS WEST,2013,1,0,9,4,0,0,0,0,0,0,0,5,19,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Meghalaya,RI-BHOI,2013,0,0,12,1,0,0,0,1,0,0,0,0,14,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Meghalaya,TOTAL,2013,1,8,112,35,0,0,0,8,0,0,0,19,183,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Mizoram,AIZAWL,2013,0,0,22,0,0,0,0,0,0,0,0,11,33,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Mizoram,CHAMPHAI,2013,0,0,8,1,0,0,0,0,0,0,0,0,9,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Mizoram,KOLASIB,2013,0,1,3,1,0,0,0,0,0,0,0,0,5,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Mizoram,LAWNGTLAI,2013,0,0,3,0,0,0,0,0,0,0,0,0,3,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Mizoram,LUNGLEI,2013,0,0,11,0,0,0,0,0,0,0,0,0,11,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Mizoram,MAMIT,2013,0,1,3,0,0,0,0,0,0,0,0,6,10,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Mizoram,SAIHA,2013,0,0,3,0,0,0,0,0,0,0,0,0,3,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Mizoram,SERCHHIP,2013,0,0,4,0,0,0,0,0,0,0,0,0,4,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Mizoram,SPL NARCOTIC,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Mizoram,TRAFFIC PS,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Mizoram,TOTAL,2013,0,2,57,2,0,0,0,0,0,0,0,17,78,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Nagaland,DIMAPUR,2013,0,0,2,4,0,0,0,0,0,0,0,1,7,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Nagaland,KIPHIRE,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Nagaland,KOHIMA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Nagaland,LONGLENG,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Nagaland,MOKOKCHUNG,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Nagaland,MON,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Nagaland,PEREN,2013,0,0,1,0,0,0,0,0,0,0,0,0,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Nagaland,PHEK,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Nagaland,TUENSANG,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Nagaland,WOKHA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Nagaland,ZUNHEBOTO,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Nagaland,TOTAL,2013,0,0,3,4,0,0,0,0,0,0,0,1,8,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,ANGUL,2013,0,3,10,1,0,0,0,0,0,0,0,49,63,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,BALASORE,2013,0,1,49,61,1,0,0,68,0,0,0,2,182,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,BARAGARH,2013,0,1,32,27,0,0,0,0,0,0,0,0,60,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,BERHAMPUR,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,BHADRAK,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,BOLANGIR,2013,0,0,24,0,0,0,0,0,0,0,0,0,24,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,BOUDH,2013,0,0,39,36,0,0,0,0,0,0,0,0,75,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,CUTTACK,2013,0,0,9,0,0,0,0,8,0,0,0,0,17,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,DCP BBSR,2013,0,0,27,0,0,0,0,0,0,0,0,0,27,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,DCP CTC,2013,0,0,0,0,0,0,0,0,0,0,0,26,26,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,DEOGARH,2013,0,2,5,10,0,0,0,0,0,0,0,0,17,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,DHENKANAL,2013,0,0,10,0,0,0,0,0,0,0,0,0,10,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,GAJAPATI,2013,0,1,16,4,0,0,0,0,0,0,0,1,22,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,GANJAM,2013,0,0,2,0,0,0,0,0,0,0,0,0,2,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,JAGATSINGHPUR,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,JAJPUR,2013,0,0,24,0,0,0,0,0,0,0,0,0,24,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,JHARSUGUDA,2013,0,0,4,24,0,0,0,1,0,0,0,0,29,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,KALAHANDI,2013,0,7,41,46,0,0,0,0,0,0,0,0,94,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,KANDHAMAL,2013,0,0,1,2,0,0,0,0,0,0,0,3,6,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,KENDRAPARA,2013,0,3,23,37,0,0,0,0,0,0,0,0,63,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,KEONJHAR,2013,0,2,60,6,0,0,0,0,0,0,0,0,68,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,KHURDA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,KORAPUT,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,MALKANGIR,2013,0,0,9,0,0,0,0,0,0,0,0,0,9,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,MAYURBHANJ,2013,0,1,4,2,0,0,0,0,0,0,0,43,50,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,NAYAGARH,2013,0,0,12,23,0,0,0,0,0,0,0,0,35,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,NOWRANGPUR,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,NUAPADA,2013,0,0,0,32,0,0,0,0,0,0,0,15,47,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,PURI,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,RAYAGADA,2013,0,3,58,7,0,1,0,1,0,0,0,0,70,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,ROURKELA,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,SAMBALPUR,2013,0,2,6,2,0,0,0,0,0,0,0,0,10,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,SONEPUR,2013,0,0,5,5,0,0,0,0,0,0,0,0,10,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,SRP(CUTTACK),2013,0,0,0,0,0,0,0,1,0,0,0,0,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,SRP(ROURKELA),2013,0,0,1,3,0,0,0,0,0,0,0,0,4,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,SUNDARGARH,2013,0,2,38,38,0,0,0,0,0,0,0,0,78,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Odisha,TOTAL,2013,0,28,509,366,1,1,0,79,0,0,0,139,1123,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,AMRITSAR RURAL,2013,0,0,20,49,0,0,0,0,0,0,0,13,82,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,BARNALA,2013,0,1,10,25,0,0,0,0,0,0,0,0,36,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,BATALA,2013,0,0,26,26,1,0,0,0,0,0,0,6,59,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,BHATINDA,2013,0,4,35,44,3,0,0,0,0,0,0,0,86,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,CP AMRITSAR,2013,0,0,16,52,0,0,0,1,0,0,0,9,78,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,CP JALANDHAR,2013,0,1,25,51,6,0,0,0,0,0,0,0,83,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,CP LUDHIANA,2013,0,7,68,70,0,0,8,0,0,0,0,2,155,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,FARIDKOT,2013,0,0,7,0,0,0,0,0,0,0,0,0,7,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,FATEHGARH SAHIB,2013,1,0,8,14,0,0,0,0,0,0,0,8,31,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,FAZILKA,2013,0,1,21,22,0,0,0,0,0,0,0,3,47,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,FEROZPUR,2013,0,0,8,22,0,0,0,0,0,0,0,0,30,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,G.R.P,2013,3,0,1,0,0,0,0,0,0,0,0,0,4,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,GURDASPUR,2013,0,0,12,9,0,0,0,0,0,0,0,4,25,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,HOSHIARPUR,2013,0,0,21,0,0,0,0,0,0,0,0,0,21,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,JALANDHAR RURAL,2013,0,2,21,18,0,0,0,0,0,0,0,6,47,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,KAPURTHALA,2013,0,2,9,27,0,0,0,0,0,0,0,6,44,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,KHANNA,2013,0,0,13,6,0,0,0,0,0,0,0,0,19,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,LUDHIANA RURAL,2013,0,0,6,16,0,0,0,0,0,0,0,0,22,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,MANSA,2013,0,1,11,8,0,0,0,0,0,0,0,11,31,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,MOGA,2013,3,1,9,22,0,0,0,0,0,0,0,0,35,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,MUKTSAR,2013,0,1,10,38,0,0,0,0,0,0,0,8,57,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,PATHANKOT,2013,0,1,6,9,0,0,0,0,0,0,0,0,16,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,PATIALA,2013,0,3,37,44,2,0,0,0,0,0,0,4,90,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,ROPAR,2013,0,0,7,19,0,0,0,0,0,0,0,0,26,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,SANGRUR,2013,0,4,32,21,0,0,0,0,0,0,0,0,57,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,SAS NGR,2013,0,0,21,57,0,0,0,0,0,0,0,18,96,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,SBS NAGAR,2013,0,0,17,7,0,0,0,0,0,0,0,0,24,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,TARN TARAN,2013,0,1,13,14,0,0,0,0,0,0,0,0,28,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Punjab,TOTAL,2013,7,30,490,690,12,0,8,1,0,0,0,98,1336,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,AJMER,2013,4,2,12,13,0,0,2,4,0,0,1,0,38,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,ALWAR,2013,0,11,83,101,0,0,7,0,0,0,0,0,202,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,BANSWARA,2013,0,0,0,32,0,0,9,0,0,0,0,0,41,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,BARAN,2013,0,1,5,2,0,0,4,0,0,0,0,64,76,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,BARMER,2013,0,0,18,12,1,0,9,0,0,0,0,0,40,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,BHARATPUR,2013,0,11,34,97,1,0,11,0,0,0,0,0,154,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,BHILWARA,2013,0,2,41,40,1,0,11,0,0,0,0,0,95,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,BIKANER,2013,0,0,0,0,0,0,2,0,0,0,0,2,4,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,BUNDI,2013,0,0,32,45,0,0,1,0,0,0,0,0,78,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,CHITTORGARH,2013,0,1,34,10,0,0,1,0,1,0,1,13,61,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,CHURU,2013,0,0,28,11,4,0,1,0,0,0,0,0,44,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,DAUSA,2013,0,1,12,43,0,0,0,0,0,0,0,0,56,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,DHOLPUR,2013,0,4,19,15,0,0,4,0,0,0,0,10,52,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,DISCOM,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,DUNGARPUR,2013,0,1,48,57,0,0,0,0,0,0,0,0,106,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,G.R.P.AJMER,2013,0,0,0,7,0,0,12,0,0,0,0,0,19,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,G.R.P.JODHPUR,2013,0,0,0,0,0,0,1,0,0,0,0,0,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,GANGANAGAR,2013,0,1,25,42,2,0,7,13,0,0,0,10,100,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,HANUMANGARH,2013,0,0,38,28,3,0,0,24,0,0,0,3,96,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,JAIPUR EAST,2013,0,1,8,68,0,0,12,0,0,0,1,2,92,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,JAIPUR NORTH,2013,1,1,5,28,5,0,4,1,0,0,0,23,68,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,JAIPUR RURAL,2013,0,4,28,69,3,0,18,0,0,0,0,5,127,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,JAIPUR SOUTH,2013,0,0,15,38,0,1,1,0,0,0,0,11,66,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,JAIPUR WEST,2013,0,0,13,116,5,0,1,0,0,0,0,9,144,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,JAISALMER,2013,0,0,9,2,0,0,1,0,0,0,0,0,12,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,JALORE,2013,0,3,18,19,0,0,4,0,0,0,1,0,45,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,JHALAWAR,2013,0,0,37,76,0,0,4,0,0,0,0,0,117,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,JHUNJHUNU,2013,1,2,34,29,0,0,5,0,0,0,0,0,71,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,JODHPUR EAST,2013,0,1,2,5,0,0,6,0,0,0,0,0,14,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,JODHPUR RURAL,2013,1,1,25,26,0,0,0,0,0,0,0,0,53,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,JODHPUR WEST,2013,0,1,19,26,0,0,8,0,0,0,0,0,54,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,KARAULI,2013,0,0,9,25,1,0,1,0,0,0,0,0,36,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,KOTA CITY,2013,0,1,28,0,0,0,13,8,0,0,0,0,50,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,KOTA RURAL,2013,0,0,0,0,2,0,1,4,0,0,0,0,7,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,NAGAUR,2013,0,1,27,36,1,0,4,0,0,0,0,15,84,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,PALI,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,PRATAPGARH,2013,0,1,55,42,0,0,6,0,0,0,0,0,104,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,RAJSAMAND,2013,0,1,9,8,0,0,4,0,0,0,0,1,23,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,SAWAI MADHOPUR,2013,0,3,12,32,1,0,5,0,0,0,0,0,53,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,SIKAR,2013,0,0,26,45,0,0,16,0,0,0,0,0,87,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,SIROHI,2013,0,3,18,20,0,0,0,0,0,0,1,2,44,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,TONK,2013,0,1,14,25,4,0,6,0,0,0,0,0,50,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,UDAIPUR,2013,1,4,52,136,0,0,24,0,0,0,0,7,224,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Rajasthan,TOTAL,2013,8,64,892,1426,34,1,226,54,1,0,5,177,2888,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Sikkim,EAST,2013,0,0,16,8,0,0,0,0,0,0,0,0,24,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Sikkim,NORTH,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Sikkim,SOUTH,2013,0,0,5,5,0,0,0,0,0,0,0,0,10,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Sikkim,WEST,2013,0,0,4,1,0,0,0,0,0,0,0,0,5,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Sikkim,TOTAL,2013,0,0,25,14,0,0,0,0,0,0,0,0,39,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,ARIYALUR,2013,0,3,2,3,0,0,0,0,0,0,1,4,13,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,CHENNAI,2013,0,12,48,52,0,0,0,0,0,0,0,0,112,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,CHENNAI RLY.,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,COIMBATORE RURAL,2013,0,2,7,6,0,0,0,0,0,0,0,0,15,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,COIMBATORE URBAN,2013,0,1,12,2,0,0,0,0,0,0,0,0,15,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,CUDDALORE,2013,0,0,11,0,0,0,0,0,0,0,0,0,11,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,DHARMAPURI,2013,1,4,14,89,0,0,0,0,0,0,11,11,130,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,DINDIGUL,2013,0,4,1,1,0,0,0,0,0,0,0,4,10,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,ERODE,2013,0,1,9,5,0,0,0,0,0,0,0,0,15,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,KANCHIPURAM,2013,0,1,0,0,0,0,0,0,0,0,0,0,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,KANYAKUMARI,2013,0,3,5,17,0,0,0,0,0,0,2,8,35,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,KARUR,2013,0,4,3,0,0,0,0,0,0,0,0,0,7,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,KRISHNAGIRI,2013,1,5,4,43,0,0,0,0,0,0,2,0,55,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,MADURAI RURAL,2013,0,0,0,1,0,0,1,0,0,0,14,0,16,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,MADURAI URBAN,2013,8,1,10,10,0,0,0,0,0,0,0,0,29,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,NAGAPATTINAM,2013,0,0,5,0,0,0,0,0,0,0,0,0,5,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,NAMAKKAL,2013,0,2,16,22,0,0,0,0,0,0,10,0,50,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,NILGIRIS,2013,0,1,13,7,0,1,0,0,0,0,0,0,22,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,PERAMBALUR,2013,0,1,4,0,0,0,0,0,0,0,1,0,6,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,PUDUKOTTAI,2013,0,1,1,1,0,0,0,0,0,0,1,1,5,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,RAMNATHAPURAM,2013,0,1,0,0,0,0,0,0,0,0,1,12,14,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,SALEM RURAL,2013,0,1,19,39,0,0,0,0,0,0,1,0,60,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,SALEM URBAN,2013,0,0,13,10,0,0,0,0,0,0,1,4,28,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,SIVAGANGAI,2013,0,3,6,11,0,0,0,0,0,0,0,0,20,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,THANJAVUR,2013,0,2,22,1,0,0,0,0,0,0,0,9,34,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,THENI,2013,0,3,14,16,0,0,0,0,0,0,3,0,36,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,THIRUNELVELI RURAL,2013,1,6,45,60,1,0,0,0,0,0,0,13,126,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,THIRUNELVELI URBAN,2013,0,2,7,1,0,0,0,0,0,0,0,0,10,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,THIRUVALLUR,2013,0,1,8,11,0,0,0,0,0,0,0,0,20,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,THIRUVANNAMALAI,2013,0,4,14,6,0,0,0,0,0,0,2,0,26,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,THIRUVARUR,2013,0,0,1,0,0,0,0,0,0,0,1,1,3,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,THOOTHUGUDI,2013,0,3,20,10,0,0,0,0,0,0,2,10,45,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,TIRUPPUR,2013,0,6,11,0,0,0,0,0,0,0,0,0,17,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,TRICHY RLY.,2013,0,0,0,0,0,0,0,0,0,0,0,1,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,TRICHY RURAL,2013,0,0,9,16,0,0,0,0,0,0,0,11,36,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,TRICHY URBAN,2013,0,1,8,5,0,0,0,0,0,0,1,0,15,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,VELLORE,2013,0,2,32,2,0,0,0,0,0,0,2,2,40,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,VILLUPURAM,2013,0,2,16,48,0,0,0,0,0,0,0,19,85,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,VIRUDHUNAGAR,2013,2,0,9,4,0,1,1,0,0,0,0,3,20,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tamil Nadu,TOTAL,2013,13,83,419,499,1,2,2,0,0,0,56,113,1188,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tripura,DHALAI,2013,0,0,6,10,0,0,0,0,0,0,0,8,24,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tripura,GOMATI,2013,0,4,2,0,0,0,0,0,0,0,0,1,7,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tripura,GRP,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tripura,KHOWAI,2013,0,1,9,1,0,0,0,0,0,0,0,11,22,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tripura,NORTH,2013,0,0,1,0,0,0,0,0,0,0,0,1,2,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tripura,SIPAHIJALA,2013,0,2,14,9,0,0,0,0,0,0,0,0,25,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tripura,SOUTH,2013,0,1,1,0,0,0,0,0,0,0,0,0,2,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tripura,UNAKOTI,2013,0,1,1,1,0,0,0,0,0,0,1,5,9,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tripura,WEST,2013,0,0,9,0,0,0,0,0,0,0,0,0,9,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Tripura,TOTAL,2013,0,9,43,21,0,0,0,0,0,0,1,26,100,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,AGRA,2013,1,18,30,126,0,3,0,0,0,0,0,9,187,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,ALIGARH,2013,1,22,52,212,0,0,0,0,0,0,0,10,297,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,ALLAHABAD,2013,0,13,30,130,0,0,0,0,0,0,0,0,173,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,AMBEDKAR NAGAR,2013,0,3,1,14,0,0,0,0,0,0,0,34,52,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,AMETHI,2013,0,2,18,44,0,0,0,0,0,0,0,15,79,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,AMROHA,2013,0,11,9,39,0,0,0,0,0,0,0,0,59,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,AURAIYA,2013,0,3,8,65,0,0,0,0,0,0,0,17,93,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,AZAMGARH,2013,0,3,34,60,1,0,0,0,0,0,0,12,110,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,BADAUN,2013,0,13,27,121,0,0,0,0,0,0,0,10,171,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,BAGHPAT,2013,0,5,10,36,0,0,0,0,0,0,0,7,58,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,BAHRAICH,2013,0,3,20,98,0,0,0,0,0,0,0,23,144,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,BALLIA,2013,0,2,13,56,0,0,0,0,0,0,0,26,97,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,BALRAMPUR,2013,0,2,11,44,0,0,0,0,0,0,0,6,63,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,BANDA,2013,0,6,19,37,0,0,0,0,0,0,0,103,165,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,BARABANKI,2013,1,14,23,55,0,0,0,0,0,0,0,37,130,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,BAREILLY,2013,1,5,41,190,0,0,0,0,0,0,0,67,304,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,BASTI,2013,0,0,12,73,0,0,0,0,0,0,0,20,105,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,BIJNOR,2013,0,28,34,67,0,0,0,0,0,0,0,78,207,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,BULANDSHAHAR,2013,0,18,27,112,1,0,0,0,0,0,1,38,197,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,CHANDOLI,2013,0,1,11,35,0,0,0,0,0,0,1,23,71,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,CHITRAKOOT DHAM,2013,0,0,17,21,0,0,0,0,0,0,0,1,39,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,DEORIA,2013,0,8,30,161,0,1,0,0,0,0,0,23,223,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,ETAH,2013,1,7,23,13,0,8,0,0,0,0,1,41,94,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,ETAWAH,2013,1,6,18,55,0,0,0,0,0,0,0,1,81,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,FAIZABAD,2013,0,11,22,94,0,0,0,0,0,0,0,0,127,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,FATEHGARH,2013,0,7,7,10,0,0,0,0,0,0,0,11,35,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,FATEHPUR,2013,0,3,27,75,0,0,0,0,0,0,0,36,141,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,FIROZABAD,2013,0,4,39,169,0,0,0,0,0,0,0,0,212,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,G.R.P.,2013,0,1,3,33,0,0,1,0,0,0,0,3,41,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,GAUTAMBUDH NAGAR,2013,0,12,8,133,1,0,0,0,0,0,0,21,175,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,GHAZIABAD,2013,1,3,14,180,4,4,0,0,0,0,0,34,240,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,GHAZIPUR,2013,0,1,13,91,2,3,0,0,0,0,0,17,127,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,GONDA,2013,0,1,14,93,0,0,0,0,0,0,0,32,140,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,GORAKHPUR,2013,0,8,21,170,0,2,0,0,0,0,0,36,237,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,HAMIRPUR,2013,0,0,15,15,0,0,0,0,0,0,0,25,55,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,HAPUR,2013,0,2,15,38,0,0,0,0,0,0,0,5,60,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,HARDOI,2013,0,1,19,130,1,7,0,0,0,0,0,17,175,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,HATHRAS,2013,0,9,21,71,0,0,0,0,0,0,0,26,127,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,JALAUN,2013,0,6,6,33,0,0,0,0,0,0,0,20,65,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,JAUNPUR,2013,0,0,53,131,0,0,0,0,0,0,0,39,223,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,JHANSI,2013,0,5,9,41,0,0,0,0,0,0,0,33,88,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,KANNAUJ,2013,0,7,12,83,0,0,0,0,0,0,0,21,123,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,KANPUR DEHAT,2013,0,11,22,74,0,0,0,0,0,0,1,1,109,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,KANPUR NAGAR,2013,0,10,19,152,0,0,0,0,0,0,0,32,213,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,KASGANJ,2013,0,3,9,70,0,0,0,0,0,0,0,10,92,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,KAUSHAMBI,2013,0,1,7,37,0,0,0,0,0,0,0,0,45,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,KHIRI,2013,0,7,23,127,0,0,0,0,0,0,0,75,232,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,KUSHI NAGAR,2013,0,6,22,117,1,0,0,0,0,0,0,77,223,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,LALITPUR,2013,0,6,6,20,0,0,0,0,0,0,0,15,47,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,LUCKNOW,2013,1,4,32,54,3,2,0,0,0,0,0,118,214,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,MAHARAJGANJ,2013,0,4,6,60,0,0,0,0,0,0,0,30,100,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,MAHOBA,2013,0,1,9,7,0,0,0,0,0,0,0,0,17,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,MAINPURI,2013,0,5,13,88,0,0,0,0,0,0,0,15,121,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,MATHURA,2013,0,11,13,44,0,0,0,0,0,0,1,6,75,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,MAU,2013,0,1,14,80,0,0,0,0,0,0,0,7,102,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,MEERUT,2013,0,28,27,115,0,0,1,0,0,0,0,63,234,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,MIRZAPUR,2013,0,2,4,6,0,0,0,0,0,0,0,2,14,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,MORADABAD,2013,0,14,30,108,1,2,1,0,0,0,0,50,206,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,MUZAFFARNAGAR,2013,0,16,20,200,0,0,0,0,0,0,0,10,246,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,PILIBHIT,2013,0,2,14,10,0,0,0,0,0,0,0,15,41,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,PRATAPGARH,2013,0,7,15,89,0,0,0,0,0,0,0,13,124,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,RAIBAREILLY,2013,0,1,22,60,0,0,0,0,0,0,0,18,101,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,RAMPUR,2013,0,6,9,9,0,2,0,0,0,0,0,7,33,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,SAHARANPUR,2013,0,13,18,38,1,0,0,0,0,0,0,49,119,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,SAMBHAL,2013,0,9,9,116,0,0,0,0,0,0,0,22,156,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,SANT KABIRNAGAR,2013,0,0,15,59,0,0,0,0,0,0,0,22,96,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,SHAHJAHANPUR,2013,0,10,11,35,0,0,0,0,0,0,0,31,87,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,SHAMLI,2013,0,4,12,51,0,0,0,0,0,0,0,4,71,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,SHRAWASTI,2013,0,1,6,28,0,0,0,0,0,0,0,5,40,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,SIDHARTHNAGAR,2013,0,1,9,54,0,0,0,0,0,0,0,20,84,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,SITAPUR,2013,0,1,52,225,1,0,0,0,0,0,0,75,354,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,SONBHADRA,2013,0,7,15,12,0,0,0,0,0,0,0,3,37,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,ST.RAVIDASNAGAR,2013,0,2,3,15,0,0,0,0,0,0,0,4,24,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,SULTANPUR,2013,0,7,15,99,0,2,0,0,0,0,0,29,152,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,UNNAO,2013,2,6,18,155,0,0,0,0,0,0,0,85,266,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,VARANASI,2013,0,1,26,134,0,0,0,0,0,0,0,31,192,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttar Pradesh,TOTAL,2013,10,482,1381,6002,17,36,3,0,0,0,5,1921,9857,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttarakhand,ALMORA,2013,0,0,3,0,0,0,0,0,0,0,0,1,4,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttarakhand,BAGESHWAR,2013,0,0,0,0,0,0,0,0,0,0,0,2,2,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttarakhand,CHAMOLI,2013,0,0,3,9,0,0,0,1,0,0,0,0,13,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttarakhand,CHAMPAWAT,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttarakhand,DEHRADUN,2013,0,2,10,115,0,0,0,0,0,0,0,4,131,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttarakhand,HARIDWAR,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttarakhand,NAINITAL,2013,0,3,0,12,0,0,0,0,0,0,0,0,15,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttarakhand,PAURI GARHWAL,2013,0,0,2,8,0,0,0,0,0,0,0,0,10,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttarakhand,PITHORAGARH,2013,0,0,4,0,0,0,0,0,0,0,0,0,4,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttarakhand,RUDRA PRAYAG,2013,0,0,1,0,0,0,0,0,0,0,0,0,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttarakhand,TEHRI GARHWAL,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttarakhand,UDHAMSINGH NAGAR,2013,0,1,5,31,0,0,0,0,0,0,0,1,38,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttarakhand,UTTARKASHI,2013,0,1,4,6,0,0,0,0,0,0,0,3,14,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Uttarakhand,TOTAL,2013,0,7,32,181,0,0,0,1,0,0,0,11,232,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,24 PARGANAS NORTH,2013,0,5,51,163,0,0,0,78,0,23,6,0,326,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,24 PARGANAS SOUTH,2013,0,3,14,367,1,0,1,50,0,10,1,10,457,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,ASANSOL,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,BANKURA,2013,0,0,8,1,0,0,0,0,0,0,1,0,10,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,BDN CP,2013,0,0,0,0,0,0,0,0,0,0,1,0,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,BIRBHUM,2013,0,5,25,52,0,0,0,0,0,0,0,0,82,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,BKP CP,2013,0,0,0,27,0,0,0,0,0,0,0,0,27,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,BURDWAN,2013,0,5,12,0,1,0,0,10,0,5,1,5,39,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,COOCHBEHAR,2013,0,2,7,88,1,0,0,12,0,2,1,4,117,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,DAKSHIN DINAJPUR,2013,0,1,15,33,0,1,0,0,0,0,0,12,62,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,DARJEELING,2013,0,1,2,0,0,0,0,5,0,1,0,2,11,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,HOOGHLY,2013,0,5,12,5,0,0,0,0,0,0,0,0,22,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,HOWRAH,2013,0,0,0,0,0,0,0,0,0,0,1,0,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,HOWRAH CITY,2013,0,0,0,120,0,0,0,0,0,0,2,0,122,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,HOWRAH G.R.P.,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,JALPAIGURI,2013,0,2,2,51,0,0,0,5,0,2,5,2,69,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,JHARGRAM,2013,0,2,0,0,0,0,0,0,0,0,0,0,2,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,KHARAGPUR G.R.P.,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,KOLKATA,2013,0,4,58,156,0,4,0,8,0,9,0,42,281,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,MALDA,2013,0,0,7,154,0,0,0,3,0,0,3,1,168,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,MURSHIDABAD,2013,0,18,109,87,0,0,0,210,0,4,6,7,441,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,NADIA,2013,0,1,1,0,0,0,0,0,0,0,0,0,2,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,PASCHIM MIDNAPUR,2013,0,0,1,0,0,0,0,2,0,0,2,1,6,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,PURAB MIDNAPUR,2013,0,9,27,20,0,0,0,72,1,4,2,0,135,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,PURULIA,2013,0,0,12,0,0,0,0,0,0,0,3,2,17,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,SEALDAH G.R.P.,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,SILIGURI G.R.P.,2013,0,0,0,0,0,0,0,0,0,0,0,1,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,SILIGURI_PC,2013,0,0,0,46,0,0,0,0,0,0,2,0,48,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,UTTAR DINAJPUR,2013,0,5,14,18,0,0,0,31,0,9,6,0,83,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+West Bengal,TOTAL,2013,0,68,377,1388,3,5,1,486,1,69,43,89,2530,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+A&N Islands,CAR,2013,0,0,0,0,0,0,0,0,0,0,0,1,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+A&N Islands,NORTH,2013,0,0,4,5,0,0,0,0,0,0,0,6,15,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+A&N Islands,SOUTH,2013,0,0,17,7,1,0,2,0,0,0,0,11,38,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+A&N Islands,TOTAL,2013,0,0,21,12,1,0,2,0,0,0,0,18,54,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chandigarh,CHANDIGARH,2013,0,2,19,164,0,0,2,0,0,0,0,26,213,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Chandigarh,TOTAL,2013,0,2,19,164,0,0,2,0,0,0,0,26,213,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+D&N Haveli,D&N HAVELI,2013,0,0,4,10,0,0,0,0,0,0,0,0,14,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+D&N Haveli,TOTAL,2013,0,0,4,10,0,0,0,0,0,0,0,0,14,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Daman & Diu,DAMAN,2013,0,1,4,8,0,0,0,0,0,0,0,1,14,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Daman & Diu,DIU,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Daman & Diu,TOTAL,2013,0,1,4,8,0,0,0,0,0,0,0,1,14,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Delhi UT,CAW,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Delhi UT,CENTRAL,2013,0,2,39,197,1,0,3,0,0,0,0,57,299,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Delhi UT,CRIME BRANCH,2013,0,0,2,1,0,0,0,0,0,0,0,1,4,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Delhi UT,EAST,2013,0,3,83,674,0,0,9,0,0,0,0,3,772,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Delhi UT,EOW,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Delhi UT,GRP(RLY),2013,0,1,4,17,0,0,9,0,0,0,0,1,32,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Delhi UT,IGI AIRPORT,2013,0,0,0,1,0,0,0,0,0,0,0,0,1,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Delhi UT,METRO RAIL,2013,0,0,0,7,0,0,1,0,0,0,0,1,9,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Delhi UT,NEW DELHI,2013,0,0,10,63,0,0,1,0,0,0,0,15,89,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Delhi UT,NORTH,2013,0,1,17,251,0,0,3,0,0,0,0,13,285,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Delhi UT,NORTH-EAST,2013,0,5,91,845,0,0,10,0,0,0,0,29,980,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Delhi UT,NORTH-WEST,2013,0,0,78,569,0,0,1,0,0,0,0,32,680,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Delhi UT,OUTER,2013,1,7,93,873,0,0,5,0,0,0,0,59,1038,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Delhi UT,SOUTH,2013,0,2,34,482,0,0,6,0,0,0,0,65,589,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Delhi UT,SOUTH-EAST,2013,0,5,120,655,1,0,2,0,0,0,0,25,808,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Delhi UT,SOUTH-WEST,2013,1,1,94,503,1,0,3,0,0,0,1,86,690,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Delhi UT,STF,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Delhi UT,WEST,2013,0,6,92,671,0,1,3,0,0,0,0,150,923,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Delhi UT,TOTAL,2013,2,33,757,5809,3,1,56,0,0,0,1,537,7199,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Lakshadweep,LAKSHADWEEP,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Lakshadweep,TOTAL,2013,0,0,0,0,0,0,0,0,0,0,0,0,0,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Puducherry,KARAIKAL,2013,0,0,4,0,0,0,0,0,0,0,0,0,4,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Puducherry,PUDUCHERRY,2013,0,0,5,34,0,0,1,0,0,0,1,2,43,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv
+Puducherry,TOTAL,2013,0,0,9,34,0,0,1,0,0,0,1,2,47,CHILDREN,03_District_wise_crimes_committed_against_children_2013.csv

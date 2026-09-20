@@ -1,0 +1,12 @@
+﻿metric,value
+Rows,9856
+Columns,331
+Years,14
+States / UTs,72
+District / Unit names,1490
+Crime families,5
+Numeric crime features,323
+Columns with missing values,323
+Columns without missing values,8
+Duplicate rows,0
+Duplicate integration keys,0

@@ -1,0 +1,17 @@
+﻿output_type,location
+Dataset profile,outputs/tables/eda_dataset_profile.csv
+Year summary,outputs/tables/eda_year_summary.csv
+State summary,outputs/tables/eda_state_summary.csv
+Unit summary,outputs/tables/eda_unit_summary.csv
+Missing-value summary,outputs/tables/eda_missing_value_summary.csv
+Crime-family availability,outputs/tables/eda_crime_family_availability.csv
+Numeric feature statistics,outputs/tables/eda_numeric_descriptive_statistics.csv
+Total crime feature summary,outputs/tables/eda_total_crime_feature_summary.csv
+Top crime features,outputs/tables/eda_top_crime_features_by_sum.csv
+Zero-value analysis,outputs/tables/eda_zero_value_summary.csv
+Correlation matrix,outputs/tables/eda_correlation_matrix.csv
+Strong correlations,outputs/tables/eda_strong_feature_correlations.csv
+Outlier analysis,outputs/tables/eda_outlier_summary.csv
+Yearly family availability,outputs/tables/eda_yearly_crime_family_availability.csv
+State-year coverage,outputs/tables/eda_state_year_record_coverage.csv
+Final EDA summary,outputs/tables/final_eda_summary.csv
