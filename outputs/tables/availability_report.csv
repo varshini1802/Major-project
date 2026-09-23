@@ -1,0 +1,6 @@
+availability_column,available_count,unavailable_count,missing_count,available_percentage
+IPC_AVAILABLE,9631,225,0,97.72
+SC_AVAILABLE,9581,275,0,97.21
+ST_AVAILABLE,9616,240,0,97.56
+CHILDREN_AVAILABLE,8864,992,0,89.94
+WOMEN_AVAILABLE,9630,226,0,97.71
