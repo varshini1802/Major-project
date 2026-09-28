@@ -1,0 +1,2 @@
+before_column_count,after_column_count,columns_removed,columns_added,net_reduction,rows_before,rows_after
+331,318,19,6,13,9856,9856
