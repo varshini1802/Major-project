@@ -1,34 +1,37 @@
 """
-Feature engineering for the base-paper crime classification pipeline.
+Enhanced feature engineering for the Crime_Analysis project.
 
-This module creates meaningful crime-group features from the existing
-NCRB integrated dataset.
+INPUT
+-----
+data/processed/district_grouped_reduced.csv
+
+OUTPUT
+------
+data/processed/district_enhanced_features.csv
+
+Exactly five engineered features are created:
+
+1. TOTAL_GROUPED_CRIME
+2. ACTIVE_CRIME_GROUPS
+3. CRIME_DIVERSITY_INDEX
+4. PREV_YEAR_TOTAL_CRIME
+5. YOY_TOTAL_CRIME_CHANGE
 
 IMPORTANT
 ---------
-This module does NOT create the final ML target.
+TARGET_VIOLENT_LEVEL is never used to calculate any feature.
 
-The base paper describes a five-class violent-crime classification
-problem, but the exact mathematical rule used to convert the violent
-crime attributes into the five class labels is not sufficiently
-specified in the paper.
+However, the existing project target is itself constructed from
+current-year violent-crime burden. Therefore current-year crime-derived
+features are explicitly assessed for potential target leakage in the
+leakage audit.
 
-Therefore:
-
-    Original crime columns
-            ↓
-    Verified crime groups
-            ↓
-    Engineered predictor features
-            ↓
-    Target definition handled separately
-
-No target column is created here.
+No model training is performed here.
 """
 
 from pathlib import Path
-from typing import Optional
 
+import numpy as np
 import pandas as pd
 
 
@@ -38,440 +41,151 @@ import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
+INPUT_DATA = (
+    PROJECT_ROOT
+    / "data"
+    / "processed"
+    / "district_grouped_reduced.csv"
+)
+
+OUTPUT_DATA = (
+    PROJECT_ROOT
+    / "data"
+    / "processed"
+    / "district_enhanced_features.csv"
+)
+
 OUTPUT_TABLES_DIR = (
-    PROJECT_ROOT / "outputs" / "tables"
+    PROJECT_ROOT
+    / "outputs"
+    / "tables"
+)
+
+FEATURE_SUMMARY_PATH = (
+    OUTPUT_TABLES_DIR
+    / "enhanced_feature_summary.csv"
 )
 
 
 # =====================================================================
-# BASE-PAPER VIOLENT CRIME FEATURES
+# EXISTING COLUMNS
 # =====================================================================
 
-BASE_PAPER_FEATURE_GROUPS = {
+METADATA_COLUMNS = [
+    "YEAR",
+    "STATE",
+    "UNIT_NAME",
+]
 
-    "CHNOT_AMOUNTING_TO_MURDER": [
-        "IPC_CULPABLE_HOMICIDE_NOT_AMOUNTING_TO_MURDER",
-    ],
+GROUP_COLUMNS = [
+    "GROUP_HOMICIDE",
+    "GROUP_SEXUAL_VIOLENCE",
+    "GROUP_KIDNAPPING_ABDUCTION",
+    "GROUP_ROBBERY_DACOITY",
+    "GROUP_PUBLIC_VIOLENCE",
+    "GROUP_PROPERTY_CRIME",
+]
 
-    "RIOTS": [
-        "IPC_RIOTS",
-        "IPC_RIOTS_COMMUNAL",
-        "IPC_RIOTS_INDUSTRIAL",
-        "IPC_RIOTS_POLITICAL",
-        "IPC_RIOTS_CASTE_CONFLICT",
-        "IPC_RIOTS_AGRARIAN",
-        "IPC_RIOTS_STUDENTS",
-        "IPC_RIOTS_SECTARIAN",
-    ],
+TARGET_COLUMN = "TARGET_VIOLENT_LEVEL"
 
-    "RAPE": [
-        "IPC_RAPE",
-        "IPC_OTHER_RAPE",
-        "IPC_CUSTODIAL_RAPE",
-        "IPC_CUSTODIAL_GANG_RAPE",
-        "IPC_RAPE_GANG_RAPE",
-        "IPC_RAPE_OTHERS",
-    ],
+NEW_FEATURE_COLUMNS = [
+    "TOTAL_GROUPED_CRIME",
+    "ACTIVE_CRIME_GROUPS",
+    "CRIME_DIVERSITY_INDEX",
+    "PREV_YEAR_TOTAL_CRIME",
+    "YOY_TOTAL_CRIME_CHANGE",
+]
 
-    "MURDER": [
-        "IPC_MURDER",
-    ],
+EXPECTED_INPUT_COLUMNS = (
+    METADATA_COLUMNS
+    + GROUP_COLUMNS
+    + [TARGET_COLUMN]
+)
 
-    "PREPARATION_AND_ASSEMBLY_FOR_DACOITY": [
-        "IPC_PREPARATION_AND_ASSEMBLY_FOR_DACOITY",
-    ],
-
-    "DOWRY_DEATH": [
-        "IPC_DOWRY_DEATHS",
-    ],
-
-    "ROBBERY": [
-        "IPC_ROBBERY",
-    ],
-
-    "DACOITY": [
-        "IPC_DACOITY",
-        "IPC_OTHER_DACOITY",
-        "IPC_DACOITY_WITH_MURDER",
-    ],
-
-    "KIDNAPPING_ABDUCTION": [
-        "IPC_KIDNAPPING_AND_ABDUCTION_OF_WOMEN_AND_GIRLS",
-        "IPC_KIDNAPPING_AND_ABDUCTION_OF_OTHERS",
-        "IPC_KIDNAPPING_ABDUCTION",
-        "IPC_KIDNAPPING_FOR_RANSOM",
-    ],
-
-    "ARSON": [
-        "IPC_ARSON",
-    ],
-
-    "ATTEMPT_TO_MURDER": [
-        "IPC_ATTEMPT_TO_MURDER",
-    ],
-}
+EXPECTED_OUTPUT_COLUMNS = (
+    METADATA_COLUMNS
+    + GROUP_COLUMNS
+    + NEW_FEATURE_COLUMNS
+    + [TARGET_COLUMN]
+)
 
 
 # =====================================================================
-# ADDITIONAL CRIME GROUPS
+# VALIDATION
 # =====================================================================
 
-ADDITIONAL_CRIME_GROUPS = {
-
-    "THEFT_BURGLARY_TRESPASS": [
-        "IPC_THEFT",
-        "IPC_OTHER_THEFT",
-        "IPC_BURGLARY",
-        "IPC_CRIMINAL_TRESPASS_BURGLARY",
-    ],
-
-    "CHEATING_FRAUD": [
-        "IPC_CHEATING",
-        "IPC_FORGERY",
-        "IPC_COUNTERFEITING",
-    ],
-
-    "EXTORTION": [
-        "IPC_EXTORTION",
-    ],
-
-    "CRIMINAL_BREACH_OF_TRUST": [
-        "IPC_CRIMINAL_BREACH_OF_TRUST",
-    ],
-
-    "HURT_ASSAULT": [
-        "IPC_HURT_GREVIOUS_HURT",
-        "IPC_GRIEVOUS_HURT",
-    ],
-
-    "HUMAN_TRAFFICKING": [
-        "IPC_HUMANTRAFFICKING",
-    ],
-
-    "CRIMES_AGAINST_STATE": [
-        "IPC_OFFENCES_AGAINST_STATE",
-        "IPC_SEDITION",
-    ],
-
-    "RASH_DRIVING": [
-        "IPC_RASH_DRIVING",
-    ],
-
-    "UNNATURAL_OFFENCE": [
-        "IPC_UNNATURAL_OFFENCE",
-    ],
-}
-
-
-# =====================================================================
-# BASIC COLUMN VALIDATION
-# =====================================================================
-
-def get_existing_columns(
-    df: pd.DataFrame,
-    columns: list[str]
-) -> list[str]:
+def validate_input_columns(
+    df: pd.DataFrame
+) -> None:
     """
-    Return only columns that actually exist in the dataset.
+    Ensure the input dataset contains exactly the expected
+    existing columns.
     """
 
-    existing = set(
-        df.columns
-    )
-
-    return [
+    missing = [
         column
-        for column in columns
-        if column in existing
+        for column in EXPECTED_INPUT_COLUMNS
+        if column not in df.columns
     ]
 
-
-# =====================================================================
-# GROUP VALIDATION
-# =====================================================================
-
-def validate_feature_groups(
-    df: pd.DataFrame,
-    feature_groups: dict[str, list[str]]
-) -> pd.DataFrame:
-    """
-    Check which columns from every feature group exist in the dataset.
-
-    Returns a validation table instead of silently inventing features.
-    """
-
-    rows = []
-
-    for (
-        group_name,
-        columns
-    ) in feature_groups.items():
-
-        existing_columns = (
-            get_existing_columns(
-                df,
-                columns
-            )
+    if missing:
+        raise ValueError(
+            "Missing required input columns:\n"
+            + "\n".join(missing)
         )
 
-        missing_columns = [
-            column
-            for column in columns
-            if column not in df.columns
-        ]
-
-        rows.append({
-            "feature_group":
-                group_name,
-
-            "requested_columns":
-                len(columns),
-
-            "existing_columns":
-                len(existing_columns),
-
-            "missing_columns":
-                len(missing_columns),
-
-            "existing_column_names":
-                " | ".join(
-                    existing_columns
-                ),
-
-            "missing_column_names":
-                " | ".join(
-                    missing_columns
-                ),
-        })
-
-    return pd.DataFrame(rows)
-
 
 # =====================================================================
-# SAFE NUMERIC VALUE PREPARATION
+# NUMERIC PREPARATION
 # =====================================================================
 
-def prepare_numeric_crime_columns(
+def prepare_group_columns(
     df: pd.DataFrame
 ) -> pd.DataFrame:
     """
-    Convert crime columns to numeric where possible.
+    Convert the six grouped crime columns to numeric.
 
     Missing values remain missing.
-
-    No global fillna(0) is performed here.
+    No global fillna(0) is performed.
     """
 
     result = df.copy()
 
-    for column in result.columns:
+    for column in GROUP_COLUMNS:
 
-        if (
-            column.startswith("IPC_")
-            or column.startswith("SC_")
-            or column.startswith("ST_")
-            or column.startswith("CHILDREN_")
-            or column.startswith("WOMEN_")
-        ):
-
-            result[column] = pd.to_numeric(
-                result[column],
-                errors="coerce"
-            )
-
-    return result
-
-
-# =====================================================================
-# GROUPED FEATURE CREATION
-# =====================================================================
-
-def create_grouped_sum(
-    df: pd.DataFrame,
-    columns: list[str],
-    output_name: str,
-) -> pd.DataFrame:
-    """
-    Create a grouped crime feature from verified component columns.
-
-    IMPORTANT:
-        Missing values are ignored during the row-wise sum.
-
-    min_count=1 ensures that a row containing only missing component
-    values remains missing rather than becoming zero.
-    """
-
-    result = df.copy()
-
-    existing_columns = (
-        get_existing_columns(
-            result,
-            columns
+        result[column] = pd.to_numeric(
+            result[column],
+            errors="coerce"
         )
-    )
-
-    if not existing_columns:
-        return result
-
-    result[output_name] = (
-        result[
-            existing_columns
-        ]
-        .sum(
-            axis=1,
-            min_count=1
-        )
-    )
-
-    return result
-
-
-def create_feature_groups(
-    df: pd.DataFrame,
-    feature_groups: dict[str, list[str]]
-) -> pd.DataFrame:
-    """
-    Create grouped crime features.
-
-    The original columns are preserved.
-
-    New grouped columns receive the prefix:
-
-        GROUPED_
-    """
-
-    result = df.copy()
-
-    for (
-        group_name,
-        columns
-    ) in feature_groups.items():
-
-        output_name = (
-            f"GROUPED_{group_name}"
-        )
-
-        result = create_grouped_sum(
-            result,
-            columns,
-            output_name
-        )
-
-    return result
-
-
-# =====================================================================
-# TIME FEATURES
-# =====================================================================
-
-def create_time_features(
-    df: pd.DataFrame
-) -> pd.DataFrame:
-    """
-    Create time-related features supported by the actual dataset.
-
-    The dataset contains YEAR, but no verified MONTH/SEASON field.
-
-    Therefore only year-derived features are created.
-    """
-
-    result = df.copy()
-
-    if "YEAR" not in result.columns:
-        return result
 
     result["YEAR"] = pd.to_numeric(
         result["YEAR"],
         errors="coerce"
     )
 
-    # Keep the original YEAR.
-    # Create a relative time index for modelling.
-    minimum_year = result["YEAR"].min()
-
-    if pd.notna(minimum_year):
-
-        result["YEAR_INDEX"] = (
-            result["YEAR"]
-            - minimum_year
-        )
-
     return result
 
 
 # =====================================================================
-# LOCATION FEATURES
+# 1. TOTAL GROUPED CRIME
 # =====================================================================
 
-def create_location_features(
+def create_total_grouped_crime(
     df: pd.DataFrame
 ) -> pd.DataFrame:
     """
-    Prepare location features using only information actually present
-    in the dataset.
+    Calculate the total across the six existing grouped crime
+    categories.
 
-    The dataset contains STATE and UNIT_NAME.
+    If all six source values are missing, the result remains missing.
 
-    No latitude, longitude, region, or district is invented.
+    If some values are available, the available values are summed.
     """
 
     result = df.copy()
 
-    if "STATE" in result.columns:
-
-        result["STATE"] = (
-            result["STATE"]
-            .astype("string")
-            .str.strip()
-        )
-
-    if "UNIT_NAME" in result.columns:
-
-        result["UNIT_NAME"] = (
-            result["UNIT_NAME"]
-            .astype("string")
-            .str.strip()
-        )
-
-    return result
-
-
-# =====================================================================
-# TOTAL VIOLENT CRIME FEATURE
-# =====================================================================
-
-def create_violent_crime_total(
-    df: pd.DataFrame
-) -> pd.DataFrame:
-    """
-    Create a broad violent-crime feature from the verified
-    base-paper violent-crime groups.
-
-    This is a predictor feature, NOT the classification target.
-
-    IMPORTANT:
-        This feature should only be used if it is not subsequently
-        used to directly construct the target in a way that causes
-        leakage.
-
-    The individual grouped features are retained separately.
-    """
-
-    result = df.copy()
-
-    grouped_columns = [
-        f"GROUPED_{group}"
-        for group in BASE_PAPER_FEATURE_GROUPS
-        if f"GROUPED_{group}" in result.columns
-    ]
-
-    if not grouped_columns:
-        return result
-
-    result["VIOLENT_CRIME_TOTAL"] = (
-        result[
-            grouped_columns
-        ]
+    result["TOTAL_GROUPED_CRIME"] = (
+        result[GROUP_COLUMNS]
         .sum(
             axis=1,
             min_count=1
@@ -482,424 +196,684 @@ def create_violent_crime_total(
 
 
 # =====================================================================
-# FEATURE CREATION PIPELINE
+# 2. ACTIVE CRIME GROUPS
 # =====================================================================
 
-def engineer_features(
-    df: pd.DataFrame,
-    create_violent_total: bool = True
-) -> tuple[pd.DataFrame, pd.DataFrame]:
+def create_active_crime_groups(
+    df: pd.DataFrame
+) -> pd.DataFrame:
     """
-    Complete feature-engineering pipeline.
+    Count how many of the six grouped crime categories have a value
+    greater than zero.
 
-    Returns
-    -------
-    engineered_df
-        Dataset with engineered predictor features.
-
-    validation_report
-        Report showing which requested source columns actually exist.
+    For rows where all six grouped values are missing, the result
+    remains missing rather than being interpreted as zero active groups.
     """
 
     result = df.copy()
 
-    # ---------------------------------------------------------------
-    # Numeric preparation
-    # ---------------------------------------------------------------
-
-    result = prepare_numeric_crime_columns(
-        result
+    all_missing = (
+        result[GROUP_COLUMNS]
+        .isna()
+        .all(axis=1)
     )
 
-    # ---------------------------------------------------------------
-    # Validate base-paper groups
-    # ---------------------------------------------------------------
-
-    basepaper_validation = (
-        validate_feature_groups(
-            result,
-            BASE_PAPER_FEATURE_GROUPS
-        )
+    result["ACTIVE_CRIME_GROUPS"] = (
+        result[GROUP_COLUMNS]
+        .gt(0)
+        .sum(axis=1)
+        .astype("float64")
     )
 
-    # ---------------------------------------------------------------
-    # Validate additional crime groups
-    # ---------------------------------------------------------------
+    result.loc[
+        all_missing,
+        "ACTIVE_CRIME_GROUPS"
+    ] = np.nan
 
-    additional_validation = (
-        validate_feature_groups(
-            result,
-            ADDITIONAL_CRIME_GROUPS
-        )
-    )
-
-    validation_report = pd.concat(
-        [
-            basepaper_validation,
-            additional_validation
-        ],
-        ignore_index=True
-    )
-
-    # ---------------------------------------------------------------
-    # Create base-paper grouped features
-    # ---------------------------------------------------------------
-
-    result = create_feature_groups(
-        result,
-        BASE_PAPER_FEATURE_GROUPS
-    )
-
-    # ---------------------------------------------------------------
-    # Create additional grouped features
-    # ---------------------------------------------------------------
-
-    result = create_feature_groups(
-        result,
-        ADDITIONAL_CRIME_GROUPS
-    )
-
-    # ---------------------------------------------------------------
-    # Create time features
-    # ---------------------------------------------------------------
-
-    result = create_time_features(
-        result
-    )
-
-    # ---------------------------------------------------------------
-    # Create location features
-    # ---------------------------------------------------------------
-
-    result = create_location_features(
-        result
-    )
-
-    # ---------------------------------------------------------------
-    # Create broad violent-crime total
-    # ---------------------------------------------------------------
-
-    if create_violent_total:
-
-        result = create_violent_crime_total(
-            result
-        )
-
-    return (
-        result,
-        validation_report
-    )
+    return result
 
 
 # =====================================================================
-# FEATURE REPORT
+# 3. CRIME DIVERSITY INDEX
 # =====================================================================
 
-def create_feature_summary(
-    df: pd.DataFrame,
-    original_columns: list[str]
+def calculate_shannon_entropy(
+    row: pd.Series
+) -> float:
+    """
+    Calculate Shannon entropy for one row using the six grouped
+    crime categories.
+
+    Formula:
+
+        H = -sum(p_i * ln(p_i))
+
+    where:
+
+        p_i = crime_group_i / total_grouped_crime
+
+    Zero-valued groups contribute zero to the entropy.
+
+    If the total crime is zero, entropy is defined as 0.0 because
+    there is no observed crime distribution.
+
+    If all six source values are missing, entropy remains NaN.
+    """
+
+    values = row[GROUP_COLUMNS].to_numpy(
+        dtype=float
+    )
+
+    if np.all(np.isnan(values)):
+        return np.nan
+
+    values = np.nan_to_num(
+        values,
+        nan=0.0
+    )
+
+    total = values.sum()
+
+    if total == 0:
+        return 0.0
+
+    probabilities = (
+        values / total
+    )
+
+    positive_probabilities = (
+        probabilities[
+            probabilities > 0
+        ]
+    )
+
+    return float(
+        -np.sum(
+            positive_probabilities
+            * np.log(
+                positive_probabilities
+            )
+        )
+    )
+
+
+def create_crime_diversity_index(
+    df: pd.DataFrame
 ) -> pd.DataFrame:
     """
-    Summarize newly created features.
+    Create the Shannon entropy-based crime diversity index.
     """
+
+    result = df.copy()
+
+    result["CRIME_DIVERSITY_INDEX"] = (
+        result.apply(
+            calculate_shannon_entropy,
+            axis=1
+        )
+    )
+
+    return result
+
+
+# =====================================================================
+# 4. PREVIOUS YEAR TOTAL CRIME
+# =====================================================================
+
+def create_previous_year_total_crime(
+    df: pd.DataFrame
+) -> pd.DataFrame:
+    """
+    Obtain TOTAL_GROUPED_CRIME from the actual previous calendar year
+    for the same STATE and UNIT_NAME.
+
+    Matching key:
+
+        STATE + UNIT_NAME + YEAR
+
+    Previous year:
+
+        YEAR - 1
+
+    No previous row is assumed from dataframe ordering.
+
+    If the actual previous-year record does not exist, the value
+    remains missing.
+    """
+
+    result = df.copy()
+
+    lookup = (
+        result[
+            [
+                "STATE",
+                "UNIT_NAME",
+                "YEAR",
+                "TOTAL_GROUPED_CRIME",
+            ]
+        ]
+        .copy()
+    )
+
+    lookup["YEAR"] = (
+        pd.to_numeric(
+            lookup["YEAR"],
+            errors="coerce"
+        )
+    )
+
+    lookup = lookup.rename(
+        columns={
+            "YEAR":
+                "PREVIOUS_YEAR",
+
+            "TOTAL_GROUPED_CRIME":
+                "PREV_YEAR_TOTAL_CRIME",
+        }
+    )
+
+    result["PREVIOUS_YEAR"] = (
+        result["YEAR"] - 1
+    )
+
+    result = result.merge(
+        lookup[
+            [
+                "STATE",
+                "UNIT_NAME",
+                "PREVIOUS_YEAR",
+                "PREV_YEAR_TOTAL_CRIME",
+            ]
+        ],
+        on=[
+            "STATE",
+            "UNIT_NAME",
+            "PREVIOUS_YEAR",
+        ],
+        how="left",
+        sort=False,
+        validate="one_to_one",
+    )
+
+    result = result.drop(
+        columns=["PREVIOUS_YEAR"]
+    )
+
+    return result
+
+
+# =====================================================================
+# 5. YEAR-OVER-YEAR CHANGE
+# =====================================================================
+
+def create_yoy_total_crime_change(
+    df: pd.DataFrame
+) -> pd.DataFrame:
+    """
+    Calculate:
+
+        current TOTAL_GROUPED_CRIME
+        -
+        PREV_YEAR_TOTAL_CRIME
+
+    If the previous-year value does not exist, the result remains
+    missing.
+
+    No percentage change is calculated.
+    """
+
+    result = df.copy()
+
+    result["YOY_TOTAL_CRIME_CHANGE"] = (
+        result["TOTAL_GROUPED_CRIME"]
+        - result["PREV_YEAR_TOTAL_CRIME"]
+    )
+
+    return result
+
+
+# =====================================================================
+# COMPLETE FEATURE ENGINEERING PIPELINE
+# =====================================================================
+
+def engineer_enhanced_features(
+    df: pd.DataFrame
+) -> pd.DataFrame:
+    """
+    Create exactly the five requested engineered features.
+    """
+
+    validate_input_columns(df)
+
+    result = prepare_group_columns(df)
+
+    # ---------------------------------------------------------------
+    # Current-year aggregate features
+    # ---------------------------------------------------------------
+
+    result = create_total_grouped_crime(
+        result
+    )
+
+    result = create_active_crime_groups(
+        result
+    )
+
+    result = create_crime_diversity_index(
+        result
+    )
+
+    # ---------------------------------------------------------------
+    # Previous-year feature
+    # ---------------------------------------------------------------
+
+    result = create_previous_year_total_crime(
+        result
+    )
+
+    # ---------------------------------------------------------------
+    # Year-over-year change
+    # ---------------------------------------------------------------
+
+    result = create_yoy_total_crime_change(
+        result
+    )
+
+    # ---------------------------------------------------------------
+    # Final column ordering
+    # ---------------------------------------------------------------
+
+    result = result[
+        EXPECTED_OUTPUT_COLUMNS
+    ]
+
+    return result
+
+
+# =====================================================================
+# FEATURE SUMMARY
+# =====================================================================
+
+def create_enhanced_feature_summary() -> pd.DataFrame:
+    """
+    Create the required feature summary table.
+    """
+
+    return pd.DataFrame([
+        {
+            "Feature Name":
+                "TOTAL_GROUPED_CRIME",
+
+            "Purpose":
+                "Total crime count across the six existing grouped crime categories.",
+
+            "Calculation/Source":
+                "Sum of GROUP_HOMICIDE, GROUP_SEXUAL_VIOLENCE, GROUP_KIDNAPPING_ABDUCTION, GROUP_ROBBERY_DACOITY, GROUP_PUBLIC_VIOLENCE, and GROUP_PROPERTY_CRIME.",
+
+            "Temporal Information Used":
+                "Current year only.",
+
+            "Leakage Risk":
+                "HIGH — current-year crime values overlap conceptually with the existing target construction."
+        },
+
+        {
+            "Feature Name":
+                "ACTIVE_CRIME_GROUPS",
+
+            "Purpose":
+                "Number of the six crime groups with a count greater than zero.",
+
+            "Calculation/Source":
+                "Count of grouped crime features whose value is greater than zero.",
+
+            "Temporal Information Used":
+                "Current year only.",
+
+            "Leakage Risk":
+                "HIGH — derived from current-year crime values used in the target construction."
+        },
+
+        {
+            "Feature Name":
+                "CRIME_DIVERSITY_INDEX",
+
+            "Purpose":
+                "Measure how distributed crime is across the six crime groups.",
+
+            "Calculation/Source":
+                "Shannon entropy: -sum(p_i * ln(p_i)); zero groups contribute zero; total crime equal to zero gives entropy 0.0; all-source-missing rows remain missing.",
+
+            "Temporal Information Used":
+                "Current year only.",
+
+            "Leakage Risk":
+                "HIGH — derived from the current-year crime distribution."
+        },
+
+        {
+            "Feature Name":
+                "PREV_YEAR_TOTAL_CRIME",
+
+            "Purpose":
+                "Represent the total grouped crime count from the actual previous calendar year for the same state and unit.",
+
+            "Calculation/Source":
+                "Exact match on STATE + UNIT_NAME + YEAR, where matched YEAR = current YEAR - 1.",
+
+            "Temporal Information Used":
+                "Previous calendar year only.",
+
+            "Leakage Risk":
+                "LOW — uses only historical information and never uses future-year information."
+        },
+
+        {
+            "Feature Name":
+                "YOY_TOTAL_CRIME_CHANGE",
+
+            "Purpose":
+                "Measure the absolute change in total grouped crime from the previous year to the current year.",
+
+            "Calculation/Source":
+                "TOTAL_GROUPED_CRIME - PREV_YEAR_TOTAL_CRIME.",
+
+            "Temporal Information Used":
+                "Current year and previous calendar year.",
+
+            "Leakage Risk":
+                "HIGH — contains the current-year TOTAL_GROUPED_CRIME component."
+        },
+    ])
+
+
+# =====================================================================
+# MAIN
+# =====================================================================
+
+def main() -> None:
+
+    print("=" * 80)
+    print("ENHANCED CRIME FEATURE ENGINEERING")
+    print("=" * 80)
+
+    # ---------------------------------------------------------------
+    # Load input
+    # ---------------------------------------------------------------
+
+    print("\nLoading:")
+    print(INPUT_DATA)
+
+    df = pd.read_csv(
+        INPUT_DATA
+    )
+
+    print(
+        f"\nOriginal shape: {df.shape}"
+    )
+
+    # ---------------------------------------------------------------
+    # Validate input
+    # ---------------------------------------------------------------
+
+    validate_input_columns(df)
+
+    original_row_count = len(df)
+    original_column_count = len(df.columns)
+
+    original_columns = df.columns.tolist()
+
+    # ---------------------------------------------------------------
+    # Create enhanced dataset
+    # ---------------------------------------------------------------
+
+    enhanced_df = (
+        engineer_enhanced_features(
+            df
+        )
+    )
+
+    # ---------------------------------------------------------------
+    # Validate output columns
+    # ---------------------------------------------------------------
 
     new_columns = [
         column
-        for column in df.columns
+        for column in enhanced_df.columns
         if column not in original_columns
     ]
 
-    rows = []
-
+    print("\nNew columns created:")
     for column in new_columns:
+        print(f"- {column}")
 
-        rows.append({
-            "feature":
-                column,
-
-            "dtype":
-                str(
-                    df[column].dtype
-                ),
-
-            "missing_count":
-                int(
-                    df[column].isna().sum()
-                ),
-
-            "missing_percentage":
-                round(
-                    df[column].isna().mean() * 100,
-                    2
-                ),
-
-            "unique_values":
-                int(
-                    df[column].nunique(
-                        dropna=True
-                    )
-                ),
-        })
-
-    return pd.DataFrame(rows)
-
-
-# =====================================================================
-# SAVE FEATURE REPORTS
-# =====================================================================
-
-def save_feature_reports(
-    validation_report: pd.DataFrame,
-    feature_summary: pd.DataFrame,
-    output_dir: Optional[str | Path] = None
-) -> dict[str, Path]:
-    """
-    Save feature-engineering audit reports.
-    """
-
-    if output_dir is None:
-
-        output_dir = (
-            OUTPUT_TABLES_DIR
+    if new_columns != NEW_FEATURE_COLUMNS:
+        raise ValueError(
+            "The output does not contain exactly the five requested "
+            "new features."
         )
 
-    else:
+    # ---------------------------------------------------------------
+    # Row count
+    # ---------------------------------------------------------------
 
-        output_dir = Path(
-            output_dir
+    print(
+        "\nRow count:"
+    )
+
+    print(
+        "Original :", original_row_count
+    )
+
+    print(
+        "Enhanced :", len(enhanced_df)
+    )
+
+    if len(enhanced_df) != original_row_count:
+        raise ValueError(
+            "Row count changed during feature engineering."
         )
 
-    output_dir.mkdir(
-        parents=True,
-        exist_ok=True
-    )
-
-    validation_path = (
-        output_dir /
-        "feature_group_validation.csv"
-    )
-
-    summary_path = (
-        output_dir /
-        "engineered_feature_summary.csv"
-    )
-
-    validation_report.to_csv(
-        validation_path,
-        index=False
-    )
-
-    feature_summary.to_csv(
-        summary_path,
-        index=False
-    )
-
-    return {
-        "feature_group_validation":
-            validation_path,
-
-        "engineered_feature_summary":
-            summary_path,
-    }
-
-
-# =====================================================================
-# MAIN TEST
-# =====================================================================
-
-if __name__ == "__main__":
-
-    from data_loading import load_crime_data
-
-    print("=" * 70)
-    print(
-        "FEATURE ENGINEERING TEST"
-    )
-    print("=" * 70)
-
     # ---------------------------------------------------------------
-    # Load original integrated dataset
-    # ---------------------------------------------------------------
-
-    df = load_crime_data()
-
-    print(
-        f"\nOriginal dataset shape: "
-        f"{df.shape}"
-    )
-
-    original_columns = (
-        df.columns.tolist()
-    )
-
-    # ---------------------------------------------------------------
-    # Engineer features
-    # ---------------------------------------------------------------
-
-    (
-        engineered_df,
-        validation_report
-    ) = engineer_features(
-        df,
-        create_violent_total=True
-    )
-
-    # ---------------------------------------------------------------
-    # Print validation report
+    # Missing values
     # ---------------------------------------------------------------
 
     print(
-        "\nBASE-PAPER / ADDITIONAL FEATURE GROUP VALIDATION"
+        "\nMissing values:"
     )
 
-    print("-" * 70)
-
     print(
-        validation_report.to_string(
-            index=False
+        enhanced_df
+        .isna()
+        .sum()
+        .to_string()
+    )
+
+    # ---------------------------------------------------------------
+    # Infinite values
+    # ---------------------------------------------------------------
+
+    numeric_columns = (
+        enhanced_df
+        .select_dtypes(
+            include="number"
         )
+        .columns
+    )
+
+    infinite_counts = np.isinf(
+        enhanced_df[
+            numeric_columns
+        ].to_numpy()
+    ).sum()
+
+    print(
+        "\nTotal infinite numeric values:",
+        int(infinite_counts)
+    )
+
+    if infinite_counts != 0:
+        raise ValueError(
+            "Infinite values detected."
+        )
+
+    # ---------------------------------------------------------------
+    # Duplicate rows
+    # ---------------------------------------------------------------
+
+    duplicate_rows = (
+        enhanced_df
+        .duplicated()
+        .sum()
+    )
+
+    print(
+        "\nDuplicate rows:",
+        int(duplicate_rows)
+    )
+
+    # ---------------------------------------------------------------
+    # Previous-year matching
+    # ---------------------------------------------------------------
+
+    previous_year_available = (
+        enhanced_df[
+            "PREV_YEAR_TOTAL_CRIME"
+        ]
+        .notna()
+    )
+
+    previous_year_count = (
+        int(
+            previous_year_available.sum()
+        )
+    )
+
+    previous_year_missing = (
+        int(
+            (~previous_year_available).sum()
+        )
+    )
+
+    print(
+        "\nPrevious-year matching:"
+    )
+
+    print(
+        "Records with previous-year information :",
+        previous_year_count
+    )
+
+    print(
+        "Records without previous-year information:",
+        previous_year_missing
+    )
+
+    # ---------------------------------------------------------------
+    # Target distribution
+    # ---------------------------------------------------------------
+
+    print(
+        "\nTarget distribution:"
+    )
+
+    print(
+        enhanced_df[
+            TARGET_COLUMN
+        ]
+        .value_counts(
+            dropna=False
+        )
+        .sort_index()
+        .to_string()
+    )
+
+    # ---------------------------------------------------------------
+    # Data types
+    # ---------------------------------------------------------------
+
+    print(
+        "\nData types:"
+    )
+
+    print(
+        enhanced_df
+        .dtypes
+        .to_string()
     )
 
     # ---------------------------------------------------------------
     # Feature summary
     # ---------------------------------------------------------------
 
+    OUTPUT_TABLES_DIR.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
     feature_summary = (
-        create_feature_summary(
-            engineered_df,
-            original_columns
-        )
+        create_enhanced_feature_summary()
+    )
+
+    feature_summary.to_csv(
+        FEATURE_SUMMARY_PATH,
+        index=False
     )
 
     print(
-        "\nNEWLY CREATED FEATURES"
-    )
-
-    print("-" * 70)
-
-    for feature in (
-        feature_summary["feature"]
-    ):
-
-        print(
-            f"- {feature}"
-        )
-
-    # ---------------------------------------------------------------
-    # Shapes
-    # ---------------------------------------------------------------
-
-    print(
-        "\nFEATURE ENGINEERING RESULT"
-    )
-
-    print("-" * 70)
-
-    print(
-        f"Original columns : "
-        f"{len(original_columns)}"
+        "\nFeature summary saved to:"
     )
 
     print(
-        f"Final columns    : "
-        f"{len(engineered_df.columns)}"
-    )
-
-    print(
-        f"New features     : "
-        f"{len(feature_summary)}"
-    )
-
-    print(
-        f"Rows             : "
-        f"{len(engineered_df)}"
+        FEATURE_SUMMARY_PATH
     )
 
     # ---------------------------------------------------------------
-    # Save reports
+    # Save enhanced dataset
     # ---------------------------------------------------------------
 
-    report_paths = (
-        save_feature_reports(
-            validation_report,
-            feature_summary
-        )
+    enhanced_df.to_csv(
+        OUTPUT_DATA,
+        index=False
     )
 
     print(
-        "\nReports created:"
+        "\nEnhanced dataset saved to:"
     )
 
-    for (
-        report_name,
-        report_path
-    ) in report_paths.items():
-
-        print(
-            f"{report_name}: "
-            f"{report_path}"
-        )
+    print(
+        OUTPUT_DATA
+    )
 
     # ---------------------------------------------------------------
-    # Display engineered feature names
+    # Final status
     # ---------------------------------------------------------------
 
-    print(
-        "\nENGINEERED COLUMN NAMES"
-    )
-
-    print("-" * 70)
-
-    for column in engineered_df.columns:
-
-        if column not in original_columns:
-
-            print(
-                f"- {column}"
-            )
-
-    # ---------------------------------------------------------------
-    # Preview important engineered features
-    # ---------------------------------------------------------------
-
-    important_features = [
-        column
-        for column in engineered_df.columns
-        if (
-            column.startswith("GROUPED_")
-            or column == "VIOLENT_CRIME_TOTAL"
-            or column == "YEAR_INDEX"
-        )
-    ]
-
-    if important_features:
-
-        print(
-            "\nENGINEERED FEATURE PREVIEW"
-        )
-
-        print("-" * 70)
-
-        print(
-            engineered_df[
-                important_features
-            ].head().to_string(
-                index=False
-            )
-        )
+    print("\n" + "=" * 80)
+    print("FEATURE ENGINEERING COMPLETED")
+    print("=" * 80)
 
     print(
-        "\nNOTE:"
+        f"Original shape : "
+        f"({original_row_count}, {original_column_count})"
     )
 
     print(
-        "No final classification target was created."
+        f"Enhanced shape : "
+        f"{enhanced_df.shape}"
     )
 
     print(
-        "No missing values were globally replaced with zero."
+        "New features   :",
+        len(new_columns)
     )
 
     print(
-        "Original source columns were retained."
+        "Models trained : NO"
     )
+
+    print("=" * 80)
+
+
+if __name__ == "__main__":
+    main()
