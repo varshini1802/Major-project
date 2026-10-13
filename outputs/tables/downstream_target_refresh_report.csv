@@ -1,0 +1,3 @@
+dataset,rows_before,rows_after,columns_before,columns_after,mismatches_before,mismatches_after,thresholds,threshold_fit_years
+district_grouped_reduced.csv,9856,9856,10,10,432,0,"107,237,362,563",2001-2010
+district_enhanced_features.csv,9856,9856,15,15,432,0,"107,237,362,563",2001-2010

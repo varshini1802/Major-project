@@ -1,0 +1,112 @@
+{
+  "locked_test_keys_sha256": "61a74b175f25a405e5b4cec767595a8f37a1dc5bff528d8aaf7cbca6162c40c3",
+  "prediction_file_sha256": {
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_11\\active_crime_groups\\gru\\test_predictions.csv": "fe2f695492a33787e14780983caa8e3b30e75e1efee68e0f9a18329f291a060e",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_11\\active_crime_groups\\lstm\\test_predictions.csv": "f7a18b4b835325ddcc202224e01d66d258c5511d2135767100b630a09212eb37",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_11\\crime_diversity_index\\gru\\test_predictions.csv": "15147213ed3430f54bf53516b1e5af188f620d7fb8213ff5f5e3423c6eda577b",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_11\\crime_diversity_index\\lstm\\test_predictions.csv": "c30de68ce70def140b2a52b721602c29f6c7b12b54e6050cd3b784e20e70c939",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_11\\prev_year_total_crime\\gru\\test_predictions.csv": "0ff7c947aa05170a139b590f69cdca9464a638989e04e163448f4a8aaa26ec4c",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_11\\prev_year_total_crime\\lstm\\test_predictions.csv": "c08605ff73c153793695401235dfccd421bcd48066470e371f8c97f997d642bf",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_11\\total_grouped_crime\\gru\\test_predictions.csv": "dcefeec2406d4f53cdc91bc3ff46433816f2a90c7d5fcae6f71946ccd30276b2",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_11\\total_grouped_crime\\lstm\\test_predictions.csv": "5630fd0c62dd2d040193082437e33e47d1430f27ae1b3ead6b73bf68a02fe5a7",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_11\\yoy_total_crime_change\\gru\\test_predictions.csv": "0a9f9a3ff44b6ca81812b3da8389fcd919b1f71882f919cc5772f2f8849858f8",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_11\\yoy_total_crime_change\\lstm\\test_predictions.csv": "91d8e525a53da04d147ce7338d5cdcd16272dfc7ccd8f378042efc54dde9d3c7",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_23\\active_crime_groups\\gru\\test_predictions.csv": "a7f2a417f08ab3520ab6500aa27b2ceb46576f3a5c5cd3db585d3d46b106d20c",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_23\\active_crime_groups\\lstm\\test_predictions.csv": "c687d147f123f698e9f0268c529bf32725f8f819ebdcc1cb865fac15d509796f",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_23\\crime_diversity_index\\gru\\test_predictions.csv": "b9d0f1c4f526d3e8e1fcfe8ef8f5a34058452e578c828ea1cb25139edc7b48d4",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_23\\crime_diversity_index\\lstm\\test_predictions.csv": "5dbd716c792e38c11ed9d3d5dffeb340470e2c34334acf12582695dac66452b3",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_23\\prev_year_total_crime\\gru\\test_predictions.csv": "12efacd0050c745920cae4e7f80792a5a7c43fe0f5ec2409fbf4c2499f51ca73",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_23\\prev_year_total_crime\\lstm\\test_predictions.csv": "b644dc508b15ff7cf8a6138642a8aa7804d0a403b94879f18cb0a577a209cce2",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_23\\total_grouped_crime\\gru\\test_predictions.csv": "21518b830afb2b7bd8317b64753a8e19f8a8bce4c988ac2d3772f10ef0869c06",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_23\\total_grouped_crime\\lstm\\test_predictions.csv": "aba1de47dc77a97054d852e64c0af06327658bf5cdf385458d654f1de495a90d",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_23\\yoy_total_crime_change\\gru\\test_predictions.csv": "60f7332ce4723b335885e96c64277e1c2e692e9a0d5e37779e5a7a8fb8f2edd7",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_23\\yoy_total_crime_change\\lstm\\test_predictions.csv": "a5adb178a18d65daae3e854f5ccd5cb17181238c751f1d829ce81923910a2639",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_37\\active_crime_groups\\gru\\test_predictions.csv": "ef244eec3d067573430d009b2bb85fedb9ff5ad64362873c082f5271bed66420",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_37\\active_crime_groups\\lstm\\test_predictions.csv": "e575a6952187c43623b1bba8ec416a4516d45d846e74f13a8e7c8757bafdd7cc",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_37\\crime_diversity_index\\gru\\test_predictions.csv": "b15664765b77d083ae68b858b0ef9c4920405e130ebd8442852de9634bea8b16",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_37\\crime_diversity_index\\lstm\\test_predictions.csv": "0af08b150001187ef30f5e8946726766f40495b89499266645191f9da373fde5",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_37\\prev_year_total_crime\\gru\\test_predictions.csv": "7079ff2c9403dbf6257dd5a7cd622eff569645a58b4b7be8569734092b644898",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_37\\prev_year_total_crime\\lstm\\test_predictions.csv": "944c4fe3fe9e24e850f170cac824dc13f7795ee085cc0939d97787a0792d358c",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_37\\total_grouped_crime\\gru\\test_predictions.csv": "9cb3e418342329777ec95dca2cf815631a92aab452a80fd3007dffa81da0c822",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_37\\total_grouped_crime\\lstm\\test_predictions.csv": "85ecd3ef2e5c9ec6b4914923dc573a78fc045c6b72e87a45de890bddfb409cbd",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_37\\yoy_total_crime_change\\gru\\test_predictions.csv": "49d126aa1a232c7806be5c0ad4fdb6eff8559ea0d6d4ce962017691bcaa426fb",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_37\\yoy_total_crime_change\\lstm\\test_predictions.csv": "eee46463d4e60d4d4e478b14f774c05e18b0423ed2182a9e1cba76d62f184142",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_53\\active_crime_groups\\gru\\test_predictions.csv": "b4d5bd89404951b7b271b41bec3a62b9007828cb5dd6a5cf5fc1d50f28c83976",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_53\\active_crime_groups\\lstm\\test_predictions.csv": "63781a390b87beed43238e74051d80c8c741b81e0688ed7c5d7edf08021a2afa",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_53\\crime_diversity_index\\gru\\test_predictions.csv": "592954425787d65f6cdd44926bb3abd34f5c7c7e820a834ff788ac0ff3669a6d",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_53\\crime_diversity_index\\lstm\\test_predictions.csv": "ff417bec330fc662edce05e5275312256f1af46c7483ba952dc955cd9c5a5365",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_53\\prev_year_total_crime\\gru\\test_predictions.csv": "d2ea1df1357cd9e513d6f592f2b81dc2a0842f2ef4df5682d93544a294c9ad4a",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_53\\prev_year_total_crime\\lstm\\test_predictions.csv": "5acf9ffb2f2482d33210c8c8269dff76f343f2aee3afa0e00ec5a598b86e494f",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_53\\total_grouped_crime\\gru\\test_predictions.csv": "80a10939d5c91de6bbac6615bbf59bdbdf6274137c61fd5376fc14f5eedea036",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_53\\total_grouped_crime\\lstm\\test_predictions.csv": "4fdce14acb0a5bd91cce9cf87c7c67006c0a39fb76dd23a9a89042292aaf0c87",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_53\\yoy_total_crime_change\\gru\\test_predictions.csv": "5e993478169039dc0599252c0a5f1f518275d2060c111e249a331e7bc2fb1ed0",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_53\\yoy_total_crime_change\\lstm\\test_predictions.csv": "1d244bf6132211ede3c3178ddc93df72f876d6327831458f02b391a4676e37bb",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_71\\active_crime_groups\\gru\\test_predictions.csv": "b52ac51ecc0da980e35e150733b55c0f0dec9cd16b5bf6626b19a33b881bb477",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_71\\active_crime_groups\\lstm\\test_predictions.csv": "c2488b6d3a771c3f50e5a2563a6f7c32d0817c4f50e9e29b0737ea440e32a53d",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_71\\crime_diversity_index\\gru\\test_predictions.csv": "c94922eb2b826b8ca68af4ad43a2203a2c18f3d0f48bc3d3a1748af70931321f",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_71\\crime_diversity_index\\lstm\\test_predictions.csv": "6a8664f328585eb0ff6d81dd5f0d16b9862dd8ff203e662c43d672e5b2e51500",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_71\\prev_year_total_crime\\gru\\test_predictions.csv": "6ca49ce41816def210a2151364dc7f1caf9289dacc94bd7159e1cf75f8cfc38d",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_71\\prev_year_total_crime\\lstm\\test_predictions.csv": "c91fa429febb9849cfcb88f63aea2d189a4e7d4a2d1201ede72618b5ab34209f",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_71\\total_grouped_crime\\gru\\test_predictions.csv": "a80b08e8d190919c7324ac4243834f077acddca6eee4e3d25d0bb52dcde290d3",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_71\\total_grouped_crime\\lstm\\test_predictions.csv": "40bdbabd4ef1daf9bb6d06e6f6a1df14cd5e0252ac1283df50aca19d1464ca6d",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_71\\yoy_total_crime_change\\gru\\test_predictions.csv": "811b291b1e0412cda49297c95b83c96e10f8689de73cea6bd0784b98a584722c",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\seed_71\\yoy_total_crime_change\\lstm\\test_predictions.csv": "e0def2cf618855998b69caaff0c439243411d4aff05cccfa5eb1f0591e5b3ada"
+  },
+  "runner_config": {
+    "predeclared_seeds": [
+      11,
+      23,
+      37,
+      53,
+      71
+    ],
+    "train_years": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010
+    ],
+    "validation_years": [
+      2011,
+      2012
+    ],
+    "locked_test_years": [
+      2013,
+      2014
+    ],
+    "thresholds": [
+      107,
+      237,
+      362,
+      563
+    ],
+    "locked_test_rows": 671,
+    "input": "corrected_v3 common enhanced sequences; entire test key/label/input-year table exactly equals corrected_v4 locked cohort",
+    "architectures": [
+      "GRU(64)",
+      "LSTM(64)"
+    ],
+    "ablation": "six grouped features plus exactly one of five engineered features; paired with same-seed same-architecture baseline macro-F1",
+    "selection": "validation macro-F1 only; train+validation refit at selected epoch; locked test not used for selection",
+    "preprocessing": "StandardScaler fit on training sequences for selection and separately on train+validation for final test",
+    "max_epochs": 100,
+    "batch_size": 64,
+    "patience": 15,
+    "tensorflow_seed_control": "Python random, NumPy, tf.keras.utils.set_random_seed",
+    "packages": {
+      "numpy": "2.0.2",
+      "pandas": "2.3.3",
+      "scikit-learn": "1.7.2",
+      "tensorflow": "2.18.1"
+    },
+    "completed_runs": 50,
+    "expected_runs": 50,
+    "uncertainty": "seed standard deviation is descriptive optimizer variability, not sampling uncertainty or statistical significance"
+  }
+}

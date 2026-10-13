@@ -1,0 +1,134 @@
+variant,model,rows,accuracy,macro_precision,macro_recall,macro_f1,weighted_precision,weighted_recall,weighted_f1,macro_ovr_roc_auc,macro_mean_ovr_average_precision,max_probability_row_sum_error,probability_columns_class_order,metric_validation,result_source,integrity_status,seed,metric,baseline,enhanced,enhanced_minus_baseline,feature_added,test_rows,test_keys_match_locked_v4,baseline_matches_same_seed_v5,test_used_for_selection
+baseline,gru,671.0,0.7168405365126677,0.6961361999476239,0.7193019166775652,0.7020454382791003,0.7398931017453617,0.7168405365126677,0.7227674900618982,0.9374900975915794,0.7245930133805076,1.8108475996481133e-07,1|2|3|4|5,PASS,v4 saved test predictions recomputed,PASS,,,,,,,,,,
+baseline,lstm,671.0,0.7228017883755589,0.6971249280368451,0.7190015969126355,0.7041173586503655,0.740018918480653,0.7228017883755589,0.7274815851836117,0.9374371799690844,0.7209149746157621,1.5849094003872469e-07,1|2|3|4|5,PASS,v4 saved test predictions recomputed,PASS,,,,,,,,,,
+baseline,logistic_regression,671.0,0.6959761549925484,0.6703388133620691,0.6940594391073809,0.6760815018556592,0.7226290587812786,0.6959761549925484,0.7019353193817949,0.932689847429922,0.7095312030722463,4.440892098500626e-16,1|2|3|4|5,PASS,v4 saved test predictions recomputed,PASS,,,,,,,,,,
+baseline,majority_baseline,671.0,0.34575260804769,0.069150521609538,0.2,0.1027685492801771,0.1195448659717795,0.34575260804769,0.1776624696944941,0.5,0.2,0.0,1|2|3|4|5,PASS,v4 saved test predictions recomputed,PASS,,,,,,,,,,
+enhanced,gru,671.0,0.7198211624441133,0.6983605920275497,0.7209106493728982,0.7054291185248983,0.7404778407425942,0.7198211624441133,0.7249833154026106,0.934481204797244,0.7133080609233596,1.832565801329622e-07,1|2|3|4|5,PASS,v4 saved test predictions recomputed,PASS,,,,,,,,,,
+enhanced,lstm,671.0,0.7198211624441133,0.6919730489286942,0.7153813087800367,0.6996404891744359,0.7365168645095092,0.7198211624441133,0.724040805719063,0.9353776741472372,0.7244299418258985,1.5772170003369726e-07,1|2|3|4|5,PASS,v4 saved test predictions recomputed,PASS,,,,,,,,,,
+enhanced,logistic_regression,671.0,0.6974664679582713,0.6705519510290631,0.6936406893033621,0.676242577661362,0.7228263636173143,0.6974664679582713,0.7026435150732796,0.9312286476546192,0.7059220365396969,5.551115123125784e-16,1|2|3|4|5,PASS,v4 saved test predictions recomputed,PASS,,,,,,,,,,
+enhanced,majority_baseline,671.0,0.34575260804769,0.069150521609538,0.2,0.1027685492801771,0.1195448659717795,0.34575260804769,0.1776624696944941,0.5,0.2,0.0,1|2|3|4|5,PASS,v4 saved test predictions recomputed,PASS,,,,,,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,11.0,test_accuracy,0.7198211624441133,0.7272727272727273,0.0074515648286139,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,11.0,test_macro_f1,0.7063130957017667,0.7169695240963022,0.0106564283945355,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,11.0,test_weighted_f1,0.7279613161161518,0.7341133694246011,0.0061520533084493,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,11.0,macro_ovr_roc_auc,0.9375298716451536,0.9363342111579206,-0.0011956604872329,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,11.0,macro_ovr_average_precision,0.7209655415890203,0.7249073852308838,0.0039418436418635,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,11.0,test_accuracy,0.7153502235469449,0.7198211624441133,0.0044709388971684,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,11.0,test_macro_f1,0.702067411941892,0.7076292962802552,0.0055618843383631,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,11.0,test_weighted_f1,0.7236089876408706,0.7262860471942583,0.0026770595533877,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,11.0,macro_ovr_roc_auc,0.9386008066657472,0.9357818155982578,-0.0028189910674893,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,11.0,macro_ovr_average_precision,0.722154141231633,0.7214892903136095,-0.0006648509180234,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,11.0,test_accuracy,0.6959761549925484,0.6974664679582713,0.0014903129657228,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,11.0,test_macro_f1,0.6760815018556592,0.676242577661362,0.0001610758057027,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,11.0,test_weighted_f1,0.7019353193817949,0.7026435150732796,0.0007081956914847,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,11.0,macro_ovr_roc_auc,0.932689847429922,0.9312286476546192,-0.0014611997753027,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,11.0,macro_ovr_average_precision,0.7095312030722463,0.7059220365396969,-0.0036091665325493,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,23.0,test_accuracy,0.7168405365126677,0.7123695976154992,-0.0044709388971684,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,23.0,test_macro_f1,0.7032037078464166,0.6978662907809791,-0.0053374170654375,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,23.0,test_weighted_f1,0.7236224805106891,0.7174369190824017,-0.0061855614282874,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,23.0,macro_ovr_roc_auc,0.9361291705990537,0.9337210227205418,-0.0024081478785118,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,23.0,macro_ovr_average_precision,0.7200410122781629,0.7124123994372581,-0.0076286128409047,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,23.0,test_accuracy,0.7153502235469449,0.7242921013412816,0.0089418777943367,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,23.0,test_macro_f1,0.7000642952357177,0.7053898889014376,0.0053255936657199,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,23.0,test_weighted_f1,0.7218894144761316,0.7287080225524151,0.0068186080762834,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,23.0,macro_ovr_roc_auc,0.9365481712142534,0.9342133633181516,-0.0023348078961017,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,23.0,macro_ovr_average_precision,0.7169558484385389,0.7168327079945211,-0.0001231404440177,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,23.0,test_accuracy,0.6959761549925484,0.6974664679582713,0.0014903129657228,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,23.0,test_macro_f1,0.6760815018556592,0.676242577661362,0.0001610758057027,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,23.0,test_weighted_f1,0.7019353193817949,0.7026435150732796,0.0007081956914847,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,23.0,macro_ovr_roc_auc,0.932689847429922,0.9312286476546192,-0.0014611997753027,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,23.0,macro_ovr_average_precision,0.7095312030722463,0.7059220365396969,-0.0036091665325493,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,37.0,test_accuracy,0.7242921013412816,0.7317436661698957,0.007451564828614,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,37.0,test_macro_f1,0.7031062029697244,0.7106792773746996,0.0075730744049752,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,37.0,test_weighted_f1,0.7277441443996432,0.7354372098415164,0.0076930654418732,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,37.0,macro_ovr_roc_auc,0.93866263163856,0.9385570091098512,-0.0001056225287088,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,37.0,macro_ovr_average_precision,0.7245351930729983,0.728028805612554,0.0034936125395557,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,37.0,test_accuracy,0.7153502235469449,0.7272727272727273,0.0119225037257824,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,37.0,test_macro_f1,0.6930930615716923,0.703619712302464,0.0105266507307717,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,37.0,test_weighted_f1,0.7196216179390602,0.7305344404678847,0.0109128225288245,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,37.0,macro_ovr_roc_auc,0.9367984953666176,0.9377646868608128,0.0009661914941951,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,37.0,macro_ovr_average_precision,0.7184702151737103,0.7227827244347915,0.0043125092610811,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,37.0,test_accuracy,0.6959761549925484,0.6974664679582713,0.0014903129657228,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,37.0,test_macro_f1,0.6760815018556592,0.676242577661362,0.0001610758057027,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,37.0,test_weighted_f1,0.7019353193817949,0.7026435150732796,0.0007081956914847,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,37.0,macro_ovr_roc_auc,0.932689847429922,0.9312286476546192,-0.0014611997753027,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,37.0,macro_ovr_average_precision,0.7095312030722463,0.7059220365396969,-0.0036091665325493,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,53.0,test_accuracy,0.7213114754098361,0.7317436661698957,0.0104321907600596,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,53.0,test_macro_f1,0.6995766416831204,0.7126111642008804,0.01303452251776,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,53.0,test_weighted_f1,0.7252243612451419,0.7356383047308628,0.0104139434857208,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,53.0,macro_ovr_roc_auc,0.9389901994520824,0.937610274729599,-0.0013799247224833,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,53.0,macro_ovr_average_precision,0.723897918728548,0.722894218607087,-0.001003700121461,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,53.0,test_accuracy,0.7198211624441133,0.736214605067064,0.0163934426229507,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,53.0,test_macro_f1,0.6983026586323058,0.7202804125138336,0.0219777538815277,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,53.0,test_weighted_f1,0.7241490739895563,0.7402185947006347,0.0160695207110783,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,53.0,macro_ovr_roc_auc,0.9377800763545924,0.938486363880766,0.0007062875261736,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,53.0,macro_ovr_average_precision,0.7208532654048383,0.7337527808839692,0.0128995154791309,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,53.0,test_accuracy,0.6959761549925484,0.6974664679582713,0.0014903129657228,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,53.0,test_macro_f1,0.6760815018556592,0.676242577661362,0.0001610758057027,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,53.0,test_weighted_f1,0.7019353193817949,0.7026435150732796,0.0007081956914847,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,53.0,macro_ovr_roc_auc,0.932689847429922,0.9312286476546192,-0.0014611997753027,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,53.0,macro_ovr_average_precision,0.7095312030722463,0.7059220365396969,-0.0036091665325493,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,71.0,test_accuracy,0.713859910581222,0.7213114754098361,0.007451564828614,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,71.0,test_macro_f1,0.6901759022818291,0.703495060025079,0.0133191577432498,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,71.0,test_weighted_f1,0.7176011033579963,0.7263719328963815,0.0087708295383851,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,71.0,macro_ovr_roc_auc,0.9342589314216214,0.9343809700076208,0.0001220385859993,,,,,
+,GRU,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,71.0,macro_ovr_average_precision,0.7110068687086806,0.712974827987931,0.0019679592792504,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,71.0,test_accuracy,0.713859910581222,0.7287630402384501,0.014903129657228,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,71.0,test_macro_f1,0.6924544612574918,0.7114571615226082,0.0190027002651164,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,71.0,test_weighted_f1,0.7190079597688189,0.7337704657591047,0.0147625059902857,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,71.0,macro_ovr_roc_auc,0.9349070500781848,0.9355599405046938,0.000652890426509,,,,,
+,LSTM,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,71.0,macro_ovr_average_precision,0.712108182975809,0.7197430323685161,0.007634849392707,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,71.0,test_accuracy,0.6959761549925484,0.6974664679582713,0.0014903129657228,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,71.0,test_macro_f1,0.6760815018556592,0.676242577661362,0.0001610758057027,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,71.0,test_weighted_f1,0.7019353193817949,0.7026435150732796,0.0007081956914847,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,71.0,macro_ovr_roc_auc,0.932689847429922,0.9312286476546192,-0.0014611997753027,,,,,
+,LogisticRegression,,,,,,,,,,,,,,v5 saved metrics; five predeclared seeds,PASS; see multi-seed integrity checks,71.0,macro_ovr_average_precision,0.7095312030722463,0.7059220365396969,-0.0036091665325493,,,,,
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,11.0,,,,,TOTAL_GROUPED_CRIME,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,11.0,,,,,ACTIVE_CRIME_GROUPS,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,11.0,,,,,CRIME_DIVERSITY_INDEX,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,11.0,,,,,PREV_YEAR_TOTAL_CRIME,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,11.0,,,,,YOY_TOTAL_CRIME_CHANGE,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,11.0,,,,,TOTAL_GROUPED_CRIME,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,11.0,,,,,ACTIVE_CRIME_GROUPS,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,11.0,,,,,CRIME_DIVERSITY_INDEX,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,11.0,,,,,PREV_YEAR_TOTAL_CRIME,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,11.0,,,,,YOY_TOTAL_CRIME_CHANGE,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,23.0,,,,,TOTAL_GROUPED_CRIME,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,23.0,,,,,ACTIVE_CRIME_GROUPS,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,23.0,,,,,CRIME_DIVERSITY_INDEX,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,23.0,,,,,PREV_YEAR_TOTAL_CRIME,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,23.0,,,,,YOY_TOTAL_CRIME_CHANGE,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,23.0,,,,,TOTAL_GROUPED_CRIME,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,23.0,,,,,ACTIVE_CRIME_GROUPS,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,23.0,,,,,CRIME_DIVERSITY_INDEX,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,23.0,,,,,PREV_YEAR_TOTAL_CRIME,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,23.0,,,,,YOY_TOTAL_CRIME_CHANGE,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,37.0,,,,,TOTAL_GROUPED_CRIME,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,37.0,,,,,ACTIVE_CRIME_GROUPS,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,37.0,,,,,CRIME_DIVERSITY_INDEX,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,37.0,,,,,PREV_YEAR_TOTAL_CRIME,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,37.0,,,,,YOY_TOTAL_CRIME_CHANGE,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,37.0,,,,,TOTAL_GROUPED_CRIME,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,37.0,,,,,ACTIVE_CRIME_GROUPS,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,37.0,,,,,CRIME_DIVERSITY_INDEX,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,37.0,,,,,PREV_YEAR_TOTAL_CRIME,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,37.0,,,,,YOY_TOTAL_CRIME_CHANGE,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,53.0,,,,,TOTAL_GROUPED_CRIME,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,53.0,,,,,ACTIVE_CRIME_GROUPS,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,53.0,,,,,CRIME_DIVERSITY_INDEX,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,53.0,,,,,PREV_YEAR_TOTAL_CRIME,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,53.0,,,,,YOY_TOTAL_CRIME_CHANGE,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,53.0,,,,,TOTAL_GROUPED_CRIME,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,53.0,,,,,ACTIVE_CRIME_GROUPS,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,53.0,,,,,CRIME_DIVERSITY_INDEX,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,53.0,,,,,PREV_YEAR_TOTAL_CRIME,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,53.0,,,,,YOY_TOTAL_CRIME_CHANGE,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,71.0,,,,,TOTAL_GROUPED_CRIME,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,71.0,,,,,ACTIVE_CRIME_GROUPS,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,71.0,,,,,CRIME_DIVERSITY_INDEX,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,71.0,,,,,PREV_YEAR_TOTAL_CRIME,671.0,1.0,1.0,0.0
+,GRU,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,71.0,,,,,YOY_TOTAL_CRIME_CHANGE,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,71.0,,,,,TOTAL_GROUPED_CRIME,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,71.0,,,,,ACTIVE_CRIME_GROUPS,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,71.0,,,,,CRIME_DIVERSITY_INDEX,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,71.0,,,,,PREV_YEAR_TOTAL_CRIME,671.0,1.0,1.0,0.0
+,LSTM,,,,,,,,,,,,,,v5 one-feature ablation integrity,PASS,71.0,,,,,YOY_TOTAL_CRIME_CHANGE,671.0,1.0,1.0,0.0

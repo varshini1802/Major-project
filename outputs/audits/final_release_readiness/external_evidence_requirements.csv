@@ -1,0 +1,8 @@
+issue,required_evidence,why_needed
+IPC category overlap,NCRB year-specific IPC district tables/codebooks and official aggregation or case-counting rules (2001-2014),Resolve parent/subcategory and cross-domain semantic overlap; direct source overlap alone cannot establish independent counts.
+Forecast-time availability,Declared operational issue date plus official NCRB publication/release timestamps and contemporaneous retrieval/access records for each source year,OGD catalog publication dates are not actual NCRB release or forecaster access dates.
+Source provenance,"Original downloaded files, catalog/resource identifiers, URL, retrieval timestamp, checksum, and transformation/extraction manifest",Link local processed/integrated values to authoritative source downloads.
+Railway duplicate conflict,Original 2010 NCRB row identifiers and stable Railway unit names/codes for the two conflicting normalized keys,"Determine whether the rows represent distinct units, duplicate records, or mapping collision without inventing a resolution."
+Administrative continuity,Official district/state unit codes and dated split/merger/renaming crosswalks for 2001-2014,Confirm that same normalized district name denotes the same geographic unit across years.
+Missingness causes,"Original source forms, reporting notes, data dictionary or extraction logs for missing IPC cells","Distinguish unreported, unavailable, structural, and genuine zero values."
+2014 raw-stage/final-integrated discrepancy,Original 2014 NCRB IPC source table and the exact raw-stage transformation/extraction records,Reconcile discrepant columns/values without overwriting either stage.

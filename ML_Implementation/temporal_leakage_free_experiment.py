@@ -1,7 +1,18 @@
 
+"""Retired legacy runner. Use tabular_forecast_evaluation.py instead."""
+if __name__ == "__main__":
+    raise SystemExit(
+        "This legacy runner is disabled to protect its saved outputs. Run "
+        "ML_Implementation/tabular_forecast_evaluation.py after the v3 input audit."
+    )
+
 from pathlib import Path
 import numpy as np
 import pandas as pd
+
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+from target_creation import create_target
 
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import make_pipeline
@@ -120,47 +131,20 @@ print("Baseline:", baseline.shape)
 print("Enhanced:", enhanced.shape)
 
 # ------------------------------------------------------------
-# RECONSTRUCT BURDEN AND TRAINING-ONLY TARGET CUT POINTS
+# CANONICAL TARGET WITH FROZEN TRAINING-ONLY CUT POINTS
 # ------------------------------------------------------------
-burden = raw[KEYS].copy()
-components = []
+threshold_table = pd.read_csv(PROJECT_DIR / "outputs/tables/target_thresholds.csv")
+threshold_table = threshold_table.sort_values("boundary_index")
+cut_points = threshold_table["upper_cut_point"].to_numpy(dtype=float)
+if (threshold_table["fit_years"].astype(str).unique().tolist() != ["2001-2010"]
+        or not np.array_equal(cut_points, np.array([107., 237., 362., 563.]))):
+    raise ValueError("The frozen canonical target thresholds are missing or unexpected.")
 
-for group_name, columns in BURDEN_GROUPS.items():
-    available = [c for c in columns if c in raw.columns]
-    if available:
-        values = raw[available].apply(pd.to_numeric, errors="coerce")
-        components.append(values.sum(axis=1, min_count=1))
-
-if not components:
-    raise ValueError("No expected violent-crime source columns were found.")
-
-burden["VIOLENT_CRIME_BURDEN"] = pd.concat(
-    components, axis=1
-).sum(axis=1, min_count=1)
-
-burden = burden.dropna(subset=["VIOLENT_CRIME_BURDEN"]).copy()
-
-train_burden = burden.loc[
-    burden["YEAR"].isin(TRAIN_YEARS), "VIOLENT_CRIME_BURDEN"
-]
-
-cut_points = np.unique(
-    np.quantile(train_burden, [0.2, 0.4, 0.6, 0.8])
-)
-
-if len(cut_points) != 4:
-    raise ValueError(
-        "Could not obtain four distinct training-only cut points. "
-        "Inspect the burden distribution before continuing."
-    )
-
-burden[TARGET] = (
-    np.searchsorted(
-        cut_points,
-        burden["VIOLENT_CRIME_BURDEN"],
-        side="right"
-    ) + 1
-)
+canonical_raw, _ = create_target(raw, thresholds=cut_points)
+burden = canonical_raw[KEYS + ["VIOLENT_CRIME_BURDEN", TARGET]].dropna(
+    subset=["VIOLENT_CRIME_BURDEN", TARGET]
+).copy()
+burden[TARGET] = burden[TARGET].astype(int)
 
 print("\nTraining-only target cut points:", cut_points)
 print("Target counts by year:")

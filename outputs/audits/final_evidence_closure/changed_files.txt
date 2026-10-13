@@ -1,0 +1,19 @@
+src/final_evidence_closure.py — reproducible evidence-closure generator and testable audit functions.
+tests/test_final_evidence_closure.py — regression tests for overlap, availability, denominator, missingness, duplicate, split, threshold, and immutability checks.
+outputs/audits/final_evidence_closure/closure_status.csv — generated evidence-closure artifact.
+outputs/audits/final_evidence_closure/denominator_correction_note.md — generated evidence-closure artifact.
+outputs/audits/final_evidence_closure/district_year_stage_recheck.csv — generated evidence-closure artifact.
+outputs/audits/final_evidence_closure/duplicate_key_resolution_audit.csv — generated evidence-closure artifact.
+outputs/audits/final_evidence_closure/final_evidence_closure_report.md — generated evidence-closure artifact.
+outputs/audits/final_evidence_closure/forecast_availability_ledger.csv — generated evidence-closure artifact.
+outputs/audits/final_evidence_closure/initial_git_status.txt — generated evidence-closure artifact.
+outputs/audits/final_evidence_closure/integration_reconciliation_recheck.csv — generated evidence-closure artifact.
+outputs/audits/final_evidence_closure/missingness_semantics_audit.csv — generated evidence-closure artifact.
+outputs/audits/final_evidence_closure/overlap_denominator_reconciliation.csv — generated evidence-closure artifact.
+outputs/audits/final_evidence_closure/overlap_evidence_ledger.csv — generated evidence-closure artifact.
+outputs/audits/final_evidence_closure/protected_input_hashes_before.json — generated evidence-closure artifact.
+outputs/audits/final_evidence_closure/reproducibility_manifest.json — generated evidence-closure artifact.
+outputs/audits/final_evidence_closure/source_provenance_manifest.csv — generated evidence-closure artifact.
+outputs/audits/final_evidence_closure/target_predictor_overlap_matrix.csv — generated evidence-closure artifact.
+outputs/audits/final_evidence_closure/test_report.txt — generated evidence-closure artifact.
+outputs/audits/final_evidence_closure/changed_files.txt — this inventory.

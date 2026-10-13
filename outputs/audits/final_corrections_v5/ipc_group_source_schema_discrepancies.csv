@@ -1,0 +1,8 @@
+canonical_group_source,period,available_source_schema_evidence,audit_conclusion
+IPC_ATTEMPT_TO_MURDER,2014,Attempt to commit Murder,Alternative heading present; not coalesced because category crosswalk is absent.
+IPC_BURGLARY,2014,Criminal Trespass/Burglary; Criminal Trespass or Burglary; House Trespass & House Breaking,Several alternative headings present; they were not combined without an official crosswalk.
+IPC_COUNTERFEITING,2001-2013,COUNTERFIETING in normalized 2001-2012 and 2013 IPC files,"Observed spelling variant has values, but canonical IPC_COUNTERFEITING is missing in final integration for these years; no automatic remapping performed."
+IPC_SEXUAL_HARASSMENT,2001-2013,No matching IPC field in the available IPC normalized file schemas,Schema coverage differs; possible corresponding fields in other NCRB tables are not assumed equivalent.
+IPC_STALKING,2001-2013,No matching IPC field in the available IPC normalized file schemas,Schema coverage differs; possible corresponding fields in other NCRB tables are not assumed equivalent.
+IPC_UNLAWFUL_ASSEMBLY,2001-2013,No matching IPC field in the available IPC normalized file schemas,Schema coverage differs; no equivalent field is inferred.
+IPC_VOYEURISM,2001-2013,No matching IPC field in the available IPC normalized file schemas,Schema coverage differs; possible corresponding fields in other NCRB tables are not assumed equivalent.

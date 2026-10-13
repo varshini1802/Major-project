@@ -1,0 +1,11 @@
+check,status,rows,details
+frozen_thresholds,PASS,9856,"107,237,362,563; fitted 2001-2010"
+approved_feature_source_lineage,PASS,17,"all 17 approved tabular predictor rows have original sources, formulas, observation time, overlap status, forecast decision, and evidence"
+baseline_explicit_feature_matrix,PASS,8682,exact approved columns; keyed source year=target-1; no target/burden column in X; source reconstructs saved matrix
+baseline_common_sequence_integrity,PASS,5842,strict source reconstruction agrees; 7161 valid variant histories; common cohort arrays/metadata/labels aligned; no target in X
+enhanced_explicit_feature_matrix,PASS,8682,exact approved columns; keyed source year=target-1; no target/burden column in X; source reconstructs saved matrix
+enhanced_common_sequence_integrity,PASS,5842,strict source reconstruction agrees; 5842 valid variant histories; common cohort arrays/metadata/labels aligned; no target in X
+tabular_full_row_key_and_target_alignment,PASS,8682,"baseline/enhanced matrices share identical target district-year keys, source years, and canonical labels"
+common_cohort_target_keys,PASS,5842,"baseline/enhanced target keys and labels identical; train=3847, validation=1324, test=671"
+trained_tabular_feature_list_and_test_keys,PASS,1330,saved result feature strings match approved contract; test keys and labels align with canonical target
+trained_common_sequence_test_keys,PASS,671,both selected models' test predictions use the same canonical district-year keys

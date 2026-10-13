@@ -1,0 +1,105 @@
+{
+  "python_current": "3.11.9",
+  "packages_current": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "tensorflow": "2.18.1",
+    "scipy": "1.16.2",
+    "joblib": "1.5.2"
+  },
+  "saved_v4_environment": {
+    "python": "3.11.9",
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.7.2",
+    "tensorflow": "2.18.1",
+    "seed": 42,
+    "target_thresholds": [
+      107,
+      237,
+      362,
+      563
+    ],
+    "threshold_fit_years": "2001-2010",
+    "train": "2001-2010",
+    "validation": "2011-2012",
+    "test": "2013-2014"
+  },
+  "sha256_inputs": {
+    "data\\processed\\district_integrated_canonical.csv": "28921e17d76a90e4dd6d0786debdad68033d762a6f2af736372a57cfa71da079",
+    "data\\processed\\district_grouped_reduced.csv": "954bbe766c2765ab05c0a548a7e68c17f6f0144f30f7864a443b4e44fa39fd69",
+    "data\\processed\\district_enhanced_features.csv": "5225ffca8abada26e7701d89ddf710d42f77bcebf326f34f517ada62b61cec79",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v4_controlled_sequence\\run_config.json": "8d934ea9b844a563268c259b5e8e2c9d4cee9967d685139fce65bcc40d83e265",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v3\\inputs\\common_sequence_metadata.csv": "819268da2e0247442de8bdc5d0f0f8c0d835379d57f13195f1f7f910583e24fd",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v3\\inputs\\baseline_common_sequences.npz": "d1db012ab6e88c3334d1abb25ef01d560f28ea5386c869ffd1173c37df54577b",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v3\\inputs\\enhanced_common_sequences.npz": "f0c9f10cfcadb93e17845629bbda392eab34a7970c023bc9e495d57bcd6f23a6",
+    "ML_Implementation\\run_corrected_v5_multiseed.py": "db943b40aeba7c1d0e0a5f8fc1ef0349227e573be19368d617d946a9368adaab",
+    "ML_Implementation\\run_corrected_v5_multiseed_ablations.py": "591f27b0b7ee45b90150726e3863d51c22147bd448f8501cc81a9ebf137f47e4",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\run_config.json": "0dc148b2e90d1bfc22b2dbd6a102aa3b1baeb1cf7064bcfd059784f9d3465244",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\paired_difference_summary.csv": "417144fe1d2133144a053591ca0bab8afc4784961038df700372c11301b27261"
+  },
+  "target_thresholds": [
+    107,
+    237,
+    362,
+    563
+  ],
+  "training_years": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010
+  ],
+  "validation_years": [
+    2011,
+    2012
+  ],
+  "test_years": [
+    2013,
+    2014
+  ],
+  "saved_v4_seed": 42,
+  "recomputed_from_saved_predictions": true,
+  "model_suite_retrained": false,
+  "multi_seed_experiment": {
+    "predeclared_seeds": [
+      11,
+      23,
+      37,
+      53,
+      71
+    ],
+    "completed_seeds": [
+      11,
+      23,
+      37,
+      53,
+      71
+    ],
+    "status_file": "ML_Implementation/corrected_temporal_results/corrected_v5_multiseed/run_status.csv",
+    "runner": "ML_Implementation/run_corrected_v5_multiseed.py"
+  },
+  "multi_seed_feature_ablations": {
+    "completed_fits": 50,
+    "expected_fits": 50,
+    "status_file": "ML_Implementation/corrected_temporal_results/corrected_v5_feature_ablation_multiseed/run_status.csv",
+    "runner": "ML_Implementation/run_corrected_v5_multiseed_ablations.py"
+  },
+  "commands": [
+    "python src/predictor_source_audit.py",
+    "python src/forecast_availability_audit.py",
+    "python ML_Implementation/run_corrected_v5_multiseed_ablations.py",
+    "python src/duplicate_key_v5_audit.py",
+    "python src/missingness_v5_reconciliation.py",
+    "python src/final_corrections_v5_audit.py",
+    "python -m unittest discover -s tests",
+    "python -m compileall -q src ML_Implementation tests"
+  ]
+}

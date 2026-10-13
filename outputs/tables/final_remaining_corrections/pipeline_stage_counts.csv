@@ -1,0 +1,7 @@
+stage,rows_in,rows_out,excluded,reason
+integrated_final_rows,9856,9856,0,saved final integrated district-year table
+canonical_target_observations,9856,9631,225,target is missing where burden cannot be calculated from available/valid source counts
+baseline_tabular_forecast_matrix,9631,8682,949,keyed t-1 source join; absent prior-year district keys=948; matched prior rows with all predictors missing=1; matrix drops all-null predictor rows
+baseline_tabular_any_prior_feature_observed,9631,8682,949,"normalized keyed join to t-1, counted only when at least one approved predictor is observed"
+enhanced_tabular_forecast_matrix,9631,8682,949,keyed t-1 source join; absent prior-year district keys=948; matched prior rows with all predictors missing=1; matrix drops all-null predictor rows
+enhanced_tabular_any_prior_feature_observed,9631,8682,949,"normalized keyed join to t-1, counted only when at least one approved predictor is observed"

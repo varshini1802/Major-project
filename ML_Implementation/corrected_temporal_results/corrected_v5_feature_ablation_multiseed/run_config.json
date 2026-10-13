@@ -1,0 +1,57 @@
+{
+  "predeclared_seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "train_years": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010
+  ],
+  "validation_years": [
+    2011,
+    2012
+  ],
+  "locked_test_years": [
+    2013,
+    2014
+  ],
+  "thresholds": [
+    107,
+    237,
+    362,
+    563
+  ],
+  "locked_test_rows": 671,
+  "input": "corrected_v3 common enhanced sequences; entire test key/label/input-year table exactly equals corrected_v4 locked cohort",
+  "architectures": [
+    "GRU(64)",
+    "LSTM(64)"
+  ],
+  "ablation": "six grouped features plus exactly one of five engineered features; paired with same-seed same-architecture baseline macro-F1",
+  "selection": "validation macro-F1 only; train+validation refit at selected epoch; locked test not used for selection",
+  "preprocessing": "StandardScaler fit on training sequences for selection and separately on train+validation for final test",
+  "max_epochs": 100,
+  "batch_size": 64,
+  "patience": 15,
+  "tensorflow_seed_control": "Python random, NumPy, tf.keras.utils.set_random_seed",
+  "packages": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "tensorflow": "2.18.1"
+  },
+  "completed_runs": 50,
+  "expected_runs": 50,
+  "uncertainty": "seed standard deviation is descriptive optimizer variability, not sampling uncertainty or statistical significance"
+}

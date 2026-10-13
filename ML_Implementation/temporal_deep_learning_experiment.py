@@ -1,3 +1,10 @@
+"""Retired legacy sequence runner; use strict corrected-v3 artifacts."""
+if __name__ == "__main__":
+    raise SystemExit(
+        "This legacy sequence runner is disabled: it refits target cuts and used "
+        "padded incomplete histories. Use common_cohort_sequence_evaluation.py."
+    )
+
 from pathlib import Path
 import random
 import numpy as np

@@ -1,0 +1,21 @@
+correction,requirement,status,evidence_or_limit
+1,Target-source overlap,PARTIAL,"Nine direct shared IPC sources; direct counts are 76.6% of summed burden on 9,552 observed-overlap rows; indirect parent/component relationships remain unresolved."
+2,Tie-safe quantile target,COMPLETE,Frozen 107/237/362/563 boundaries; row-order and target saved-data audits pass.
+3,Five class meanings,COMPLETE,Canonical code and notebook describe ordered violent-burden levels; notebook stale class names corrected.
+4,Engineered features,PARTIAL,All five formulas traced and one-at-a-time ablations completed; source release timing remains unverified.
+5,Chronological evaluation,COMPLETE,"Train 2001-2010, validation 2011-2012, test 2013-2014; random notebook sections observed-year only."
+6,Preprocessing and selection scope,COMPLETE,"Corrected pipelines fit learned transforms on train, select using validation, then refit train+validation before locked test."
+7,Previous-year alignment,PARTIAL,District/year keyed t-1 alignment passes; publication dates are unavailable.
+8,Integration and keys,PARTIAL,Available-stage aliases and key checks reconcile; original upstream copies and administrative-boundary provenance are unavailable.
+9,Missing values,PARTIAL,"Zero/missing counts and missingness strata are reported; causes of NaN are not encoded, so zero versus non-reporting provenance cannot be fully established."
+10,Metrics and baselines,COMPLETE,"Accuracy, macro/weighted F1, class reports/supports, confusion matrices, class distributions, majority and logistic baselines, macro OvR ROC-AUC and macro mean OvR AP saved."
+11,LSTM/GRU sequence method,COMPLETE,Strict t-3..t-1 district histories; paired GRU and LSTM feature comparison plus logistic baseline; common test keys verified.
+12,Leakage audit,PARTIAL,Automated structural/source audits pass; semantic indirect overlap and real issue-date availability remain unverified.
+13,Reproducibility,PARTIAL,"Seeds, configurations, versions, keys, metrics, models, and audits saved; full upstream source provenance is missing."
+14,Paper abstract,UNRESOLVED,No manuscript file found; cannot revise or verify claims.
+15,Paper introduction/objectives,UNRESOLVED,No manuscript file found.
+16,Paper dataset/preprocessing,UNRESOLVED,No manuscript file found.
+17,Paper methodology,UNRESOLVED,No manuscript file found.
+18,Paper results,UNRESOLVED,No manuscript file found; v4 results and generated metrics are available for a future update.
+19,Paper discussion,UNRESOLVED,No manuscript file found.
+20,Paper limitations/future work,UNRESOLVED,No manuscript file found.

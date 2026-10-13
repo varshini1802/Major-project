@@ -1,0 +1,126 @@
+comparison,variable,rows_left,rows_right,district_year_keys_match,value_mismatches,transformation_or_evidence
+integrated_raw_aliases_to_final,IPC_ACID_ATTACK,9856,9856,True,0,raw aliases=IPC_Acid attack; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_ARSON,9856,9856,True,0,raw aliases=IPC_ARSON | IPC_Arson; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_ASSAULT_ON_WOMEN_WITH_INTENT_TO_OUTRAGE_HER_MODESTY,9856,9856,True,0,raw aliases=IPC_ASSAULT ON WOMEN WITH INTENT TO OUTRAGE HER MODESTY | IPC_Assault on Women with intent to outrage her Modesty; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_ASSAULT_OR_USE_OF_CRIMINAL_FORCE_TO_WOMEN_WITH_INTENT_TO_DISROBE,9856,9856,True,0,raw aliases=IPC_Assault or use of criminal force to women with intent to Disrobe; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_ATTEMPT_TO_ACID_ATTACK,9856,9856,True,0,raw aliases=IPC_Attempt to Acid Attack; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_ATTEMPT_TO_COMMIT_CULPABLE_HOMICIDE,9856,9856,True,0,raw aliases=IPC_Attempt to commit Culpable Homicide; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_ATTEMPT_TO_COMMIT_MURDER,9856,9856,True,0,raw aliases=IPC_Attempt to commit Murder; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_ATTEMPT_TO_COMMIT_RAPE,9856,9856,True,0,raw aliases=IPC_Attempt to commit Rape; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_ATTEMPT_TO_MURDER,9856,9856,True,0,raw aliases=IPC_ATTEMPT TO MURDER; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_AT_OFFICE_PREMISES,9856,9856,True,0,raw aliases=IPC_At Office premises; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_AUTO_THEFT,9856,9856,True,0,raw aliases=IPC_AUTO THEFT | IPC_Auto Theft; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_BURGLARY,9856,9856,True,0,raw aliases=IPC_BURGLARY; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_CAUSING_DEATH_BY_NEGLIGENCE,9856,9856,True,0,raw aliases=IPC_CAUSING DEATH BY NEGLIGENCE | IPC_Causing Death by Negligence; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_CHEATING,9856,9856,True,0,raw aliases=IPC_CHEATING | IPC_Cheating; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_COUNTERFEITING,9856,9856,True,0,raw aliases=IPC_Counterfeiting; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_COUNTERFEITING_CURRENCY_NOTES_BANK_NOTES,9856,9856,True,0,raw aliases=IPC_Counterfeiting currency notes/Bank notes; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_COUNTERFEITING_GOVERNMENT_STAMP,9856,9856,True,0,raw aliases=IPC_Counterfeiting Government Stamp; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_COUNTERFEIT_CURRENCY_BANK_NOTES,9856,9856,True,0,raw aliases=IPC_Counterfeit currency & Bank notes; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_COUNTERFEIT_OFFENCES_RELATED_TO_COUNTERFEIT_COIN,9856,9856,True,0,raw aliases=IPC_Counterfeit Offences related to Counterfeit Coin; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_COUNTERFIETING,9856,9856,True,0,raw aliases=IPC_COUNTERFIETING; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_CRIMINAL_BREACH_OF_TRUST,9856,9856,True,0,raw aliases=IPC_CRIMINAL BREACH OF TRUST | IPC_Criminal Breach of Trust; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_CRIMINAL_TRESPASS_BURGLARY,9856,9856,True,0,raw aliases=IPC_Criminal Trespass/Burglary; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_CRIMINAL_TRESPASS_OR_BURGLARY,9856,9856,True,0,raw aliases=IPC_Criminal Trespass or Burglary; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_CRUELTY_BY_HUSBAND_OR_HIS_RELATIVES,9856,9856,True,0,raw aliases=IPC_CRUELTY BY HUSBAND OR HIS RELATIVES | IPC_Cruelty by Husband or his Relatives; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_CULPABLE_HOMICIDE_NOT_AMOUNTING_TO_MURDER,9856,9856,True,0,raw aliases=IPC_CULPABLE HOMICIDE NOT AMOUNTING TO MURDER | IPC_Culpable Homicide not amounting to Murder; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_CUSTODIAL_GANG_RAPE,9856,9856,True,0,raw aliases=IPC_Custodial_Gang Rape; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_CUSTODIAL_OTHER_RAPE,9856,9856,True,0,raw aliases=IPC_Custodial_Other Rape; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_CUSTODIAL_RAPE,9856,9856,True,0,raw aliases=IPC_CUSTODIAL RAPE | IPC_Custodial Rape; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_DACOITY,9856,9856,True,0,raw aliases=IPC_DACOITY | IPC_Dacoity; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_DACOITY_WITH_MURDER,9856,9856,True,0,raw aliases=IPC_Dacoity with Murder; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_DEATHS_DUE_TO_NEGLIGENT_DRIVING_ACT,9856,9856,True,0,raw aliases=IPC_Deaths due to negligent driving/act; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_DEATHS_DUE_TO_OTHER_CAUSES,9856,9856,True,0,raw aliases=IPC_Deaths due to Other Causes; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_DISCLOSURE_OF_IDENTITY_OF_VICTIMS,9856,9856,True,0,raw aliases=IPC_Disclosure of Identity of Victims; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_DOWRY_DEATHS,9856,9856,True,0,raw aliases=IPC_DOWRY DEATHS | IPC_Dowry Deaths; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_EXTORTION,9856,9856,True,0,raw aliases=IPC_Extortion; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_FORGERY,9856,9856,True,0,raw aliases=IPC_Forgery; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_GRIEVOUS_HURT,9856,9856,True,0,raw aliases=IPC_Grievous Hurt; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_HOUSE_TRESPASS_HOUSE_BREAKING,9856,9856,True,0,raw aliases=IPC_House Trespass & House Breaking; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_HUMANTRAFFICKING,9856,9856,True,0,raw aliases=IPC_HumanTrafficking; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_HURT,9856,9856,True,0,raw aliases=IPC_Hurt; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_HURT_GREVIOUS_HURT,9856,9856,True,0,raw aliases=IPC_HURT/GREVIOUS HURT; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_IMPORTATION_OF_GIRLS_FROM_FOREIGN_COUNTRIES,9856,9856,True,0,raw aliases=IPC_IMPORTATION OF GIRLS FROM FOREIGN COUNTRIES; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_IMPORTATION_OF_GIRLS_FROM_FOREIGN_COUNTRY,9856,9856,True,0,raw aliases=IPC_Importation of Girls from Foreign Country; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_IMPUTATION_ASSERTIONS_PREJUDICIAL_TO_NATIONAL_INTEGRATION,9856,9856,True,0,"raw aliases=IPC_Imputation, assertions prejudicial to national integration; case/feature normalization and left-to-right coalesce; no count transformation"
+integrated_raw_aliases_to_final,IPC_INCIDENCE_OF_RASH_DRIVING,9856,9856,True,0,raw aliases=IPC_Incidence of Rash Driving; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_INSULT_TO_MODESTY_OF_WOMEN,9856,9856,True,0,raw aliases=IPC_INSULT TO MODESTY OF WOMEN; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_INSULT_TO_THE_MODESTY_OF_WOMEN,9856,9856,True,0,raw aliases=IPC_Insult to the Modesty of Women; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_IN_PUBLIC_TRANSPORT_SYSTEM,9856,9856,True,0,raw aliases=IPC_In Public Transport system; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_KIDNAPPING_ABDUCTION,9856,9856,True,0,raw aliases=IPC_KIDNAPPING & ABDUCTION | IPC_Kidnapping & Abduction; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_KIDNAPPING_ABDUCTION_IN_ORDER_TO_MURDER,9856,9856,True,0,raw aliases=IPC_Kidnapping & Abduction in order to Murder; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_KIDNAPPING_ABDUCTION_OF_WOMEN_TO_COMPEL_HER_FOR_MARRIAGE,9856,9856,True,0,raw aliases=IPC_Kidnapping & Abduction of Women to compel her for marriage; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_KIDNAPPING_ABDUCTION_TOTAL,9856,9856,True,0,raw aliases=IPC_Kidnapping & Abduction_Total; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_KIDNAPPING_AND_ABDUCTION_OF_OTHERS,9856,9856,True,0,raw aliases=IPC_KIDNAPPING AND ABDUCTION OF OTHERS; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_KIDNAPPING_AND_ABDUCTION_OF_WOMEN_AND_GIRLS,9856,9856,True,0,raw aliases=IPC_KIDNAPPING AND ABDUCTION OF WOMEN AND GIRLS; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_KIDNAPPING_FOR_RANSOM,9856,9856,True,0,raw aliases=IPC_Kidnapping for Ransom; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_MAKING_OR_POSSESSING_MATERIALS_FOR_FORGED_CURRENCY_BANK_NOTES,9856,9856,True,0,raw aliases=IPC_Making or Possessing materials for forged currency/Bank notes; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_MAKING_OR_USING_DOCUMENTS_RESEMBLING_CURRENCY,9856,9856,True,0,raw aliases=IPC_Making or Using documents resembling currency; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_MAKING_PREPARATION_AND_ASSEMBLY_FOR_COMMITTING_DACOITY,9856,9856,True,0,raw aliases=IPC_Making Preparation and Assembly for committing Dacoity; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_MURDER,9856,9856,True,0,raw aliases=IPC_MURDER | IPC_Murder; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_OFFENCES_AGAINST_STATE,9856,9856,True,0,raw aliases=IPC_Offences against State; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_OFFENCES_PROMOTING_ENMITY_BETWEEN_DIFFERENT_GROUPS,9856,9856,True,0,raw aliases=IPC_Offences promoting enmity between different groups; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_OTHER_ASSAULT_ON_WOMEN,9856,9856,True,0,raw aliases=IPC_Other Assault on Women; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_OTHER_DACOITY,9856,9856,True,0,raw aliases=IPC_Other Dacoity; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_OTHER_IPC_CRIMES,9856,9856,True,0,raw aliases=IPC_OTHER IPC CRIMES | IPC_Other IPC crimes; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_OTHER_KIDNAPPING,9856,9856,True,0,raw aliases=IPC_Other Kidnapping; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_OTHER_OFFENCES_AGAINST_STATE,9856,9856,True,0,raw aliases=IPC_Other offences against State; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_OTHER_PLACES_RELATED_TO_WORK,9856,9856,True,0,raw aliases=IPC_Other places related to work; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_OTHER_RAPE,9856,9856,True,0,raw aliases=IPC_OTHER RAPE; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_OTHER_THEFT,9856,9856,True,0,raw aliases=IPC_OTHER THEFT; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_OTHER_THEFTS,9856,9856,True,0,raw aliases=IPC_Other Thefts; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_PLACES_OTHER_THAN_231_232_233,9856,9856,True,0,"raw aliases=IPC_Places other than 231, 232 & 233; case/feature normalization and left-to-right coalesce; no count transformation"
+integrated_raw_aliases_to_final,IPC_POSSESSION_OF_FORGED_OR_COUNTERFEITING_CURRENCY_BANK_NOTES,9856,9856,True,0,raw aliases=IPC_Possession of forged or counterfeiting currency/Bank notes; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_PREPARATION_AND_ASSEMBLY_FOR_DACOITY,9856,9856,True,0,raw aliases=IPC_PREPARATION AND ASSEMBLY FOR DACOITY; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_PROMOTING_ENMITY_BETWEEN_DIFFERENT_GROUPS,9856,9856,True,0,raw aliases=IPC_Promoting enmity between different groups; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_RAPE,9856,9856,True,0,raw aliases=IPC_RAPE | IPC_Rape; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_RAPE_GANG_RAPE,9856,9856,True,0,raw aliases=IPC_Rape_Gang Rape; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_RAPE_OTHERS,9856,9856,True,0,raw aliases=IPC_Rape_Others; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_RAPE_OTHER_THAN_CUSTODIAL,9856,9856,True,0,raw aliases=IPC_Rape other than Custodial; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_RIOTS,9856,9856,True,0,raw aliases=IPC_RIOTS | IPC_Riots; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_RIOTS_AGRARIAN,9856,9856,True,0,raw aliases=IPC_Riots_Agrarian; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_RIOTS_CASTE_CONFLICT,9856,9856,True,0,raw aliases=IPC_Riots_Caste Conflict; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_RIOTS_COMMUNAL,9856,9856,True,0,raw aliases=IPC_Riots_Communal; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_RIOTS_INDUSTRIAL,9856,9856,True,0,raw aliases=IPC_Riots_Industrial; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_RIOTS_OTHERS,9856,9856,True,0,raw aliases=IPC_Riots_Others; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_RIOTS_OTHER_CASTE_CONFLICT,9856,9856,True,0,raw aliases=IPC_Riots_Other Caste Conflict; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_RIOTS_POLITICAL,9856,9856,True,0,raw aliases=IPC_Riots_Political; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_RIOTS_SC_STS_VS_NON_SCS_STS,9856,9856,True,0,raw aliases=IPC_Riots_SC/STs Vs Non-SCs/STs; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_RIOTS_SECTARIAN,9856,9856,True,0,raw aliases=IPC_Riots_Sectarian; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_RIOTS_STUDENTS,9856,9856,True,0,raw aliases=IPC_Riots_Students; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_ROBBERY,9856,9856,True,0,raw aliases=IPC_ROBBERY | IPC_Robbery; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_SEDITION,9856,9856,True,0,raw aliases=IPC_Sedition; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_SEXUAL_HARASSMENT,9856,9856,True,0,raw aliases=IPC_Sexual Harassment; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_STALKING,9856,9856,True,0,raw aliases=IPC_Stalking; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_THEFT,9856,9856,True,0,raw aliases=IPC_THEFT | IPC_Theft; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_TOTAL_COGNIZABLE_IPC_CRIMES,9856,9856,True,0,raw aliases=IPC_Total Cognizable IPC crimes; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_TOTAL_IPC_CRIMES,9856,9856,True,0,raw aliases=IPC_TOTAL IPC CRIMES; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_UNLAWFUL_ASSEMBLY,9856,9856,True,0,raw aliases=IPC_Unlawful Assembly; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_UNNATURAL_OFFENCE,9856,9856,True,0,raw aliases=IPC_Unnatural Offence; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_USING_FORGED_OR_COUNTERFEITING_CURRENCY_BANK_NOTES,9856,9856,True,0,raw aliases=IPC_Using forged or counterfeiting currency/Bank notes; case/feature normalization and left-to-right coalesce; no count transformation
+integrated_raw_aliases_to_final,IPC_VOYEURISM,9856,9856,True,0,raw aliases=IPC_Voyeurism; case/feature normalization and left-to-right coalesce; no count transformation
+normalized_2014_to_cleaned_2014,Murder,838,838,exact,0,Cleaning only trims text and converts numeric columns; core stage filters UNIT_TYPE=DISTRICT_OR_REPORTING_UNIT and SOURCE_QUALITY_STATUS=VALID
+cleaned_2014_to_core_2014,Murder,838,729,right_subset_of_left,0,Cleaning only trims text and converts numeric columns; core stage filters UNIT_TYPE=DISTRICT_OR_REPORTING_UNIT and SOURCE_QUALITY_STATUS=VALID
+raw_2014_case_variant_to_final,IPC_MURDER,729,729,True,0,source raw column IPC_Murder matches final IPC_MURDER; canonical form differs in case only
+normalized_2014_to_cleaned_2014,Rape,838,838,exact,0,Cleaning only trims text and converts numeric columns; core stage filters UNIT_TYPE=DISTRICT_OR_REPORTING_UNIT and SOURCE_QUALITY_STATUS=VALID
+cleaned_2014_to_core_2014,Rape,838,729,right_subset_of_left,0,Cleaning only trims text and converts numeric columns; core stage filters UNIT_TYPE=DISTRICT_OR_REPORTING_UNIT and SOURCE_QUALITY_STATUS=VALID
+raw_2014_case_variant_to_final,IPC_RAPE,729,729,True,0,source raw column IPC_Rape matches final IPC_RAPE; canonical form differs in case only
+normalized_2014_to_cleaned_2014,Dacoity,838,838,exact,0,Cleaning only trims text and converts numeric columns; core stage filters UNIT_TYPE=DISTRICT_OR_REPORTING_UNIT and SOURCE_QUALITY_STATUS=VALID
+cleaned_2014_to_core_2014,Dacoity,838,729,right_subset_of_left,0,Cleaning only trims text and converts numeric columns; core stage filters UNIT_TYPE=DISTRICT_OR_REPORTING_UNIT and SOURCE_QUALITY_STATUS=VALID
+raw_2014_case_variant_to_final,IPC_DACOITY,729,729,True,0,source raw column IPC_Dacoity matches final IPC_DACOITY; canonical form differs in case only
+normalized_2014_to_cleaned_2014,Robbery,838,838,exact,0,Cleaning only trims text and converts numeric columns; core stage filters UNIT_TYPE=DISTRICT_OR_REPORTING_UNIT and SOURCE_QUALITY_STATUS=VALID
+cleaned_2014_to_core_2014,Robbery,838,729,right_subset_of_left,0,Cleaning only trims text and converts numeric columns; core stage filters UNIT_TYPE=DISTRICT_OR_REPORTING_UNIT and SOURCE_QUALITY_STATUS=VALID
+raw_2014_case_variant_to_final,IPC_ROBBERY,729,729,True,0,source raw column IPC_Robbery matches final IPC_ROBBERY; canonical form differs in case only
+normalized_2014_to_cleaned_2014,Theft,838,838,exact,0,Cleaning only trims text and converts numeric columns; core stage filters UNIT_TYPE=DISTRICT_OR_REPORTING_UNIT and SOURCE_QUALITY_STATUS=VALID
+cleaned_2014_to_core_2014,Theft,838,729,right_subset_of_left,0,Cleaning only trims text and converts numeric columns; core stage filters UNIT_TYPE=DISTRICT_OR_REPORTING_UNIT and SOURCE_QUALITY_STATUS=VALID
+raw_2014_case_variant_to_final,IPC_THEFT,729,729,True,0,source raw column IPC_Theft matches final IPC_THEFT; canonical form differs in case only
+normalized_2014_to_cleaned_2014,Riots,838,838,exact,0,Cleaning only trims text and converts numeric columns; core stage filters UNIT_TYPE=DISTRICT_OR_REPORTING_UNIT and SOURCE_QUALITY_STATUS=VALID
+cleaned_2014_to_core_2014,Riots,838,729,right_subset_of_left,0,Cleaning only trims text and converts numeric columns; core stage filters UNIT_TYPE=DISTRICT_OR_REPORTING_UNIT and SOURCE_QUALITY_STATUS=VALID
+raw_2014_case_variant_to_final,IPC_RIOTS,729,729,True,0,source raw column IPC_Riots matches final IPC_RIOTS; canonical form differs in case only
+normalized_2014_to_cleaned_2014,Cheating,838,838,exact,0,Cleaning only trims text and converts numeric columns; core stage filters UNIT_TYPE=DISTRICT_OR_REPORTING_UNIT and SOURCE_QUALITY_STATUS=VALID
+cleaned_2014_to_core_2014,Cheating,838,729,right_subset_of_left,0,Cleaning only trims text and converts numeric columns; core stage filters UNIT_TYPE=DISTRICT_OR_REPORTING_UNIT and SOURCE_QUALITY_STATUS=VALID
+raw_2014_case_variant_to_final,IPC_CHEATING,729,729,True,0,source raw column IPC_Cheating matches final IPC_CHEATING; canonical form differs in case only
+normalized_2014_to_cleaned_2014,Arson,838,838,exact,0,Cleaning only trims text and converts numeric columns; core stage filters UNIT_TYPE=DISTRICT_OR_REPORTING_UNIT and SOURCE_QUALITY_STATUS=VALID
+cleaned_2014_to_core_2014,Arson,838,729,right_subset_of_left,0,Cleaning only trims text and converts numeric columns; core stage filters UNIT_TYPE=DISTRICT_OR_REPORTING_UNIT and SOURCE_QUALITY_STATUS=VALID
+raw_2014_case_variant_to_final,IPC_ARSON,729,729,True,0,source raw column IPC_Arson matches final IPC_ARSON; canonical form differs in case only
+2014_core_population_filter,UNIT_TYPE / SOURCE_QUALITY_STATUS,838,729,subset,,"cleaned 838 rows: {'DISTRICT_OR_REPORTING_UNIT': 729, 'SPECIAL_UNIT': 73, 'AGGREGATE': 36}; 729 valid district/reporting rows retained; 73 special units and 36 aggregates excluded"

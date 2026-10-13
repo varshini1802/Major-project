@@ -1,0 +1,6 @@
+check,status,details
+training_only_thresholds,PASS,"derived=[107.0, 237.0, 362.0, 563.0]; fit years=2001-2010"
+validation_test_invariance,PASS,non-training burden values multiplied by 1000; thresholds unchanged
+saved_target_key_agreement,PASS,keys=9856; differing labels=0; nonmatched=0
+saved_class_counts,VERIFIED,"{""1"": 1938, ""2"": 1824, ""3"": 1831, ""4"": 1968, ""5"": 2070, ""MISSING"": 225}"
+row_order_invariance,SUPPORTED_BY_TEST,"tests/test_target_creation.py; target labels use burden thresholds, not rank(method='first')"

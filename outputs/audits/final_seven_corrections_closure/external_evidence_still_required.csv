@@ -1,0 +1,8 @@
+issue,evidence_needed,current_gap,claim_blocked
+IPC semantics,"Official year-specific IPC tables/codebooks, definitions, notes and event-counting/mutual-exclusivity rules.",Shared source mappings known; event overlap rules unavailable.,No event-level duplicate rate; indirect semantics unresolved.
+Forecast availability,Declared forecast origin plus authentic release/issue and retrieval/access timestamps per year.,Catalog metadata is not proof of operational access.,Cannot claim operationally available historical features.
+Provenance,"Original downloads, URL/resource IDs, checksums, retrieval logs, extraction and transformation manifests.",Processed values reconcile; original source lineage incomplete.,No full raw-to-result provenance claim.
+Railway conflicts,Original 2010 Railway records and stable official reporting-unit identifiers/mapping.,Two conflicting groups excluded; pipeline IDs not official.,Cannot classify as duplicates or distinct units.
+Geographic continuity,Official dated district/state/police reporting codes and split/merge/rename crosswalk 2001-2014.,Names normalize but do not prove stable geography.,No geographic continuity claim.
+Missingness causes,"Original forms, dictionary, reporting notes and extraction logs.","Cell-level missingness can be counted, cause not identified.",No causal explanation or zero substitution.
+End-to-end reproducibility,"Original data and acquisition records, lockfile and full run logs.","Saved results reconciled, raw acquisition missing.",Do not claim full raw-to-result reproducibility.

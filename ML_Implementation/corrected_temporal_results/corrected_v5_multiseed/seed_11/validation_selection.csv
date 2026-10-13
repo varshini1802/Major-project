@@ -1,0 +1,7 @@
+variant,model,selection_metric,best_epoch,validation_macro_f1,selected_C
+baseline,GRU,validation macro-F1,15,0.770664320624207,
+baseline,LSTM,validation macro-F1,19,0.7688543736392279,
+baseline,LogisticRegression,validation macro-F1,,0.7647615227074673,1.0
+enhanced,GRU,validation macro-F1,30,0.7632408806434526,
+enhanced,LSTM,validation macro-F1,12,0.7623136023148487,
+enhanced,LogisticRegression,validation macro-F1,,0.758317600622348,1.0

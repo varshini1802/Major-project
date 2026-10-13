@@ -1,0 +1,5 @@
+check,status,rows,details
+v4_paired_model_test_alignment,PASS,671,"paired GRU/LSTM/logistic/majority reports, supports, matrices, probabilities, and test keys align"
+v4_engineered_feature_ablation,PASS,10,five single-feature additions x two architectures; identical 671 locked keys
+corrected_v3_result_artifact_completeness,PASS,8,"all selected v3 tabular/sequence and majority results have class reports, supports, confusion matrices, predictions, test counts; macro OvR AUC/AP present for all eight rows"
+notebook_target_claims,PASS,5,five labels are ordered burden levels; same-year random split is explicitly observed-year only

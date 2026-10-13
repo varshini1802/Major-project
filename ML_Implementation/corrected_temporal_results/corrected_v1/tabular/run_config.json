@@ -1,0 +1,35 @@
+{
+  "objective": "forecast future-year violent-crime burden",
+  "target": "TARGET_VIOLENT_LEVEL",
+  "thresholds": [
+    107.0,
+    237.0,
+    362.0,
+    563.0
+  ],
+  "threshold_fit_years": "2001-2010",
+  "train_years": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010
+  ],
+  "validation_years": [
+    2011,
+    2012
+  ],
+  "locked_test_years": [
+    2013,
+    2014
+  ],
+  "features": "district keyed t-1 rows",
+  "selection": "validation macro-F1; refit selected model on train+validation; evaluate locked test once",
+  "preprocessing": "median imputation and scaling are within sklearn pipeline fitted on train, then refitted on train+validation after selection",
+  "seed": 42
+}

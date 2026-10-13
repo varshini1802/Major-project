@@ -1,0 +1,6 @@
+model,validation_macro_f1
+MLP,0.7567151339210063
+RandomForest,0.7529058260885786
+ExtraTrees,0.736525666452025
+GaussianNB,0.6771965829537187
+Most frequent baseline,0.058020897357098956

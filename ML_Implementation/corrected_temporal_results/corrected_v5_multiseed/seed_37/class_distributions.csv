@@ -1,0 +1,16 @@
+partition,class,count,rows
+train,1,728,3847
+train,2,758,3847
+train,3,794,3847
+train,4,787,3847
+train,5,780,3847
+validation,1,245,1324
+validation,2,204,1324
+validation,3,225,1324
+validation,4,310,1324
+validation,5,340,1324
+test,1,113,671
+test,2,76,671
+test,3,105,671
+test,4,145,671
+test,5,232,671

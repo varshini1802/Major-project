@@ -1,0 +1,11 @@
+Command: python src\saved_experiment_release_readiness_audit.py
+Result: PASS (exit code 0; 78 prediction files reconciled).
+Recomputed accuracy, macro/weighted F1 and per-class metrics; reconciled saved confusion matrices/classification reports; recomputed AUC/AP for 58 files with saved probabilities; canonical target/key alignment and test-year/sequence-year checks passed. Saved scalar metric mismatches: 0. AUC/AP arrays absent for 20 files.
+
+Command: python -m unittest discover -s tests
+Result: PASS (41 tests).
+
+Command: python -m compileall -q src ML_Implementation tests
+Result: PASS (exit code 0).
+
+No model training command was run. Existing official outputs and protected inputs were read-only. Six v1/v2 sequential baseline/enhanced cohort mismatches are documented as superseded, non-comparable historical artifacts; v3+ controlled comparisons use matched cohorts.

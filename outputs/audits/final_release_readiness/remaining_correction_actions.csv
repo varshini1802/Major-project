@@ -1,0 +1,8 @@
+correction,status,code_level_issue,action,evidence_gap
+1,PARTIAL,No demonstrated same-year leakage in corrected matrices; direct shared components remain historical and same-year notebook is observed-year only.,No code change justified; retain explicit overlap warning.,NCRB year-specific parent/subcategory/event counting rules; actual annual source availability.
+4,PARTIAL,Feature formulas and forecast exclusion are implemented; no remaining formula defect identified.,No code change; retain historical-lag features only.,Operational release timing and original NCRB definitions.
+7,PARTIAL,Keyed lag and strict sequence construction pass; no alignment defect identified in saved matrices.,No code change.,Historical release/retrieval records and stable geographic identifiers.
+8,PARTIAL,Available integration aliases reconcile; conflicting 2010 Railway records remain excluded without fabricated resolution.,No source-side code change justified.,"Original source records, Railway unit IDs, district/state boundary crosswalks."
+9,PARTIAL,Missing values preserved; documented partial aggregation behavior. No supportable missingness imputation fix.,No code change.,Original reporting forms/notes and extraction logs explaining missing cells.
+12,PARTIAL,Actual corrected matrices use historical inputs; no target-year feature found.,Metric/cohort reconciliation strengthened in this audit.,Official semantic counting relationships and forecast-time source availability.
+13,PARTIAL,"Saved versions, configs, seeds and hashes recorded; no executable reproducibility defect identified.",Add separate release-readiness audit artifacts.,"Original source download URLs/IDs, retrieval dates, source hashes and extraction provenance."

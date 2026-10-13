@@ -1,0 +1,8 @@
+topic,verified_finding,limitation,evidence
+Zero vs missing,Observed zeros counted separately; no global fillna(0).,Numeric value cannot identify cause.,missingness_semantics_audit.csv; feature_engineering.py
+Group partial totals,"sum(min_count=1): partial sum retained, all-missing -> NA; 225 missing/group of 9856 (2.282873%).",Partial sum may not represent complete total.,targeted_evidence_gap_report.md; formula audit
+Target exclusions,9631 valid target rows and 225 invalid/missing of 9856.,No source modification in this task.,overlap_denominator_reconciliation.csv; target audits
+Historical missingness,Absent prior key remains NA; incomplete sequence rejected; builder does not impute.,Operational access to historical records unknown.,feature_engineering.py; sequence_generation.py
+YOY zero denominator,"Difference, not percentage; no denominator; missing operand propagates.",Current-year value is post-outcome for target year.,feature_engineering.py
+Variation by source/year,Existing 812-row audit records missing/observed/zero by source and year.,Missingness causes unknown.,missingness_semantics_audit.csv
+Imputation,Sequence builder performs no imputation; saved reports state learned preprocessing train-fitted.,Scoped to saved audit; no new fit.,release readiness report; run configs

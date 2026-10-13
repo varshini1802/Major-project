@@ -1,0 +1,14 @@
+item,requirement,status,evidence,remaining_dependency
+1,Target-source overlap and indirect IPC relationships,PARTIAL,outputs/audits/final_corrections_v5/direct_indirect_source_overlap.csv; ipc_semantic_relationship_review.md,NCRB statistical category crosswalk and case-counting semantics
+2,Tie-safe target thresholds and labels,COMPLETE,outputs/audits/final_corrections_v5/corrected_target_saved_data_verification.csv; target_thresholds.csv,None identified in saved-data checks
+3,Five target class meanings,COMPLETE,src/target_creation.py; notebooks/basepaper_prediction_models.ipynb,Author review of paper wording
+4,Engineered predictors and feature robustness,COMPLETE,group_predictor_formula_recovery.csv; corrected_v4_feature_ablation/; corrected_v5_feature_ablation_multiseed/; outputs/audits/final_corrections_v5/ablation_report.md,Feature formula/source availability and 50 one-at-a-time fits verified; causal feature importance not claimed
+5,Chronological forecasting evaluation,COMPLETE,corrected_v4_controlled_sequence/run_config.json; corrected_v5_multiseed outputs,Annual source release dates unavailable for operational forecast claim
+6,Preprocessing and model selection scope,COMPLETE,corrected-v4 experiment code; v5 run configs; leakage_negative_test_results.csv,None found structurally; external forecast-origin availability remains unverified
+7,Prior-year alignment,PARTIAL,final_forecast_availability_audit.csv; forecast_feature_contract tests,Actual source publication/issue dates
+8,Integration and duplicate keys,PARTIAL,cleaned_duplicate_key_findings.md; district_year_key_validation.csv; raw_stage_reconciliation_audit.csv,Original upstream files and Railway identities
+9,Missing data and observed zeros,PARTIAL,group_missingness_source_to_stored_reconciliation.csv; ipc_component_missingness_by_stage.csv,Reasons for missing values and verified schema crosswalk
+10,Metrics and baselines,COMPLETE,v4_recomputed_metrics.csv; per-class and confusion-matrix artifacts; v5 multiseed reports,None for saved v4 metric reproduction
+11,Sequence histories and model cohort alignment,COMPLETE,sequence-generation tests; locked test-key comparisons; v5 integrity audit,None found in structural checks
+12,Leakage and forecast-time availability,PARTIAL,leakage_negative_test_results.csv; final_forecast_availability_audit.csv,Operational release timing and indirect target semantics
+13,Reproducibility,PARTIAL,reproducibility_manifest.json; multiseed_reproducibility_manifest.json; versioned run configs; completed ablation run_status.csv and integrity audit,Original upstream source provenance and administrative-boundary documentation remain unavailable; saved model artifacts are audited

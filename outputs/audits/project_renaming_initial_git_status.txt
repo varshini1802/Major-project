@@ -1,0 +1,71 @@
+ M ML_Implementation/combined_temporal_model_comparison.py
+ M ML_Implementation/temporal_deep_learning_experiment.py
+ M ML_Implementation/temporal_leakage_free_experiment.py
+ M data/processed/district_enhanced_features.csv
+ M data/processed/district_grouped_reduced.csv
+ M data/processed/district_targeted.csv
+ M notebooks/basepaper_prediction_models.ipynb
+ M outputs/tables/final_target_distribution.csv
+ M src/feature_engineering.py
+ M src/leakage_audit.py
+ M src/target_creation.py
+?? FILE_RENAMING_RECORD.md
+?? ML_Implementation/audit_corrected_v3_inputs.py
+?? ML_Implementation/audit_legacy_sequences.py
+?? ML_Implementation/corrected_sequence_experiment.py
+?? ML_Implementation/corrected_temporal_experiment.py
+?? ML_Implementation/corrected_temporal_results/
+?? ML_Implementation/corrected_v3_common_sequence_experiment.py
+?? ML_Implementation/corrected_v3_tabular_experiment.py
+?? ML_Implementation/corrected_v4_controlled_sequence_experiment.py
+?? ML_Implementation/corrected_v4_engineered_feature_ablation.py
+?? ML_Implementation/forecast_feature_contract.py
+?? ML_Implementation/generate_corrected_sequences.py
+?? ML_Implementation/plot_final_correction_results.py
+?? ML_Implementation/plot_final_paper_figures.py
+?? ML_Implementation/prepare_corrected_v3_inputs.py
+?? ML_Implementation/run_corrected_v5_multiseed.py
+?? ML_Implementation/run_corrected_v5_multiseed_ablations.py
+?? ML_Implementation/sequence_cohort.py
+?? ML_Implementation/sequence_generation.py
+?? ML_Implementation/supplemental_v3_auc_metrics.py
+?? README.md
+?? outputs/audits/
+?? outputs/figures/final_paper/
+?? outputs/reports/
+?? outputs/tables/corrected_target_saved_data_verification.csv
+?? outputs/tables/downstream_target_refresh_report.csv
+?? outputs/tables/final_remaining_corrections/
+?? outputs/tables/forecast_feature_availability_audit.csv
+?? outputs/tables/forecast_feature_source_mapping.csv
+?? outputs/tables/group_predictor_formula_recovery.csv
+?? outputs/tables/integrated_ipc_source_consistency.csv
+?? outputs/tables/predictor_source_overlap_mapping.csv
+?? outputs/tables/raw_stage_reconciliation_audit.csv
+?? outputs/tables/target_class_distribution_comparison.csv
+?? outputs/tables/target_predictor_source_overlap.csv
+?? outputs/tables/target_thresholds.csv
+?? outputs/tables/target_tie_conflicts_baseline.csv
+?? outputs/tables/target_tie_diagnostic_baseline.csv
+?? outputs/tables/target_tie_diagnostic_updated.csv
+?? outputs/tables/updated_leakage_audit_report.csv
+?? src/audit_final_remaining_corrections.py
+?? src/duplicate_key_v5_audit.py
+?? src/final_closure_audit.py
+?? src/final_corrections_v5_audit.py
+?? src/final_evidence_closure.py
+?? src/final_release_readiness_audit.py
+?? src/final_remaining_corrections_audit.py
+?? src/final_technical_completion_audit.py
+?? src/forecast_availability_audit.py
+?? src/missingness_v5_reconciliation.py
+?? src/multiseed_v5_ablation_audit.py
+?? src/multiseed_v5_audit.py
+?? src/patch_notebook_forecasting_cells.py
+?? src/predictor_source_audit.py
+?? src/project_folder_inventory.py
+?? src/raw_stage_reconciliation_audit.py
+?? src/refresh_downstream_targets.py
+?? src/target_creation_backup.py
+?? src/update_notebook_research_claims.py
+?? tests/

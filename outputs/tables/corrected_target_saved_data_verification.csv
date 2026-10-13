@@ -1,0 +1,13 @@
+check,result,evidence
+saved_burden_matches_reconstruction,True,district_targeted.csv vs regenerated raw IPC source sums
+saved_labels_match_reconstruction,True,"saved labels; class counts={np.int64(1): 1938, np.int64(2): 1824, np.int64(3): 1831, np.int64(4): 1968, np.int64(5): 2070, <NA>: 225}"
+saved_thresholds_match_training_quintiles,True,"fit years=2001-2010; thresholds=[107.0, 237.0, 362.0, 563.0]"
+saved_threshold_artifact_matches,True,outputs/tables/target_thresholds.csv
+saved_class_distribution_matches,True,"outputs/tables/final_target_distribution.csv; regenerated counts={'5': 2070, '4': 1968, '1': 1938, '3': 1831, '2': 1824, 'MISSING': 225}"
+shuffled_row_order_preserves_keyed_labels,True,deterministic shuffle seed=947
+validation_test_data_do_not_change_thresholds,True,validation/test source values multiplied by 1000; fit period remains 2001-2010
+temporal_experiment_burden_sources_match_BASE_PAPER_GROUPS,True,same=28; only target=[]; only temporal=[]
+district_grouped_reduced_target_matches_corrected_target,True,0 row labels differ; notebook and non-temporal pipeline load this file
+district_enhanced_features.csv_target_matches_corrected_target,True,0 row labels differ
+baseline_lagged_data.csv_labels_match_corrected_target,True,8682 rows compared; label differences=0; unmatched target keys=0
+enhanced_lagged_data.csv_labels_match_corrected_target,True,8682 rows compared; label differences=0; unmatched target keys=0

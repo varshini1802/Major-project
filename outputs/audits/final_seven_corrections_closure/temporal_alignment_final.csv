@@ -1,0 +1,7 @@
+check,implementation,evidence,result,limitation
+Prior-year join,STATE+UNIT_NAME+exact YEAR-1; one_to_one merge,feature_engineering.py,VERIFIED_WITHIN_AVAILABLE_KEYS,Name keys not official stable geographic IDs.
+Year gaps,Missing exact previous row -> NA; no row shift/carry-forward,feature_engineering.py,VERIFIED,Release timing unknown.
+YOY,Current minus prior absolute count; not a ratio,feature_engineering.py,VERIFIED,Current t value not available for advance t forecast.
+Sequence history,"Same normalized state/unit; requires t-3,t-2,t-1; rejects missing keys/nonfinite values",sequence_generation.py; sequence tests; saved alignment audit,VERIFIED_FOR_AUDITED_SEQUENCES,Official geographic continuity unresolved; legacy v1/v2 cohorts differ.
+Future feature years,Tabular t-1; sequence t-3..t-1 for target t,actual_model_feature_lineage.csv; saved configs,NO_FUTURE_YEAR_FEATURES_FOUND_IN_AUDITED_INPUTS,Operational historical access unverified.
+Preprocessing/split,Train 2001-10; validation 2011-12; locked test 2013-14; fit during train selection per saved audit,release readiness report and run configs,AUDITED_SAVED_EXPERIMENT_ONLY,No model fit performed in this task.

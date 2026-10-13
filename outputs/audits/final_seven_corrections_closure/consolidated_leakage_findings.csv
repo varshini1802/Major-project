@@ -1,0 +1,13 @@
+audit_item,scope,finding,evidence_summary,qualification
+1,Direct target copies,NO_DIRECT_TARGET_COLUMN_LEAKAGE_FOUND,Forecast contracts exclude target/burden; sequence builder rejects these fields.,Scope: audited corrected forecast matrices.
+2,Target source variables,DIRECT_COMPONENT_OVERLAP_PRESENT,Nine direct IPC shared sources among five grouped predictors.,Historical lag does not remove source relationship.
+3,Feature source overlap,DIRECT_COMPONENT_OVERLAP_PRESENT,LAG1_GROUP features use overlapping IPC sources; sequence groups are historical.,Sources at t-1 or t-3..t-1.
+4,Indirect semantics,INDIRECT_SEMANTIC_OVERLAP_UNRESOLVED,Possible parent/subcategory relationships; no official counting rules retained.,No assertion actual event double counting.
+5,Target-year alignment,TEMPORAL_TARGET_ALIGNMENT_VERIFIED,Forecast target t with historical inputs; random-split notebook is observed-year classification.,Do not compare as forecast.
+6,Key alignment,TEMPORAL_FEATURE_ALIGNMENT_VERIFIED_WITHIN_AVAILABLE_KEYS,Exact year-1 joins; sequences require same normalized state/unit.,Geographic continuity not established.
+7,Future year inputs,NO_FUTURE_YEAR_FEATURES_FOUND_IN_AUDITED_CORRECTED_INPUTS,"Saved lineage t-1 tabular, t-3..t-1 sequence.",Operational access unknown.
+8,Preprocessing,TRAINING_ONLY_PREPROCESSING_REPORTED_AND_AUDITED,Saved runs document training fit and frozen test.,No retraining here.
+9,Validation/test separation,LOCKED_TEST_SEPARATION_REPORTED,"Train 2001-10, validation 2011-12, test 2013-14.",No selection on locked test per saved audit.
+10,Cohort integrity,SAVED_COHORT_INTEGRITY_RECONCILED_WITH_LEGACY_CAVEAT,"78 predictions reconciled, zero key/label failures; controlled sequence cohort 671.","v1/v2 baseline 1276 vs enhanced 671, superseded."
+11,Experiment type,OBSERVED_YEAR_CLASSIFICATION_DISTINGUISHED_FROM_FORECAST,Same-year random split is classification; corrected chronology is forecast.,Do not present classification as future forecast.
+12,External limitations,HISTORICAL_OPERATIONAL_AVAILABILITY_UNVERIFIED,No release/access timestamps or official category-counting rules.,External evidence needed.

@@ -1,0 +1,18 @@
+src/final_technical_completion_audit.py — reproducible read-only evidence audit generator
+outputs\audits\final_technical_completion\actual_matrix_reconstruction_audit.csv — generated audit evidence
+outputs\audits\final_technical_completion\actual_model_feature_lineage.csv — generated audit evidence
+outputs\audits\final_technical_completion\all_saved_sequence_year_alignment.csv — generated audit evidence
+outputs\audits\final_technical_completion\correction_file_completion_matrix.csv — generated audit evidence
+outputs\audits\final_technical_completion\denominator_reconciliation.csv — generated audit evidence
+outputs\audits\final_technical_completion\feature_validity_audit.csv — generated audit evidence
+outputs\audits\final_technical_completion\final_technical_completion_report.md — generated audit evidence
+outputs\audits\final_technical_completion\forecast_origin_and_availability.csv — generated audit evidence
+outputs\audits\final_technical_completion\inspected_files.txt — generated audit evidence
+outputs\audits\final_technical_completion\integration_missingness_final_audit.md — generated audit evidence
+outputs\audits\final_technical_completion\model_run_decision.md — generated audit evidence
+outputs\audits\final_technical_completion\reproducibility_manifest.json — generated audit evidence
+outputs\audits\final_technical_completion\target_overlap_resolution.md — generated audit evidence
+outputs\audits\final_technical_completion\target_threshold_class_verification.csv — generated audit evidence
+outputs/audits/final_technical_completion/final_test_report.txt — exact command outcomes
+outputs/audits/final_technical_completion/initial_git_status.txt — captured before audit edits
+outputs/audits/final_technical_completion/changed_files.txt — change inventory

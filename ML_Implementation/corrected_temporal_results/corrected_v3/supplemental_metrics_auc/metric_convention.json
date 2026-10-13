@@ -1,0 +1,10 @@
+{
+  "roc_auc": "macro one-vs-rest multiclass ROC-AUC over classes 1..5",
+  "pr_auc": "macro unweighted mean of per-class one-vs-rest average precision (AP), not trapezoidal PR curve area",
+  "test_years": [
+    2013,
+    2014
+  ],
+  "test_used_for_selection": false,
+  "note": "This supplemental post-hoc metric calculation uses already selected and saved v3 models; it does not retrain or alter v3 model selection."
+}

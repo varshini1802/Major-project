@@ -1,0 +1,118 @@
+{
+  "authoritative_checklist": "C:\\Users\\Dell\\Downloads\\correction(2).md",
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.0.2",
+  "pandas": "2.3.3",
+  "major_packages": {
+    "scikit_learn": "1.7.2",
+    "tensorflow": "2.18.1"
+  },
+  "frozen_thresholds": [
+    107,
+    237,
+    362,
+    563
+  ],
+  "threshold_fit_years": "2001-2010",
+  "split": {
+    "train": "2001-2010",
+    "validation": "2011-2012",
+    "locked_test": "2013-2014"
+  },
+  "retraining_performed": false,
+  "paper_sections_14_20_edited": false,
+  "protected_input_hashes_after_audit": {
+    "data\\processed\\district_integrated_final.csv": "28921e17d76a90e4dd6d0786debdad68033d762a6f2af736372a57cfa71da079",
+    "data\\processed\\district_grouped_reduced.csv": "954bbe766c2765ab05c0a548a7e68c17f6f0144f30f7864a443b4e44fa39fd69",
+    "data\\processed\\district_enhanced_features.csv": "5225ffca8abada26e7701d89ddf710d42f77bcebf326f34f517ada62b61cec79",
+    "data\\processed\\district_targeted.csv": "694e49d17398dbf2c76b47b6d7698982dc1689d91217a5579b5c51b58ddb409b",
+    "src\\target_creation_backup.py": "97504f343ab8d9f4f39b4dd57f8e5102ceda030c87a0f83f2f7469f48ea04c0f",
+    "outputs\\tables\\target_thresholds.csv": "4134921ac4c95222582f4b1b93204533faf3212b8908e4f37a2c9f2083f7803e",
+    "outputs\\reports\\conference_paper_draft.md": "336ed520e32d75c225c74af6389c68b1bca38f835d7c3a3b6788eda6d8315369",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v4_controlled_sequence\\locked_test_keys.csv": "61a74b175f25a405e5b4cec767595a8f37a1dc5bff528d8aaf7cbca6162c40c3",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_multiseed\\seed_11\\locked_test_keys.csv": "61a74b175f25a405e5b4cec767595a8f37a1dc5bff528d8aaf7cbca6162c40c3",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_multiseed\\seed_23\\locked_test_keys.csv": "61a74b175f25a405e5b4cec767595a8f37a1dc5bff528d8aaf7cbca6162c40c3",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_multiseed\\seed_37\\locked_test_keys.csv": "61a74b175f25a405e5b4cec767595a8f37a1dc5bff528d8aaf7cbca6162c40c3",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_multiseed\\seed_53\\locked_test_keys.csv": "61a74b175f25a405e5b4cec767595a8f37a1dc5bff528d8aaf7cbca6162c40c3",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_multiseed\\seed_71\\locked_test_keys.csv": "61a74b175f25a405e5b4cec767595a8f37a1dc5bff528d8aaf7cbca6162c40c3"
+  },
+  "existing_run_config_files": [
+    "ML_Implementation\\corrected_temporal_results\\corrected_v1\\sequential_models\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v1\\tabular\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v2\\sequential_models\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v2\\tabular\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v3\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v3\\common_sequence_models\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v3\\tabular\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v4_controlled_sequence\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v4_feature_ablation\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_multiseed\\seed_11\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_multiseed\\seed_23\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_multiseed\\seed_37\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_multiseed\\seed_53\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_multiseed\\seed_71\\run_config.json"
+  ],
+  "random_seeds_recorded_in_existing_configs": [
+    11,
+    23,
+    37,
+    42,
+    53,
+    71
+  ],
+  "source_and_processed_data_modified": false,
+  "saved_model_results_modified": false,
+  "previous_closure_protected_hash_comparison": {
+    "prior_count": 198,
+    "current_count": 198,
+    "same_file_set": true,
+    "mismatch_count": 0,
+    "unchanged": true
+  },
+  "source_code_sha256": {
+    "src\\target_creation.py": "79420b4e25df256ba4e0b962706e9695edef4802f3a70f73491f04087eeabb89",
+    "src\\feature_engineering.py": "e0bfab21908c769a7c9cdbe083fdb658ada5f7cf889b109c28953dcc9b2db349",
+    "src\\data_loading.py": "ab0ca1e522aeaf829f4dfdbb567bf2a2b78531157fc104ed23649e27eb02be04",
+    "src\\data_cleaning.py": "4da3286bf5eb9c9bf2ef77b16cddbf0250c09738dd35b6571143007ea60bdb46",
+    "src\\leakage_audit.py": "5f0a3c0cc007d17bdafe03015975a34603f764cb65b9a92df9622db11cef1860",
+    "src\\deep_learning_models.py": "451a748c48973d3c891a4dba4e4ce9911cf61884fac343a5be13b448d0c379fc",
+    "ML_Implementation\\forecast_feature_contract.py": "cd311e30be067f7f8f79ad92860d87650f8d8201aa17cace89fda52d1d4b0591",
+    "ML_Implementation\\sequence_generation.py": "9a42b30cb871b5243d73b9e69b7d1f9b67d9b88bff2fdd0def7e614681a1d683",
+    "ML_Implementation\\corrected_temporal_experiment.py": "9099e6a4a42be90f2fdcb98f35eef34ef7ff0ebc91dbfa02982dd96d24e08ab5",
+    "ML_Implementation\\corrected_sequence_experiment.py": "799d1d0ed8a6640b0d205ae5313b8efc137a91918ae7a0e3415ee299be371a80",
+    "ML_Implementation\\corrected_v3_tabular_experiment.py": "d5e05a1d5c4fc80d50ee2685b8ef5736b4badd4e93c7e1665f1b83d66abc0d7f",
+    "ML_Implementation\\corrected_v3_common_sequence_experiment.py": "5860757af51facc06717b2dfaee14c1bf928825ad866508c96b9fe5104698f58",
+    "ML_Implementation\\corrected_v4_controlled_sequence_experiment.py": "192030b55d53e402ead91a8f679b442f52e70d94200612ea5dfbfdbe6db8e597",
+    "ML_Implementation\\run_corrected_v5_multiseed.py": "db943b40aeba7c1d0e0a5f8fc1ef0349227e573be19368d617d946a9368adaab",
+    "ML_Implementation\\run_corrected_v5_multiseed_ablations.py": "591f27b0b7ee45b90150726e3863d51c22147bd448f8501cc81a9ebf137f47e4",
+    "src/final_technical_completion_audit.py": "e0bc5ed8a5d82293d57fb6f7d527f61667948f16c00addf63eaf48b591880018"
+  },
+  "saved_input_artifact_sha256": {
+    "ML_Implementation\\corrected_temporal_results\\corrected_v3\\inputs\\baseline_forecast_matrix.csv": "0536523d962b92366d2ca6bbe8f6fb165b7fbf49c4f644db3873db9b7ed1678d",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v3\\inputs\\enhanced_forecast_matrix.csv": "e3e18291f6e051223d83b415bc0b9c1766e7c4c3f0d88c50d08fe349364b55fd",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v3\\inputs\\baseline_common_sequences.npz": "d1db012ab6e88c3334d1abb25ef01d560f28ea5386c869ffd1173c37df54577b",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v3\\inputs\\enhanced_common_sequences.npz": "f0c9f10cfcadb93e17845629bbda392eab34a7970c023bc9e495d57bcd6f23a6",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v3\\inputs\\common_sequence_metadata.csv": "819268da2e0247442de8bdc5d0f0f8c0d835379d57f13195f1f7f910583e24fd",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v4_controlled_sequence\\locked_test_keys.csv": "61a74b175f25a405e5b4cec767595a8f37a1dc5bff528d8aaf7cbca6162c40c3"
+  },
+  "audit_outputs_sha256": {
+    "outputs\\audits\\final_technical_completion\\actual_matrix_reconstruction_audit.csv": "5d1a2a086f25994215d99332e11c292386391b356c6c90ab878c4deb3c1ca1c6",
+    "outputs\\audits\\final_technical_completion\\actual_model_feature_lineage.csv": "1cb3aaa2f2398f8dc1f6514e7cf419ddbc14e03632bdc390c8c83d15fb2f5956",
+    "outputs\\audits\\final_technical_completion\\all_saved_sequence_year_alignment.csv": "7b0cb35663e8835a206d3a78629141253234034353513987226c5e5133ec85dc",
+    "outputs\\audits\\final_technical_completion\\changed_files.txt": "20cec45d964b48cc36a11d2a528837d23358d837e74aca502d38905e83685514",
+    "outputs\\audits\\final_technical_completion\\correction_file_completion_matrix.csv": "ed1978b589e7d669aee9fa6a7a8e3f53e55a69a6a1f3678a77cdf66911e355f3",
+    "outputs\\audits\\final_technical_completion\\denominator_reconciliation.csv": "08c4596091fec6be460ea13903c682a5fc31d86e369a4836e00691b4770593ec",
+    "outputs\\audits\\final_technical_completion\\feature_validity_audit.csv": "7fa45ccb92eeda4e3faa12ee68010e260a399ab9f4a8a7f00e0587ceb601feef",
+    "outputs\\audits\\final_technical_completion\\final_technical_completion_report.md": "fc9a35316fe091b0fc88e7b06c11d13976a3f70beb7f48b49e31c226e117ab93",
+    "outputs\\audits\\final_technical_completion\\final_test_report.txt": "8cadcb6ecefe14fb153eabf8903c68a5f45ffd57a493ac8473b66c06e92375df",
+    "outputs\\audits\\final_technical_completion\\forecast_origin_and_availability.csv": "759df9a98cb36ad69a447a67a522911ed69fa463f4bef9f1a777efb258872543",
+    "outputs\\audits\\final_technical_completion\\initial_git_status.txt": "faf090610f4eb99ecf250922be2a3e5f3781cf30d4786a59f54f2f3ee414151d",
+    "outputs\\audits\\final_technical_completion\\inspected_files.txt": "a6b0b5953b80f77edc64846d0fc4e3c308fd3b03fe6619fcc8c3bdc22e18a119",
+    "outputs\\audits\\final_technical_completion\\integration_missingness_final_audit.md": "0a9be58552b55f531eaeaf2a679969fa09c0ce2676cef9a54bde30eb15101e18",
+    "outputs\\audits\\final_technical_completion\\model_run_decision.md": "7df9ae6d7f9143eba0c39872fa25ecd643f22bb57d7ad9f331c747b9515525b9",
+    "outputs\\audits\\final_technical_completion\\target_overlap_resolution.md": "6283451591de3819b0bb63baaf7cdd9344a5e74c459ad154b5dfc0e02d27a160",
+    "outputs\\audits\\final_technical_completion\\target_threshold_class_verification.csv": "d707e0401131e62a601a802ef5d74e03f35b031ac645e3c85f417e83eb85da7a"
+  }
+}

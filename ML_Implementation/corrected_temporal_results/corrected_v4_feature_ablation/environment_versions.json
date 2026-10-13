@@ -1,0 +1,18 @@
+{
+  "python": "3.11.9",
+  "numpy": "2.0.2",
+  "pandas": "2.3.3",
+  "scikit_learn": "1.7.2",
+  "tensorflow": "2.18.1",
+  "seed": 42,
+  "target_thresholds": [
+    107,
+    237,
+    362,
+    563
+  ],
+  "threshold_fit_years": "2001-2010",
+  "train": "2001-2010",
+  "validation": "2011-2012",
+  "test": "2013-2014"
+}

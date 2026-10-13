@@ -1,0 +1,4 @@
+dataset,rows,keys_match_final,ipc_columns_compared,ipc_columns_with_value_differences_vs_final,ipc_columns_missing_vs_final,differing_ipc_cells_vs_final,difference_detail
+data\processed\district_integrated_raw.csv,9856,True,10,8,91,5832,IPC_MURDER:729 rows | IPC_RAPE:729 rows | IPC_DACOITY:729 rows | IPC_ROBBERY:729 rows | IPC_THEFT:729 rows | IPC_RIOTS:729 rows | IPC_CHEATING:729 rows | IPC_ARSON:729 rows
+data\processed\district_integrated_canonical.csv,9856,True,101,0,0,0,
+data\processed\district_integrated_final.csv,9856,True,101,0,0,0,

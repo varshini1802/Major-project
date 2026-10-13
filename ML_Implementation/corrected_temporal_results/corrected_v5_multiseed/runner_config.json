@@ -1,0 +1,17 @@
+{
+  "status": "seed outcomes are recorded in run_status.csv; only complete runs enter metric summaries",
+  "predeclared_seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "source_runner": "ML_Implementation\\corrected_v4_controlled_sequence_experiment.py",
+  "procedure": "corrected-v4 runner; same strict common cohort, architecture pairs, chronological years, validation selection and locked test",
+  "randomness_controls": "Python random, NumPy and TensorFlow seed via tf.keras.utils.set_random_seed; deterministic kernels/platform behavior is not guaranteed",
+  "test_uncertainty": "no row bootstrap supplied; seeds do not create independent districts/years; district/temporal dependence remains",
+  "ablation_repeats": "completed separately: five-seed one-feature/model ablation; see corrected_v5_feature_ablation_multiseed",
+  "complete_seed_count": 5,
+  "failed_or_incomplete_seed_count": 0
+}
