@@ -1,0 +1,80 @@
+{
+  "objective": "forecast future-year violent-crime burden class",
+  "thresholds": [
+    107.0,
+    237.0,
+    362.0,
+    563.0
+  ],
+  "threshold_fit_years": "2001-2010",
+  "train_years": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010
+  ],
+  "validation_years": [
+    2011,
+    2012
+  ],
+  "test_years": [
+    2013,
+    2014
+  ],
+  "seed": 42,
+  "tabular_features": {
+    "baseline": [
+      "LAG1_GROUP_HOMICIDE",
+      "LAG1_GROUP_SEXUAL_VIOLENCE",
+      "LAG1_GROUP_KIDNAPPING_ABDUCTION",
+      "LAG1_GROUP_ROBBERY_DACOITY",
+      "LAG1_GROUP_PUBLIC_VIOLENCE",
+      "LAG1_GROUP_PROPERTY_CRIME"
+    ],
+    "enhanced": [
+      "LAG1_GROUP_HOMICIDE",
+      "LAG1_GROUP_SEXUAL_VIOLENCE",
+      "LAG1_GROUP_KIDNAPPING_ABDUCTION",
+      "LAG1_GROUP_ROBBERY_DACOITY",
+      "LAG1_GROUP_PUBLIC_VIOLENCE",
+      "LAG1_GROUP_PROPERTY_CRIME",
+      "LAG1_TOTAL_GROUPED_CRIME",
+      "LAG1_ACTIVE_CRIME_GROUPS",
+      "LAG1_CRIME_DIVERSITY_INDEX",
+      "LAG1_PREV_YEAR_TOTAL_CRIME",
+      "LAG1_YOY_TOTAL_CRIME_CHANGE"
+    ]
+  },
+  "sequence_features": {
+    "baseline": [
+      "GROUP_HOMICIDE",
+      "GROUP_SEXUAL_VIOLENCE",
+      "GROUP_KIDNAPPING_ABDUCTION",
+      "GROUP_ROBBERY_DACOITY",
+      "GROUP_PUBLIC_VIOLENCE",
+      "GROUP_PROPERTY_CRIME"
+    ],
+    "enhanced": [
+      "GROUP_HOMICIDE",
+      "GROUP_SEXUAL_VIOLENCE",
+      "GROUP_KIDNAPPING_ABDUCTION",
+      "GROUP_ROBBERY_DACOITY",
+      "GROUP_PUBLIC_VIOLENCE",
+      "GROUP_PROPERTY_CRIME",
+      "TOTAL_GROUPED_CRIME",
+      "ACTIVE_CRIME_GROUPS",
+      "CRIME_DIVERSITY_INDEX",
+      "PREV_YEAR_TOTAL_CRIME",
+      "YOY_TOTAL_CRIME_CHANGE"
+    ]
+  },
+  "sequence_lookback": 3,
+  "common_cohort_rule": "intersection of valid baseline and enhanced sequence YEAR/STATE/UNIT_NAME keys; target labels must agree",
+  "source_publication_timing": "unverified; prior observation-year eligibility only"
+}

@@ -1,0 +1,11 @@
+check,result,evidence
+target_in_named_predictor_columns,True,"Target is separate from ['GROUP_HOMICIDE', 'GROUP_SEXUAL_VIOLENCE', 'GROUP_KIDNAPPING_ABDUCTION', 'GROUP_ROBBERY_DACOITY', 'GROUP_PUBLIC_VIOLENCE', 'GROUP_PROPERTY_CRIME']"
+identical_burden_tie_conflicts,True,0
+target_sources_documented,True,28 original IPC variables mapped
+predictor_source_formulas_documented,True,"Recovered six group formulas; row-level sum validation: ['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']"
+direct_or_indirect_overlap,True,9 of 19 group-source assignments directly reuse target sources across 5 groups; see target_predictor_source_overlap.csv for potential parent/component overlap.
+thresholds_and_fit_period,True,"2001-2010; cut points [107.0, 237.0, 362.0, 563.0]"
+missing_target_and_class_distribution,True,"missing=225; {np.int64(1): 1938, np.int64(2): 1824, np.int64(3): 1831, np.int64(4): 1968, np.int64(5): 2070}"
+task_availability_assumption,documented,Current-year counts permit observed-year classification only; forecasting requires predictors available before the forecast year.
+grouped_predictor_columns,True,"present=['GROUP_HOMICIDE', 'GROUP_SEXUAL_VIOLENCE', 'GROUP_KIDNAPPING_ABDUCTION', 'GROUP_ROBBERY_DACOITY', 'GROUP_PUBLIC_VIOLENCE', 'GROUP_PROPERTY_CRIME']; all six formulas validated"
+dataset_years,True,"2001-2014; chronological experiment: train 2001-2010, validation 2011-2012, test 2013-2014"

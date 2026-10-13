@@ -1,0 +1,8 @@
+New audit artifacts created under outputs/audits/targeted_evidence_gaps/:
+targeted_evidence_gap_report.md
+evidence_gap_register.csv
+target_overlap_source_mapping.csv
+source_stage_reconciliation.csv
+changed_files.txt
+
+No source code, dataset, model result, official result, threshold, label, locked cohort, or paper draft was modified. Existing working-tree changes were preserved.

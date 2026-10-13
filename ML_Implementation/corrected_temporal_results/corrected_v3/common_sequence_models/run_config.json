@@ -1,0 +1,34 @@
+{
+  "comparison": "baseline and enhanced evaluated on exact shared valid target keys",
+  "objective": "forecast future-year violent-crime burden",
+  "train_years": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010
+  ],
+  "validation_years": [
+    2011,
+    2012
+  ],
+  "locked_test_years": [
+    2013,
+    2014
+  ],
+  "seed": 42,
+  "target_thresholds": [
+    107,
+    237,
+    362,
+    563
+  ],
+  "lookback": 3,
+  "selection": "validation macro-F1; best epoch by validation loss; final refit on train+validation",
+  "common_test_rows": 671
+}

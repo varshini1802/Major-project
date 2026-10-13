@@ -1,0 +1,36 @@
+{
+  "environment_python": "3.11.9",
+  "packages": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "tensorflow": "2.18.1"
+  },
+  "predeclared_seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "completed_seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "input_hashes": {
+    "ML_Implementation\\corrected_temporal_results\\corrected_v3\\inputs\\common_sequence_metadata.csv": "819268da2e0247442de8bdc5d0f0f8c0d835379d57f13195f1f7f910583e24fd",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v3\\inputs\\baseline_common_sequences.npz": "d1db012ab6e88c3334d1abb25ef01d560f28ea5386c869ffd1173c37df54577b",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v3\\inputs\\enhanced_common_sequences.npz": "f0c9f10cfcadb93e17845629bbda392eab34a7970c023bc9e495d57bcd6f23a6",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v4_controlled_sequence\\run_config.json": "8d934ea9b844a563268c259b5e8e2c9d4cee9967d685139fce65bcc40d83e265"
+  },
+  "runner": "ML_Implementation/run_corrected_v5_multiseed.py",
+  "model_source": "ML_Implementation/corrected_v4_controlled_sequence_experiment.py",
+  "configuration": "each seed folder/run_config.json; thresholds 107/237/362/563; train 2001-2010; validation 2011-2012; test 2013-2014",
+  "test_lock": "identical v4 671 district-year keys, target labels and input years checked for every model/seed",
+  "selection_scope": "validation macro-F1 for NN epochs and logistic C; test used once for reporting",
+  "uncertainty": "mean and standard deviation across random seeds reported; no inferential confidence interval because seed runs do not resample independent districts/years",
+  "ablation_scope": "v4 seed-42 ablation preserved separately; v5 five-seed feature ablations are stored in corrected_v5_feature_ablation_multiseed"
+}

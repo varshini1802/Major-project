@@ -1,0 +1,248 @@
+stage,source_column,present,rows,missing,observed_zero,positive,missing_reason,source_alias
+data\processed\district_integrated_raw.csv,IPC_ARSON,True,9856,954,1583,7319,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_raw.csv,IPC_ASSAULT_ON_WOMEN_WITH_INTENT_TO_OUTRAGE_HER_MODESTY,False,9856,,,,not inferable from available stage,
+data\processed\district_integrated_raw.csv,IPC_ATTEMPT_TO_MURDER,False,9856,,,,not inferable from available stage,
+data\processed\district_integrated_raw.csv,IPC_BURGLARY,True,9856,954,326,8576,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_raw.csv,IPC_CHEATING,True,9856,954,321,8581,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_raw.csv,IPC_COUNTERFEITING,False,9856,,,,not inferable from available stage,
+data\processed\district_integrated_raw.csv,IPC_CRIMINAL_BREACH_OF_TRUST,False,9856,,,,not inferable from available stage,
+data\processed\district_integrated_raw.csv,IPC_CULPABLE_HOMICIDE_NOT_AMOUNTING_TO_MURDER,False,9856,,,,not inferable from available stage,
+data\processed\district_integrated_raw.csv,IPC_DACOITY,True,9856,954,2052,6850,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_raw.csv,IPC_KIDNAPPING_ABDUCTION,False,9856,,,,not inferable from available stage,
+data\processed\district_integrated_raw.csv,IPC_MURDER,True,9856,954,188,8714,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_raw.csv,IPC_RAPE,True,9856,954,495,8407,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_raw.csv,IPC_RIOTS,True,9856,954,1007,7895,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_raw.csv,IPC_ROBBERY,True,9856,954,646,8256,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_raw.csv,IPC_SEXUAL_HARASSMENT,False,9856,,,,not inferable from available stage,
+data\processed\district_integrated_raw.csv,IPC_STALKING,False,9856,,,,not inferable from available stage,
+data\processed\district_integrated_raw.csv,IPC_THEFT,True,9856,954,84,8818,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_raw.csv,IPC_UNLAWFUL_ASSEMBLY,False,9856,,,,not inferable from available stage,
+data\processed\district_integrated_raw.csv,IPC_VOYEURISM,False,9856,,,,not inferable from available stage,
+data\processed\district_integrated_canonical.csv,IPC_ARSON,True,9856,225,1707,7924,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_canonical.csv,IPC_ASSAULT_ON_WOMEN_WITH_INTENT_TO_OUTRAGE_HER_MODESTY,True,9856,225,645,8986,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_canonical.csv,IPC_ATTEMPT_TO_MURDER,True,9856,954,507,8395,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_canonical.csv,IPC_BURGLARY,True,9856,954,326,8576,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_canonical.csv,IPC_CHEATING,True,9856,225,351,9280,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_canonical.csv,IPC_COUNTERFEITING,True,9856,9127,367,362,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_canonical.csv,IPC_CRIMINAL_BREACH_OF_TRUST,True,9856,225,973,8658,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_canonical.csv,IPC_CULPABLE_HOMICIDE_NOT_AMOUNTING_TO_MURDER,True,9856,225,3283,6348,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_canonical.csv,IPC_DACOITY,True,9856,225,2258,7373,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_canonical.csv,IPC_KIDNAPPING_ABDUCTION,True,9856,225,781,8850,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_canonical.csv,IPC_MURDER,True,9856,225,216,9415,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_canonical.csv,IPC_RAPE,True,9856,225,531,9100,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_canonical.csv,IPC_RIOTS,True,9856,225,1123,8508,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_canonical.csv,IPC_ROBBERY,True,9856,225,731,8900,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_canonical.csv,IPC_SEXUAL_HARASSMENT,True,9856,9127,282,447,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_canonical.csv,IPC_STALKING,True,9856,9127,405,324,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_canonical.csv,IPC_THEFT,True,9856,225,103,9528,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_canonical.csv,IPC_UNLAWFUL_ASSEMBLY,True,9856,9127,538,191,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_canonical.csv,IPC_VOYEURISM,True,9856,9127,545,184,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_final.csv,IPC_ARSON,True,9856,225,1707,7924,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_final.csv,IPC_ASSAULT_ON_WOMEN_WITH_INTENT_TO_OUTRAGE_HER_MODESTY,True,9856,225,645,8986,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_final.csv,IPC_ATTEMPT_TO_MURDER,True,9856,954,507,8395,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_final.csv,IPC_BURGLARY,True,9856,954,326,8576,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_final.csv,IPC_CHEATING,True,9856,225,351,9280,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_final.csv,IPC_COUNTERFEITING,True,9856,9127,367,362,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_final.csv,IPC_CRIMINAL_BREACH_OF_TRUST,True,9856,225,973,8658,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_final.csv,IPC_CULPABLE_HOMICIDE_NOT_AMOUNTING_TO_MURDER,True,9856,225,3283,6348,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_final.csv,IPC_DACOITY,True,9856,225,2258,7373,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_final.csv,IPC_KIDNAPPING_ABDUCTION,True,9856,225,781,8850,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_final.csv,IPC_MURDER,True,9856,225,216,9415,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_final.csv,IPC_RAPE,True,9856,225,531,9100,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_final.csv,IPC_RIOTS,True,9856,225,1123,8508,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_final.csv,IPC_ROBBERY,True,9856,225,731,8900,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_final.csv,IPC_SEXUAL_HARASSMENT,True,9856,9127,282,447,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_final.csv,IPC_STALKING,True,9856,9127,405,324,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_final.csv,IPC_THEFT,True,9856,225,103,9528,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_final.csv,IPC_UNLAWFUL_ASSEMBLY,True,9856,9127,538,191,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_integrated_final.csv,IPC_VOYEURISM,True,9856,9127,545,184,not encoded; this count does not distinguish non-reporting from unavailable data,
+data\processed\district_grouped_reduced.csv,IPC_ARSON,False,9856,,,,not inferable from available stage,
+data\processed\district_grouped_reduced.csv,IPC_ASSAULT_ON_WOMEN_WITH_INTENT_TO_OUTRAGE_HER_MODESTY,False,9856,,,,not inferable from available stage,
+data\processed\district_grouped_reduced.csv,IPC_ATTEMPT_TO_MURDER,False,9856,,,,not inferable from available stage,
+data\processed\district_grouped_reduced.csv,IPC_BURGLARY,False,9856,,,,not inferable from available stage,
+data\processed\district_grouped_reduced.csv,IPC_CHEATING,False,9856,,,,not inferable from available stage,
+data\processed\district_grouped_reduced.csv,IPC_COUNTERFEITING,False,9856,,,,not inferable from available stage,
+data\processed\district_grouped_reduced.csv,IPC_CRIMINAL_BREACH_OF_TRUST,False,9856,,,,not inferable from available stage,
+data\processed\district_grouped_reduced.csv,IPC_CULPABLE_HOMICIDE_NOT_AMOUNTING_TO_MURDER,False,9856,,,,not inferable from available stage,
+data\processed\district_grouped_reduced.csv,IPC_DACOITY,False,9856,,,,not inferable from available stage,
+data\processed\district_grouped_reduced.csv,IPC_KIDNAPPING_ABDUCTION,False,9856,,,,not inferable from available stage,
+data\processed\district_grouped_reduced.csv,IPC_MURDER,False,9856,,,,not inferable from available stage,
+data\processed\district_grouped_reduced.csv,IPC_RAPE,False,9856,,,,not inferable from available stage,
+data\processed\district_grouped_reduced.csv,IPC_RIOTS,False,9856,,,,not inferable from available stage,
+data\processed\district_grouped_reduced.csv,IPC_ROBBERY,False,9856,,,,not inferable from available stage,
+data\processed\district_grouped_reduced.csv,IPC_SEXUAL_HARASSMENT,False,9856,,,,not inferable from available stage,
+data\processed\district_grouped_reduced.csv,IPC_STALKING,False,9856,,,,not inferable from available stage,
+data\processed\district_grouped_reduced.csv,IPC_THEFT,False,9856,,,,not inferable from available stage,
+data\processed\district_grouped_reduced.csv,IPC_UNLAWFUL_ASSEMBLY,False,9856,,,,not inferable from available stage,
+data\processed\district_grouped_reduced.csv,IPC_VOYEURISM,False,9856,,,,not inferable from available stage,
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_ARSON,True,9017,0,1516,7501,Observed at this processed stage only; cause not inferred,ARSON
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_ASSAULT_ON_WOMEN_WITH_INTENT_TO_OUTRAGE_HER_MODESTY,True,9017,0,571,8446,Observed at this processed stage only; cause not inferred,ASSAULT ON WOMEN WITH INTENT TO OUTRAGE HER MODESTY
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_ATTEMPT_TO_MURDER,True,9017,0,486,8531,Observed at this processed stage only; cause not inferred,ATTEMPT TO MURDER
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_BURGLARY,True,9017,0,305,8712,Observed at this processed stage only; cause not inferred,BURGLARY
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_CHEATING,True,9017,0,318,8699,Observed at this processed stage only; cause not inferred,CHEATING
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_COUNTERFEITING,False,9017,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_CRIMINAL_BREACH_OF_TRUST,True,9017,0,866,8151,Observed at this processed stage only; cause not inferred,CRIMINAL BREACH OF TRUST
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_CULPABLE_HOMICIDE_NOT_AMOUNTING_TO_MURDER,True,9017,0,2970,6047,Observed at this processed stage only; cause not inferred,CULPABLE HOMICIDE NOT AMOUNTING TO MURDER
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_DACOITY,True,9017,0,1972,7045,Observed at this processed stage only; cause not inferred,DACOITY
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_KIDNAPPING_ABDUCTION,True,9017,0,446,8571,Observed at this processed stage only; cause not inferred,KIDNAPPING & ABDUCTION
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_MURDER,True,9017,0,185,8832,Observed at this processed stage only; cause not inferred,MURDER
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_RAPE,True,9017,0,498,8519,Observed at this processed stage only; cause not inferred,RAPE
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_RIOTS,True,9017,0,942,8075,Observed at this processed stage only; cause not inferred,RIOTS
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_ROBBERY,True,9017,0,609,8408,Observed at this processed stage only; cause not inferred,ROBBERY
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_SEXUAL_HARASSMENT,False,9017,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_STALKING,False,9017,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_THEFT,True,9017,0,71,8946,Observed at this processed stage only; cause not inferred,THEFT
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_UNLAWFUL_ASSEMBLY,False,9017,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_VOYEURISM,False,9017,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2013.csv,IPC_ARSON,True,823,0,151,672,Observed at this processed stage only; cause not inferred,ARSON
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2013.csv,IPC_ASSAULT_ON_WOMEN_WITH_INTENT_TO_OUTRAGE_HER_MODESTY,True,823,0,54,769,Observed at this processed stage only; cause not inferred,ASSAULT ON WOMEN WITH INTENT TO OUTRAGE HER MODESTY
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2013.csv,IPC_ATTEMPT_TO_MURDER,True,823,0,56,767,Observed at this processed stage only; cause not inferred,ATTEMPT TO MURDER
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2013.csv,IPC_BURGLARY,True,823,0,42,781,Observed at this processed stage only; cause not inferred,BURGLARY
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2013.csv,IPC_CHEATING,True,823,0,32,791,Observed at this processed stage only; cause not inferred,CHEATING
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2013.csv,IPC_COUNTERFEITING,False,823,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2013.csv,IPC_CRIMINAL_BREACH_OF_TRUST,True,823,0,100,723,Observed at this processed stage only; cause not inferred,CRIMINAL BREACH OF TRUST
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2013.csv,IPC_CULPABLE_HOMICIDE_NOT_AMOUNTING_TO_MURDER,True,823,0,281,542,Observed at this processed stage only; cause not inferred,CULPABLE HOMICIDE NOT AMOUNTING TO MURDER
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2013.csv,IPC_DACOITY,True,823,0,202,621,Observed at this processed stage only; cause not inferred,DACOITY
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2013.csv,IPC_KIDNAPPING_ABDUCTION,True,823,0,40,783,Observed at this processed stage only; cause not inferred,KIDNAPPING & ABDUCTION
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2013.csv,IPC_MURDER,True,823,0,32,791,Observed at this processed stage only; cause not inferred,MURDER
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2013.csv,IPC_RAPE,True,823,0,46,777,Observed at this processed stage only; cause not inferred,RAPE
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2013.csv,IPC_RIOTS,True,823,0,116,707,Observed at this processed stage only; cause not inferred,RIOTS
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2013.csv,IPC_ROBBERY,True,823,0,77,746,Observed at this processed stage only; cause not inferred,ROBBERY
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2013.csv,IPC_SEXUAL_HARASSMENT,False,823,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2013.csv,IPC_STALKING,False,823,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2013.csv,IPC_THEFT,True,823,0,15,808,Observed at this processed stage only; cause not inferred,THEFT
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2013.csv,IPC_UNLAWFUL_ASSEMBLY,False,823,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2013.csv,IPC_VOYEURISM,False,823,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2014.csv,IPC_ARSON,True,838,0,150,688,Observed at this processed stage only; cause not inferred,Arson
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2014.csv,IPC_ASSAULT_ON_WOMEN_WITH_INTENT_TO_OUTRAGE_HER_MODESTY,True,838,0,61,777,Observed at this processed stage only; cause not inferred,Assault on Women with intent to outrage her Modesty
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2014.csv,IPC_ATTEMPT_TO_MURDER,False,838,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2014.csv,IPC_BURGLARY,False,838,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2014.csv,IPC_CHEATING,True,838,0,37,801,Observed at this processed stage only; cause not inferred,Cheating
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2014.csv,IPC_COUNTERFEITING,True,838,0,396,442,Observed at this processed stage only; cause not inferred,Counterfeiting
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2014.csv,IPC_CRIMINAL_BREACH_OF_TRUST,True,838,0,97,741,Observed at this processed stage only; cause not inferred,Criminal Breach of Trust
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2014.csv,IPC_CULPABLE_HOMICIDE_NOT_AMOUNTING_TO_MURDER,True,838,0,292,546,Observed at this processed stage only; cause not inferred,Culpable Homicide not amounting to Murder
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2014.csv,IPC_DACOITY,True,838,0,230,608,Observed at this processed stage only; cause not inferred,Dacoity
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2014.csv,IPC_KIDNAPPING_ABDUCTION,True,838,0,370,468,Observed at this processed stage only; cause not inferred,Kidnapping & Abduction
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2014.csv,IPC_MURDER,True,838,0,32,806,Observed at this processed stage only; cause not inferred,Murder
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2014.csv,IPC_RAPE,True,838,0,48,790,Observed at this processed stage only; cause not inferred,Rape
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2014.csv,IPC_RIOTS,True,838,0,134,704,Observed at this processed stage only; cause not inferred,Riots
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2014.csv,IPC_ROBBERY,True,838,0,89,749,Observed at this processed stage only; cause not inferred,Robbery
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2014.csv,IPC_SEXUAL_HARASSMENT,True,838,0,308,530,Observed at this processed stage only; cause not inferred,Sexual Harassment
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2014.csv,IPC_STALKING,True,838,0,451,387,Observed at this processed stage only; cause not inferred,Stalking
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2014.csv,IPC_THEFT,True,838,0,19,819,Observed at this processed stage only; cause not inferred,Theft
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2014.csv,IPC_UNLAWFUL_ASSEMBLY,True,838,0,595,243,Observed at this processed stage only; cause not inferred,Unlawful Assembly
+data\processed\district_normalized\01_District_wise_crimes_committed_IPC_2014.csv,IPC_VOYEURISM,True,838,0,607,231,Observed at this processed stage only; cause not inferred,Voyeurism
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_ARSON,True,9017,0,1516,7501,Observed at this processed stage only; cause not inferred,ARSON
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_ASSAULT_ON_WOMEN_WITH_INTENT_TO_OUTRAGE_HER_MODESTY,True,9017,0,571,8446,Observed at this processed stage only; cause not inferred,ASSAULT ON WOMEN WITH INTENT TO OUTRAGE HER MODESTY
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_ATTEMPT_TO_MURDER,True,9017,0,486,8531,Observed at this processed stage only; cause not inferred,ATTEMPT TO MURDER
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_BURGLARY,True,9017,0,305,8712,Observed at this processed stage only; cause not inferred,BURGLARY
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_CHEATING,True,9017,0,318,8699,Observed at this processed stage only; cause not inferred,CHEATING
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_COUNTERFEITING,False,9017,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_CRIMINAL_BREACH_OF_TRUST,True,9017,0,866,8151,Observed at this processed stage only; cause not inferred,CRIMINAL BREACH OF TRUST
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_CULPABLE_HOMICIDE_NOT_AMOUNTING_TO_MURDER,True,9017,0,2970,6047,Observed at this processed stage only; cause not inferred,CULPABLE HOMICIDE NOT AMOUNTING TO MURDER
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_DACOITY,True,9017,0,1972,7045,Observed at this processed stage only; cause not inferred,DACOITY
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_KIDNAPPING_ABDUCTION,True,9017,0,446,8571,Observed at this processed stage only; cause not inferred,KIDNAPPING & ABDUCTION
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_MURDER,True,9017,0,185,8832,Observed at this processed stage only; cause not inferred,MURDER
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_RAPE,True,9017,0,498,8519,Observed at this processed stage only; cause not inferred,RAPE
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_RIOTS,True,9017,0,942,8075,Observed at this processed stage only; cause not inferred,RIOTS
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_ROBBERY,True,9017,0,609,8408,Observed at this processed stage only; cause not inferred,ROBBERY
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_SEXUAL_HARASSMENT,False,9017,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_STALKING,False,9017,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_THEFT,True,9017,0,71,8946,Observed at this processed stage only; cause not inferred,THEFT
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_UNLAWFUL_ASSEMBLY,False,9017,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_VOYEURISM,False,9017,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2013.csv,IPC_ARSON,True,823,0,151,672,Observed at this processed stage only; cause not inferred,ARSON
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2013.csv,IPC_ASSAULT_ON_WOMEN_WITH_INTENT_TO_OUTRAGE_HER_MODESTY,True,823,0,54,769,Observed at this processed stage only; cause not inferred,ASSAULT ON WOMEN WITH INTENT TO OUTRAGE HER MODESTY
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2013.csv,IPC_ATTEMPT_TO_MURDER,True,823,0,56,767,Observed at this processed stage only; cause not inferred,ATTEMPT TO MURDER
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2013.csv,IPC_BURGLARY,True,823,0,42,781,Observed at this processed stage only; cause not inferred,BURGLARY
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2013.csv,IPC_CHEATING,True,823,0,32,791,Observed at this processed stage only; cause not inferred,CHEATING
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2013.csv,IPC_COUNTERFEITING,False,823,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2013.csv,IPC_CRIMINAL_BREACH_OF_TRUST,True,823,0,100,723,Observed at this processed stage only; cause not inferred,CRIMINAL BREACH OF TRUST
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2013.csv,IPC_CULPABLE_HOMICIDE_NOT_AMOUNTING_TO_MURDER,True,823,0,281,542,Observed at this processed stage only; cause not inferred,CULPABLE HOMICIDE NOT AMOUNTING TO MURDER
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2013.csv,IPC_DACOITY,True,823,0,202,621,Observed at this processed stage only; cause not inferred,DACOITY
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2013.csv,IPC_KIDNAPPING_ABDUCTION,True,823,0,40,783,Observed at this processed stage only; cause not inferred,KIDNAPPING & ABDUCTION
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2013.csv,IPC_MURDER,True,823,0,32,791,Observed at this processed stage only; cause not inferred,MURDER
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2013.csv,IPC_RAPE,True,823,0,46,777,Observed at this processed stage only; cause not inferred,RAPE
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2013.csv,IPC_RIOTS,True,823,0,116,707,Observed at this processed stage only; cause not inferred,RIOTS
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2013.csv,IPC_ROBBERY,True,823,0,77,746,Observed at this processed stage only; cause not inferred,ROBBERY
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2013.csv,IPC_SEXUAL_HARASSMENT,False,823,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2013.csv,IPC_STALKING,False,823,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2013.csv,IPC_THEFT,True,823,0,15,808,Observed at this processed stage only; cause not inferred,THEFT
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2013.csv,IPC_UNLAWFUL_ASSEMBLY,False,823,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2013.csv,IPC_VOYEURISM,False,823,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2014.csv,IPC_ARSON,True,838,0,150,688,Observed at this processed stage only; cause not inferred,Arson
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2014.csv,IPC_ASSAULT_ON_WOMEN_WITH_INTENT_TO_OUTRAGE_HER_MODESTY,True,838,0,61,777,Observed at this processed stage only; cause not inferred,Assault on Women with intent to outrage her Modesty
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2014.csv,IPC_ATTEMPT_TO_MURDER,False,838,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2014.csv,IPC_BURGLARY,False,838,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2014.csv,IPC_CHEATING,True,838,0,37,801,Observed at this processed stage only; cause not inferred,Cheating
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2014.csv,IPC_COUNTERFEITING,True,838,0,396,442,Observed at this processed stage only; cause not inferred,Counterfeiting
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2014.csv,IPC_CRIMINAL_BREACH_OF_TRUST,True,838,0,97,741,Observed at this processed stage only; cause not inferred,Criminal Breach of Trust
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2014.csv,IPC_CULPABLE_HOMICIDE_NOT_AMOUNTING_TO_MURDER,True,838,0,292,546,Observed at this processed stage only; cause not inferred,Culpable Homicide not amounting to Murder
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2014.csv,IPC_DACOITY,True,838,0,230,608,Observed at this processed stage only; cause not inferred,Dacoity
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2014.csv,IPC_KIDNAPPING_ABDUCTION,True,838,0,370,468,Observed at this processed stage only; cause not inferred,Kidnapping & Abduction
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2014.csv,IPC_MURDER,True,838,0,32,806,Observed at this processed stage only; cause not inferred,Murder
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2014.csv,IPC_RAPE,True,838,0,48,790,Observed at this processed stage only; cause not inferred,Rape
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2014.csv,IPC_RIOTS,True,838,0,134,704,Observed at this processed stage only; cause not inferred,Riots
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2014.csv,IPC_ROBBERY,True,838,0,89,749,Observed at this processed stage only; cause not inferred,Robbery
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2014.csv,IPC_SEXUAL_HARASSMENT,True,838,0,308,530,Observed at this processed stage only; cause not inferred,Sexual Harassment
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2014.csv,IPC_STALKING,True,838,0,451,387,Observed at this processed stage only; cause not inferred,Stalking
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2014.csv,IPC_THEFT,True,838,0,19,819,Observed at this processed stage only; cause not inferred,Theft
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2014.csv,IPC_UNLAWFUL_ASSEMBLY,True,838,0,595,243,Observed at this processed stage only; cause not inferred,Unlawful Assembly
+data\processed\district_cleaned\01_District_wise_crimes_committed_IPC_2014.csv,IPC_VOYEURISM,True,838,0,607,231,Observed at this processed stage only; cause not inferred,Voyeurism
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_ARSON,True,8132,0,1437,6695,Observed at this processed stage only; cause not inferred,ARSON
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_ASSAULT_ON_WOMEN_WITH_INTENT_TO_OUTRAGE_HER_MODESTY,True,8132,0,535,7597,Observed at this processed stage only; cause not inferred,ASSAULT ON WOMEN WITH INTENT TO OUTRAGE HER MODESTY
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_ATTEMPT_TO_MURDER,True,8132,0,453,7679,Observed at this processed stage only; cause not inferred,ATTEMPT TO MURDER
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_BURGLARY,True,8132,0,287,7845,Observed at this processed stage only; cause not inferred,BURGLARY
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_CHEATING,True,8132,0,292,7840,Observed at this processed stage only; cause not inferred,CHEATING
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_COUNTERFEITING,False,8132,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_CRIMINAL_BREACH_OF_TRUST,True,8132,0,800,7332,Observed at this processed stage only; cause not inferred,CRIMINAL BREACH OF TRUST
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_CULPABLE_HOMICIDE_NOT_AMOUNTING_TO_MURDER,True,8132,0,2755,5377,Observed at this processed stage only; cause not inferred,CULPABLE HOMICIDE NOT AMOUNTING TO MURDER
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_DACOITY,True,8132,0,1856,6276,Observed at this processed stage only; cause not inferred,DACOITY
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_KIDNAPPING_ABDUCTION,True,8132,0,409,7723,Observed at this processed stage only; cause not inferred,KIDNAPPING & ABDUCTION
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_MURDER,True,8132,0,158,7974,Observed at this processed stage only; cause not inferred,MURDER
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_RAPE,True,8132,0,453,7679,Observed at this processed stage only; cause not inferred,RAPE
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_RIOTS,True,8132,0,900,7232,Observed at this processed stage only; cause not inferred,RIOTS
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_ROBBERY,True,8132,0,572,7560,Observed at this processed stage only; cause not inferred,ROBBERY
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_SEXUAL_HARASSMENT,False,8132,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_STALKING,False,8132,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_THEFT,True,8132,0,70,8062,Observed at this processed stage only; cause not inferred,THEFT
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_UNLAWFUL_ASSEMBLY,False,8132,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2001_2012.csv,IPC_VOYEURISM,False,8132,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2013.csv,IPC_ARSON,True,770,0,146,624,Observed at this processed stage only; cause not inferred,ARSON
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2013.csv,IPC_ASSAULT_ON_WOMEN_WITH_INTENT_TO_OUTRAGE_HER_MODESTY,True,770,0,52,718,Observed at this processed stage only; cause not inferred,ASSAULT ON WOMEN WITH INTENT TO OUTRAGE HER MODESTY
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2013.csv,IPC_ATTEMPT_TO_MURDER,True,770,0,54,716,Observed at this processed stage only; cause not inferred,ATTEMPT TO MURDER
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2013.csv,IPC_BURGLARY,True,770,0,39,731,Observed at this processed stage only; cause not inferred,BURGLARY
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2013.csv,IPC_CHEATING,True,770,0,29,741,Observed at this processed stage only; cause not inferred,CHEATING
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2013.csv,IPC_COUNTERFEITING,False,770,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2013.csv,IPC_CRIMINAL_BREACH_OF_TRUST,True,770,0,91,679,Observed at this processed stage only; cause not inferred,CRIMINAL BREACH OF TRUST
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2013.csv,IPC_CULPABLE_HOMICIDE_NOT_AMOUNTING_TO_MURDER,True,770,0,267,503,Observed at this processed stage only; cause not inferred,CULPABLE HOMICIDE NOT AMOUNTING TO MURDER
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2013.csv,IPC_DACOITY,True,770,0,196,574,Observed at this processed stage only; cause not inferred,DACOITY
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2013.csv,IPC_KIDNAPPING_ABDUCTION,True,770,0,37,733,Observed at this processed stage only; cause not inferred,KIDNAPPING & ABDUCTION
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2013.csv,IPC_MURDER,True,770,0,30,740,Observed at this processed stage only; cause not inferred,MURDER
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2013.csv,IPC_RAPE,True,770,0,42,728,Observed at this processed stage only; cause not inferred,RAPE
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2013.csv,IPC_RIOTS,True,770,0,107,663,Observed at this processed stage only; cause not inferred,RIOTS
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2013.csv,IPC_ROBBERY,True,770,0,74,696,Observed at this processed stage only; cause not inferred,ROBBERY
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2013.csv,IPC_SEXUAL_HARASSMENT,False,770,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2013.csv,IPC_STALKING,False,770,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2013.csv,IPC_THEFT,True,770,0,14,756,Observed at this processed stage only; cause not inferred,THEFT
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2013.csv,IPC_UNLAWFUL_ASSEMBLY,False,770,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2013.csv,IPC_VOYEURISM,False,770,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2014.csv,IPC_ARSON,True,729,0,124,605,Observed at this processed stage only; cause not inferred,Arson
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2014.csv,IPC_ASSAULT_ON_WOMEN_WITH_INTENT_TO_OUTRAGE_HER_MODESTY,True,729,0,58,671,Observed at this processed stage only; cause not inferred,Assault on Women with intent to outrage her Modesty
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2014.csv,IPC_ATTEMPT_TO_MURDER,False,729,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2014.csv,IPC_BURGLARY,False,729,,,,No mechanically normalized alias found; provenance unresolved,
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2014.csv,IPC_CHEATING,True,729,0,30,699,Observed at this processed stage only; cause not inferred,Cheating
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2014.csv,IPC_COUNTERFEITING,True,729,0,367,362,Observed at this processed stage only; cause not inferred,Counterfeiting
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2014.csv,IPC_CRIMINAL_BREACH_OF_TRUST,True,729,0,82,647,Observed at this processed stage only; cause not inferred,Criminal Breach of Trust
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2014.csv,IPC_CULPABLE_HOMICIDE_NOT_AMOUNTING_TO_MURDER,True,729,0,261,468,Observed at this processed stage only; cause not inferred,Culpable Homicide not amounting to Murder
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2014.csv,IPC_DACOITY,True,729,0,206,523,Observed at this processed stage only; cause not inferred,Dacoity
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2014.csv,IPC_KIDNAPPING_ABDUCTION,True,729,0,335,394,Observed at this processed stage only; cause not inferred,Kidnapping & Abduction
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2014.csv,IPC_MURDER,True,729,0,28,701,Observed at this processed stage only; cause not inferred,Murder
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2014.csv,IPC_RAPE,True,729,0,36,693,Observed at this processed stage only; cause not inferred,Rape
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2014.csv,IPC_RIOTS,True,729,0,116,613,Observed at this processed stage only; cause not inferred,Riots
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2014.csv,IPC_ROBBERY,True,729,0,85,644,Observed at this processed stage only; cause not inferred,Robbery
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2014.csv,IPC_SEXUAL_HARASSMENT,True,729,0,282,447,Observed at this processed stage only; cause not inferred,Sexual Harassment
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2014.csv,IPC_STALKING,True,729,0,405,324,Observed at this processed stage only; cause not inferred,Stalking
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2014.csv,IPC_THEFT,True,729,0,19,710,Observed at this processed stage only; cause not inferred,Theft
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2014.csv,IPC_UNLAWFUL_ASSEMBLY,True,729,0,538,191,Observed at this processed stage only; cause not inferred,Unlawful Assembly
+data\processed\district_core\01_District_wise_crimes_committed_IPC_2014.csv,IPC_VOYEURISM,True,729,0,545,184,Observed at this processed stage only; cause not inferred,Voyeurism

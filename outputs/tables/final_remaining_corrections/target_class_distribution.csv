@@ -1,0 +1,21 @@
+partition,class,class_name,count,rows
+all_valid_target_rows,1,Lowest burden,1938,9631
+all_valid_target_rows,2,Low-to-moderate burden,1824,9631
+all_valid_target_rows,3,Moderate burden,1831,9631
+all_valid_target_rows,4,Moderate-to-high burden,1968,9631
+all_valid_target_rows,5,Highest burden,2070,9631
+train,1,Lowest burden,1339,6699
+train,2,Low-to-moderate burden,1328,6699
+train,3,Moderate burden,1350,6699
+train,4,Moderate-to-high burden,1339,6699
+train,5,Highest burden,1343,6699
+validation,1,Lowest burden,285,1433
+validation,2,Low-to-moderate burden,233,1433
+validation,3,Moderate burden,241,1433
+validation,4,Moderate-to-high burden,325,1433
+validation,5,Highest burden,349,1433
+test,1,Lowest burden,314,1499
+test,2,Low-to-moderate burden,263,1499
+test,3,Moderate burden,240,1499
+test,4,Moderate-to-high burden,304,1499
+test,5,Highest burden,378,1499

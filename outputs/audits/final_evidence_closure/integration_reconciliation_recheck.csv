@@ -1,0 +1,103 @@
+comparison,variable,source_aliases,rows,key_sets_match,value_mismatches,result
+raw_aliases_to_final,IPC_ACID_ATTACK,IPC_Acid attack,9856,True,0,PASS
+raw_aliases_to_final,IPC_ARSON,IPC_ARSON | IPC_Arson,9856,True,0,PASS
+raw_aliases_to_final,IPC_ASSAULT_ON_WOMEN_WITH_INTENT_TO_OUTRAGE_HER_MODESTY,IPC_ASSAULT ON WOMEN WITH INTENT TO OUTRAGE HER MODESTY | IPC_Assault on Women with intent to outrage her Modesty,9856,True,0,PASS
+raw_aliases_to_final,IPC_ASSAULT_OR_USE_OF_CRIMINAL_FORCE_TO_WOMEN_WITH_INTENT_TO_DISROBE,IPC_Assault or use of criminal force to women with intent to Disrobe,9856,True,0,PASS
+raw_aliases_to_final,IPC_ATTEMPT_TO_ACID_ATTACK,IPC_Attempt to Acid Attack,9856,True,0,PASS
+raw_aliases_to_final,IPC_ATTEMPT_TO_COMMIT_CULPABLE_HOMICIDE,IPC_Attempt to commit Culpable Homicide,9856,True,0,PASS
+raw_aliases_to_final,IPC_ATTEMPT_TO_COMMIT_MURDER,IPC_Attempt to commit Murder,9856,True,0,PASS
+raw_aliases_to_final,IPC_ATTEMPT_TO_COMMIT_RAPE,IPC_Attempt to commit Rape,9856,True,0,PASS
+raw_aliases_to_final,IPC_ATTEMPT_TO_MURDER,IPC_ATTEMPT TO MURDER,9856,True,0,PASS
+raw_aliases_to_final,IPC_AT_OFFICE_PREMISES,IPC_At Office premises,9856,True,0,PASS
+raw_aliases_to_final,IPC_AUTO_THEFT,IPC_AUTO THEFT | IPC_Auto Theft,9856,True,0,PASS
+raw_aliases_to_final,IPC_BURGLARY,IPC_BURGLARY,9856,True,0,PASS
+raw_aliases_to_final,IPC_CAUSING_DEATH_BY_NEGLIGENCE,IPC_CAUSING DEATH BY NEGLIGENCE | IPC_Causing Death by Negligence,9856,True,0,PASS
+raw_aliases_to_final,IPC_CHEATING,IPC_CHEATING | IPC_Cheating,9856,True,0,PASS
+raw_aliases_to_final,IPC_COUNTERFEITING,IPC_Counterfeiting,9856,True,0,PASS
+raw_aliases_to_final,IPC_COUNTERFEITING_CURRENCY_NOTES_BANK_NOTES,IPC_Counterfeiting currency notes/Bank notes,9856,True,0,PASS
+raw_aliases_to_final,IPC_COUNTERFEITING_GOVERNMENT_STAMP,IPC_Counterfeiting Government Stamp,9856,True,0,PASS
+raw_aliases_to_final,IPC_COUNTERFEIT_CURRENCY_BANK_NOTES,IPC_Counterfeit currency & Bank notes,9856,True,0,PASS
+raw_aliases_to_final,IPC_COUNTERFEIT_OFFENCES_RELATED_TO_COUNTERFEIT_COIN,IPC_Counterfeit Offences related to Counterfeit Coin,9856,True,0,PASS
+raw_aliases_to_final,IPC_COUNTERFIETING,IPC_COUNTERFIETING,9856,True,0,PASS
+raw_aliases_to_final,IPC_CRIMINAL_BREACH_OF_TRUST,IPC_CRIMINAL BREACH OF TRUST | IPC_Criminal Breach of Trust,9856,True,0,PASS
+raw_aliases_to_final,IPC_CRIMINAL_TRESPASS_BURGLARY,IPC_Criminal Trespass/Burglary,9856,True,0,PASS
+raw_aliases_to_final,IPC_CRIMINAL_TRESPASS_OR_BURGLARY,IPC_Criminal Trespass or Burglary,9856,True,0,PASS
+raw_aliases_to_final,IPC_CRUELTY_BY_HUSBAND_OR_HIS_RELATIVES,IPC_CRUELTY BY HUSBAND OR HIS RELATIVES | IPC_Cruelty by Husband or his Relatives,9856,True,0,PASS
+raw_aliases_to_final,IPC_CULPABLE_HOMICIDE_NOT_AMOUNTING_TO_MURDER,IPC_CULPABLE HOMICIDE NOT AMOUNTING TO MURDER | IPC_Culpable Homicide not amounting to Murder,9856,True,0,PASS
+raw_aliases_to_final,IPC_CUSTODIAL_GANG_RAPE,IPC_Custodial_Gang Rape,9856,True,0,PASS
+raw_aliases_to_final,IPC_CUSTODIAL_OTHER_RAPE,IPC_Custodial_Other Rape,9856,True,0,PASS
+raw_aliases_to_final,IPC_CUSTODIAL_RAPE,IPC_CUSTODIAL RAPE | IPC_Custodial Rape,9856,True,0,PASS
+raw_aliases_to_final,IPC_DACOITY,IPC_DACOITY | IPC_Dacoity,9856,True,0,PASS
+raw_aliases_to_final,IPC_DACOITY_WITH_MURDER,IPC_Dacoity with Murder,9856,True,0,PASS
+raw_aliases_to_final,IPC_DEATHS_DUE_TO_NEGLIGENT_DRIVING_ACT,IPC_Deaths due to negligent driving/act,9856,True,0,PASS
+raw_aliases_to_final,IPC_DEATHS_DUE_TO_OTHER_CAUSES,IPC_Deaths due to Other Causes,9856,True,0,PASS
+raw_aliases_to_final,IPC_DISCLOSURE_OF_IDENTITY_OF_VICTIMS,IPC_Disclosure of Identity of Victims,9856,True,0,PASS
+raw_aliases_to_final,IPC_DOWRY_DEATHS,IPC_DOWRY DEATHS | IPC_Dowry Deaths,9856,True,0,PASS
+raw_aliases_to_final,IPC_EXTORTION,IPC_Extortion,9856,True,0,PASS
+raw_aliases_to_final,IPC_FORGERY,IPC_Forgery,9856,True,0,PASS
+raw_aliases_to_final,IPC_GRIEVOUS_HURT,IPC_Grievous Hurt,9856,True,0,PASS
+raw_aliases_to_final,IPC_HOUSE_TRESPASS_HOUSE_BREAKING,IPC_House Trespass & House Breaking,9856,True,0,PASS
+raw_aliases_to_final,IPC_HUMANTRAFFICKING,IPC_HumanTrafficking,9856,True,0,PASS
+raw_aliases_to_final,IPC_HURT,IPC_Hurt,9856,True,0,PASS
+raw_aliases_to_final,IPC_HURT_GREVIOUS_HURT,IPC_HURT/GREVIOUS HURT,9856,True,0,PASS
+raw_aliases_to_final,IPC_IMPORTATION_OF_GIRLS_FROM_FOREIGN_COUNTRIES,IPC_IMPORTATION OF GIRLS FROM FOREIGN COUNTRIES,9856,True,0,PASS
+raw_aliases_to_final,IPC_IMPORTATION_OF_GIRLS_FROM_FOREIGN_COUNTRY,IPC_Importation of Girls from Foreign Country,9856,True,0,PASS
+raw_aliases_to_final,IPC_IMPUTATION_ASSERTIONS_PREJUDICIAL_TO_NATIONAL_INTEGRATION,"IPC_Imputation, assertions prejudicial to national integration",9856,True,0,PASS
+raw_aliases_to_final,IPC_INCIDENCE_OF_RASH_DRIVING,IPC_Incidence of Rash Driving,9856,True,0,PASS
+raw_aliases_to_final,IPC_INSULT_TO_MODESTY_OF_WOMEN,IPC_INSULT TO MODESTY OF WOMEN,9856,True,0,PASS
+raw_aliases_to_final,IPC_INSULT_TO_THE_MODESTY_OF_WOMEN,IPC_Insult to the Modesty of Women,9856,True,0,PASS
+raw_aliases_to_final,IPC_IN_PUBLIC_TRANSPORT_SYSTEM,IPC_In Public Transport system,9856,True,0,PASS
+raw_aliases_to_final,IPC_KIDNAPPING_ABDUCTION,IPC_KIDNAPPING & ABDUCTION | IPC_Kidnapping & Abduction,9856,True,0,PASS
+raw_aliases_to_final,IPC_KIDNAPPING_ABDUCTION_IN_ORDER_TO_MURDER,IPC_Kidnapping & Abduction in order to Murder,9856,True,0,PASS
+raw_aliases_to_final,IPC_KIDNAPPING_ABDUCTION_OF_WOMEN_TO_COMPEL_HER_FOR_MARRIAGE,IPC_Kidnapping & Abduction of Women to compel her for marriage,9856,True,0,PASS
+raw_aliases_to_final,IPC_KIDNAPPING_ABDUCTION_TOTAL,IPC_Kidnapping & Abduction_Total,9856,True,0,PASS
+raw_aliases_to_final,IPC_KIDNAPPING_AND_ABDUCTION_OF_OTHERS,IPC_KIDNAPPING AND ABDUCTION OF OTHERS,9856,True,0,PASS
+raw_aliases_to_final,IPC_KIDNAPPING_AND_ABDUCTION_OF_WOMEN_AND_GIRLS,IPC_KIDNAPPING AND ABDUCTION OF WOMEN AND GIRLS,9856,True,0,PASS
+raw_aliases_to_final,IPC_KIDNAPPING_FOR_RANSOM,IPC_Kidnapping for Ransom,9856,True,0,PASS
+raw_aliases_to_final,IPC_MAKING_OR_POSSESSING_MATERIALS_FOR_FORGED_CURRENCY_BANK_NOTES,IPC_Making or Possessing materials for forged currency/Bank notes,9856,True,0,PASS
+raw_aliases_to_final,IPC_MAKING_OR_USING_DOCUMENTS_RESEMBLING_CURRENCY,IPC_Making or Using documents resembling currency,9856,True,0,PASS
+raw_aliases_to_final,IPC_MAKING_PREPARATION_AND_ASSEMBLY_FOR_COMMITTING_DACOITY,IPC_Making Preparation and Assembly for committing Dacoity,9856,True,0,PASS
+raw_aliases_to_final,IPC_MURDER,IPC_MURDER | IPC_Murder,9856,True,0,PASS
+raw_aliases_to_final,IPC_OFFENCES_AGAINST_STATE,IPC_Offences against State,9856,True,0,PASS
+raw_aliases_to_final,IPC_OFFENCES_PROMOTING_ENMITY_BETWEEN_DIFFERENT_GROUPS,IPC_Offences promoting enmity between different groups,9856,True,0,PASS
+raw_aliases_to_final,IPC_OTHER_ASSAULT_ON_WOMEN,IPC_Other Assault on Women,9856,True,0,PASS
+raw_aliases_to_final,IPC_OTHER_DACOITY,IPC_Other Dacoity,9856,True,0,PASS
+raw_aliases_to_final,IPC_OTHER_IPC_CRIMES,IPC_OTHER IPC CRIMES | IPC_Other IPC crimes,9856,True,0,PASS
+raw_aliases_to_final,IPC_OTHER_KIDNAPPING,IPC_Other Kidnapping,9856,True,0,PASS
+raw_aliases_to_final,IPC_OTHER_OFFENCES_AGAINST_STATE,IPC_Other offences against State,9856,True,0,PASS
+raw_aliases_to_final,IPC_OTHER_PLACES_RELATED_TO_WORK,IPC_Other places related to work,9856,True,0,PASS
+raw_aliases_to_final,IPC_OTHER_RAPE,IPC_OTHER RAPE,9856,True,0,PASS
+raw_aliases_to_final,IPC_OTHER_THEFT,IPC_OTHER THEFT,9856,True,0,PASS
+raw_aliases_to_final,IPC_OTHER_THEFTS,IPC_Other Thefts,9856,True,0,PASS
+raw_aliases_to_final,IPC_PLACES_OTHER_THAN_231_232_233,"IPC_Places other than 231, 232 & 233",9856,True,0,PASS
+raw_aliases_to_final,IPC_POSSESSION_OF_FORGED_OR_COUNTERFEITING_CURRENCY_BANK_NOTES,IPC_Possession of forged or counterfeiting currency/Bank notes,9856,True,0,PASS
+raw_aliases_to_final,IPC_PREPARATION_AND_ASSEMBLY_FOR_DACOITY,IPC_PREPARATION AND ASSEMBLY FOR DACOITY,9856,True,0,PASS
+raw_aliases_to_final,IPC_PROMOTING_ENMITY_BETWEEN_DIFFERENT_GROUPS,IPC_Promoting enmity between different groups,9856,True,0,PASS
+raw_aliases_to_final,IPC_RAPE,IPC_RAPE | IPC_Rape,9856,True,0,PASS
+raw_aliases_to_final,IPC_RAPE_GANG_RAPE,IPC_Rape_Gang Rape,9856,True,0,PASS
+raw_aliases_to_final,IPC_RAPE_OTHERS,IPC_Rape_Others,9856,True,0,PASS
+raw_aliases_to_final,IPC_RAPE_OTHER_THAN_CUSTODIAL,IPC_Rape other than Custodial,9856,True,0,PASS
+raw_aliases_to_final,IPC_RIOTS,IPC_RIOTS | IPC_Riots,9856,True,0,PASS
+raw_aliases_to_final,IPC_RIOTS_AGRARIAN,IPC_Riots_Agrarian,9856,True,0,PASS
+raw_aliases_to_final,IPC_RIOTS_CASTE_CONFLICT,IPC_Riots_Caste Conflict,9856,True,0,PASS
+raw_aliases_to_final,IPC_RIOTS_COMMUNAL,IPC_Riots_Communal,9856,True,0,PASS
+raw_aliases_to_final,IPC_RIOTS_INDUSTRIAL,IPC_Riots_Industrial,9856,True,0,PASS
+raw_aliases_to_final,IPC_RIOTS_OTHERS,IPC_Riots_Others,9856,True,0,PASS
+raw_aliases_to_final,IPC_RIOTS_OTHER_CASTE_CONFLICT,IPC_Riots_Other Caste Conflict,9856,True,0,PASS
+raw_aliases_to_final,IPC_RIOTS_POLITICAL,IPC_Riots_Political,9856,True,0,PASS
+raw_aliases_to_final,IPC_RIOTS_SC_STS_VS_NON_SCS_STS,IPC_Riots_SC/STs Vs Non-SCs/STs,9856,True,0,PASS
+raw_aliases_to_final,IPC_RIOTS_SECTARIAN,IPC_Riots_Sectarian,9856,True,0,PASS
+raw_aliases_to_final,IPC_RIOTS_STUDENTS,IPC_Riots_Students,9856,True,0,PASS
+raw_aliases_to_final,IPC_ROBBERY,IPC_ROBBERY | IPC_Robbery,9856,True,0,PASS
+raw_aliases_to_final,IPC_SEDITION,IPC_Sedition,9856,True,0,PASS
+raw_aliases_to_final,IPC_SEXUAL_HARASSMENT,IPC_Sexual Harassment,9856,True,0,PASS
+raw_aliases_to_final,IPC_STALKING,IPC_Stalking,9856,True,0,PASS
+raw_aliases_to_final,IPC_THEFT,IPC_THEFT | IPC_Theft,9856,True,0,PASS
+raw_aliases_to_final,IPC_TOTAL_COGNIZABLE_IPC_CRIMES,IPC_Total Cognizable IPC crimes,9856,True,0,PASS
+raw_aliases_to_final,IPC_TOTAL_IPC_CRIMES,IPC_TOTAL IPC CRIMES,9856,True,0,PASS
+raw_aliases_to_final,IPC_UNLAWFUL_ASSEMBLY,IPC_Unlawful Assembly,9856,True,0,PASS
+raw_aliases_to_final,IPC_UNNATURAL_OFFENCE,IPC_Unnatural Offence,9856,True,0,PASS
+raw_aliases_to_final,IPC_USING_FORGED_OR_COUNTERFEITING_CURRENCY_BANK_NOTES,IPC_Using forged or counterfeiting currency/Bank notes,9856,True,0,PASS
+raw_aliases_to_final,IPC_VOYEURISM,IPC_Voyeurism,9856,True,0,PASS
+normalized_to_cleaned,Murder|Rape|Dacoity|Robbery|Theft|Riots|Cheating|Arson,01_District_wise_crimes_committed_IPC_2014.csv,838,True,0,PASS_VALUE_SUBSET
+cleaned_to_core,Murder|Rape|Dacoity|Robbery|Theft|Riots|Cheating|Arson,01_District_wise_crimes_committed_IPC_2014.csv,729,False,0,PASS_VALUE_SUBSET

@@ -1,0 +1,62 @@
+{
+  "objective": "controlled future-year burden forecast comparison on identical shared strict sequences",
+  "target": "TARGET_VIOLENT_LEVEL",
+  "thresholds": [
+    107,
+    237,
+    362,
+    563
+  ],
+  "threshold_fit_years": "2001-2010",
+  "train_years": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010
+  ],
+  "validation_years": [
+    2011,
+    2012
+  ],
+  "locked_test_years": [
+    2013,
+    2014
+  ],
+  "common_test_rows": 671,
+  "seed": 53,
+  "lookback": 3,
+  "same_architecture_pairs": [
+    "GRU baseline vs GRU enhanced",
+    "LSTM baseline vs LSTM enhanced"
+  ],
+  "neural_config": {
+    "units": 64,
+    "dropout": 0.25,
+    "dense_units": 32,
+    "optimizer": "Adam",
+    "loss": "sparse_categorical_crossentropy",
+    "batch_size": 64,
+    "max_epochs": 100,
+    "epoch_selection": "maximum validation macro-F1; stop after 15 epochs without improvement; final refit uses selected epoch on train+validation"
+  },
+  "neural_preprocessing": "feature-wise StandardScaler fit on training sequences for validation selection, then refit on train+validation for test",
+  "logistic_config": {
+    "C_candidates": [
+      0.01,
+      0.1,
+      1.0,
+      10.0
+    ],
+    "selection": "validation macro-F1",
+    "inputs": "flattened ordered 3-year sequence; standardizer fit on training only then refit train+validation"
+  },
+  "test_metrics": "accuracy, macro-F1, weighted-F1, per-class report/support, confusion matrix, macro OvR ROC-AUC, macro mean OvR average precision",
+  "auc_definition": "5-class macro one-vs-rest ROC-AUC and unweighted mean of per-class one-vs-rest average precision; all five classes must occur in test",
+  "test_used_for_selection": false
+}

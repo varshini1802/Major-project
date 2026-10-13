@@ -1,0 +1,16 @@
+model,metric,seeds,mean_paired_difference,standard_deviation,direction_counts,interval
+GRU,macro_ovr_average_precision,5,0.00015422049966078432,0.004761841859929013,higher=3; equal=0; lower=2,Not estimated: seed variability is not sampling uncertainty for the fixed dependent district-year test cohort.
+GRU,macro_ovr_roc_auc,5,-0.0009934634061875337,0.0010276398059518473,higher=1; equal=0; lower=4,Not estimated: seed variability is not sampling uncertainty for the fixed dependent district-year test cohort.
+GRU,test_accuracy,5,0.005663189269746671,0.005810309594521017,higher=4; equal=0; lower=1,Not estimated: seed variability is not sampling uncertainty for the fixed dependent district-year test cohort.
+GRU,test_macro_f1,5,0.007849153199016624,0.007724177198073919,higher=4; equal=0; lower=1,Not estimated: seed variability is not sampling uncertainty for the fixed dependent district-year test cohort.
+GRU,test_weighted_f1,5,0.005368866069228239,0.006643535228978433,higher=4; equal=0; lower=1,Not estimated: seed variability is not sampling uncertainty for the fixed dependent district-year test cohort.
+LSTM,macro_ovr_average_precision,5,0.004811776554175595,0.005656354463082845,higher=3; equal=0; lower=2,Not estimated: seed variability is not sampling uncertainty for the fixed dependent district-year test cohort.
+LSTM,macro_ovr_roc_auc,5,-0.0005656859033426498,0.0018477465888340789,higher=3; equal=0; lower=2,Not estimated: seed variability is not sampling uncertainty for the fixed dependent district-year test cohort.
+LSTM,test_accuracy,5,0.011326378539493276,0.004782952767773817,higher=5; equal=0; lower=0,Not estimated: seed variability is not sampling uncertainty for the fixed dependent district-year test cohort.
+LSTM,test_macro_f1,5,0.012478916576299803,0.007674867577765718,higher=5; equal=0; lower=0,Not estimated: seed variability is not sampling uncertainty for the fixed dependent district-year test cohort.
+LSTM,test_weighted_f1,5,0.010248103371971951,0.0055631089527315184,higher=5; equal=0; lower=0,Not estimated: seed variability is not sampling uncertainty for the fixed dependent district-year test cohort.
+LogisticRegression,macro_ovr_average_precision,5,-0.0036091665325493905,0.0,higher=0; equal=0; lower=5,Not estimated: seed variability is not sampling uncertainty for the fixed dependent district-year test cohort.
+LogisticRegression,macro_ovr_roc_auc,5,-0.0014611997753027905,0.0,higher=0; equal=0; lower=5,Not estimated: seed variability is not sampling uncertainty for the fixed dependent district-year test cohort.
+LogisticRegression,test_accuracy,5,0.0014903129657228842,0.0,higher=5; equal=0; lower=0,Not estimated: seed variability is not sampling uncertainty for the fixed dependent district-year test cohort.
+LogisticRegression,test_macro_f1,5,0.00016107580570279278,0.0,higher=5; equal=0; lower=0,Not estimated: seed variability is not sampling uncertainty for the fixed dependent district-year test cohort.
+LogisticRegression,test_weighted_f1,5,0.0007081956914847254,0.0,higher=5; equal=0; lower=0,Not estimated: seed variability is not sampling uncertainty for the fixed dependent district-year test cohort.

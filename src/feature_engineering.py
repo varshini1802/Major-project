@@ -66,6 +66,10 @@ FEATURE_SUMMARY_PATH = (
     / "enhanced_feature_summary.csv"
 )
 
+CANONICAL_TARGET_PATH = (
+    PROJECT_ROOT / "data" / "processed" / "district_targeted.csv"
+)
+
 
 # =====================================================================
 # EXISTING COLUMNS
@@ -607,6 +611,21 @@ def main() -> None:
     df = pd.read_csv(
         INPUT_DATA
     )
+
+    # Never propagate a stale target column from the grouped input. Refresh it
+    # by district-year key from the corrected canonical target before deriving
+    # engineered features.
+    keys = METADATA_COLUMNS
+    canonical = pd.read_csv(CANONICAL_TARGET_PATH, usecols=keys + [TARGET_COLUMN])
+    for frame, name in ((df, "grouped input"), (canonical, "canonical target")):
+        if frame.duplicated(keys).any():
+            raise ValueError(f"Duplicate district-year keys in {name}.")
+    df = df.drop(columns=[TARGET_COLUMN]).merge(
+        canonical, on=keys, how="left", validate="one_to_one", indicator=True
+    )
+    if not df["_merge"].eq("both").all():
+        raise ValueError("Some grouped rows have no canonical district-year target.")
+    df = df.drop(columns="_merge")
 
     print(
         f"\nOriginal shape: {df.shape}"

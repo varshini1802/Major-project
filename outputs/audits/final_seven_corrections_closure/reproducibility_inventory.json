@@ -1,0 +1,926 @@
+{
+  "scope": "Retained-artifact inventory; no model retraining or dataset modification.",
+  "environment": {
+    "python": "3.11.9",
+    "packages": {
+      "numpy": "2.0.2",
+      "pandas": "2.3.3",
+      "scikit_learn": "1.7.2",
+      "tensorflow": "2.18.1"
+    },
+    "environment_files": [
+      "requirements.txt"
+    ]
+  },
+  "target": {
+    "definition": "Five ordered burden classes; training-period quantile thresholds with ties preserved.",
+    "thresholds": [
+      107,
+      237,
+      362,
+      563
+    ],
+    "fit_years": "2001-2010"
+  },
+  "split": {
+    "train": "2001-2010",
+    "validation": "2011-2012",
+    "test": "2013-2014"
+  },
+  "cohort": {
+    "controlled_sequence_test_rows": 671,
+    "prediction_artifacts_reconciled": 78,
+    "key_or_label_failures": 0,
+    "legacy_sequence_rows": {
+      "baseline": 1276,
+      "enhanced": 671,
+      "status": "superseded and not paired"
+    },
+    "evidence": "outputs/audits/final_release_readiness/test_cohort_and_prediction_integrity.csv"
+  },
+  "features": {
+    "baseline": [
+      "LAG1_GROUP_HOMICIDE",
+      "LAG1_GROUP_SEXUAL_VIOLENCE",
+      "LAG1_GROUP_KIDNAPPING_ABDUCTION",
+      "LAG1_GROUP_ROBBERY_DACOITY",
+      "LAG1_GROUP_PUBLIC_VIOLENCE",
+      "LAG1_GROUP_PROPERTY_CRIME"
+    ],
+    "enhanced": "Baseline plus lagged engineered features as listed in saved configs and actual_model_feature_lineage.csv",
+    "years": "Tabular t-1; sequences t-3 through t-1."
+  },
+  "run_configs": [
+    {
+      "path": "ML_Implementation\\corrected_temporal_results\\corrected_v1\\sequential_models\\run_config.json",
+      "configuration": {
+        "objective": "future-year violent-crime burden forecasting",
+        "lookback": 3,
+        "history": "t-3,t-2,t-1 exact same-district complete feature records",
+        "train_years": [
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ],
+        "validation_years": [
+          2011,
+          2012
+        ],
+        "locked_test_years": [
+          2013,
+          2014
+        ],
+        "target_thresholds": [
+          107,
+          237,
+          362,
+          563
+        ],
+        "seed": 42,
+        "incomplete_sequences": "rejected; no padding or imputation",
+        "selection": "validation macro-F1 and validation-loss best epoch; selected model refit on train+validation before locked test evaluation"
+      }
+    },
+    {
+      "path": "ML_Implementation\\corrected_temporal_results\\corrected_v1\\tabular\\run_config.json",
+      "configuration": {
+        "objective": "forecast future-year violent-crime burden",
+        "target": "TARGET_VIOLENT_LEVEL",
+        "thresholds": [
+          107.0,
+          237.0,
+          362.0,
+          563.0
+        ],
+        "threshold_fit_years": "2001-2010",
+        "train_years": [
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ],
+        "validation_years": [
+          2011,
+          2012
+        ],
+        "locked_test_years": [
+          2013,
+          2014
+        ],
+        "features": "district keyed t-1 rows",
+        "selection": "validation macro-F1; refit selected model on train+validation; evaluate locked test once",
+        "preprocessing": "median imputation and scaling are within sklearn pipeline fitted on train, then refitted on train+validation after selection",
+        "seed": 42
+      }
+    },
+    {
+      "path": "ML_Implementation\\corrected_temporal_results\\corrected_v2\\sequential_models\\run_config.json",
+      "configuration": {
+        "objective": "future-year violent-crime burden forecasting",
+        "lookback": 3,
+        "history": "t-3,t-2,t-1 exact same-district complete feature records",
+        "train_years": [
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ],
+        "validation_years": [
+          2011,
+          2012
+        ],
+        "locked_test_years": [
+          2013,
+          2014
+        ],
+        "target_thresholds": [
+          107,
+          237,
+          362,
+          563
+        ],
+        "seed": 42,
+        "incomplete_sequences": "rejected; no padding or imputation",
+        "selection": "validation macro-F1 and validation-loss best epoch; selected model refit on train+validation before locked test evaluation"
+      }
+    },
+    {
+      "path": "ML_Implementation\\corrected_temporal_results\\corrected_v2\\tabular\\run_config.json",
+      "configuration": {
+        "objective": "forecast future-year violent-crime burden",
+        "target": "TARGET_VIOLENT_LEVEL",
+        "thresholds": [
+          107.0,
+          237.0,
+          362.0,
+          563.0
+        ],
+        "threshold_fit_years": "2001-2010",
+        "train_years": [
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ],
+        "validation_years": [
+          2011,
+          2012
+        ],
+        "locked_test_years": [
+          2013,
+          2014
+        ],
+        "features": "district keyed t-1 rows",
+        "selection": "validation macro-F1; refit selected model on train+validation; evaluate locked test once",
+        "preprocessing": "median imputation and scaling are within sklearn pipeline fitted on train, then refitted on train+validation after selection",
+        "seed": 42
+      }
+    },
+    {
+      "path": "ML_Implementation\\corrected_temporal_results\\corrected_v3\\run_config.json",
+      "configuration": {
+        "objective": "forecast future-year violent-crime burden class",
+        "thresholds": [
+          107.0,
+          237.0,
+          362.0,
+          563.0
+        ],
+        "threshold_fit_years": "2001-2010",
+        "train_years": [
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ],
+        "validation_years": [
+          2011,
+          2012
+        ],
+        "test_years": [
+          2013,
+          2014
+        ],
+        "seed": 42,
+        "tabular_features": {
+          "baseline": [
+            "LAG1_GROUP_HOMICIDE",
+            "LAG1_GROUP_SEXUAL_VIOLENCE",
+            "LAG1_GROUP_KIDNAPPING_ABDUCTION",
+            "LAG1_GROUP_ROBBERY_DACOITY",
+            "LAG1_GROUP_PUBLIC_VIOLENCE",
+            "LAG1_GROUP_PROPERTY_CRIME"
+          ],
+          "enhanced": [
+            "LAG1_GROUP_HOMICIDE",
+            "LAG1_GROUP_SEXUAL_VIOLENCE",
+            "LAG1_GROUP_KIDNAPPING_ABDUCTION",
+            "LAG1_GROUP_ROBBERY_DACOITY",
+            "LAG1_GROUP_PUBLIC_VIOLENCE",
+            "LAG1_GROUP_PROPERTY_CRIME",
+            "LAG1_TOTAL_GROUPED_CRIME",
+            "LAG1_ACTIVE_CRIME_GROUPS",
+            "LAG1_CRIME_DIVERSITY_INDEX",
+            "LAG1_PREV_YEAR_TOTAL_CRIME",
+            "LAG1_YOY_TOTAL_CRIME_CHANGE"
+          ]
+        },
+        "sequence_features": {
+          "baseline": [
+            "GROUP_HOMICIDE",
+            "GROUP_SEXUAL_VIOLENCE",
+            "GROUP_KIDNAPPING_ABDUCTION",
+            "GROUP_ROBBERY_DACOITY",
+            "GROUP_PUBLIC_VIOLENCE",
+            "GROUP_PROPERTY_CRIME"
+          ],
+          "enhanced": [
+            "GROUP_HOMICIDE",
+            "GROUP_SEXUAL_VIOLENCE",
+            "GROUP_KIDNAPPING_ABDUCTION",
+            "GROUP_ROBBERY_DACOITY",
+            "GROUP_PUBLIC_VIOLENCE",
+            "GROUP_PROPERTY_CRIME",
+            "TOTAL_GROUPED_CRIME",
+            "ACTIVE_CRIME_GROUPS",
+            "CRIME_DIVERSITY_INDEX",
+            "PREV_YEAR_TOTAL_CRIME",
+            "YOY_TOTAL_CRIME_CHANGE"
+          ]
+        },
+        "sequence_lookback": 3,
+        "common_cohort_rule": "intersection of valid baseline and enhanced sequence YEAR/STATE/UNIT_NAME keys; target labels must agree",
+        "source_publication_timing": "unverified; prior observation-year eligibility only"
+      }
+    },
+    {
+      "path": "ML_Implementation\\corrected_temporal_results\\corrected_v3\\common_sequence_models\\run_config.json",
+      "configuration": {
+        "comparison": "baseline and enhanced evaluated on exact shared valid target keys",
+        "objective": "forecast future-year violent-crime burden",
+        "train_years": [
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ],
+        "validation_years": [
+          2011,
+          2012
+        ],
+        "locked_test_years": [
+          2013,
+          2014
+        ],
+        "seed": 42,
+        "target_thresholds": [
+          107,
+          237,
+          362,
+          563
+        ],
+        "lookback": 3,
+        "selection": "validation macro-F1; best epoch by validation loss; final refit on train+validation",
+        "common_test_rows": 671
+      }
+    },
+    {
+      "path": "ML_Implementation\\corrected_temporal_results\\corrected_v3\\tabular\\run_config.json",
+      "configuration": {
+        "objective": "future-year violent-crime burden forecasting",
+        "target": "TARGET_VIOLENT_LEVEL",
+        "thresholds": [
+          107,
+          237,
+          362,
+          563
+        ],
+        "threshold_fit_years": "2001-2010",
+        "train_years": [
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ],
+        "validation_years": [
+          2011,
+          2012
+        ],
+        "locked_test_years": [
+          2013,
+          2014
+        ],
+        "feature_contract": {
+          "baseline": [
+            "LAG1_GROUP_HOMICIDE",
+            "LAG1_GROUP_SEXUAL_VIOLENCE",
+            "LAG1_GROUP_KIDNAPPING_ABDUCTION",
+            "LAG1_GROUP_ROBBERY_DACOITY",
+            "LAG1_GROUP_PUBLIC_VIOLENCE",
+            "LAG1_GROUP_PROPERTY_CRIME"
+          ],
+          "enhanced": [
+            "LAG1_GROUP_HOMICIDE",
+            "LAG1_GROUP_SEXUAL_VIOLENCE",
+            "LAG1_GROUP_KIDNAPPING_ABDUCTION",
+            "LAG1_GROUP_ROBBERY_DACOITY",
+            "LAG1_GROUP_PUBLIC_VIOLENCE",
+            "LAG1_GROUP_PROPERTY_CRIME",
+            "LAG1_TOTAL_GROUPED_CRIME",
+            "LAG1_ACTIVE_CRIME_GROUPS",
+            "LAG1_CRIME_DIVERSITY_INDEX",
+            "LAG1_PREV_YEAR_TOTAL_CRIME",
+            "LAG1_YOY_TOTAL_CRIME_CHANGE"
+          ]
+        },
+        "selection": "validation macro-F1; test evaluated only for selected model and prespecified majority baseline",
+        "preprocessing": "pipeline operations fit on training rows for selection; final pipelines fit on train+validation",
+        "seed": 42
+      }
+    },
+    {
+      "path": "ML_Implementation\\corrected_temporal_results\\corrected_v4_controlled_sequence\\run_config.json",
+      "configuration": {
+        "objective": "controlled future-year burden forecast comparison on identical shared strict sequences",
+        "target": "TARGET_VIOLENT_LEVEL",
+        "thresholds": [
+          107,
+          237,
+          362,
+          563
+        ],
+        "threshold_fit_years": "2001-2010",
+        "train_years": [
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ],
+        "validation_years": [
+          2011,
+          2012
+        ],
+        "locked_test_years": [
+          2013,
+          2014
+        ],
+        "common_test_rows": 671,
+        "seed": 42,
+        "lookback": 3,
+        "same_architecture_pairs": [
+          "GRU baseline vs GRU enhanced",
+          "LSTM baseline vs LSTM enhanced"
+        ],
+        "neural_config": {
+          "units": 64,
+          "dropout": 0.25,
+          "dense_units": 32,
+          "optimizer": "Adam",
+          "loss": "sparse_categorical_crossentropy",
+          "batch_size": 64,
+          "max_epochs": 100,
+          "epoch_selection": "maximum validation macro-F1; stop after 15 epochs without improvement; final refit uses selected epoch on train+validation"
+        },
+        "logistic_config": {
+          "C_candidates": [
+            0.01,
+            0.1,
+            1.0,
+            10.0
+          ],
+          "selection": "validation macro-F1",
+          "inputs": "flattened ordered 3-year sequence; standardizer fit on training only then refit train+validation"
+        },
+        "test_metrics": "accuracy, macro-F1, weighted-F1, per-class report/support, confusion matrix, macro OvR ROC-AUC, macro mean OvR average precision",
+        "auc_definition": "5-class macro one-vs-rest ROC-AUC and unweighted mean of per-class one-vs-rest average precision; all five classes must occur in test",
+        "test_used_for_selection": false,
+        "neural_preprocessing": "feature-wise StandardScaler fit on training sequences for validation selection, then refit on train+validation for test"
+      }
+    },
+    {
+      "path": "ML_Implementation\\corrected_temporal_results\\corrected_v4_feature_ablation\\run_config.json",
+      "configuration": {
+        "objective": "one-engineered-feature-at-a-time ablation compared with same-architecture baseline",
+        "same_test_keys_source": "corrected_v3 common sequence cohort",
+        "train_years": [
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ],
+        "validation_years": [
+          2011,
+          2012
+        ],
+        "test_years": [
+          2013,
+          2014
+        ],
+        "lookback": 3,
+        "thresholds": [
+          107,
+          237,
+          362,
+          563
+        ],
+        "seed": 42,
+        "architectures": [
+          "GRU(64)",
+          "LSTM(64)"
+        ],
+        "training": "Adam; sparse categorical crossentropy; dropout .25; dense 32; batch 64; max 100 epochs; patience 15 on validation macro-F1",
+        "selection": "validation macro-F1 only; final model refit on train+validation at selected epoch",
+        "test_used_for_selection": false,
+        "preprocessing": "feature-wise StandardScaler fit on training sequences for validation selection, then refit on train+validation for test"
+      }
+    },
+    {
+      "path": "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\run_config.json",
+      "configuration": {
+        "predeclared_seeds": [
+          11,
+          23,
+          37,
+          53,
+          71
+        ],
+        "train_years": [
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ],
+        "validation_years": [
+          2011,
+          2012
+        ],
+        "locked_test_years": [
+          2013,
+          2014
+        ],
+        "thresholds": [
+          107,
+          237,
+          362,
+          563
+        ],
+        "locked_test_rows": 671,
+        "input": "corrected_v3 common enhanced sequences; entire test key/label/input-year table exactly equals corrected_v4 locked cohort",
+        "architectures": [
+          "GRU(64)",
+          "LSTM(64)"
+        ],
+        "ablation": "six grouped features plus exactly one of five engineered features; paired with same-seed same-architecture baseline macro-F1",
+        "selection": "validation macro-F1 only; train+validation refit at selected epoch; locked test not used for selection",
+        "preprocessing": "StandardScaler fit on training sequences for selection and separately on train+validation for final test",
+        "max_epochs": 100,
+        "batch_size": 64,
+        "patience": 15,
+        "tensorflow_seed_control": "Python random, NumPy, tf.keras.utils.set_random_seed",
+        "packages": {
+          "numpy": "2.0.2",
+          "pandas": "2.3.3",
+          "scikit-learn": "1.7.2",
+          "tensorflow": "2.18.1"
+        },
+        "completed_runs": 50,
+        "expected_runs": 50,
+        "uncertainty": "seed standard deviation is descriptive optimizer variability, not sampling uncertainty or statistical significance"
+      }
+    },
+    {
+      "path": "ML_Implementation\\corrected_temporal_results\\corrected_v5_multiseed\\seed_11\\run_config.json",
+      "configuration": {
+        "objective": "controlled future-year burden forecast comparison on identical shared strict sequences",
+        "target": "TARGET_VIOLENT_LEVEL",
+        "thresholds": [
+          107,
+          237,
+          362,
+          563
+        ],
+        "threshold_fit_years": "2001-2010",
+        "train_years": [
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ],
+        "validation_years": [
+          2011,
+          2012
+        ],
+        "locked_test_years": [
+          2013,
+          2014
+        ],
+        "common_test_rows": 671,
+        "seed": 11,
+        "lookback": 3,
+        "same_architecture_pairs": [
+          "GRU baseline vs GRU enhanced",
+          "LSTM baseline vs LSTM enhanced"
+        ],
+        "neural_config": {
+          "units": 64,
+          "dropout": 0.25,
+          "dense_units": 32,
+          "optimizer": "Adam",
+          "loss": "sparse_categorical_crossentropy",
+          "batch_size": 64,
+          "max_epochs": 100,
+          "epoch_selection": "maximum validation macro-F1; stop after 15 epochs without improvement; final refit uses selected epoch on train+validation"
+        },
+        "neural_preprocessing": "feature-wise StandardScaler fit on training sequences for validation selection, then refit on train+validation for test",
+        "logistic_config": {
+          "C_candidates": [
+            0.01,
+            0.1,
+            1.0,
+            10.0
+          ],
+          "selection": "validation macro-F1",
+          "inputs": "flattened ordered 3-year sequence; standardizer fit on training only then refit train+validation"
+        },
+        "test_metrics": "accuracy, macro-F1, weighted-F1, per-class report/support, confusion matrix, macro OvR ROC-AUC, macro mean OvR average precision",
+        "auc_definition": "5-class macro one-vs-rest ROC-AUC and unweighted mean of per-class one-vs-rest average precision; all five classes must occur in test",
+        "test_used_for_selection": false
+      }
+    },
+    {
+      "path": "ML_Implementation\\corrected_temporal_results\\corrected_v5_multiseed\\seed_23\\run_config.json",
+      "configuration": {
+        "objective": "controlled future-year burden forecast comparison on identical shared strict sequences",
+        "target": "TARGET_VIOLENT_LEVEL",
+        "thresholds": [
+          107,
+          237,
+          362,
+          563
+        ],
+        "threshold_fit_years": "2001-2010",
+        "train_years": [
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ],
+        "validation_years": [
+          2011,
+          2012
+        ],
+        "locked_test_years": [
+          2013,
+          2014
+        ],
+        "common_test_rows": 671,
+        "seed": 23,
+        "lookback": 3,
+        "same_architecture_pairs": [
+          "GRU baseline vs GRU enhanced",
+          "LSTM baseline vs LSTM enhanced"
+        ],
+        "neural_config": {
+          "units": 64,
+          "dropout": 0.25,
+          "dense_units": 32,
+          "optimizer": "Adam",
+          "loss": "sparse_categorical_crossentropy",
+          "batch_size": 64,
+          "max_epochs": 100,
+          "epoch_selection": "maximum validation macro-F1; stop after 15 epochs without improvement; final refit uses selected epoch on train+validation"
+        },
+        "neural_preprocessing": "feature-wise StandardScaler fit on training sequences for validation selection, then refit on train+validation for test",
+        "logistic_config": {
+          "C_candidates": [
+            0.01,
+            0.1,
+            1.0,
+            10.0
+          ],
+          "selection": "validation macro-F1",
+          "inputs": "flattened ordered 3-year sequence; standardizer fit on training only then refit train+validation"
+        },
+        "test_metrics": "accuracy, macro-F1, weighted-F1, per-class report/support, confusion matrix, macro OvR ROC-AUC, macro mean OvR average precision",
+        "auc_definition": "5-class macro one-vs-rest ROC-AUC and unweighted mean of per-class one-vs-rest average precision; all five classes must occur in test",
+        "test_used_for_selection": false
+      }
+    },
+    {
+      "path": "ML_Implementation\\corrected_temporal_results\\corrected_v5_multiseed\\seed_37\\run_config.json",
+      "configuration": {
+        "objective": "controlled future-year burden forecast comparison on identical shared strict sequences",
+        "target": "TARGET_VIOLENT_LEVEL",
+        "thresholds": [
+          107,
+          237,
+          362,
+          563
+        ],
+        "threshold_fit_years": "2001-2010",
+        "train_years": [
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ],
+        "validation_years": [
+          2011,
+          2012
+        ],
+        "locked_test_years": [
+          2013,
+          2014
+        ],
+        "common_test_rows": 671,
+        "seed": 37,
+        "lookback": 3,
+        "same_architecture_pairs": [
+          "GRU baseline vs GRU enhanced",
+          "LSTM baseline vs LSTM enhanced"
+        ],
+        "neural_config": {
+          "units": 64,
+          "dropout": 0.25,
+          "dense_units": 32,
+          "optimizer": "Adam",
+          "loss": "sparse_categorical_crossentropy",
+          "batch_size": 64,
+          "max_epochs": 100,
+          "epoch_selection": "maximum validation macro-F1; stop after 15 epochs without improvement; final refit uses selected epoch on train+validation"
+        },
+        "neural_preprocessing": "feature-wise StandardScaler fit on training sequences for validation selection, then refit on train+validation for test",
+        "logistic_config": {
+          "C_candidates": [
+            0.01,
+            0.1,
+            1.0,
+            10.0
+          ],
+          "selection": "validation macro-F1",
+          "inputs": "flattened ordered 3-year sequence; standardizer fit on training only then refit train+validation"
+        },
+        "test_metrics": "accuracy, macro-F1, weighted-F1, per-class report/support, confusion matrix, macro OvR ROC-AUC, macro mean OvR average precision",
+        "auc_definition": "5-class macro one-vs-rest ROC-AUC and unweighted mean of per-class one-vs-rest average precision; all five classes must occur in test",
+        "test_used_for_selection": false
+      }
+    },
+    {
+      "path": "ML_Implementation\\corrected_temporal_results\\corrected_v5_multiseed\\seed_53\\run_config.json",
+      "configuration": {
+        "objective": "controlled future-year burden forecast comparison on identical shared strict sequences",
+        "target": "TARGET_VIOLENT_LEVEL",
+        "thresholds": [
+          107,
+          237,
+          362,
+          563
+        ],
+        "threshold_fit_years": "2001-2010",
+        "train_years": [
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ],
+        "validation_years": [
+          2011,
+          2012
+        ],
+        "locked_test_years": [
+          2013,
+          2014
+        ],
+        "common_test_rows": 671,
+        "seed": 53,
+        "lookback": 3,
+        "same_architecture_pairs": [
+          "GRU baseline vs GRU enhanced",
+          "LSTM baseline vs LSTM enhanced"
+        ],
+        "neural_config": {
+          "units": 64,
+          "dropout": 0.25,
+          "dense_units": 32,
+          "optimizer": "Adam",
+          "loss": "sparse_categorical_crossentropy",
+          "batch_size": 64,
+          "max_epochs": 100,
+          "epoch_selection": "maximum validation macro-F1; stop after 15 epochs without improvement; final refit uses selected epoch on train+validation"
+        },
+        "neural_preprocessing": "feature-wise StandardScaler fit on training sequences for validation selection, then refit on train+validation for test",
+        "logistic_config": {
+          "C_candidates": [
+            0.01,
+            0.1,
+            1.0,
+            10.0
+          ],
+          "selection": "validation macro-F1",
+          "inputs": "flattened ordered 3-year sequence; standardizer fit on training only then refit train+validation"
+        },
+        "test_metrics": "accuracy, macro-F1, weighted-F1, per-class report/support, confusion matrix, macro OvR ROC-AUC, macro mean OvR average precision",
+        "auc_definition": "5-class macro one-vs-rest ROC-AUC and unweighted mean of per-class one-vs-rest average precision; all five classes must occur in test",
+        "test_used_for_selection": false
+      }
+    },
+    {
+      "path": "ML_Implementation\\corrected_temporal_results\\corrected_v5_multiseed\\seed_71\\run_config.json",
+      "configuration": {
+        "objective": "controlled future-year burden forecast comparison on identical shared strict sequences",
+        "target": "TARGET_VIOLENT_LEVEL",
+        "thresholds": [
+          107,
+          237,
+          362,
+          563
+        ],
+        "threshold_fit_years": "2001-2010",
+        "train_years": [
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ],
+        "validation_years": [
+          2011,
+          2012
+        ],
+        "locked_test_years": [
+          2013,
+          2014
+        ],
+        "common_test_rows": 671,
+        "seed": 71,
+        "lookback": 3,
+        "same_architecture_pairs": [
+          "GRU baseline vs GRU enhanced",
+          "LSTM baseline vs LSTM enhanced"
+        ],
+        "neural_config": {
+          "units": 64,
+          "dropout": 0.25,
+          "dense_units": 32,
+          "optimizer": "Adam",
+          "loss": "sparse_categorical_crossentropy",
+          "batch_size": 64,
+          "max_epochs": 100,
+          "epoch_selection": "maximum validation macro-F1; stop after 15 epochs without improvement; final refit uses selected epoch on train+validation"
+        },
+        "neural_preprocessing": "feature-wise StandardScaler fit on training sequences for validation selection, then refit on train+validation for test",
+        "logistic_config": {
+          "C_candidates": [
+            0.01,
+            0.1,
+            1.0,
+            10.0
+          ],
+          "selection": "validation macro-F1",
+          "inputs": "flattened ordered 3-year sequence; standardizer fit on training only then refit train+validation"
+        },
+        "test_metrics": "accuracy, macro-F1, weighted-F1, per-class report/support, confusion matrix, macro OvR ROC-AUC, macro mean OvR average precision",
+        "auc_definition": "5-class macro one-vs-rest ROC-AUC and unweighted mean of per-class one-vs-rest average precision; all five classes must occur in test",
+        "test_used_for_selection": false
+      }
+    }
+  ],
+  "known_multiseed_seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "prediction_results": "ML_Implementation/corrected_temporal_results/",
+  "metric_reconciliation": "outputs/audits/final_release_readiness/corrected_experiment_metric_reconciliation.csv",
+  "pipeline_rows": {
+    "target_valid": 9631,
+    "grouped": 9856,
+    "enhanced": 9856,
+    "cleaned_2014_IPC": 838,
+    "core_2014_IPC": 729,
+    "special_unit_excluded": 73,
+    "aggregate_excluded": 36
+  },
+  "scripts": [
+    "src/target_creation.py",
+    "src/feature_engineering.py",
+    "ML_Implementation/prepare_forecasting_inputs.py",
+    "ML_Implementation/forecast_feature_contract.py",
+    "ML_Implementation/sequence_generation.py"
+  ],
+  "validation_commands": [
+    "python -m unittest discover -s tests",
+    "python -m compileall -q src ML_Implementation tests"
+  ],
+  "existing_reports": [
+    "outputs/audits/final_release_readiness/release_readiness_report.md",
+    "outputs/audits/final_release_readiness/corrected_experiment_metric_reconciliation.csv",
+    "outputs/audits/final_release_readiness/test_cohort_and_prediction_integrity.csv",
+    "outputs/audits/final_release_readiness/reproducibility_manifest.json",
+    "outputs/audits/targeted_evidence_gaps/targeted_evidence_gap_report.md",
+    "outputs/audits/targeted_evidence_gaps/evidence_gap_register.csv",
+    "outputs/audits/targeted_evidence_gaps/target_overlap_source_mapping.csv",
+    "outputs/audits/targeted_evidence_gaps/source_stage_reconciliation.csv",
+    "outputs/audits/final_technical_completion/correction_file_completion_matrix.csv",
+    "outputs/audits/final_evidence_closure/duplicate_key_resolution_audit.csv",
+    "outputs/audits/final_evidence_closure/district_year_stage_recheck.csv",
+    "outputs/audits/final_evidence_closure/missingness_semantics_audit.csv"
+  ],
+  "verified": "Saved metrics/predictions reconcile; target, split and feature-year lineage recorded.",
+  "unavailable": "Original downloads, official rules, source timestamps, stable geographic crosswalk, missingness causes.",
+  "full_raw_to_result_reproduction": false,
+  "models_retrained": false,
+  "paper_modified": false
+}

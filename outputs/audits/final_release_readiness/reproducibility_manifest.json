@@ -1,0 +1,57 @@
+{
+  "python": "3.11.9",
+  "packages": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.7.2",
+    "tensorflow": "2.18.1"
+  },
+  "thresholds": [
+    107,
+    237,
+    362,
+    563
+  ],
+  "threshold_fit_years": "2001-2010",
+  "split": {
+    "train": "2001-2010",
+    "validation": "2011-2012",
+    "test": "2013-2014"
+  },
+  "models_retrained": false,
+  "paper_modified": false,
+  "protected_prior_hash_count": 198,
+  "protected_current_hash_count": 198,
+  "protected_hash_mismatches": [],
+  "protected_hashes_unchanged": true,
+  "corrected_runs": [
+    "ML_Implementation\\corrected_temporal_results\\corrected_v1\\sequential_models\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v1\\tabular\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v2\\sequential_models\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v2\\tabular\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v3\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v3\\common_sequence_models\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v3\\tabular\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v4_controlled_sequence\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v4_feature_ablation\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_multiseed\\seed_11\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_multiseed\\seed_23\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_multiseed\\seed_37\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_multiseed\\seed_53\\run_config.json",
+    "ML_Implementation\\corrected_temporal_results\\corrected_v5_multiseed\\seed_71\\run_config.json"
+  ],
+  "audit_script_sha256": "99b38bdb96e81675365c6096f0e12d35799077aa72ad988cb1d5e2217c51e963",
+  "audit_output_hashes": {
+    "changed_files.txt": "44147304edf6a1cda6c34731329d8bd2031c7c32662831ceafaed4169f9946e1",
+    "corrected_experiment_metric_reconciliation.csv": "80b281db3d2c69f0739e2333172a9195940c1be39c34f6aacd60b1b8113b6037",
+    "external_evidence_requirements.csv": "4f91e82537f216930d3dc34120d1d075b70cce8c101fa9dbbc64600d8c77387b",
+    "initial_git_status.txt": "7fc5501d23bddd9f529c95c1d56dff51b7d57e70cbf1687f5d79a8e3d5a21971",
+    "model_comparison_and_stability.csv": "956e382d9d0b625727368aa2b36e01d910da603ee02dcc782c8bd7b64cbe11e8",
+    "recomputed_confusion_matrices_long.csv": "dd9578d92fc9e8ddb0637df4895eb1756a37b9c92940d377615c104ca47cf2f1",
+    "release_readiness_report.md": "60489b95df9663f87b4b51d3f46583c3a6c2b8e0826ed4a8ac8644dcca21ab81",
+    "remaining_correction_actions.csv": "0411612af27bef4fae64f2e57ef9c0263f1eb005b6ef344da2eb14861d870718",
+    "test_cohort_and_prediction_integrity.csv": "438c99aa9f72900a4ad3c6976c53f3c515ec2d83efe68ca55193cd451400a129",
+    "test_report.txt": "735d357f5db1a3d74d21b811822d2fb5251459a3639bb6150823f9c53f4ad4f9"
+  }
+}

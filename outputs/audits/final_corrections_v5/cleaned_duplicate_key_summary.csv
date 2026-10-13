@@ -1,0 +1,6 @@
+file,duplicate_keys,duplicate_rows,identical_payload_keys,conflicting_payload_keys,keys_present_in_core,extra_duplicate_rows,interpretation
+01_District_wise_crimes_committed_IPC_2001_2012.csv,1,2,0,1,0,1,All reviewed duplicate keys are marked duplicate-key review and excluded from core; original upstream files are absent.
+02_01_District_wise_crimes_committed_against_SC_2001_2012.csv,2,4,2,0,0,2,All reviewed duplicate keys are marked duplicate-key review and excluded from core; original upstream files are absent.
+02_District_wise_crimes_committed_against_ST_2001_2012.csv,2,4,2,0,0,2,All reviewed duplicate keys are marked duplicate-key review and excluded from core; original upstream files are absent.
+03_District_wise_crimes_committed_against_children_2001_2012.csv,1,2,1,0,0,1,All reviewed duplicate keys are marked duplicate-key review and excluded from core; original upstream files are absent.
+42_District_wise_crimes_committed_against_women_2001_2012.csv,1,2,0,1,0,1,All reviewed duplicate keys are marked duplicate-key review and excluded from core; original upstream files are absent.

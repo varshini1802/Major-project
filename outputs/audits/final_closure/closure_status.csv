@@ -1,0 +1,13 @@
+correction,status,evidence_path,unresolved_dependency
+target boundaries and tie handling,COMPLETE,outputs/audits/final_corrections_v5/corrected_target_saved_data_verification.csv,None
+target-predictor direct overlap,COMPLETE,outputs/audits/final_closure/target_predictor_overlap_audit.csv,Nine direct source overlaps established; semantics are tracked separately
+indirect category/event overlap semantics,BLOCKED_EXTERNAL_EVIDENCE,outputs/audits/final_corrections_v5/ipc_semantic_relationship_review.csv,Official NCRB category crosswalk and event-counting rules by year
+feature structural lag availability,COMPLETE,outputs/audits/final_corrections_v5/forecast_feature_availability_audit.csv,None for structural t-1 alignment
+operational feature issue-date availability,BLOCKED_EXTERNAL_EVIDENCE,outputs/audits/final_corrections_v5/final_forecast_availability_audit.csv,Year-specific official release/issue dates and declared forecast issuance date
+district-year integration and duplicate review,PARTIAL,outputs/audits/final_closure/district_year_integration_audit.csv,"Original upstream files, source record IDs, Railway identities, administrative boundary history"
+missingness and observed-zero handling,PARTIAL,outputs/audits/final_closure/missingness_audit.csv,Official reporting/missingness definitions needed to identify causes
+temporal sequence integrity,COMPLETE,outputs/audits/final_corrections_v5/multiseed_integrity_checks.csv,Strict sequence cohort rejects incomplete histories; counts documented
+saved corrected-v4 result integrity,COMPLETE,outputs/audits/final_corrections_v5/v4_recomputed_metrics.csv,Metrics recomputed from saved artifacts; no retraining required
+v5 multiseed and ablation integrity,COMPLETE,outputs/audits/final_corrections_v5/integrity_checks.csv,50/50 ablation fits and five paired seeds verified
+source data reconciliation,PARTIAL,outputs/audits/final_corrections_v5/raw_stage_reconciliation_audit.csv,Original upstream downloads and source provenance before normalized stage
+reproducibility package,PARTIAL,outputs/audits/final_closure/reproducibility_manifest.json,Upstream data provenance and external issue-date documentation remain unavailable

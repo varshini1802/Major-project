@@ -1,0 +1,97 @@
+{
+  "purpose": "read-only code/data/forecasting closure; no model training performed",
+  "python": "3.11.9",
+  "packages": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "tensorflow": "2.18.1",
+    "scipy": "1.16.2",
+    "joblib": "1.5.2"
+  },
+  "seeds": {
+    "v4": [
+      42
+    ],
+    "v5_full_comparison": [
+      11,
+      23,
+      37,
+      53,
+      71
+    ],
+    "v5_ablation": [
+      11,
+      23,
+      37,
+      53,
+      71
+    ]
+  },
+  "target_thresholds": [
+    107,
+    237,
+    362,
+    563
+  ],
+  "threshold_fit_years": [
+    2001,
+    2010
+  ],
+  "split": {
+    "train": [
+      2001,
+      2010
+    ],
+    "validation": [
+      2011,
+      2012
+    ],
+    "locked_test": [
+      2013,
+      2014
+    ]
+  },
+  "feature_contract": "t-1 for tabular; strict t-3,t-2,t-1 same-district sequences",
+  "sample_counts": {
+    "canonical_rows": 9856,
+    "valid_target_rows": 9631,
+    "missing_target_rows": 225,
+    "locked_test_keys": 671,
+    "strict_baseline_sequences": 7161,
+    "strict_enhanced_sequences": 5842,
+    "paired_common_sequences": 5842
+  },
+  "commands_executed_or_required": [
+    "python -m unittest discover -s tests",
+    "python -m compileall -q src ML_Implementation tests",
+    "python src/predictor_source_audit.py",
+    "python src/forecast_availability_audit.py",
+    "python src/raw_stage_reconciliation_audit.py",
+    "python src/duplicate_key_v5_audit.py",
+    "python src/missingness_v5_reconciliation.py",
+    "python src/final_corrections_v5_audit.py"
+  ],
+  "input_hashes_sha256": {
+    "data/processed/district_integrated_canonical.csv": "28921e17d76a90e4dd6d0786debdad68033d762a6f2af736372a57cfa71da079",
+    "data/processed/district_grouped_reduced.csv": "954bbe766c2765ab05c0a548a7e68c17f6f0144f30f7864a443b4e44fa39fd69",
+    "data/processed/district_enhanced_features.csv": "5225ffca8abada26e7701d89ddf710d42f77bcebf326f34f517ada62b61cec79",
+    "ML_Implementation/corrected_temporal_results/corrected_v4_controlled_sequence/run_config.json": "8d934ea9b844a563268c259b5e8e2c9d4cee9967d685139fce65bcc40d83e265",
+    "ML_Implementation/corrected_temporal_results/corrected_v3/inputs/common_sequence_metadata.csv": "819268da2e0247442de8bdc5d0f0f8c0d835379d57f13195f1f7f910583e24fd",
+    "ML_Implementation/corrected_temporal_results/corrected_v3/inputs/baseline_common_sequences.npz": "d1db012ab6e88c3334d1abb25ef01d560f28ea5386c869ffd1173c37df54577b",
+    "ML_Implementation/corrected_temporal_results/corrected_v3/inputs/enhanced_common_sequences.npz": "f0c9f10cfcadb93e17845629bbda392eab34a7970c023bc9e495d57bcd6f23a6",
+    "ML_Implementation/corrected_temporal_results/corrected_v5_multiseed/run_status.csv": "82f9ce9a9400f81a833c9574e09b4f3273dc54a12ebde6bed57f4ca99631c376",
+    "ML_Implementation/corrected_temporal_results/corrected_v5_feature_ablation_multiseed/run_status.csv": "5d844ccaaf208aebf3773d5f19bd87c3bfaf1a679e7ec827e2d665d2259f1481",
+    "src/target_creation.py": "79420b4e25df256ba4e0b962706e9695edef4802f3a70f73491f04087eeabb89",
+    "src/feature_engineering.py": "e0bfab21908c769a7c9cdbe083fdb658ada5f7cf889b109c28953dcc9b2db349",
+    "ML_Implementation/forecast_feature_contract.py": "cd311e30be067f7f8f79ad92860d87650f8d8201aa17cace89fda52d1d4b0591",
+    "ML_Implementation/sequence_generation.py": "9a42b30cb871b5243d73b9e69b7d1f9b67d9b88bff2fdd0def7e614681a1d683"
+  },
+  "paper_modified": false,
+  "raw_or_processed_inputs_modified": false,
+  "limitations": [
+    "catalog publication dates do not prove earliest operational availability",
+    "original upstream sources not present",
+    "indirect count overlap semantics unresolved"
+  ]
+}

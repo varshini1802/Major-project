@@ -1,0 +1,5 @@
+boundary_index,upper_cut_point,fit_years,method
+1,107.0,2001-2010,linear empirical quintiles
+2,237.0,2001-2010,linear empirical quintiles
+3,362.0,2001-2010,linear empirical quintiles
+4,563.0,2001-2010,linear empirical quintiles

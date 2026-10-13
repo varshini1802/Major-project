@@ -1,0 +1,6 @@
+comparison,variables,max_rows_left,max_rows_right,value_mismatches
+2014_core_population_filter,1,838,729,0.0
+cleaned_2014_to_core_2014,8,838,729,0.0
+integrated_raw_aliases_to_final,100,9856,9856,0.0
+normalized_2014_to_cleaned_2014,8,838,838,0.0
+raw_2014_case_variant_to_final,8,729,729,0.0

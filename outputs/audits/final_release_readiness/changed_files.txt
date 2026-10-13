@@ -1,0 +1,12 @@
+src/saved_experiment_release_readiness_audit.py - read-only saved-result reconciliation and report generator
+outputs/audits/final_release_readiness/corrected_experiment_metric_reconciliation.csv — generated release-readiness evidence
+outputs/audits/final_release_readiness/external_evidence_requirements.csv — generated release-readiness evidence
+outputs/audits/final_release_readiness/model_comparison_and_stability.csv — generated release-readiness evidence
+outputs/audits/final_release_readiness/recomputed_confusion_matrices_long.csv — generated release-readiness evidence
+outputs/audits/final_release_readiness/release_readiness_report.md — generated release-readiness evidence
+outputs/audits/final_release_readiness/remaining_correction_actions.csv — generated release-readiness evidence
+outputs/audits/final_release_readiness/reproducibility_manifest.json — generated release-readiness evidence
+outputs/audits/final_release_readiness/test_cohort_and_prediction_integrity.csv — generated release-readiness evidence
+outputs/audits/final_release_readiness/test_report.txt — generated release-readiness evidence
+outputs/audits/final_release_readiness/initial_git_status.txt — captured before audit edits
+outputs/audits/final_release_readiness/changed_files.txt — change inventory

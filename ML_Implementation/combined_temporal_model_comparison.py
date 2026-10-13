@@ -1,4 +1,11 @@
 
+"""Retired legacy runner; its labels were refit on 2004-2010."""
+if __name__ == "__main__":
+    raise SystemExit(
+        "This legacy runner is disabled because it refits target cuts and writes "
+        "legacy outputs. Use tabular_forecast_evaluation.py after auditing inputs."
+    )
+
 from pathlib import Path
 import random
 import warnings

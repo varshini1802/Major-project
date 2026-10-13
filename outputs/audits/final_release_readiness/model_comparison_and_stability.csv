@@ -1,0 +1,18 @@
+experiment,comparison,paired_seeds,macro_f1_delta_mean,macro_f1_delta_sd,macro_f1_delta_min,macro_f1_delta_max,seeds_improved_macro_f1,weighted_f1_delta_mean,interpretation
+corrected_v5_multiseed,gru enhanced minus baseline,5,0.007849153199016624,0.007724177198073918,-0.005337417065437555,0.013319157743249876,4,0.005368866069228239,Descriptive paired-seed differences only; no significance test
+corrected_v5_multiseed,lstm enhanced minus baseline,5,0.012478916576299803,0.007674867577765719,0.005325593665719941,0.021977753881527784,5,0.010248103371971951,Descriptive paired-seed differences only; no significance test
+corrected_v5_multiseed,logistic_regression enhanced minus baseline,5,0.00016107580570279278,0.0,0.00016107580570279278,0.00016107580570279278,5,0.0007081956914847254,Descriptive paired-seed differences only; no significance test
+corrected_v5_multiseed,gru minus logistic regression (baseline),5,0.024393608240912256,0.006231590856581123,0.01409440042616994,0.03023159384610752,5,,Neural complexity is not justified by mean uplift alone; compare paired performance and uncertainty descriptively
+corrected_v5_multiseed,lstm minus logistic regression (baseline),5,0.02111487587216072,0.0042573101212827254,0.016372959401832587,0.025985910086232855,5,,Neural complexity is not justified by mean uplift alone; compare paired performance and uncertainty descriptively
+corrected_v5_multiseed,gru minus logistic regression (enhanced),5,0.03208168563422609,0.007605171568432689,0.021623713119617083,0.04072694643494024,5,,Neural complexity is not justified by mean uplift alone; compare paired performance and uncertainty descriptively
+corrected_v5_multiseed,lstm minus logistic regression (enhanced),5,0.03343271664275773,0.006611816387803342,0.02737713464110203,0.04403783485247159,5,,Neural complexity is not justified by mean uplift alone; compare paired performance and uncertainty descriptively
+corrected_v5_feature_ablation_multiseed,ACTIVE_CRIME_GROUPS added with GRU,5,0.0015247225418369,0.0034997463581133,,,3,,"One-feature ablation is descriptive, not causal"
+corrected_v5_feature_ablation_multiseed,ACTIVE_CRIME_GROUPS added with LSTM,5,0.0044621705348954,0.0057069895687422,,,4,,"One-feature ablation is descriptive, not causal"
+corrected_v5_feature_ablation_multiseed,CRIME_DIVERSITY_INDEX added with GRU,5,-0.0017757081458184,0.008483540635508,,,2,,"One-feature ablation is descriptive, not causal"
+corrected_v5_feature_ablation_multiseed,CRIME_DIVERSITY_INDEX added with LSTM,5,0.0057958064288885,0.0057703617326921,,,5,,"One-feature ablation is descriptive, not causal"
+corrected_v5_feature_ablation_multiseed,PREV_YEAR_TOTAL_CRIME added with GRU,5,-0.0010593034447134,0.0057972748200851,,,3,,"One-feature ablation is descriptive, not causal"
+corrected_v5_feature_ablation_multiseed,PREV_YEAR_TOTAL_CRIME added with LSTM,5,0.0048667638137708,0.0033877022148234,,,5,,"One-feature ablation is descriptive, not causal"
+corrected_v5_feature_ablation_multiseed,TOTAL_GROUPED_CRIME added with GRU,5,-0.0042495864467225,0.0045398329048862,,,1,,"One-feature ablation is descriptive, not causal"
+corrected_v5_feature_ablation_multiseed,TOTAL_GROUPED_CRIME added with LSTM,5,0.0018613419439587,0.003224924386791,,,3,,"One-feature ablation is descriptive, not causal"
+corrected_v5_feature_ablation_multiseed,YOY_TOTAL_CRIME_CHANGE added with GRU,5,-0.0051087431888717,0.0140843030166292,,,2,,"One-feature ablation is descriptive, not causal"
+corrected_v5_feature_ablation_multiseed,YOY_TOTAL_CRIME_CHANGE added with LSTM,5,-0.0015554031941036,0.0097782290322645,,,2,,"One-feature ablation is descriptive, not causal"

@@ -1,0 +1,19 @@
+{
+  "macro_ovr_roc_auc": 0.9365481712142534,
+  "macro_ovr_average_precision": 0.7169558484385389,
+  "per_class_roc_auc": [
+    0.9952738922193676,
+    0.9416629809818664,
+    0.9106007067137809,
+    0.8714435557886456,
+    0.9637597203676066
+  ],
+  "per_class_average_precision": [
+    0.9790434432327036,
+    0.5942626151549301,
+    0.5266710025711534,
+    0.5432600061020816,
+    0.9415421751318257
+  ],
+  "auc_convention": "macro one-vs-rest ROC-AUC; macro unweighted mean of five one-vs-rest average-precision scores"
+}

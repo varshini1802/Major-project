@@ -1,0 +1,7 @@
+group,components,all_components_observed_rows,some_components_missing_rows,all_components_missing_rows,observed_zero_total_rows,positive_total_rows,partial_sum_rows,semantics
+GROUP_HOMICIDE,3,8902,729,225,146,9485,729,partial sums are not complete totals; no all-missing-to-zero conversion
+GROUP_KIDNAPPING_ABDUCTION,1,9631,0,225,781,8850,0,partial sums are not complete totals; no all-missing-to-zero conversion
+GROUP_PROPERTY_CRIME,5,0,9631,225,28,9603,9631,partial sums are not complete totals; no all-missing-to-zero conversion
+GROUP_PUBLIC_VIOLENCE,3,729,8902,225,542,9089,8902,partial sums are not complete totals; no all-missing-to-zero conversion
+GROUP_ROBBERY_DACOITY,2,9631,0,225,613,9018,0,partial sums are not complete totals; no all-missing-to-zero conversion
+GROUP_SEXUAL_VIOLENCE,5,729,8902,225,268,9363,8902,partial sums are not complete totals; no all-missing-to-zero conversion

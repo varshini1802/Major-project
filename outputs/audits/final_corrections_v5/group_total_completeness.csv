@@ -1,0 +1,7 @@
+measure,count,interpretation
+complete_six_groups,9631,All six group values observed
+partial_one_to_five_groups,0,"Some group values observed, some missing"
+all_six_missing,225,No group value observed
+grouped_total_is_partial,0,TOTAL_GROUPED_CRIME sums available group values only; it is partial
+genuine_zero_group_cells,2378,"Recorded numeric zero, kept distinct from missing"
+missing_group_cells,1350,Missing/unavailable; cause is not encoded in processed group file

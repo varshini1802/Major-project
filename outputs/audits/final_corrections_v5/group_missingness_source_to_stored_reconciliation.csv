@@ -1,0 +1,7 @@
+group,source_components,all_components_observed_rows,some_components_missing_rows,all_components_missing_rows,partial_sum_rows,expected_observed_zero_totals,expected_positive_totals,stored_missing_rows,stored_observed_zero_rows,stored_positive_rows,source_formula_value_mismatches,missing_target_rows_with_group_value,result,interpretation
+GROUP_HOMICIDE,3,8902,729,225,729,146,9485,225,146,9485,0,0,PASS,Partial sums include observed components only and are not complete totals; missingness cause is not established.
+GROUP_KIDNAPPING_ABDUCTION,1,9631,0,225,0,781,8850,225,781,8850,0,0,PASS,Partial sums include observed components only and are not complete totals; missingness cause is not established.
+GROUP_PROPERTY_CRIME,5,0,9631,225,9631,28,9603,225,28,9603,0,0,PASS,Partial sums include observed components only and are not complete totals; missingness cause is not established.
+GROUP_PUBLIC_VIOLENCE,3,729,8902,225,8902,542,9089,225,542,9089,0,0,PASS,Partial sums include observed components only and are not complete totals; missingness cause is not established.
+GROUP_ROBBERY_DACOITY,2,9631,0,225,0,613,9018,225,613,9018,0,0,PASS,Partial sums include observed components only and are not complete totals; missingness cause is not established.
+GROUP_SEXUAL_VIOLENCE,5,729,8902,225,8902,268,9363,225,268,9363,0,0,PASS,Partial sums include observed components only and are not complete totals; missingness cause is not established.

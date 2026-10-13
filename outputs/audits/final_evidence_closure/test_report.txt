@@ -1,0 +1,40 @@
+﻿NCRB final evidence-closure verification log
+
+Execution environment baseline
+- Initial Git status captured before code edits: initial_git_status.txt. The repository already had extensive modified and untracked files.
+- No original data/raw directory exists; current data inputs are processed-stage files.
+
+Commands executed in this task
+1. python src/final_evidence_closure.py
+   Final result: PASS, exit code 0. It recalculated overlap metrics, rebuilt the nine-source mapping, rechecked 100 normalized raw-stage aliases against final integration (0 value mismatches), checked the available 2014 normalized/cleaned/core values, recomputed seven duplicate groups from five cleaned files, rebuilt year-level missingness counts, and verified protected hashes.
+2. python -m unittest tests.test_final_evidence_closure
+   Final result: PASS, 11 tests.
+3. python -m unittest discover -s tests
+   Final result: PASS, 41 tests.
+4. python -m compileall -q src ML_Implementation tests
+   Final result: PASS, exit code 0; no diagnostics.
+
+Development failures and corrections
+- An early test version incorrectly treated 79 positive-burden-mask exclusions as missing direct IPC observations. Direct recomputation showed those rows have zero burden and observed zero direct contribution. The mask, labels, correction note, and regression expectations were corrected.
+- Early generator/test attempts also exposed a missing test import and implementation errors in audit construction. They were corrected; the final generator, focused suite, full suite, and compilation all pass.
+
+Audit findings
+- Direct shared source count: 9. Confirmed indirect statistical counting overlaps: 0 established. Potential semantic relationships remain externally unresolved.
+- Valid target rows: 9,631. Rows selected by the original burden > 0 mask: 9,552. Direct-source values observed on all 9,631 valid rows. The remaining 79 valid rows have zero target burden and zero shared-source contribution.
+- Positive-burden subset ratio: 3,228,843 / 4,215,620 = 76.592364%. All-valid-row ratio is estimable and identical because the 79 excluded rows contribute zero to both sums. Overlap-source coverage: 9,631/9,631 = 100%.
+- Integration recheck: 100 raw-stage alias variables compared with 0 mismatches; available 2014 normalized/cleaned/core comparisons have 0 value mismatches. Upstream source identity remains unverified.
+- Duplicate groups: 7 groups/14 records. Two 2010 Railway groups conflict and remain excluded; original unit identifiers are unavailable.
+- Feature availability: structural lags pass. Actual annual release/retrieval dates and a forecast origin are undefined; ledger statuses do not claim historical operational availability.
+- Missingness causes remain UNKNOWN_CAUSE where source documentation is absent. Aggregations preserve min_count=1; no missing values were imputed.
+
+Not run
+- No model training or retraining.
+- The pre-existing audit scripts that write outside outputs/audits/final_evidence_closure were not rerun; their evidence was inspected. The evidence-closure generator reimplemented the relevant checks against read-only inputs and saved outputs inside the required directory.
+
+Warnings and remaining blockers
+- Official NCRB year-specific category crosswalk/counting rules, original source downloads and retrieval records, historical unit/boundary crosswalks, source missingness documentation, and a declared forecast origin are absent.
+- OGD catalog publication dates are recorded separately and are not treated as NCRB release or retrieval dates.
+- The paper draft was not edited. The audit report documents the incorrect 9,552/79 source-coverage interpretation for a future author correction.
+
+Integrity
+- Frozen thresholds/split, source and processed data, target backup, paper, locked test keys, and saved test prediction/result files match the protected before/after hashes in reproducibility_manifest.json.

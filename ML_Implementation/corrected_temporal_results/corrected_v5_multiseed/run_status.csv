@@ -1,0 +1,6 @@
+seed,attempt,status,output_directory,log,detail
+11,1,COMPLETE,ML_Implementation\corrected_temporal_results\corrected_v5_multiseed\seed_11,ML_Implementation\corrected_temporal_results\corrected_v5_multiseed\logs\seed_11_attempt_01.log,all paired models completed and locked test keys match v4
+23,1,COMPLETE,ML_Implementation\corrected_temporal_results\corrected_v5_multiseed\seed_23,ML_Implementation\corrected_temporal_results\corrected_v5_multiseed\logs\seed_23_attempt_01.log,all paired models completed and locked test keys match v4
+37,1,COMPLETE,ML_Implementation\corrected_temporal_results\corrected_v5_multiseed\seed_37,ML_Implementation\corrected_temporal_results\corrected_v5_multiseed\logs\seed_37_attempt_01.log,all paired models completed and locked test keys match v4
+53,1,COMPLETE,ML_Implementation\corrected_temporal_results\corrected_v5_multiseed\seed_53,ML_Implementation\corrected_temporal_results\corrected_v5_multiseed\logs\seed_53_attempt_01.log,all paired models completed and locked test keys match v4
+71,1,COMPLETE,ML_Implementation\corrected_temporal_results\corrected_v5_multiseed\seed_71,ML_Implementation\corrected_temporal_results\corrected_v5_multiseed\logs\seed_71_attempt_01.log,all paired models completed and locked test keys match v4

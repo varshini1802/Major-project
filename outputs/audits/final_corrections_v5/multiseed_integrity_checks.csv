@@ -1,0 +1,11 @@
+seed,check,result,detail
+11,frozen_config_and_test_lock,PASS,"{""seed"": 11, ""thresholds"": [107, 237, 362, 563], ""train"": [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010], ""validation"": [2011, 2012], ""test"": [2013, 2014], ""test_used_for_selection"": false}"
+11,all_model_test_keys_labels_histories_match_v4,PASS,8 model outputs checked against frozen 671 keys/labels/input-years
+23,frozen_config_and_test_lock,PASS,"{""seed"": 23, ""thresholds"": [107, 237, 362, 563], ""train"": [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010], ""validation"": [2011, 2012], ""test"": [2013, 2014], ""test_used_for_selection"": false}"
+23,all_model_test_keys_labels_histories_match_v4,PASS,8 model outputs checked against frozen 671 keys/labels/input-years
+37,frozen_config_and_test_lock,PASS,"{""seed"": 37, ""thresholds"": [107, 237, 362, 563], ""train"": [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010], ""validation"": [2011, 2012], ""test"": [2013, 2014], ""test_used_for_selection"": false}"
+37,all_model_test_keys_labels_histories_match_v4,PASS,8 model outputs checked against frozen 671 keys/labels/input-years
+53,frozen_config_and_test_lock,PASS,"{""seed"": 53, ""thresholds"": [107, 237, 362, 563], ""train"": [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010], ""validation"": [2011, 2012], ""test"": [2013, 2014], ""test_used_for_selection"": false}"
+53,all_model_test_keys_labels_histories_match_v4,PASS,8 model outputs checked against frozen 671 keys/labels/input-years
+71,frozen_config_and_test_lock,PASS,"{""seed"": 71, ""thresholds"": [107, 237, 362, 563], ""train"": [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010], ""validation"": [2011, 2012], ""test"": [2013, 2014], ""test_used_for_selection"": false}"
+71,all_model_test_keys_labels_histories_match_v4,PASS,8 model outputs checked against frozen 671 keys/labels/input-years
