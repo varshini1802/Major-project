@@ -1,0 +1,11 @@
+feature_added,model,feature_count,seeds_evaluated,mean_paired_macro_f1_delta,std_paired_macro_f1_delta,positive_seeds_ratio,min_delta,max_delta,verification_status,empirical_effect
+ACTIVE_CRIME_GROUPS,GRU,7,5,0.001525,0.0035,3/5,-0.003314,0.004929,EXACT MATCH (PASS),Minor / Mixed Positive Contribution
+ACTIVE_CRIME_GROUPS,LSTM,7,5,0.004462,0.005707,4/5,-0.003017,0.010436,EXACT MATCH (PASS),Robust Positive Contribution (Reliable Signal)
+CRIME_DIVERSITY_INDEX,GRU,7,5,-0.001776,0.008484,2/5,-0.012413,0.00711,EXACT MATCH (PASS),Negative / Noisy Contribution (Degrades Performance)
+CRIME_DIVERSITY_INDEX,LSTM,7,5,0.005796,0.00577,5/5,9e-05,0.012975,EXACT MATCH (PASS),Robust Positive Contribution (Reliable Signal)
+PREV_YEAR_TOTAL_CRIME,GRU,7,5,-0.001059,0.005797,3/5,-0.00714,0.006143,EXACT MATCH (PASS),Negative / Noisy Contribution (Degrades Performance)
+PREV_YEAR_TOTAL_CRIME,LSTM,7,5,0.004867,0.003388,5/5,0.001246,0.010127,EXACT MATCH (PASS),Robust Positive Contribution (Reliable Signal)
+TOTAL_GROUPED_CRIME,GRU,7,5,-0.00425,0.00454,1/5,-0.010372,0.001914,EXACT MATCH (PASS),Negative / Noisy Contribution (Degrades Performance)
+TOTAL_GROUPED_CRIME,LSTM,7,5,0.001861,0.003225,3/5,-0.001166,0.005725,EXACT MATCH (PASS),Minor / Mixed Positive Contribution
+YOY_TOTAL_CRIME_CHANGE,GRU,7,5,-0.005109,0.014084,2/5,-0.027794,0.010001,EXACT MATCH (PASS),Negative / Noisy Contribution (Degrades Performance)
+YOY_TOTAL_CRIME_CHANGE,LSTM,7,5,-0.001555,0.009778,2/5,-0.01199,0.00937,EXACT MATCH (PASS),Negative / Noisy Contribution (Degrades Performance)

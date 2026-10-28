@@ -26,8 +26,8 @@
     "ML_Implementation\\corrected_temporal_results\\corrected_v3\\inputs\\enhanced_common_sequences.npz": "f0c9f10cfcadb93e17845629bbda392eab34a7970c023bc9e495d57bcd6f23a6",
     "ML_Implementation\\corrected_temporal_results\\corrected_v4_controlled_sequence\\run_config.json": "8d934ea9b844a563268c259b5e8e2c9d4cee9967d685139fce65bcc40d83e265"
   },
-  "runner": "ML_Implementation/run_corrected_v5_multiseed.py",
-  "model_source": "ML_Implementation/corrected_v4_controlled_sequence_experiment.py",
+  "runner": "ML_Implementation/run_multiseed_forecasting_experiment.py",
+  "model_source": "ML_Implementation/controlled_sequence_forecast_evaluation.py",
   "configuration": "each seed folder/run_config.json; thresholds 107/237/362/563; train 2001-2010; validation 2011-2012; test 2013-2014",
   "test_lock": "identical v4 671 district-year keys, target labels and input years checked for every model/seed",
   "selection_scope": "validation macro-F1 for NN epochs and logistic C; test used once for reporting",

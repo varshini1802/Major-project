@@ -30,12 +30,19 @@ See [PROJECT_FILE_GUIDE.md](PROJECT_FILE_GUIDE.md) for a plain-language explanat
 
 ## Current experiment and evidence
 
+- **Research Audit Report**: [docs/research/experiment_audit_report.md](docs/research/experiment_audit_report.md) provides the complete repository audit, base paper comparison, leakage audit, and test status.
+- **Reproducibility Guide**: [docs/research/experiment_reproducibility.md](docs/research/experiment_reproducibility.md) documents exact environment dependencies, execution commands, and random seeds.
+- **Revised Conference Paper**: [docs/paper/revised_paper_draft.md](docs/paper/revised_paper_draft.md) (and [outputs/reports/revised_conference_paper_draft.md](outputs/reports/revised_conference_paper_draft.md)) updates only Methodology and Results (Sections 3 and 4.3), strictly preserving the existing document structure.
+- **Original Paper Draft**: [docs/paper/original_paper_draft.md](docs/paper/original_paper_draft.md) preserves the original submitted student draft (`draft paper.pdf`) for provenance.
+- **Claims & Inconsistencies Register**: [docs/paper/claims_and_inconsistencies_register.md](docs/paper/claims_and_inconsistencies_register.md) documents unedited abstract/intro claims vs reproduced empirical findings.
+- **Final Scientific Validation Report**: [docs/research/final_scientific_validation_report.md](docs/research/final_scientific_validation_report.md) provides the 7-section independent certification of deliverables, test-set independence, metrics, and readiness.
+- **Before-and-After Comparison Notebook**: [notebooks/08_model_performance_before_after_corrections.ipynb](notebooks/08_model_performance_before_after_corrections.ipynb) provides executable, reproducible comparison tables and publication plots contrasting the historical same-year classification setup with the corrected chronological forecasting setup.
+- **Feature Evaluation Summary Table**: [outputs/tables/feature_evaluation_study_summary.csv](outputs/tables/feature_evaluation_study_summary.csv) consolidates multi-seed model comparisons and single-feature ablations.
 - The current controlled forecasting evaluation uses the saved results under `ML_Implementation/corrected_temporal_results/corrected_v4_controlled_sequence/`.
 - Five-seed paired robustness results are under `ML_Implementation/corrected_temporal_results/corrected_v5_multiseed/`.
 - One-feature ablations are under `corrected_v4_feature_ablation/` and `corrected_v5_feature_ablation_multiseed/` within the result directory.
 - The observed-year classification notebook is `notebooks/observed_year_classification_models.ipynb`.
 - The release-readiness report is `outputs/audits/final_release_readiness/release_readiness_report.md`.
-- The current paper draft is `outputs/reports/conference_paper_draft.md`; it requires author and venue review.
 
 The direct-overlap audit found nine IPC source columns shared with target construction. Their observed counts sum to 76.592% of target burden summed over rows with valid targets, but this ratio is not a deterministic reconstruction. Evidence does not establish that enhanced predictors are universally superior or that the historical information was operationally available at forecast time. Do not report the legacy 90.76% same-year score as forecasting performance.
 
