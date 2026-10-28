@@ -34,8 +34,8 @@
     "ML_Implementation\\corrected_temporal_results\\corrected_v3\\inputs\\common_sequence_metadata.csv": "819268da2e0247442de8bdc5d0f0f8c0d835379d57f13195f1f7f910583e24fd",
     "ML_Implementation\\corrected_temporal_results\\corrected_v3\\inputs\\baseline_common_sequences.npz": "d1db012ab6e88c3334d1abb25ef01d560f28ea5386c869ffd1173c37df54577b",
     "ML_Implementation\\corrected_temporal_results\\corrected_v3\\inputs\\enhanced_common_sequences.npz": "f0c9f10cfcadb93e17845629bbda392eab34a7970c023bc9e495d57bcd6f23a6",
-    "ML_Implementation\\run_corrected_v5_multiseed.py": "db943b40aeba7c1d0e0a5f8fc1ef0349227e573be19368d617d946a9368adaab",
-    "ML_Implementation\\run_corrected_v5_multiseed_ablations.py": "591f27b0b7ee45b90150726e3863d51c22147bd448f8501cc81a9ebf137f47e4",
+    "ML_Implementation\\run_multiseed_forecasting_experiment.py": "d7dda5f4ae127e4d2c75ee4df36175d7a1296382698eff33116b7fb297d6d108",
+    "ML_Implementation\\run_multiseed_feature_ablation_experiment.py": "591f27b0b7ee45b90150726e3863d51c22147bd448f8501cc81a9ebf137f47e4",
     "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\run_config.json": "0dc148b2e90d1bfc22b2dbd6a102aa3b1baeb1cf7064bcfd059784f9d3465244",
     "ML_Implementation\\corrected_temporal_results\\corrected_v5_feature_ablation_multiseed\\paired_difference_summary.csv": "417144fe1d2133144a053591ca0bab8afc4784961038df700372c11301b27261"
   },
@@ -84,21 +84,21 @@
       71
     ],
     "status_file": "ML_Implementation/corrected_temporal_results/corrected_v5_multiseed/run_status.csv",
-    "runner": "ML_Implementation/run_corrected_v5_multiseed.py"
+    "runner": "ML_Implementation/run_multiseed_forecasting_experiment.py"
   },
   "multi_seed_feature_ablations": {
     "completed_fits": 50,
     "expected_fits": 50,
     "status_file": "ML_Implementation/corrected_temporal_results/corrected_v5_feature_ablation_multiseed/run_status.csv",
-    "runner": "ML_Implementation/run_corrected_v5_multiseed_ablations.py"
+    "runner": "ML_Implementation/run_multiseed_feature_ablation_experiment.py"
   },
   "commands": [
-    "python src/predictor_source_audit.py",
-    "python src/forecast_availability_audit.py",
-    "python ML_Implementation/run_corrected_v5_multiseed_ablations.py",
-    "python src/duplicate_key_v5_audit.py",
-    "python src/missingness_v5_reconciliation.py",
-    "python src/final_corrections_v5_audit.py",
+    "python src/grouped_predictor_source_audit.py",
+    "python src/forecast_feature_availability_audit.py",
+    "python ML_Implementation/run_multiseed_feature_ablation_experiment.py",
+    "python src/duplicate_normalized_key_audit.py",
+    "python src/grouped_feature_missingness_audit.py",
+    "python src/corrected_results_integrity_audit.py",
     "python -m unittest discover -s tests",
     "python -m compileall -q src ML_Implementation tests"
   ]

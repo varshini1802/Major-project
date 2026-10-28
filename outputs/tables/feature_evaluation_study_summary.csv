@@ -1,0 +1,24 @@
+experiment_type,feature_configuration,feature_count,model,seeds,test_accuracy,test_macro_f1,test_weighted_f1,macro_ovr_roc_auc,macro_mean_ovr_average_precision,paired_delta_macro_f1,sd_across_seeds,direction_summary,interpretation_notes
+controlled_v4_evaluation,baseline_6_groups,6,GRU,1 (seed 42),0.716841,0.702045,0.722767,0.937490,0.724593,0.000000,0.000000,baseline_reference,Locked test cohort of 671 instances (2013-2014)
+controlled_v4_evaluation,enhanced_11_features,11,GRU,1 (seed 42),0.719821,0.705429,0.724983,0.934481,0.713308,+0.003384,0.000000,higher=1,Single seed evaluation
+controlled_v4_evaluation,baseline_6_groups,6,LSTM,1 (seed 42),0.722802,0.704117,0.727482,0.937437,0.720915,0.000000,0.000000,baseline_reference,Locked test cohort of 671 instances (2013-2014)
+controlled_v4_evaluation,enhanced_11_features,11,LSTM,1 (seed 42),0.719821,0.699640,0.724041,0.935378,0.724430,-0.004477,0.000000,lower=1,Selected by validation macro F1 = 0.7669
+controlled_v4_evaluation,baseline_6_groups,6,LogisticRegression,1 (seed 42),0.695976,0.676082,0.701935,0.932690,0.709531,0.000000,0.000000,baseline_reference,Tabular lag-1 baseline
+controlled_v4_evaluation,enhanced_11_features,11,LogisticRegression,1 (seed 42),0.697466,0.676243,0.702644,0.931229,0.705922,+0.000161,0.000000,higher=1,Tabular lag-1 enhanced
+controlled_v4_evaluation,majority_class_naive,0,MajorityBaseline,1 (seed 42),0.345753,0.102769,0.177662,0.500000,0.200000,NA,NA,naive_reference,Always predicts class 5 (highest burden)
+multiseed_robustness_v5,baseline_6_groups,6,GRU,5 seeds,0.719225,0.700475,0.724431,0.937114,0.720089,0.000000,0.006232,baseline_reference,Across seeds 11; 23; 37; 53; 71
+multiseed_robustness_v5,enhanced_11_features,11,GRU,5 seeds,0.724888,0.708324,0.729800,0.936121,0.720244,+0.007849,0.007724,higher=4; lower=1,Positive average delta; SD reflects optimization variability
+multiseed_robustness_v5,baseline_6_groups,6,LSTM,5 seeds,0.715946,0.697196,0.721655,0.936927,0.718108,0.000000,0.004257,baseline_reference,Across seeds 11; 23; 37; 53; 71
+multiseed_robustness_v5,enhanced_11_features,11,LSTM,5 seeds,0.727273,0.709675,0.731904,0.936361,0.722920,+0.012479,0.007675,higher=5; lower=0,Positive in all 5 seeds; ROC-AUC is slightly lower
+multiseed_robustness_v5,baseline_6_groups,6,LogisticRegression,5 seeds,0.695976,0.676082,0.701935,0.932690,0.709531,0.000000,0.000000,baseline_reference,Deterministic optimization
+multiseed_robustness_v5,enhanced_11_features,11,LogisticRegression,5 seeds,0.697466,0.676243,0.702644,0.931229,0.705922,+0.000161,0.000000,higher=5; lower=0,Negligible linear difference
+single_feature_ablation,baseline_plus_ACTIVE_CRIME_GROUPS,7,GRU,5 seeds,NA,NA,NA,NA,NA,+0.001525,0.003500,higher=3; lower=2,Minor positive average delta
+single_feature_ablation,baseline_plus_ACTIVE_CRIME_GROUPS,7,LSTM,5 seeds,NA,NA,NA,NA,NA,+0.004462,0.005707,higher=4; lower=1,Solid positive delta for recurrent sequence
+single_feature_ablation,baseline_plus_CRIME_DIVERSITY_INDEX,7,GRU,5 seeds,NA,NA,NA,NA,NA,-0.001776,0.008484,higher=2; lower=3,Slight negative average delta
+single_feature_ablation,baseline_plus_CRIME_DIVERSITY_INDEX,7,LSTM,5 seeds,NA,NA,NA,NA,NA,+0.005796,0.005770,higher=5; lower=0,Consistent positive gain across all 5 seeds
+single_feature_ablation,baseline_plus_PREV_YEAR_TOTAL_CRIME,7,GRU,5 seeds,NA,NA,NA,NA,NA,-0.001059,0.005797,higher=3; lower=2,Mixed directionality
+single_feature_ablation,baseline_plus_PREV_YEAR_TOTAL_CRIME,7,LSTM,5 seeds,NA,NA,NA,NA,NA,+0.004867,0.003388,higher=5; lower=0,Consistent positive gain across all 5 seeds
+single_feature_ablation,baseline_plus_TOTAL_GROUPED_CRIME,7,GRU,5 seeds,NA,NA,NA,NA,NA,-0.004250,0.004540,higher=1; lower=4,Redundant with individual group counts
+single_feature_ablation,baseline_plus_TOTAL_GROUPED_CRIME,7,LSTM,5 seeds,NA,NA,NA,NA,NA,+0.001861,0.003225,higher=3; lower=2,Marginal impact
+single_feature_ablation,baseline_plus_YOY_TOTAL_CRIME_CHANGE,7,GRU,5 seeds,NA,NA,NA,NA,NA,-0.005109,0.014084,higher=2; lower=3,Highest volatility; degrades GRU performance
+single_feature_ablation,baseline_plus_YOY_TOTAL_CRIME_CHANGE,7,LSTM,5 seeds,NA,NA,NA,NA,NA,-0.001555,0.009778,higher=2; lower=3,Degrades LSTM performance on average

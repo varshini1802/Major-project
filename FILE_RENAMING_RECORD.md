@@ -62,3 +62,19 @@ The renames above were applied after capturing the pre-change Git status and pro
 The new `outputs/audits/final_release_readiness/` package was regenerated through the renamed release-readiness audit script. Existing experiment result directories, model/data files, paper draft, and prior audit snapshots were retained. As historical provenance, older saved run configuration files and audit/report snapshots still contain the source paths that were current when those runs were produced; these records were not rewritten. Examples include `ML_Implementation/corrected_temporal_results/corrected_v5_multiseed/runner_config.json`, `outputs/audits/final_evidence_closure/reproducibility_manifest.json`, and `outputs/reports/conference_paper_audit.md`. This record is the canonical crosswalk from those archived names to current source names.
 
 Pre-rename state is recorded in `outputs/audits/project_renaming_initial_git_status.txt`, the path inventory is in `outputs/audits/project_file_inventory_before.txt`, and hashes for the 198 previously protected files are in `outputs/audits/project_renaming_protected_hashes_before.json`.
+
+## Conference-Level Documentation & Deliverables Additions
+
+In accordance with the faculty review and conference-level repository standards, the following structured documentation and paper revision paths have been added:
+
+| File Path | Type | Purpose |
+|---|---|---|
+| `docs/research/experiment_audit_report.md` | Research Audit | Comprehensive repository audit, base paper comparison, leakage analysis, and test status. |
+| `docs/research/experiment_reproducibility.md` | Protocol Guide | Complete step-by-step reproduction instructions, package requirements, seeds, and execution orders. |
+| `docs/paper/original_paper_draft.md` | Baseline Manuscript | Verbatim preservation of original student manuscript (`draft paper.pdf`) for archival provenance. |
+| `docs/paper/revised_paper_draft.md` | Revised Manuscript | Official conference revision updating only Methodology and Results (Sections 3 and 4.3). |
+| `docs/paper/claims_and_inconsistencies_register.md` | Claims Register | Detailed catalog of unedited abstract/intro claims vs reproduced empirical findings. |
+| `outputs/reports/revised_conference_paper_draft.md` | Revised Manuscript | Synchronized copy in standard reports folder. |
+| `outputs/tables/feature_evaluation_study_summary.csv` | Results Table | Consolidated multi-seed feature evaluation and single-feature ablation comparison table. |
+| `tests/test_model_reproducibility_and_metrics.py` | Automated Tests | 6 unit tests covering schemas, frozen boundaries, locked cohorts, and metric validation. |
+
